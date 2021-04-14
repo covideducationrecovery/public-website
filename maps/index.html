@@ -1,0 +1,334 @@
+---
+libraries:
+ - vuejs
+ - fontawesome
+ - bootstrap
+ - tippy
+title: "Maps"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include global-tracker-html-head.html %}
+    <style>
+      svg {fill: #DDDDDD;}
+      {% include /worldmap.css %}
+      .modality-in-person {fill: #1A49BF;}
+      .modality-hybrid-remote {fill: #26B1FF;}
+      .modality-multiple {fill: #FFA733;}
+      .modality-extended-break {fill: #A7FFE6;}
+      .modality-covid-closure {fill: #C7A7FF;}
+      .modality-no-data {fill: #DDDDDD;}
+
+      .vaccine-yes {fill: #1A49BF;}
+      /* .vaccine-other {fill: #FFBD66;} */
+      .vaccine-no {fill: #FFA733;}
+      .map-key {max-width: 600px; margin: auto; font-size: smaller;}
+      /* .map-key {display: flex; flex-flow: row nowrap; align-items: center; justify-content: center; font-size: small;} */
+      .map-key-color {height: 2rem; width: 2rem; margin: 0.2rem;}
+    </style>
+  </head>
+  <body>
+    {% include global-tracker-navbar.html %}
+
+    <div id="vue-app" class="container mb-5">
+      <h1>Maps</h1>
+      <div class="row text-center my-3">
+        <h2>School Status / Education Modality</h2>
+        <p>How is education being provided in each country?</p>
+        <div id="modality-map"></div>
+        <div class="my-3">
+          This map displays educational modalities at the country level as of last survey response.
+        </div>
+        <div class="map-key w-100">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><svg class="modality-in-person map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>In-person education</strong>: Schools are open, and students have returned for in-person instruction.</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-hybrid-remote map-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Hybrid/remote education</strong>:	Schools are open combining remote learning and in-person instruction and/or students are exclusively learning remotely.</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-multiple map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Mixed/multiple</strong>: Schools are operating with a combination of the following: in-person, hybrid, remote, and closed due to COVID-19.</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-extended-break map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Extended Break</strong>: Schools are closed due to a  regular school calendar closure (e.g., holiday).</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-covid-closure map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>No instruction/closed due to COVID-19</strong>:	Schools are closed due to COVID-19, and no education services currently available.</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-no-data map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Unknown/Data Not Available</strong>: Unable to obtain information through publicly available data.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+      </div>
+      <hr />
+      <div class="row text-center my-3">
+        <h2>Vaccine Availability for Teachers</h2>
+        <p>Are some or all teachers/school staff currently being vaccinated as a priority group?</p>
+        <div id="vaccine-map"></div>
+        <div class="my-3">
+          This map displays if teachers/school staff are currently eligible for vaccination, in at least some areas of the country, as a priority group as of last survey response date. 
+          <br />
+          <small>Note: Some teachers may currently be eligible for vaccine based on age or other priority group status.</small>
+        </div>
+        <div class="map-key w-100">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><svg class="vaccine-yes map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Yes</strong></td>
+              </tr>
+              <tr>
+                <td><svg class="vaccine-no map-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>No</strong></td>
+              </tr>             
+              <tr>
+                <td><svg class="vaccine-unknown map-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Unknown/Data Not Available</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+      </div>
+      <div class="row">
+        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of 24 March 2021. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+      </div>
+      <div class="hidden">
+        {% include /worldmap-no-titles.svg %}
+      </div>
+      <div id="modality-map-hover" class="hidden">
+        <div v-if="selectedCountry">
+          <div><span style="font-size: x-large">${selectedCountry.fields.countryName}</span></div>
+          <hr />
+          <div v-if="selectedCountry.fields.mostRecentResponseDate">
+            <div><strong>Education Services</strong></div>
+            <div v-if="selectedCountry.fields.mostRecentExtendedBreakCode">
+              <div v-if="selectedCountry.fields.mostRecentExtendedBreakCode.includes('1')"><i class="fas fa-umbrella-beach"></i> Extended Break</div>
+            </div>
+            <div v-if="selectedCountry.fields.mostRecentEducationStatusCode">
+              <div v-if="selectedCountry.fields.mostRecentEducationStatusCode.includes('1')"><i class="fas fa-times"></i> Closed due to COVID-19</div>
+              <div v-if="selectedCountry.fields.mostRecentEducationStatusCode.includes('2')"><i class="fas fa-home"></i> Remote</div>
+              <div v-if="selectedCountry.fields.mostRecentEducationStatusCode.includes('3')"><i class="fas fa-school"></i> + <i class="fas fa-home"></i> Hybrid</div>
+              <div v-if="selectedCountry.fields.mostRecentEducationStatusCode.includes('4')"><i class="fas fa-school"></i> In person</div>
+            </div>        
+            <hr />
+            <div><small>Updated ${selectedCountry.fields.mostRecentResponseDate | iso8601ToLocaleDateString}</small></div>     
+          </div>
+          <div v-else><small>No data available.</small></div>
+        </div>
+      </div> 
+      <div id="vaccine-map-hover" class="hidden">
+        <div v-if="selectedCountry">
+          <div><span style="font-size: x-large">${selectedCountry.fields.countryName}</span></div>
+          <div v-if="selectedCountry.fields.mostRecentResponseDate">
+            <hr />
+            <div v-if="selectedCountry.fields.mostRecentVaccineAvailabilityForTeachersCode">
+              <div v-if="selectedCountry.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('1')"><i class="fas fa-check"></i> Teachers/School Staff are being vaccinated as a priority group</div>
+              <div v-if="selectedCountry.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('2')"><i class="fas fa-times"></i> Teachers/School Staff are not being vaccinated as a priority group</div>
+            </div>
+            <div>
+              <div v-if="selectedCountry.fields.owidHasVaccine"><i class="fas fa-syringe"></i> Vaccines have been authorized for distribution.</div>
+              <div v-else><i class="fas fa-times"></i> Vaccines have not been authorized for distribution.</div>
+            </div>
+            <hr />
+            <div><small>Updated ${selectedCountry.fields.mostRecentResponseDate | iso8601ToLocaleDateString}</small></div>     
+          </div>
+          <div v-else><small>No data available.</small></div>
+        </div>
+      </div>     
+    </div>
+  </div>
+
+    <script>
+
+      var vm;
+
+      // spin up the maps
+      const map = document.getElementById('svg-worldmap')
+      const modalityMap = map.cloneNode(true);
+      modalityMap.id = 'svg-modality-map';
+      document.getElementById('modality-map').appendChild(modalityMap);
+      const vaccineMap = map.cloneNode(true);
+      vaccineMap.id = 'svg-vaccine-map';
+      document.getElementById('vaccine-map').appendChild(vaccineMap);
+
+      const prepareData = (countries) => {
+        countries.sort((country1, country2) => {
+          return country1.fields.countryName.localeCompare(country2.fields.countryName)
+        });
+
+        for (const country of countries) {
+          if (country.fields.mostRecentExtendedBreakCode && country.fields.mostRecentExtendedBreakCode.includes('1')) {
+            country.modalityMapClass = 'modality-extended-break';
+            country.modalityText = "Extended break / holiday";
+          } else if (country.fields.mostRecentEducationStatusCode) {
+            if (country.fields.mostRecentEducationStatusCode.length > 1) {
+              country.modalityMapClass = 'modality-multiple';
+              country.modalityText = "Mixed / Multiple";
+            } else if (country.fields.mostRecentEducationStatusCode.includes('1')) {
+              country.modalityMapClass = 'modality-covid-closure';
+              country.modalityText = "Closed due to COVID-19";
+            } else if (country.fields.mostRecentEducationStatusCode.includes('2') || country.fields.mostRecentEducationStatusCode.includes('3')) {
+              country.modalityMapClass = 'modality-hybrid-remote';
+              country.modalityText = 'Hybrid / remote';
+            } else if (country.fields.mostRecentEducationStatusCode.includes('4')) {
+              country.modalityMapClass = 'modality-in-person';
+              country.modalityText = 'In person';
+            }
+          } else {
+            country.modalityText = 'Unknown / no data';
+          }
+          if (country.fields.mostRecentVaccineAvailabilityForTeachersCode) {
+            if (country.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('1')) {
+              country.vaccineMapClass = 'vaccine-yes';
+            } else if (country.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('2')) {
+              country.vaccineMapClass = 'vaccine-no';
+            } else if (country.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('4')) {
+              country.vaccineMapClass = 'vaccine-unknown';
+            }
+          }
+        }
+        return {countries: countries, selectedCountry: null}
+      }
+
+      const initTippy = () => {
+        tippy('#svg-modality-map > g, #svg-modality-map > path', {
+          followCursor: true,
+          allowHTML: true,
+          placement: 'right',
+          onShow(instance) {
+            const code = instance.reference.attributes.id.value;
+            const country = findCountryByIso3166Alpha2Code(vm.$data.countries, code);
+            if (country) {
+              vm.$data.selectedCountry = country;
+              Vue.nextTick(() =>{
+                instance.setContent(document.getElementById('modality-map-hover').innerHTML)
+              }, instance)
+            } else {
+              return false
+            }
+          }
+        });
+        tippy('#svg-vaccine-map > g, #svg-vaccine-map > path', {
+          followCursor: true,
+          allowHTML: true,
+          placement: 'right',
+          onShow(instance) {
+            const code = instance.reference.attributes.id.value;
+            const country = findCountryByIso3166Alpha2Code(vm.$data.countries, code);
+            if (country) {
+              vm.$data.selectedCountry = country;
+              Vue.nextTick(() =>{
+                instance.setContent(document.getElementById('vaccine-map-hover').innerHTML)
+              }, instance)
+            } else {
+              return false
+            }
+          }
+        })
+      }
+
+      const findCountryByIso3166Alpha2Code = (countries, code) => {
+        if (code && countries) {
+          code = code.toUpperCase();
+          return countries.find((country) => {
+            return (country.fields.iso3166Alpha2Code === code)
+          });
+        }
+      }
+
+      const renderData = (data) => {
+
+        vm = new Vue({
+          el: '#vue-app',
+          data: prepareData(data),
+          delimiters: ['${','}'],  // need to use these because jekyll competes for {{ and }}
+          filters: {
+            iso8601ToLocaleDateString: (value) => {
+              if (value) {
+                return (new Date(value)).toLocaleDateString();
+              } else {
+                return null
+              }
+            },
+            outputEducationStatusCodeRow: (value) => {
+              switch (value) {
+                case '1':
+                  return `<td><i class="fas fa-times"></i></td><td>Closed due to COVID-19</td>`
+                  break
+                case '2':
+                  return `<td><i class="fas fa-home"></i></td><td>Remote</td>`
+                  break
+                case '3':
+                  return `<td><i class="fas fa-school"></i> + <i class="fas fa-home"></i></td><td>Hybrid</td>`
+                  break
+                case '4':
+                  return `<td><i class="fas fa-school"></i></td><td>In-person</td>`
+                  break
+              }
+            }
+          },
+          mounted() {
+            for (const country of this.countries) {
+              if (country.fields.mostRecentResponseDate) {
+                if (country.fields.iso3166Alpha2Code) {
+                  const modalityMapCountryNode = document.querySelector(`#svg-modality-map #${country.fields.iso3166Alpha2Code.toLowerCase()}`);
+                  if (modalityMapCountryNode) {
+                    modalityMapCountryNode.classList.add(country.modalityMapClass);
+                  }
+                  const vaccineMapCountryNode = document.querySelector(`#svg-vaccine-map #${country.fields.iso3166Alpha2Code.toLowerCase()}`);
+                  if (vaccineMapCountryNode) {
+                    vaccineMapCountryNode.classList.add(country.vaccineMapClass);
+                  }
+                }
+              }
+            }
+            initTippy();
+          }
+        });
+      }
+
+
+      // if we have a token, use it to call the api, otherwise redirect to login screen
+      const dataSource = '/data/global.json'
+      fetch(dataSource)
+        .then(response => {
+          switch (response.status) {
+            case 200:
+              // huzzah we have the data
+              response.json().then(data => renderData(data));
+              break;
+            case 403: 
+              // denied because of invalid token
+              window.location = '/login';
+              break;
+            default:
+          }
+        })
+        .catch(error => {
+          document.getElementById(`loading`).innerText = "Error loading the data. We apologize for the inconvenience; please try again later.";
+          console.error(error);
+        })
+    </script>
+  </body>
+</html>

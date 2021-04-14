@@ -1,0 +1,267 @@
+---
+libraries:
+ - fontawesome
+ - d3js
+ - vuejs
+ - bootstrap
+title: "Graphs"
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include global-tracker-html-head.html %}
+
+  </head>
+  <body>
+   {% include global-tracker-navbar.html %}
+
+   <div class="container" > 
+   <h1>Graphs</h1>
+    <h3>Educational Support Stratagies</h3>
+        
+<div id="observablehq-viewof-Data_Type-fc38e864" style="width: 50%;" ></div>
+<div id="observablehq-chart-fc38e864" style="width: 100%;"></div>
+
+<script type="module">
+
+    import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import notebook from "https://api.observablehq.com/@camdens/grouped-bar-chart-s2q3a.js?v=3";
+    
+    // Select the element into which we’ll embed the chart.
+    const chart = document.querySelector("#observablehq-chart-fc38e864");
+    const chart_selector = document.querySelector("#observablehq-viewof-Data_Type-fc38e864");
+    // Instantiate a standard library that can be used by the definition of width below.
+    const library = new Library();
+    
+    // Pass the custom library to the runtime when instantiating our notebook.
+    const runtime = new Runtime(library);
+    const main = runtime.module(notebook, name => {
+        if (name === "chart") return new Inspector(chart);
+  if (name === "viewof Data_Type") return new Inspector(chart_selector);
+  return ["data","x0","test","y","yAxis","groupKey","keys","x1","xAxis"].includes(name);
+    });
+    
+    // Redefine width as a generator that yields the chart element’s clientWidth (if
+    // changed) whenever the window resize event fires. If desired, use a
+    // ResizeObserver instead; see the custom-fluid-width-and-height example.
+    main.redefine("width", library.Generators.observe(notify => {
+      let width = notify(chart.clientWidth); // initial width
+      function resized() {
+        let newWidth = chart.clientWidth;
+        if (newWidth !== width) {
+          notify(width = newWidth);
+        }
+      }
+      addEventListener("resize", resized);
+      return () => removeEventListener("resize", resized);
+    }));
+    
+    </script>
+
+<h3>Educational Modalities</h3>
+<div id="observablehq-viewof-Data_Type-fc38e8642" style="width: 50%;" ></div>
+<div id="observablehq-chart-fc38e8642" style="width: 100%;"></div>
+
+<script type="module">
+
+    import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import notebook from "https://api.observablehq.com/@camdens/grouped-bar-chart.js?v=3";
+    
+    // Select the element into which we’ll embed the chart.
+    const chart = document.querySelector("#observablehq-chart-fc38e8642");
+    const chart_selector = document.querySelector("#observablehq-viewof-Data_Type-fc38e8642");
+    // Instantiate a standard library that can be used by the definition of width below.
+    const library = new Library();
+    
+    // Pass the custom library to the runtime when instantiating our notebook.
+    const runtime = new Runtime(library);
+    const main = runtime.module(notebook, name => {
+        if (name === "chart") return new Inspector(chart);
+  if (name === "viewof Data_Type") return new Inspector(chart_selector);
+  return ["data","x0","test","y","yAxis","groupKey","keys","x1","xAxis"].includes(name);
+    });
+    
+    // Redefine width as a generator that yields the chart element’s clientWidth (if
+    // changed) whenever the window resize event fires. If desired, use a
+    // ResizeObserver instead; see the custom-fluid-width-and-height example.
+    main.redefine("width", library.Generators.observe(notify => {
+      let width = notify(chart.clientWidth); // initial width
+      function resized() {
+        let newWidth = chart.clientWidth;
+        if (newWidth !== width) {
+          notify(width = newWidth);
+        }
+      }
+      addEventListener("resize", resized);
+      return () => removeEventListener("resize", resized);
+    }));
+    
+    </script>
+       
+   </div>
+       
+<!--        <a>Test<a>
+        
+        <svg width=500 height=500>
+  <g id="myG" transform="translate(50, 50)">
+    <text id="someID">Text example</text>
+  </g>  
+</svg> -->
+       
+       
+ 
+<!-- <div id="latest-version"></div> -->
+<!-- <script type="module"> -->
+
+<!-- // import {Select} from "@observablehq/inputs"
+//  d3 = require("d3@6")
+//  height = 500;
+//  margin = ({top: 10, right: 10, bottom: 20, left: 40});
+//  getLearningStatsbyRegionS2Q3A = (country_data, fieldName) =>  {
+  
+//   const modes = ['name','Changes in school day','Changes in school-year calendar', 'Additional tutoring by teachers', 'Additional tutoring by volunteer/non-profit organizations', 'Targeted remedial measures for specific groups','Other'];
+  
+//   const wbRegions = d3.groups(country_json, d => d.fields.wbRegion).map(([region, info]) => {
+//     let base = [0, 0, 0, 0, 0, 0, 0, 0];
+//     let length = 0;
+//     info.forEach(element => {
+//       console.log(element)
+//       if (element.fields[fieldName] === undefined) {
+//         // Do Nothing
+//       } else {
+//           length += 1;
+//           element.fields[fieldName].forEach(mode => {
+            
+//             base[mode-1] += 1;
+//           });
+          
+//       } 
+//     });
+   
+//    const obj = modes.reduce((modes,curr,curridx)=> (modes[curr]=base[curridx-1]/length,modes),{}); 
+//    obj['name'] = region;
+//    return obj;
+//   });
+//   wbRegions['y'] = "Percentage By Region";
+//   wbRegions['columns'] = modes;
+// return wbRegions
+
+
+// }
+ 
+//  country_json = fetch("https://beta.equityschool.plus/data/global.json").then(response => response.json())
+ 
+//  var Data_Type = d3.Select("a");
+ 
+//  data = getLearningStatsbyRegionS2Q3A(country_json, Data_Type);
+ 
+//  keys = data.columns.slice(1);
+//  groupKey = data.columns[0];
+ 
+//  yAxis = g => g
+//     .attr("transform", `translate(${margin.left},0)`)
+//     .call(d3.axisLeft(y).ticks(null, "s").tickFormat(formatTick))
+//     .call(g => g.select(".domain").remove())
+//     .call(g => g.select(".tick:last-of-type text").clone()
+//         .attr("x", 3)
+//         .attr("text-anchor", "start")
+//         .attr("font-weight", "bold")
+//         .text(data.y));
+ 
+//  xAxis = g => g
+//     .attr("transform", `translate(0,${height - margin.bottom})`)
+//     .call(d3.axisBottom(x0).tickSizeOuter(0))
+//     .call(g => g.select(".domain").remove());
+ 
+ 
+//  color = d3.scaleOrdinal()
+//     .range(["#03045E", "#023E8A", "#0077B6", "#0096C7", "#00B4D8", "#48CAE4", "#90E0EF", "#ADE8F4"])
+ 
+//  function formatTick(d) {
+//   const s = (d).toFixed(2);
+//   return s;
+// }
+ 
+//  y = d3.scaleLinear()
+//     .domain([0, d3.max(data, d => d3.max(keys, key => d[key]))]).nice()
+//     .rangeRound([height - margin.bottom, margin.top]);
+ 
+//   test = d3.max(data, d => d3.max(keys, key => d[key]));
+ 
+//  x1 = d3.scaleBand()
+//     .domain(keys)
+//     .rangeRound([0, x0.bandwidth()])
+//     .padding(0.05);
+ 
+//  x0 = d3.scaleBand()
+//     .domain(data.map(d => d[groupKey]))
+//     .rangeRound([margin.left, width - margin.right])
+//     .paddingInner(0.1);
+ 
+//  legend = svg => {
+//   const g = svg
+//       .attr("transform", `translate(${width},0)`)
+//       .attr("text-anchor", "end")
+//       .attr("font-family", "sans-serif")
+//       .attr("font-size", 10)
+//     .selectAll("g")
+//     .data(color.domain().slice().reverse())
+//     .join("g")
+//       .attr("transform", (d, i) => `translate(0,${i * 20})`);
+
+//   g.append("rect")
+//       .attr("x", -19)
+//       .attr("width", 19)
+//       .attr("height", 19)
+//       .attr("fill", color);
+
+//   g.append("text")
+//       .attr("x", -24)
+//       .attr("y", 9.5)
+//       .attr("dy", "0.35em")
+//       .text(d => d);
+// }
+ 
+ 
+ 
+//  chart = {
+//   var svg = d3.select("#myG").node();
+
+//   svg.append("g")
+//     .selectAll("g")
+//     .data(data)
+//     .join("g")
+//       .attr("transform", d => `translate(${x0(d[groupKey])},0)`)
+//     .selectAll("rect")
+//     .data(d => keys.map(key => ({key, value: d[key]})))
+//     .join("rect")
+//       .attr("x", d => x1(d.key))
+//       .attr("y", d => y(d.value))
+//       .attr("width", x1.bandwidth())
+//       .attr("height", d => y(0) - y(d.value))
+//       .attr("fill", d => color(d.key));
+
+//   svg.append("g")
+//       .call(xAxis);
+
+//   svg.append("g")
+//       .call(yAxis);
+
+//   svg.append("g")
+//       .call(legend);
+
+//   return svg.node();
+// }
+ 
+ -->
+<!-- </script>
+        -->
+       
+       
+       
+<!--      
+    </div> -->
+
+ 
+  </body>
+</html>
