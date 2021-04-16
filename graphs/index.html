@@ -73,7 +73,7 @@ title: "Graphs"
     // Instantiate a standard library that can be used by the definition of width below.
     const library = new Library();
     
-    // Pass the custom library to the runtime when instantiating our notebook.
+    // Pass the custom library to the runtime when instantiating our notebook .
     const runtime = new Runtime(library);
     const main = runtime.module(notebook, name => {
         if (name === "chart") return new Inspector(chart);
