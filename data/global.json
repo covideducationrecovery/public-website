@@ -3164,9 +3164,10 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "2",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
@@ -3181,6 +3182,24 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "8"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "6"
       ]
     }
   },
