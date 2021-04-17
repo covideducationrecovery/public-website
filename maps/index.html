@@ -111,7 +111,7 @@ title: "Maps"
         </div>  
       </div>
       <div class="row">
-        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of 24 March 2021. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of 5 April 2021. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
       </div>
       <div class="hidden">
         {% include /worldmap-no-titles.svg %}
@@ -266,7 +266,7 @@ title: "Maps"
           filters: {
             iso8601ToLocaleDateString: (value) => {
               if (value) {
-                return (new Date(value)).toLocaleDateString();
+                return (new Date(value)).toLocaleDateString(undefined, {timeZone: 'UTC'});
               } else {
                 return null
               }

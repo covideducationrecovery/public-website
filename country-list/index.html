@@ -86,7 +86,7 @@ libraries:
         </tbody>
       </table>
       <div class="container">
-        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of 24 March 2021. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of ${mostRecentResponseDate | iso8601ToLocaleDateString}. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
       </div>
 
     </div>
@@ -176,7 +176,6 @@ libraries:
 
           if (country.fields.mostRecentResponseDate) {
             responseDate = new Date(country.fields.mostRecentResponseDate);
-            console.log(responseDate);
             if (responseDate.getTime() > mostRecentResponseDate.getTime()) {mostRecentResponseDate = responseDate}
           }
         }
@@ -198,7 +197,7 @@ libraries:
           filters: {
             iso8601ToLocaleDateString: (value) => {
               if (value) {
-                return (new Date(value)).toLocaleDateString();
+                return (new Date(value)).toLocaleDateString(undefined, {timeZone:'UTC'});
               } else {
                 return null
               }
