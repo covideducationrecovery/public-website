@@ -103,7 +103,7 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-23",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -114,15 +114,15 @@
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "2",
-        "6"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "2",
-        "6"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "2",
-        "6"
+        "5"
       ]
     }
   },
@@ -136,12 +136,13 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "3",
+        "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "8"
       ],
@@ -158,13 +159,13 @@
         "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "6"
@@ -184,12 +185,12 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "4",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "8"
       ],
@@ -214,12 +215,12 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-05",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1",
         "2"
@@ -393,7 +394,7 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
@@ -401,28 +402,34 @@
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "1",
         "6"
       ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "1",
+        "6"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "1",
+        "6"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "1",
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "8"
+      ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "6"
@@ -442,44 +449,9 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3",
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "3"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "7"
-      ]
+      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -540,31 +512,27 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1",
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "1",
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1",
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1",
-        "5"
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
-        "4"
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1"
@@ -593,10 +561,10 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-23",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
@@ -636,7 +604,7 @@
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-27",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -692,12 +660,24 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-17",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1"
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ]
     }
   },
   {
@@ -710,10 +690,10 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3",
+        "1",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
@@ -728,24 +708,6 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
       ]
     }
   },
@@ -799,22 +761,28 @@
       "wbRegion": "North America",
       "wbRegionCode": "NAC",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-06",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "4"
+        "2"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1"
       ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
       ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1"
       ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
         "1"
       ]
     }
@@ -999,7 +967,7 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-09",
+      "mostRecentResponseDate": "2021-04-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -1035,30 +1003,30 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-13",
+      "mostRecentResponseDate": "2021-03-26",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -1229,29 +1197,12 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-25",
+      "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3",
-        "4"
+        "2"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2",
-        "3"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "2",
-        "3"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "2",
-        "3"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "2",
-        "3"
-      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
         "2",
@@ -1318,10 +1269,9 @@
       "wbRegion": "North America",
       "wbRegionCode": "NAC",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-12",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
         "3",
         "4"
       ],
@@ -1376,12 +1326,12 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-30",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "8"
       ],
@@ -1416,13 +1366,13 @@
       "iso3166Alpha2Code": "TD",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-02-24",
+      "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "2"
@@ -1443,23 +1393,23 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "1"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1"
+        "8"
       ]
     }
   },
@@ -1488,9 +1438,24 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-25",
-      "mostRecentExtendedBreakCode": "1",
-      "mostRecentVaccineAvailabilityForTeachersCode": "2"
+      "mostRecentResponseDate": "2021-04-05",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "5"
+      ]
     }
   },
   {
@@ -1568,26 +1533,24 @@
       "iso3166Alpha2Code": "KM",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-02-26",
-      "mostRecentExtendedBreakCode": "3",
+      "mostRecentResponseDate": "2021-04-04",
+      "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "2",
-        "4"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "2",
-        "4"
+        "2"
       ]
     }
   },
@@ -1639,10 +1602,23 @@
       "iso3166Alpha2Code": "CK",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
       ]
     }
   },
@@ -1761,7 +1737,7 @@
       "iso3166Alpha2Code": "CU",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
-      "mostRecentResponseDate": "2021-03-12",
+      "mostRecentResponseDate": "2021-03-25",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -1782,7 +1758,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "2"
       ]
     }
   },
@@ -1796,40 +1772,11 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "2",
         "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ]
-    }
-  },
-  {
-    "id": "recnBgII3ohTHLZeG",
-    "fields": {
-      "countryName": "Cyprus",
-      "wbCountryCode": "CYP",
-      "m49code": 196,
-      "iso3166Alpha2Code": "CY",
-      "wbRegion": "Europe and Central Asia",
-      "wbRegionCode": "ECS",
-      "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -1845,32 +1792,52 @@
         "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1",
-        "2",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "2",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "2",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "2",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
         "6"
       ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1",
-        "2",
-        "5"
+        "6"
+      ]
+    }
+  },
+  {
+    "id": "recnBgII3ohTHLZeG",
+    "fields": {
+      "countryName": "Cyprus",
+      "wbCountryCode": "CYP",
+      "m49code": 196,
+      "iso3166Alpha2Code": "CY",
+      "wbRegion": "Europe and Central Asia",
+      "wbRegionCode": "ECS",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-04",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "8"
       ]
     }
   },
@@ -1884,25 +1851,12 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-12",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1"
       ],
@@ -1933,27 +1887,28 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-13",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "2",
         "3",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "5"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "5"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1"
@@ -1968,7 +1923,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "7"
+        "1"
       ]
     }
   },
@@ -2169,12 +2124,44 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-23",
-      "mostRecentExtendedBreakCode": "1",
+      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "5"
+        "3"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2"
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1",
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1",
+        "2"
+      ]
     }
   },
   {
@@ -2299,29 +2286,26 @@
       "iso3166Alpha2Code": "ER",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-08",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "4"
       ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
         "2",
-        "5"
+        "3"
       ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "8"
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "2",
+        "3"
       ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "7"
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "2",
+        "3"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "2",
+        "3"
       ]
     }
   },
@@ -2383,10 +2367,27 @@
       "iso3166Alpha2Code": "ET",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-01-27",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "1",
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "1",
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "1",
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "1",
+        "2"
       ]
     }
   },
@@ -2423,10 +2424,11 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
+        "3",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
@@ -2443,22 +2445,22 @@
         "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "6"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "6"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "6"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1"
       ]
     }
   },
@@ -2472,23 +2474,43 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "2",
+        "3",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "5"
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1"
       ]
     }
   },
@@ -2501,10 +2523,10 @@
       "iso3166Alpha2Code": "PF",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -2561,12 +2583,15 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "3"
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "5"
+      ]
     }
   },
   {
@@ -2635,43 +2660,9 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-13",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3",
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
-      ]
+      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -2743,23 +2734,30 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "4"
+        "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "4",
+        "5"
       ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1"
       ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1"
       ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1"
       ]
     }
   },
@@ -2773,10 +2771,10 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -2790,6 +2788,24 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "8"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1"
       ]
     }
   },
@@ -2860,50 +2876,9 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "2",
-        "3"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1",
-        "3"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "1",
-        "3"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1",
-        "3"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1",
-        "3"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
-      ]
+      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -2981,13 +2956,14 @@
       "iso3166Alpha2Code": "GW",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "7"
@@ -3152,7 +3128,7 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-16",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -3174,7 +3150,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1"
       ]
     }
   },
@@ -3282,15 +3258,16 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-25",
+      "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
-        "3"
+        "3",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "7"
@@ -3304,6 +3281,7 @@
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
         "2",
+        "3",
         "5",
         "8"
       ],
@@ -3317,7 +3295,6 @@
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1",
-        "2",
         "3",
         "4",
         "5",
@@ -3325,7 +3302,6 @@
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1",
-        "2",
         "3",
         "4",
         "5"
@@ -3443,7 +3419,7 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-07",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
@@ -3451,22 +3427,24 @@
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5"
+        "5",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "5"
+        "5",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "6"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "6"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -3504,7 +3482,7 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-12",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
@@ -3553,7 +3531,7 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-12",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
@@ -3577,13 +3555,13 @@
         "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1"
@@ -3665,44 +3643,41 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1",
-        "6"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "1",
-        "6"
+        "2",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "1",
-        "6"
+        "2",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "1",
-        "6"
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1",
-        "2"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "2"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "2"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "2"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "1"
@@ -3722,24 +3697,12 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
-      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
         "2"
@@ -3946,7 +3909,7 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -3982,10 +3945,15 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "3",
+        "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "7"
@@ -4091,12 +4059,12 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-23",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
         "4"
@@ -4177,11 +4145,12 @@
       "iso3166Alpha2Code": "LY",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
-      "mostRecentResponseDate": "2021-03-04",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "4",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1",
         "2"
@@ -4298,7 +4267,7 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
@@ -4307,25 +4276,25 @@
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1",
-        "2"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "1"
+        "1",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "1",
-        "2"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "1",
-        "2"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "2"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -4391,25 +4360,31 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-06",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
       "mostRecentInPersonAdditionalSupportPrimary": [
+        "1",
         "2",
         "3",
         "4",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "1",
         "2",
         "3",
         "4",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "1",
         "2",
         "3",
         "4",
@@ -4427,15 +4402,28 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-24",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "2",
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "6"
+      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "4",
-        "5"
+        "1",
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1",
@@ -4451,9 +4439,15 @@
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1",
-        "4"
+        "2",
+        "4",
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1",
+        "4"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
         "1",
         "4",
         "5"
@@ -4595,23 +4589,32 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "4"
+        "1",
+        "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1",
         "2"
       ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1",
         "2"
       ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "2"
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
       ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "2"
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1"
       ]
     }
   },
@@ -4676,12 +4679,24 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "3"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "7"
       ],
@@ -4729,8 +4744,35 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-24",
-      "mostRecentExtendedBreakCode": "2"
+      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "1",
+        "2"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "2",
+        "5"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "2",
+        "5"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "2",
+        "5",
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "7"
+      ]
     }
   },
   {
@@ -4743,14 +4785,27 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "1",
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1",
@@ -5011,39 +5066,35 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-07",
+      "mostRecentResponseDate": "2021-03-23",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "4"
+        "3"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "4"
+        "3"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "4"
+        "3"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "4"
+        "3"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "5"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "5"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "1"
@@ -5074,22 +5125,26 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "3",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
+        "3",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "3",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "3",
         "5"
       ]
     }
@@ -5119,13 +5174,14 @@
       "iso3166Alpha2Code": "NE",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-02-26",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "7"
@@ -5201,12 +5257,12 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1"
       ],
@@ -5257,48 +5313,23 @@
       "iso3166Alpha2Code": "MP",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "3"
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "5",
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "5",
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "5",
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "5"
       ]
     }
   },
@@ -5312,42 +5343,9 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
-      ]
+      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -5360,10 +5358,10 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
@@ -5467,22 +5465,44 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-07",
+      "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "6"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "6"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "6"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "6"
@@ -5516,11 +5536,12 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-25",
+      "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
         "2",
@@ -5546,10 +5567,12 @@
         "5"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
+        "1",
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1",
+        "5"
       ]
     }
   },
@@ -5617,11 +5640,10 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -5643,7 +5665,7 @@
         "7"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "7"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1"
@@ -5652,7 +5674,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1"
       ]
     }
   },
@@ -5666,44 +5688,23 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "3"
+        "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "7"
       ]
     }
   },
@@ -5717,10 +5718,11 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "3",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
@@ -5757,57 +5759,9 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "3",
-        "4",
-        "5"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "3",
-        "4",
-        "5"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "3",
-        "4",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "4",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "4",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "4",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "4",
-        "5"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1",
-        "4",
-        "5"
-      ]
+      "mostRecentResponseDate": "2021-04-04",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -5820,12 +5774,24 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-17",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1"
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ]
     }
   },
   {
@@ -5838,27 +5804,31 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-13",
+      "mostRecentResponseDate": "2021-03-26",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "4",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2"
+        "2",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "2",
+        "3",
         "4",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "2",
+        "3",
         "4",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "2",
+        "3",
         "4",
         "5"
       ]
@@ -5885,26 +5855,23 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "8"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "8"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "8"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "1"
@@ -6110,14 +6077,14 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2"
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "2",
@@ -6143,9 +6110,28 @@
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
-      "mostRecentExtendedBreakCode": "1",
-      "mostRecentVaccineAvailabilityForTeachersCode": "1"
+      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "1",
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "1",
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "1",
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "1",
+        "5"
+      ]
     }
   },
   {
@@ -6169,40 +6155,35 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-12",
+      "mostRecentResponseDate": "2021-03-26",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
         "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "1",
-        "3"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "3"
+        "4"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "2",
-        "4",
-        "5"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "4",
-        "5"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "4"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "1"
@@ -6222,23 +6203,24 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "3",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1"
@@ -6281,22 +6263,24 @@
       "iso3166Alpha2Code": "SO",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-07",
+      "mostRecentResponseDate": "2021-04-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "1",
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "7"
       ]
     }
   },
@@ -6326,12 +6310,25 @@
       "iso3166Alpha2Code": "SS",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-01-28",
+      "mostRecentResponseDate": "2021-04-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
         "4",
         "5"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "3"
@@ -6349,7 +6346,7 @@
         "6"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "7"
       ]
     }
   },
@@ -6363,27 +6360,23 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-09",
+      "mostRecentResponseDate": "2021-03-28",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "3",
-        "6"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "3",
-        "6"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "3",
-        "6"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "3",
-        "6"
+        "8"
       ]
     }
   },
@@ -6598,29 +6591,35 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "1",
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "1",
+        "2",
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -6646,14 +6645,12 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-03-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "3",
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1"
       ],
@@ -6663,24 +6660,6 @@
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "1",
         "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
       ]
     }
   },
@@ -6808,9 +6787,43 @@
       "iso3166Alpha2Code": "TL",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-04",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "2"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1",
+        "2",
+        "3",
         "4"
       ]
     }
@@ -6858,10 +6871,23 @@
       "iso3166Alpha2Code": "TK",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-04",
+      "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
       ]
     }
   },
@@ -7038,13 +7064,16 @@
       "iso3166Alpha2Code": "TV",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-02-24",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "7"
@@ -7164,14 +7193,15 @@
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "3",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "7"
@@ -7212,23 +7242,26 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-13",
+      "mostRecentResponseDate": "2021-03-30",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "4",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "4",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "4",
+        "5"
       ]
     }
   },
@@ -7242,7 +7275,7 @@
       "wbRegion": "North America",
       "wbRegionCode": "NAC",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-14",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
@@ -7251,16 +7284,16 @@
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "1"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1"
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1"
@@ -7278,7 +7311,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1"
       ]
     }
   },
@@ -7292,8 +7325,9 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-24",
-      "mostRecentExtendedBreakCode": "1"
+      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -7306,13 +7340,14 @@
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
+      "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "7"
@@ -7456,12 +7491,25 @@
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-13",
+      "mostRecentResponseDate": "2021-03-26",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "3",
+        "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "4"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "4"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "4"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "4"
+      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1"
       ],
@@ -7592,32 +7640,27 @@
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-08",
+      "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1",
-        "3"
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "2",
+        "5"
       ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "3"
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "2",
+        "5"
       ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "3"
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "2",
+        "5"
       ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "2",
+        "5"
       ]
     }
   }
