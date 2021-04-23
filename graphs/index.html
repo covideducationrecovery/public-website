@@ -10,17 +10,208 @@ title: "Graphs"
 <html>
   <head>
     {% include global-tracker-html-head.html %}
+    <style>
+      svg {fill: #DDDDDD;}
+      {% include /worldmap.css %}
+      .support-targeted {fill: #1A49BF;}
+      .support-tutoring-volunteer {fill: #000000;}
+      .support-tutoring {fill: #26B1FF;}
+      .support-school-year {fill: #FFA733;}
+      .support-school-day {fill: #A7FFE6;}
+      .support-other {fill: #C7A7FF;}
+      .support-no-data {fill: #DDDDDD;}
 
+      .modality-tutoring {fill: #1A49BF;}
+      .modality-paper-packets {fill: #000000;}
+      .modality-mobile {fill: #26B1FF;}
+      .modality-radio {fill: #FFA733;}
+      .modality-television {fill: #A7FFE6;}
+      .modality-online {fill: #C7A7FF;}
+      .modality-no-data {fill: #DDDDDD;}
+
+      .graph-key {max-width: 600px; margin: auto; font-size: smaller;}
+      /* .graph-key {display: flex; flex-flow: row nowrap; align-items: center; justify-content: center; font-size: small;} */
+      .graph-key-color {height: 2rem; width: 2rem; margin: 0.2rem;}
+    </style>
   </head>
   <body>
    {% include global-tracker-navbar.html %}
 
-   <div class="container" > 
-   <h1>Graphs</h1>
-    <h3>Educational Support Stratagies</h3>
-        
-<div id="observablehq-viewof-Data_Type-fc38e864" style="width: 50%;" ></div>
-<div id="observablehq-chart-fc38e864" style="width: 100%;"></div>
+
+
+   <div id="vue-app" class="container mb-5">
+    <h1>Graphs</h1>
+    <div class="row text-center my-3">
+      <h2>In-Person Educational Support Strategies</h2>
+      <p>For systems where schools are open for in-person education, what additional educational support is being offered to mitigate learning loss among students?</p>
+      <div id="observablehq-viewof-Data_Type-fc38e864" style="width: 50%;" ></div>
+      <div id="observablehq-chart-fc38e864" style="width: 100%;"></div>
+      <div class="my-3">
+        This graph displays additional academic supports to mitigate learning loss for schools that are open for in-person education. Data is displayed by regional level and grade level as of the last survey response
+      </div>
+      <div class="graph-key w-100">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" colspan="2">Legend</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><svg class="support-targeted graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Targeted Remedial Measures for Specific Groups</strong>:  Interventions are offered as additional supports for targeted students or groups</td>
+            </tr>
+            <tr>
+              <td><svg class="support-tutoring-volunteer graph-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Additional Tutoring by Volunteer/Non-Profit Organizations</strong>:	Tutoring offered as a support or remediation strategy by volunteers to support available in-country learning options for vulnerable students.</td>
+            </tr>
+            <tr>
+              <td><svg class="support-tutoring graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Additional Tutoring by Teachers</strong>: Tutoring offered as a support or remediation strategy by teachers to support available in-country learning options for vulnerable students. </td>
+            </tr>
+            <tr>
+              <td><svg class="support-school-year graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Changes in School Year Calendar</strong>: The school year calendar is extended, contracted, or otherwise adjusted to accommodate loss of schooling. </td>
+            </tr>
+            <tr>
+              <td><svg class="support-school-day graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Changes in School Day</strong>:  The school day is extended, contracted, or otherwise adjusted to accommodate loss of schooling.</td>
+            </tr>
+            <tr>
+              <td><svg class="support-other graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Other</strong>:	Other academic supports not listed above.</td>
+            </tr>
+            <tr>
+              <td><svg class="support-no-data graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Unknown/Data Not Available</strong>: Unable to validate or locate information about additional supports. </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  
+    </div>
+    <hr />
+    <div class="row text-center my-3">
+      <h2>Remote Educational Modalities</h2>
+      <p>For those learning remotely, what teaching modalities are employed?</p>
+      <div id="observablehq-viewof-Data_Type-fc38e8642" style="width: 50%;" ></div>
+      <div id="observablehq-chart-fc38e8642" style="width: 100%;"></div>
+      <div class="my-3">
+        This graph displays remote learning modalities at the regional level and grade level offered in each country as of the last survey response. 
+        <br />
+      </div>
+      <div class="graph-key w-100">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" colspan="2">Legend</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><svg class="modality-tutoring graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Tutoring</strong>:  Tutoring offered as a support or remediation strategy. </td>
+            </tr>
+            <tr>
+              <td><svg class="modality-paper-packets graph-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Take Home Packages (paper-based)</strong>:	Education is provided by distributing take home curriculum packages to students.</td>
+            </tr>
+            <tr>
+              <td><svg class="modality-mobile graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Mobile Devices</strong>: Education is provided through cellular phones and/or tablets.  </td>
+            </tr>
+            <tr>
+              <td><svg class="modality-radio graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Radio</strong>: Education is provided by broadcasting instruction through radio.  </td>
+            </tr>
+            <tr>
+              <td><svg class="modality-television graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Television</strong>:  Education is provided by broadcasting instruction through television programs or education-designated channels. </td>
+            </tr>
+            <tr>
+              <td><svg class="modality-online graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Online Platforms</strong>:	Education is provided through synchronous or asynchronous online platforms. </td>
+            </tr>
+            <tr>
+              <td><svg class="modality-no-data graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+              <td class="text-start"><strong>Unknown/Data Not Available</strong>: Unable to validate or locate information about remote learning modalities through in-country representatives or publicly available data.  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  
+    </div>
+    <hr />
+    <div class="row text-center my-3">
+      <div class="graph-key w-100">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" colspan="2">Grade Levels</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              
+              <td class="text-start"><strong>Pre-Primary</strong>:  A learning space offering early childhood education to children, usually before the age of 5, before they begin compulsory education at primary school.   </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>Primary </strong>:	Also called elementary education, is typically for children in kindergarten through sixth grade.</td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>Lower Secondary</strong>: The equivalent of intermediate school, middle school, or junior high school; in many countries lower secondary education ends with an examination and constitutes the completion of basic education.    </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>Upper Secondary</strong>: Also called senior secondary; equivalent of high school or the second and final phase of general education.   </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  
+    </div>
+    <hr />
+    <div class="row text-center my-3">
+      <div class="graph-key w-100">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" colspan="2">Key: World Regions Acronyms   </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              
+              <td class="text-start"><strong>EAS</strong>: East Asia and Pacific </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>ECS</strong>:Europe and Central Asia  </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>LCN</strong>: Latin America and the Caribbean   </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>MEA</strong>: Middle East and North Africa    </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>SAS</strong>:  South Asia   </td>
+            </tr>
+            <tr>
+              
+              <td class="text-start"><strong>SSF</strong>: Sub-Saharan Africa  </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>  
+    </div>
+    <div class="row">
+      To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of 5 April 2021. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+    </div>
+    
+
 
 <script type="module">
 
@@ -58,9 +249,7 @@ title: "Graphs"
     
     </script>
 
-<h3>Educational Modalities</h3>
-<div id="observablehq-viewof-Data_Type-fc38e8642" style="width: 50%;" ></div>
-<div id="observablehq-chart-fc38e8642" style="width: 100%;"></div>
+
 
 <script type="module">
 
@@ -100,168 +289,6 @@ title: "Graphs"
        
    </div>
        
-<!--        <a>Test<a>
-        
-        <svg width=500 height=500>
-  <g id="myG" transform="translate(50, 50)">
-    <text id="someID">Text example</text>
-  </g>  
-</svg> -->
-       
-       
- 
-<!-- <div id="latest-version"></div> -->
-<!-- <script type="module"> -->
 
-<!-- // import {Select} from "@observablehq/inputs"
-//  d3 = require("d3@6")
-//  height = 500;
-//  margin = ({top: 10, right: 10, bottom: 20, left: 40});
-//  getLearningStatsbyRegionS2Q3A = (country_data, fieldName) =>  {
-  
-//   const modes = ['name','Changes in school day','Changes in school-year calendar', 'Additional tutoring by teachers', 'Additional tutoring by volunteer/non-profit organizations', 'Targeted remedial measures for specific groups','Other'];
-  
-//   const wbRegions = d3.groups(country_json, d => d.fields.wbRegion).map(([region, info]) => {
-//     let base = [0, 0, 0, 0, 0, 0, 0, 0];
-//     let length = 0;
-//     info.forEach(element => {
-//       console.log(element)
-//       if (element.fields[fieldName] === undefined) {
-//         // Do Nothing
-//       } else {
-//           length += 1;
-//           element.fields[fieldName].forEach(mode => {
-            
-//             base[mode-1] += 1;
-//           });
-          
-//       } 
-//     });
-   
-//    const obj = modes.reduce((modes,curr,curridx)=> (modes[curr]=base[curridx-1]/length,modes),{}); 
-//    obj['name'] = region;
-//    return obj;
-//   });
-//   wbRegions['y'] = "Percentage By Region";
-//   wbRegions['columns'] = modes;
-// return wbRegions
-
-
-// }
- 
-//  country_json = fetch("https://beta.equityschool.plus/data/global.json").then(response => response.json())
- 
-//  var Data_Type = d3.Select("a");
- 
-//  data = getLearningStatsbyRegionS2Q3A(country_json, Data_Type);
- 
-//  keys = data.columns.slice(1);
-//  groupKey = data.columns[0];
- 
-//  yAxis = g => g
-//     .attr("transform", `translate(${margin.left},0)`)
-//     .call(d3.axisLeft(y).ticks(null, "s").tickFormat(formatTick))
-//     .call(g => g.select(".domain").remove())
-//     .call(g => g.select(".tick:last-of-type text").clone()
-//         .attr("x", 3)
-//         .attr("text-anchor", "start")
-//         .attr("font-weight", "bold")
-//         .text(data.y));
- 
-//  xAxis = g => g
-//     .attr("transform", `translate(0,${height - margin.bottom})`)
-//     .call(d3.axisBottom(x0).tickSizeOuter(0))
-//     .call(g => g.select(".domain").remove());
- 
- 
-//  color = d3.scaleOrdinal()
-//     .range(["#03045E", "#023E8A", "#0077B6", "#0096C7", "#00B4D8", "#48CAE4", "#90E0EF", "#ADE8F4"])
- 
-//  function formatTick(d) {
-//   const s = (d).toFixed(2);
-//   return s;
-// }
- 
-//  y = d3.scaleLinear()
-//     .domain([0, d3.max(data, d => d3.max(keys, key => d[key]))]).nice()
-//     .rangeRound([height - margin.bottom, margin.top]);
- 
-//   test = d3.max(data, d => d3.max(keys, key => d[key]));
- 
-//  x1 = d3.scaleBand()
-//     .domain(keys)
-//     .rangeRound([0, x0.bandwidth()])
-//     .padding(0.05);
- 
-//  x0 = d3.scaleBand()
-//     .domain(data.map(d => d[groupKey]))
-//     .rangeRound([margin.left, width - margin.right])
-//     .paddingInner(0.1);
- 
-//  legend = svg => {
-//   const g = svg
-//       .attr("transform", `translate(${width},0)`)
-//       .attr("text-anchor", "end")
-//       .attr("font-family", "sans-serif")
-//       .attr("font-size", 10)
-//     .selectAll("g")
-//     .data(color.domain().slice().reverse())
-//     .join("g")
-//       .attr("transform", (d, i) => `translate(0,${i * 20})`);
-
-//   g.append("rect")
-//       .attr("x", -19)
-//       .attr("width", 19)
-//       .attr("height", 19)
-//       .attr("fill", color);
-
-//   g.append("text")
-//       .attr("x", -24)
-//       .attr("y", 9.5)
-//       .attr("dy", "0.35em")
-//       .text(d => d);
-// }
- 
- 
- 
-//  chart = {
-//   var svg = d3.select("#myG").node();
-
-//   svg.append("g")
-//     .selectAll("g")
-//     .data(data)
-//     .join("g")
-//       .attr("transform", d => `translate(${x0(d[groupKey])},0)`)
-//     .selectAll("rect")
-//     .data(d => keys.map(key => ({key, value: d[key]})))
-//     .join("rect")
-//       .attr("x", d => x1(d.key))
-//       .attr("y", d => y(d.value))
-//       .attr("width", x1.bandwidth())
-//       .attr("height", d => y(0) - y(d.value))
-//       .attr("fill", d => color(d.key));
-
-//   svg.append("g")
-//       .call(xAxis);
-
-//   svg.append("g")
-//       .call(yAxis);
-
-//   svg.append("g")
-//       .call(legend);
-
-//   return svg.node();
-// }
- 
- -->
-<!-- </script>
-        -->
-       
-       
-       
-<!--      
-    </div> -->
-
- 
   </body>
 </html>
