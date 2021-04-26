@@ -14,9 +14,10 @@ title: "Maps"
       svg {fill: #DDDDDD;}
       {% include /worldmap.css %}
       .modality-in-person {fill: #1A49BF;}
-      .modality-hybrid-remote {fill: #26B1FF;}
+      .modality-hybrid {fill: #26B1FF}
+      .modality-remote {fill: #4FFFCD;}
       .modality-multiple {fill: #FFA733;}
-      .modality-extended-break {fill: #A7FFE6;}
+      .modality-extended-break {fill: #DDFF00;}
       .modality-covid-closure {fill: #C7A7FF;}
       .modality-no-data {fill: #DDDDDD;}
 
@@ -53,8 +54,12 @@ title: "Maps"
                 <td class="text-start"><strong>In-person education</strong>: Schools are open, and students have returned for in-person instruction.</td>
               </tr>
               <tr>
-                <td><svg class="modality-hybrid-remote map-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Hybrid/remote education</strong>:	Schools are open combining remote learning and in-person instruction and/or students are exclusively learning remotely.</td>
+                <td><svg class="modality-hybrid map-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Hybrid education</strong>:	Schools are open combining remote learning and in-person instruction.</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-remote map-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Remote education</strong>:	Schools are closed and students are exclusively learning remotely.</td>
               </tr>
               <tr>
                 <td><svg class="modality-multiple map-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
@@ -188,9 +193,12 @@ title: "Maps"
             } else if (country.fields.mostRecentEducationStatusCode.includes('1')) {
               country.modalityMapClass = 'modality-covid-closure';
               country.modalityText = "Closed due to COVID-19";
-            } else if (country.fields.mostRecentEducationStatusCode.includes('2') || country.fields.mostRecentEducationStatusCode.includes('3')) {
-              country.modalityMapClass = 'modality-hybrid-remote';
-              country.modalityText = 'Hybrid / remote';
+            } else if (country.fields.mostRecentEducationStatusCode.includes('2')) {
+              country.modalityMapClass = 'modality-remote';
+              country.modalityText = 'Remote';
+            } else if (country.fields.mostRecentEducationStatusCode.includes('3')) {
+              country.modalityMapClass = "modality-hybrid";
+              country.modalityText = "Hybrid"
             } else if (country.fields.mostRecentEducationStatusCode.includes('4')) {
               country.modalityMapClass = 'modality-in-person';
               country.modalityText = 'In person';
