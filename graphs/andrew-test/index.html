@@ -1,4 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:creator" content="@" />
+    <meta name="twitter:title" content="Graphs" />
+    <meta name="twitter:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF." />
+    <meta name="twitter:image" content="https://www.covideducationrecovery.global//img/og-image.png" />
+
+    <meta property="og:title" content="Graphs">
+    <meta property="og:image" content="https://www.covideducationrecovery.global//img/og-image.png">
+    <meta property="og:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
+    <meta property="og:url" content="https://www.covideducationrecovery.global//graphs/andrew-test/" />
+    <meta property="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+      
+    <script src="/js/vue.min.js" type="text/javascript"></script>
+      
+      
+    <script src="/js/d3.min.js" type="text/javascript"></script>
+      
+      
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+      
+      
+    <link href="/css/all.min.css" rel="stylesheet">
+      
+        
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XJB9Q7EK5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4XJB9Q7EK5');
+  </script>
+
+    <title>Graphs</title>
+    <style>
+     
+      @font-face {
+        font-family: 'FuturaPTWebLight';
+        src:
+          url('/webfonts//Futura-PT_Light.woff2') format('woff2'),
+          url('/webfonts/Futura-PT_Light.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'FuturaPTWebBook';
+        src:
+          url('/webfonts/Futura-PT_Book.woff2') format('woff2'),
+          url('/webfonts/Futura-PT_Book.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'FuturaPTWebDemi';
+        src:
+          url('/webfonts/Futura-PT_Demi.woff2') format('woff2'),
+          url('/webfonts/Futura-PT_Demi.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      html, body {font-family: FuturaPTWebLight; font-size: 20px;}
+      h1, h2, h3 {font-family: FuturaPTWebDemi;}
+      strong, h4, h5, h6 {font-family: FuturaPTWebBook;}
+
+      nav {min-height: 80px; font-family: FuturaPTWebDemi; font-size: 90%;}
+      nav svg {width: 250px; height: 50px;}
+
+      section {margin: 2em auto 1em auto; max-width: 1200px;}
+
+      .navbar-brand {margin-right: 0.1rem;}
+
+      .navbar-expand-xxl .navbar-nav {justify-content: space-evenly; width: 100%;}
+
+      .spacer-10 {height: 10vh;}
+      .spacer-5 {height: 5vh;}
+
+      
+      [v-cloak], .hidden {display: none;}
+      
+    </style>
+  </head>
+  <body>
+    
 <nav class="navbar navbar-expand-xxl navbar-light bg-light">
+
   <div class="container">
     <a class="navbar-brand" href="/">
       <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 50" style="enable-background:new 0 0 250 50;" xml:space="preserve">
@@ -122,11 +225,8 @@
           <path class="st0" d="M242.8,215.1l-18.5-10.8c-3.2-1.8-7.3,0.9-6.8,4.5l6.4,34.1l2.7,14.2l6.8,35.7c0.5,4.1,5.9,4.5,7.7,1.4 l18.2-32.7l36.8-5.9c4.1-0.5,5.5-5.9,1.8-8.2l-40.9-24L242.8,215.1z"/>
         </g>
       </svg> -->
-      <div class="d-inline-block">
-        {% if site.preview == true %}
-        <sup><span class="badge bg-warning text-dark">Preview</span></sup>
-        {% endif %}  
-      </div>
+      <!-- <div class="d-inline-block">
+      </div> -->
     </a>  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -134,24 +234,144 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="/maps/">Maps</a>
+          <a class="nav-link" href="/maps/">Maps</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/country-list/">Country Details</a>
+          <a class="nav-link" href="/graphs/">Graphs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/about/#disclaimer">Disclaimer</a>
+          <a class="nav-link" href="/country-list/">Country Details</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/methodology/">Methodology</a>
+          <a class="nav-link" href="/about/#disclaimer">Disclaimer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/about/">Partnership</a>
+          <a class="nav-link" href="/methodology/">Methodology</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-outline-primary" href="/contact">Contact Us</a>
+          <a class="nav-link" href="/about/">Partnership</a>
         </li>
+        
+        <li class="nav-item">
+          <span class="btn btn-outline-primary" href="/contact">Contact Us</span>
+        </li>
+        
       </ul>
     </div>
   </div>
 </nav>
+
+    
+    <section>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+
+      </div>
+      <div class="col-6" id="graph">
+  
+      </div>
+      <div class="col-3">
+  
+      </div>  
+    </div>
+  </div>
+  <script>
+    fetch('https://www.covideducationrecovery.global/data/global.json')
+      .then(response => response.json())
+      .then((countries) => {
+        console.log('countries:', countries);
+
+        const statsVariable = 'mostRecentEducationStatusCode';
+
+        const aggregateStats = (countries, fieldName) => {
+          return countries.reduce((stats, country) => {
+            if (country.fields[stats.fieldName]) {
+              stats.total++;
+              const resultArray = Array.from(country.fields[stats.fieldName]);
+              for (const result of resultArray) {
+                if (!stats.metrics[result]) {
+                  stats.metrics[result] = 0
+                }
+                stats.metrics[result]++
+              }
+            }
+            return stats;
+          }, {metrics: {}, total: 0, fieldName: fieldName});
+        }
+
+        const stats = aggregateStats(countries, statsVariable);
+        console.log('stats', stats);
+
+        const metricMapping = () => {return {'1': 'None', '2': 'Remote', '3': 'Hybrid', '4': 'In-person', '5': 'Other'}}
+
+        const generateNameValuePairs = (obj, nameMap) => {
+          const result = [];
+          for (const key of Object.keys(obj)) {
+            result.push({name: nameMap[key], value: obj[key]})
+          }
+          return result;
+        }
+
+        const data = generateNameValuePairs(stats.metrics, metricMapping());
+        console.log('data:', data);
+
+        const pie = d3
+          .pie()
+          .padAngle(0.005)
+          .sort(null)
+          .value(d => d.value)
+
+        const arcGenerator = d3.arc().innerRadius(250 * 0.5).outerRadius(250 - 1);
+    
+
+        const width = 500;
+
+        const height = Math.min(width, 500);
+
+        const color = d3
+          .scaleOrdinal()
+          .domain(data.map(d => d.name))
+          .range(d3.quantize(t => d3.interpolateSpectral(t * 0.8 + 0.1), data.length).reverse())
+
+
+        const arcs = pie(data);
+
+        const svg = d3.select('#graph').insert("svg")
+            .attr("viewBox", [-width / 2, -height / 2, width, height]);
+
+        svg.selectAll("path")
+          .data(arcs)
+          .join("path")
+            .attr("fill", d => color(d.data.name))
+            .attr("d", arcGenerator)
+          .append("title")
+            .text(d => `${d.data.name}: ${d.data.value.toLocaleString()}`);
+
+        svg.append("g")
+            .attr("font-family", "sans-serif")
+            .attr("font-size", 12)
+            .attr("text-anchor", "middle")
+          .selectAll("text")
+          .data(arcs)
+          .join("text")
+            .attr("transform", d => `translate(${arcGenerator.centroid(d)})`)
+            .call(text => text.append("tspan")
+                .attr("y", "-0.4em")
+                .attr("font-weight", "bold")
+                .text(d => d.data.name))
+            .call(text => text.filter(d => (d.endAngle - d.startAngle) > 0.25).append("tspan")
+                .attr("x", 0)
+                .attr("y", "0.7em")
+                .attr("fill-opacity", 0.7)
+                .text(d => d.data.value.toLocaleString()));
+
+        console.log(svg);
+
+        document.getElementById('graph').appendChild = svg;
+      })
+
+  </script>
+</section>
+  </body>
+</html>

@@ -8,6 +8,8 @@
       "iso3166Alpha2Code": "AF",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2",
@@ -43,6 +45,8 @@
       "iso3166Alpha2Code": "AL",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-04",
       "mostRecentExtendedBreakCode": "2",
@@ -102,6 +106,8 @@
       "iso3166Alpha2Code": "DZ",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -135,12 +141,13 @@
       "iso3166Alpha2Code": "AS",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -184,13 +191,15 @@
       "iso3166Alpha2Code": "AD",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "8"
       ],
@@ -214,6 +223,8 @@
       "iso3166Alpha2Code": "AO",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -251,6 +262,8 @@
       "iso3166Alpha2Code": "AI",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LAC",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -263,6 +276,8 @@
       "iso3166Alpha2Code": "AG",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -275,6 +290,8 @@
       "iso3166Alpha2Code": "AR",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-24",
       "mostRecentExtendedBreakCode": "2",
@@ -331,6 +348,8 @@
       "iso3166Alpha2Code": "AM",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -381,7 +400,10 @@
       "m49code": 533,
       "iso3166Alpha2Code": "AW",
       "wbRegion": "Latin America and Caribbean",
-      "wbRegionCode": "LCN"
+      "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
+      "owidHasVaccine": true
     }
   },
   {
@@ -393,50 +415,12 @@
       "iso3166Alpha2Code": "AU",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3",
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1",
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "1",
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1",
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1",
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "8"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
-      ]
+      "mostRecentResponseDate": "2021-04-12",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -448,23 +432,10 @@
       "iso3166Alpha2Code": "AT",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
-      "mostRecentExtendedBreakCode": "1",
-      "mostRecentVaccineAvailabilityForTeachersCode": "1"
-    }
-  },
-  {
-    "id": "recE9S0HjMH5KbRMP",
-    "fields": {
-      "countryName": "Azerbaijan",
-      "wbCountryCode": "AZE",
-      "m49code": 31,
-      "iso3166Alpha2Code": "AZ",
-      "wbRegion": "Europe and Central Asia",
-      "wbRegionCode": "ECS",
-      "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
@@ -483,21 +454,76 @@
         "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "2"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "2"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "2"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "2"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "6"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "6"
+      ]
+    }
+  },
+  {
+    "id": "recE9S0HjMH5KbRMP",
+    "fields": {
+      "countryName": "Azerbaijan",
+      "wbCountryCode": "AZE",
+      "m49code": 31,
+      "iso3166Alpha2Code": "AZ",
+      "wbRegion": "Europe and Central Asia",
+      "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-06",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "2",
+        "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1",
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1",
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1",
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1",
         "2"
       ]
     }
@@ -511,24 +537,26 @@
       "iso3166Alpha2Code": "BS",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "1",
@@ -544,7 +572,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
         "6"
@@ -560,6 +588,8 @@
       "iso3166Alpha2Code": "BH",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -603,6 +633,8 @@
       "iso3166Alpha2Code": "BD",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
@@ -647,6 +679,8 @@
       "iso3166Alpha2Code": "BB",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -659,6 +693,8 @@
       "iso3166Alpha2Code": "BY",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
@@ -689,26 +725,12 @@
       "iso3166Alpha2Code": "BE",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "1",
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ]
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -720,6 +742,8 @@
       "iso3166Alpha2Code": "BZ",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true
     }
   },
@@ -732,6 +756,8 @@
       "iso3166Alpha2Code": "BJ",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -760,31 +786,12 @@
       "iso3166Alpha2Code": "BM",
       "wbRegion": "North America",
       "wbRegionCode": "NAC",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-31",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "2"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
-      ]
+      "mostRecentResponseDate": "2021-04-12",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -796,6 +803,8 @@
       "iso3166Alpha2Code": "BT",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -861,6 +870,8 @@
       "iso3166Alpha2Code": "BO",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2",
@@ -910,6 +921,8 @@
       "iso3166Alpha2Code": "BA",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2",
@@ -954,6 +967,8 @@
       "iso3166Alpha2Code": "BW",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true
     }
   },
@@ -966,8 +981,10 @@
       "iso3166Alpha2Code": "BR",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-03",
+      "mostRecentResponseDate": "2021-04-14",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -1002,44 +1019,12 @@
       "iso3166Alpha2Code": "VG",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-26",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3",
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "4"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
-      ]
+      "mostRecentResponseDate": "2021-04-10",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -1051,6 +1036,8 @@
       "iso3166Alpha2Code": "BN",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -1063,6 +1050,8 @@
       "iso3166Alpha2Code": "BG",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-04",
       "mostRecentExtendedBreakCode": "2",
@@ -1117,6 +1106,8 @@
       "iso3166Alpha2Code": "BF",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "mostRecentResponseDate": "2021-03-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -1145,10 +1136,19 @@
       "iso3166Alpha2Code": "BI",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-08",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "mostRecentResponseDate": "2021-04-06",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "5"
       ]
     }
   },
@@ -1161,6 +1161,8 @@
       "iso3166Alpha2Code": "CV",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-05",
       "mostRecentExtendedBreakCode": "2",
@@ -1196,6 +1198,8 @@
       "iso3166Alpha2Code": "KH",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
@@ -1240,23 +1244,12 @@
       "iso3166Alpha2Code": "CM",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-03",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "6"
-      ]
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-08",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -1268,12 +1261,13 @@
       "iso3166Alpha2Code": "CA",
       "wbRegion": "North America",
       "wbRegionCode": "NAC",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -1289,24 +1283,16 @@
         "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1",
-        "2",
-        "4"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1",
-        "2",
-        "4"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1",
-        "2",
-        "4"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1",
-        "2",
-        "4"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "1"
@@ -1325,24 +1311,26 @@
       "iso3166Alpha2Code": "KY",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-30",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "6"
       ]
     }
   },
@@ -1354,7 +1342,9 @@
       "m49code": 140,
       "iso3166Alpha2Code": "CF",
       "wbRegion": "Sub-Saharan Africa",
-      "wbRegionCode": "SSF"
+      "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income"
     }
   },
   {
@@ -1366,6 +1356,8 @@
       "iso3166Alpha2Code": "TD",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -1392,25 +1384,12 @@
       "wbCountryCode": "CHI",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ]
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -1422,6 +1401,8 @@
       "iso3166Alpha2Code": "CL",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "1",
@@ -1437,6 +1418,8 @@
       "iso3166Alpha2Code": "CN",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -1467,6 +1450,8 @@
       "iso3166Alpha2Code": "CO",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-25",
       "mostRecentExtendedBreakCode": "2",
@@ -1533,6 +1518,8 @@
       "iso3166Alpha2Code": "KM",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -1563,11 +1550,14 @@
       "iso3166Alpha2Code": "CD",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-02",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "mostRecentResponseDate": "2021-04-06",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "2"
       ],
@@ -1590,7 +1580,10 @@
       "m49code": 178,
       "iso3166Alpha2Code": "CG",
       "wbRegion": "Sub-Saharan Africa",
-      "wbRegionCode": "SSF"
+      "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true
     }
   },
   {
@@ -1602,6 +1595,8 @@
       "iso3166Alpha2Code": "CK",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -1631,6 +1626,8 @@
       "iso3166Alpha2Code": "CR",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-18",
       "mostRecentExtendedBreakCode": "2",
@@ -1677,13 +1674,15 @@
       "iso3166Alpha2Code": "CI",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-08",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "4",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "2"
       ],
@@ -1691,10 +1690,10 @@
         "2"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
+        "2"
       ]
     }
   },
@@ -1707,6 +1706,8 @@
       "iso3166Alpha2Code": "HR",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-03",
       "mostRecentExtendedBreakCode": "2",
@@ -1737,29 +1738,11 @@
       "iso3166Alpha2Code": "CU",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
-      "mostRecentResponseDate": "2021-03-25",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "2"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "2"
-      ]
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "mostRecentResponseDate": "2021-04-12",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -1771,26 +1754,16 @@
       "iso3166Alpha2Code": "CW",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
       ],
@@ -1804,7 +1777,7 @@
         "6"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
         "6"
@@ -1820,6 +1793,8 @@
       "iso3166Alpha2Code": "CY",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
@@ -1850,18 +1825,22 @@
       "iso3166Alpha2Code": "CZ",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentResponseDate": "2021-04-10",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "1",
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "1",
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -1886,11 +1865,12 @@
       "iso3166Alpha2Code": "DK",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
         "3",
         "4"
       ],
@@ -1908,7 +1888,7 @@
         "4"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1"
@@ -1936,6 +1916,9 @@
       "iso3166Alpha2Code": "DJ",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -1964,6 +1947,8 @@
       "iso3166Alpha2Code": "DM",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -2022,6 +2007,8 @@
       "iso3166Alpha2Code": "DO",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-24",
       "mostRecentExtendedBreakCode": "2",
@@ -2067,6 +2054,8 @@
       "iso3166Alpha2Code": "EC",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -2123,8 +2112,10 @@
       "iso3166Alpha2Code": "EG",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentResponseDate": "2021-04-06",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
@@ -2173,6 +2164,8 @@
       "iso3166Alpha2Code": "SV",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -2226,6 +2219,8 @@
       "iso3166Alpha2Code": "GQ",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -2286,6 +2281,8 @@
       "iso3166Alpha2Code": "ER",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -2318,6 +2315,8 @@
       "iso3166Alpha2Code": "EE",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-21",
       "mostRecentExtendedBreakCode": "2",
@@ -2335,26 +2334,58 @@
       "iso3166Alpha2Code": "SZ",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-23",
+      "mostRecentResponseDate": "2021-04-06",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
+        "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
         "2"
       ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "2"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "5"
+      ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "3"
+        "3",
+        "4",
+        "5",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "3"
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "3"
+        "1",
+        "3",
+        "4",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "1",
+        "4",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
+        "1",
+        "4",
+        "8"
       ]
     }
   },
@@ -2367,6 +2398,9 @@
       "iso3166Alpha2Code": "ET",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -2400,6 +2434,8 @@
       "iso3166Alpha2Code": "FO",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -2411,7 +2447,10 @@
       "m49code": 242,
       "iso3166Alpha2Code": "FJ",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true
     }
   },
   {
@@ -2423,12 +2462,12 @@
       "iso3166Alpha2Code": "FI",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "3",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
@@ -2443,24 +2482,6 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
       ]
     }
   },
@@ -2473,35 +2494,72 @@
       "iso3166Alpha2Code": "FR",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentResponseDate": "2021-04-12",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
+    }
+  },
+  {
+    "id": "recpY3GGtu5GBMIe7",
+    "fields": {
+      "countryName": "French Polynesia",
+      "wbCountryCode": "PYF",
+      "m49code": 258,
+      "iso3166Alpha2Code": "PF",
+      "wbRegion": "East Asia and Pacific",
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
+      "mostRecentResponseDate": "2021-04-12",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
+    }
+  },
+  {
+    "id": "recg7t4rZkZbPI5jO",
+    "fields": {
+      "countryName": "Gabon",
+      "wbCountryCode": "GAB",
+      "m49code": 266,
+      "iso3166Alpha2Code": "GA",
+      "wbRegion": "Sub-Saharan Africa",
+      "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "2",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "2",
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "7"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "7"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1"
@@ -2515,65 +2573,6 @@
     }
   },
   {
-    "id": "recpY3GGtu5GBMIe7",
-    "fields": {
-      "countryName": "French Polynesia",
-      "wbCountryCode": "PYF",
-      "m49code": 258,
-      "iso3166Alpha2Code": "PF",
-      "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-29",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ]
-    }
-  },
-  {
-    "id": "recg7t4rZkZbPI5jO",
-    "fields": {
-      "countryName": "Gabon",
-      "wbCountryCode": "GAB",
-      "m49code": 266,
-      "iso3166Alpha2Code": "GA",
-      "wbRegion": "Sub-Saharan Africa",
-      "wbRegionCode": "SSF",
-      "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-15",
-      "mostRecentExtendedBreakCode": "4",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "5"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "5"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "5"
-      ]
-    }
-  },
-  {
     "id": "recprYCFVKe6Ru9FR",
     "fields": {
       "countryName": "Gambia, The",
@@ -2582,8 +2581,10 @@
       "iso3166Alpha2Code": "GM",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -2603,6 +2604,8 @@
       "iso3166Alpha2Code": "GE",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2",
@@ -2659,10 +2662,46 @@
       "iso3166Alpha2Code": "DE",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
-      "mostRecentExtendedBreakCode": "1",
-      "mostRecentVaccineAvailabilityForTeachersCode": "1"
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "3",
+        "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "6"
+      ]
     }
   },
   {
@@ -2674,6 +2713,8 @@
       "iso3166Alpha2Code": "GH",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-06",
       "mostRecentExtendedBreakCode": "2",
@@ -2721,6 +2762,8 @@
       "iso3166Alpha2Code": "GI",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -2733,6 +2776,8 @@
       "iso3166Alpha2Code": "GR",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
@@ -2770,8 +2815,10 @@
       "iso3166Alpha2Code": "GL",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentResponseDate": "2021-04-10",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
@@ -2790,13 +2837,13 @@
         "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1"
@@ -2805,7 +2852,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
+        "6"
       ]
     }
   },
@@ -2818,6 +2865,8 @@
       "iso3166Alpha2Code": "GD",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -2875,10 +2924,55 @@
       "iso3166Alpha2Code": "GU",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
-      "mostRecentExtendedBreakCode": "1",
-      "mostRecentVaccineAvailabilityForTeachersCode": "1"
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "2",
+        "4"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "3",
+        "6"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "3",
+        "6"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "3",
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1",
+        "5",
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1",
+        "5",
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1",
+        "5",
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "6"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "6"
+      ]
     }
   },
   {
@@ -2890,6 +2984,8 @@
       "iso3166Alpha2Code": "GT",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-09",
       "mostRecentExtendedBreakCode": "2",
@@ -2939,6 +3035,8 @@
       "iso3166Alpha2Code": "GN",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-05",
       "mostRecentExtendedBreakCode": "2",
@@ -2956,6 +3054,8 @@
       "iso3166Alpha2Code": "GW",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -2985,6 +3085,8 @@
       "iso3166Alpha2Code": "GY",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -3042,6 +3144,8 @@
       "iso3166Alpha2Code": "HT",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "mostRecentResponseDate": "2021-02-25",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -3070,6 +3174,8 @@
       "iso3166Alpha2Code": "HN",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -3115,6 +3221,8 @@
       "iso3166Alpha2Code": "HK",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -3127,15 +3235,17 @@
       "iso3166Alpha2Code": "HU",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1"
@@ -3150,7 +3260,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
+        "6"
       ]
     }
   },
@@ -3163,14 +3273,15 @@
       "iso3166Alpha2Code": "IS",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "8"
       ],
@@ -3182,24 +3293,6 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "8"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
       ]
     }
   },
@@ -3212,6 +3305,8 @@
       "iso3166Alpha2Code": "IN",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -3276,6 +3371,8 @@
       "iso3166Alpha2Code": "ID",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
@@ -3346,13 +3443,27 @@
       "iso3166Alpha2Code": "IR",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-07",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "4",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "8"
+      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
       ],
@@ -3383,12 +3494,15 @@
       "iso3166Alpha2Code": "IQ",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-02-26",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "4",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "8"
       ],
@@ -3437,46 +3551,12 @@
       "iso3166Alpha2Code": "IE",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "2",
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5",
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "5",
-        "6"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
-      ]
+      "mostRecentResponseDate": "2021-04-10",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -3488,6 +3568,8 @@
       "iso3166Alpha2Code": "IM",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -3500,8 +3582,10 @@
       "iso3166Alpha2Code": "IL",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
@@ -3527,10 +3611,10 @@
         "7"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
         "1"
@@ -3549,47 +3633,26 @@
       "iso3166Alpha2Code": "IT",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5",
-        "6"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "5",
-        "6"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "5",
-        "6"
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "5",
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "6"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "5"
       ]
     }
   },
@@ -3602,6 +3665,8 @@
       "iso3166Alpha2Code": "JM",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -3661,8 +3726,10 @@
       "iso3166Alpha2Code": "JP",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
@@ -3670,39 +3737,54 @@
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1",
-        "2"
+        "2",
+        "3",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "1",
         "2",
-        "5"
+        "3",
+        "5",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "1",
         "2",
-        "5"
+        "3",
+        "5",
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "1",
-        "2"
+        "2",
+        "3",
+        "5",
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "1",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "1",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "1",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
+        "1",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "1",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
+        "1",
+        "4"
       ]
     }
   },
@@ -3715,6 +3797,8 @@
       "iso3166Alpha2Code": "JO",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -3758,6 +3842,8 @@
       "iso3166Alpha2Code": "KZ",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -3820,25 +3906,12 @@
       "iso3166Alpha2Code": "KE",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "2"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "2"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "2"
-      ]
+      "mostRecentResponseDate": "2021-04-07",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -3850,6 +3923,8 @@
       "iso3166Alpha2Code": "KI",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "mostRecentResponseDate": "2021-01-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -3865,7 +3940,9 @@
       "m49code": 408,
       "iso3166Alpha2Code": "KP",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income"
     }
   },
   {
@@ -3877,6 +3954,8 @@
       "iso3166Alpha2Code": "KR",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-03",
       "mostRecentExtendedBreakCode": "1"
@@ -3889,6 +3968,8 @@
       "wbCountryCode": "XKX",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "mostRecentResponseDate": "2021-03-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -3927,6 +4008,8 @@
       "iso3166Alpha2Code": "KW",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -3963,6 +4046,8 @@
       "iso3166Alpha2Code": "KG",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
@@ -4016,6 +4101,8 @@
       "iso3166Alpha2Code": "LA",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true
     }
   },
@@ -4028,6 +4115,8 @@
       "iso3166Alpha2Code": "LV",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-12",
       "mostRecentExtendedBreakCode": "2",
@@ -4077,11 +4166,13 @@
       "iso3166Alpha2Code": "LB",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-05",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
@@ -4119,6 +4210,9 @@
       "iso3166Alpha2Code": "LS",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-23",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -4135,7 +4229,9 @@
       "iso3166Alpha2Code": "LR",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-07",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -4164,6 +4260,9 @@
       "iso3166Alpha2Code": "LY",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -4225,6 +4324,8 @@
       "iso3166Alpha2Code": "LI",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -4237,6 +4338,8 @@
       "iso3166Alpha2Code": "LT",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-03",
       "mostRecentExtendedBreakCode": "2",
@@ -4285,28 +4388,33 @@
       "iso3166Alpha2Code": "LU",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1",
+        "5",
         "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "1",
+        "5",
         "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "1",
+        "5",
         "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "1",
+        "5",
         "6"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
@@ -4338,6 +4446,8 @@
       "iso3166Alpha2Code": "MO",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -4350,23 +4460,11 @@
       "iso3166Alpha2Code": "MG",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-05",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
-      ]
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "mostRecentResponseDate": "2021-04-06",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -4378,6 +4476,8 @@
       "iso3166Alpha2Code": "MW",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -4420,6 +4520,8 @@
       "iso3166Alpha2Code": "MY",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
@@ -4482,6 +4584,8 @@
       "iso3166Alpha2Code": "MV",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -4532,6 +4636,8 @@
       "iso3166Alpha2Code": "ML",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-01-26",
       "mostRecentExtendedBreakCode": "2",
@@ -4549,6 +4655,8 @@
       "iso3166Alpha2Code": "MT",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -4561,6 +4669,8 @@
       "iso3166Alpha2Code": "MH",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-27",
       "mostRecentExtendedBreakCode": "2",
@@ -4579,22 +4689,29 @@
       "iso3166Alpha2Code": "MR",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-03",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2"
+        "2",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "2"
+        "2",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "2"
+        "2",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "2"
+        "2",
+        "5"
       ]
     }
   },
@@ -4607,8 +4724,10 @@
       "iso3166Alpha2Code": "MU",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentResponseDate": "2021-04-08",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "1",
@@ -4646,6 +4765,8 @@
       "iso3166Alpha2Code": "MX",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -4685,7 +4806,9 @@
       "m49code": 583,
       "iso3166Alpha2Code": "FM",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income"
     }
   },
   {
@@ -4697,6 +4820,8 @@
       "iso3166Alpha2Code": "MD",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
@@ -4750,6 +4875,8 @@
       "iso3166Alpha2Code": "MC",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -4762,6 +4889,8 @@
       "iso3166Alpha2Code": "MN",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
@@ -4803,13 +4932,15 @@
       "iso3166Alpha2Code": "ME",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-05",
+      "mostRecentResponseDate": "2021-04-08",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "7"
       ],
@@ -4823,32 +4954,26 @@
         "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1",
-        "2"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1",
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1",
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1",
-        "2",
-        "4"
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1",
-        "4"
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
         "1",
-        "2",
-        "4"
+        "2"
       ]
     }
   },
@@ -4861,6 +4986,8 @@
       "iso3166Alpha2Code": "MS",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LAC",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -4873,13 +5000,14 @@
       "iso3166Alpha2Code": "MA",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
-        "4",
-        "5"
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrimary": [
@@ -4935,6 +5063,8 @@
       "iso3166Alpha2Code": "MZ",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-05",
       "mostRecentExtendedBreakCode": "2",
@@ -4982,6 +5112,8 @@
       "iso3166Alpha2Code": "MM",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-28",
       "mostRecentExtendedBreakCode": "2",
@@ -5000,7 +5132,49 @@
       "iso3166Alpha2Code": "NA",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "owidHasVaccine": true
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-08",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "1"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "1",
+        "3"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "1",
+        "3"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "1",
+        "3"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "5"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "5"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "5"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "5",
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "8"
+      ]
     }
   },
   {
@@ -5011,7 +5185,10 @@
       "m49code": 520,
       "iso3166Alpha2Code": "NR",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
+      "owidHasVaccine": true
     }
   },
   {
@@ -5023,6 +5200,8 @@
       "iso3166Alpha2Code": "NP",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-27",
       "mostRecentExtendedBreakCode": "2",
@@ -5084,27 +5263,30 @@
       "iso3166Alpha2Code": "NL",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-23",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "3"
+        "3",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "3"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "3"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "3"
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "3"
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1"
@@ -5131,7 +5313,9 @@
       "m49code": 540,
       "iso3166Alpha2Code": "NC",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income"
     }
   },
   {
@@ -5143,27 +5327,25 @@
       "iso3166Alpha2Code": "NZ",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "3",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "3",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "3",
         "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "3",
         "5"
       ]
     }
@@ -5177,6 +5359,9 @@
       "iso3166Alpha2Code": "NI",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -5193,7 +5378,10 @@
       "iso3166Alpha2Code": "NE",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-31",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-07",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -5222,6 +5410,8 @@
       "iso3166Alpha2Code": "NG",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-03",
       "mostRecentExtendedBreakCode": "2",
@@ -5263,7 +5453,9 @@
       "m49code": 570,
       "iso3166Alpha2Code": "NU",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income"
     }
   },
   {
@@ -5275,6 +5467,8 @@
       "iso3166Alpha2Code": "MK",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -5332,10 +5526,12 @@
       "iso3166Alpha2Code": "MP",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
-      "mostRecentResponseDate": "2021-03-28",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
@@ -5349,6 +5545,24 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "5"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1"
       ]
     }
   },
@@ -5361,10 +5575,45 @@
       "iso3166Alpha2Code": "NO",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
-      "mostRecentExtendedBreakCode": "1",
-      "mostRecentVaccineAvailabilityForTeachersCode": "2"
+      "mostRecentResponseDate": "2021-04-12",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "8"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "1"
+      ]
     }
   },
   {
@@ -5376,6 +5625,8 @@
       "iso3166Alpha2Code": "OM",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -5412,6 +5663,8 @@
       "iso3166Alpha2Code": "PK",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-01-31",
       "mostRecentExtendedBreakCode": "2",
@@ -5428,7 +5681,9 @@
       "m49code": 585,
       "iso3166Alpha2Code": "PW",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income"
     }
   },
   {
@@ -5440,6 +5695,8 @@
       "iso3166Alpha2Code": "PA",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-25",
       "mostRecentExtendedBreakCode": "1"
@@ -5454,6 +5711,8 @@
       "iso3166Alpha2Code": "PG",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2",
@@ -5483,24 +5742,13 @@
       "iso3166Alpha2Code": "PY",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-02",
+      "mostRecentResponseDate": "2021-04-17",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
@@ -5540,6 +5788,8 @@
       "iso3166Alpha2Code": "PE",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-25",
       "mostRecentExtendedBreakCode": "1"
@@ -5554,6 +5804,8 @@
       "iso3166Alpha2Code": "PH",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-02",
       "mostRecentExtendedBreakCode": "2",
@@ -5604,6 +5856,8 @@
       "iso3166Alpha2Code": "PL",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -5658,30 +5912,72 @@
       "iso3166Alpha2Code": "PT",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "2",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
-      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "7"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "7"
+      ],
+      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesHigherCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesVocationalCode": [
+        "7"
+      ]
+    }
+  },
+  {
+    "id": "recZfvQrWs92ZkwDm",
+    "fields": {
+      "countryName": "Puerto Rico",
+      "wbCountryCode": "PRI",
+      "m49code": 630,
+      "iso3166Alpha2Code": "PR",
+      "wbRegion": "Latin America and Caribbean",
+      "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "2",
+        "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ],
+      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
+        "1"
+      ],
+      "mostRecentRemoteEducationModalitiesPrimaryCode": [
+        "1"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -5698,36 +5994,6 @@
     }
   },
   {
-    "id": "recZfvQrWs92ZkwDm",
-    "fields": {
-      "countryName": "Puerto Rico",
-      "wbCountryCode": "PRI",
-      "m49code": 630,
-      "iso3166Alpha2Code": "PR",
-      "wbRegion": "Latin America and Caribbean",
-      "wbRegionCode": "LCN",
-      "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
-      ]
-    }
-  },
-  {
     "id": "recKUhcAiVoiJwzhx",
     "fields": {
       "countryName": "Qatar",
@@ -5736,6 +6002,8 @@
       "iso3166Alpha2Code": "QA",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -5777,6 +6045,8 @@
       "iso3166Alpha2Code": "RO",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "1",
@@ -5792,8 +6062,10 @@
       "iso3166Alpha2Code": "RU",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-31",
+      "mostRecentResponseDate": "2021-04-15",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -5822,6 +6094,8 @@
       "iso3166Alpha2Code": "RW",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-26",
       "mostRecentExtendedBreakCode": "2",
@@ -5861,7 +6135,9 @@
       "m49code": 882,
       "iso3166Alpha2Code": "WS",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income"
     }
   },
   {
@@ -5873,18 +6149,34 @@
       "iso3166Alpha2Code": "SM",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "2"
+        "2",
+        "3",
+        "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "7"
+      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -5909,6 +6201,8 @@
       "iso3166Alpha2Code": "ST",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -5945,8 +6239,10 @@
       "iso3166Alpha2Code": "SA",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -5994,8 +6290,10 @@
       "iso3166Alpha2Code": "SN",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
+      "mostRecentResponseDate": "2021-04-10",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -6033,6 +6331,8 @@
       "iso3166Alpha2Code": "RS",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2",
@@ -6083,6 +6383,8 @@
       "iso3166Alpha2Code": "SC",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -6095,15 +6397,17 @@
       "iso3166Alpha2Code": "SL",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-05",
+      "mostRecentResponseDate": "2021-04-08",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2",
-        "6"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
         "2",
@@ -6128,28 +6432,26 @@
       "iso3166Alpha2Code": "SG",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1",
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "1",
-        "5"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1",
-        "5"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1",
-        "5"
+        "6"
       ]
     }
   },
@@ -6161,7 +6463,9 @@
       "m49code": 534,
       "iso3166Alpha2Code": "SX",
       "wbRegion": "Latin America and Caribbean",
-      "wbRegionCode": "LCN"
+      "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income"
     }
   },
   {
@@ -6173,43 +6477,12 @@
       "iso3166Alpha2Code": "SK",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-26",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "2",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "4"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
-      ],
-      "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
-      ],
-      "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
-      ]
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
   },
   {
@@ -6221,31 +6494,21 @@
       "iso3166Alpha2Code": "SI",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
-      ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "7"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -6270,6 +6533,8 @@
       "iso3166Alpha2Code": "SB",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true
     }
   },
@@ -6282,6 +6547,9 @@
       "iso3166Alpha2Code": "SO",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -6312,11 +6580,23 @@
       "iso3166Alpha2Code": "ZA",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-01-29",
+      "mostRecentResponseDate": "2021-04-06",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "1"
+        "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "2"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "2"
       ]
     }
   },
@@ -6329,6 +6609,9 @@
       "iso3166Alpha2Code": "SS",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-03",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -6378,24 +6661,26 @@
       "iso3166Alpha2Code": "ES",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-28",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "6"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "6"
       ]
     }
   },
@@ -6408,6 +6693,8 @@
       "iso3166Alpha2Code": "LK",
       "wbRegion": "South Asia",
       "wbRegionCode": "SAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-01-29",
       "mostRecentExtendedBreakCode": "2",
@@ -6456,7 +6743,9 @@
       "m49code": 663,
       "iso3166Alpha2Code": "MF",
       "wbRegion": "Latin America and Caribbean",
-      "wbRegionCode": "LCN"
+      "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income"
     }
   },
   {
@@ -6468,6 +6757,8 @@
       "iso3166Alpha2Code": "KN",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -6480,6 +6771,8 @@
       "iso3166Alpha2Code": "LC",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-01",
       "mostRecentExtendedBreakCode": "2"
@@ -6494,6 +6787,8 @@
       "iso3166Alpha2Code": "VC",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-26",
       "mostRecentExtendedBreakCode": "2",
@@ -6537,28 +6832,12 @@
       "iso3166Alpha2Code": "SD",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-01-26",
+      "mostRecentResponseDate": "2021-04-07",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
-        "5"
-      ]
-    }
-  },
-  {
-    "id": "recIOcNMU7orcWK9p",
-    "fields": {
-      "countryName": "Suriname",
-      "wbCountryCode": "SUR",
-      "m49code": 740,
-      "iso3166Alpha2Code": "SR",
-      "wbRegion": "Latin America and Caribbean",
-      "wbRegionCode": "LCN",
-      "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "3",
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
@@ -6573,7 +6852,27 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "2"
+      ]
+    }
+  },
+  {
+    "id": "recIOcNMU7orcWK9p",
+    "fields": {
+      "countryName": "Suriname",
+      "wbCountryCode": "SUR",
+      "m49code": 740,
+      "iso3166Alpha2Code": "SR",
+      "wbRegion": "Latin America and Caribbean",
+      "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-16",
+      "mostRecentExtendedBreakCode": "2",
+      "mostRecentEducationStatusCode": [
+        "2"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "7"
       ],
@@ -6609,30 +6908,26 @@
       "iso3166Alpha2Code": "SE",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "2",
-        "6"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "2",
-        "6"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "1",
-        "2",
-        "6"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1",
-        "2",
-        "6"
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
@@ -6641,13 +6936,13 @@
         "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
         "6"
@@ -6663,23 +6958,12 @@
       "iso3166Alpha2Code": "CH",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-27",
-      "mostRecentExtendedBreakCode": "2",
-      "mostRecentEducationStatusCode": [
-        "4"
-      ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
-      "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportPrimary": [
-        "1"
-      ],
-      "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "1",
-        "6"
-      ]
+      "mostRecentResponseDate": "2021-04-11",
+      "mostRecentExtendedBreakCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2"
     }
   },
   {
@@ -6691,6 +6975,8 @@
       "iso3166Alpha2Code": "SY",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -6723,13 +7009,25 @@
       "iso3166Alpha2Code": "TJ",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
-      "mostRecentResponseDate": "2021-03-01",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "1"
+        "7"
+      ],
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "8"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "8"
       ]
     }
   },
@@ -6741,7 +7039,9 @@
       "m49code": 834,
       "iso3166Alpha2Code": "TZ",
       "wbRegion": "Sub-Saharan Africa",
-      "wbRegionCode": "SSF"
+      "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income"
     }
   },
   {
@@ -6753,6 +7053,8 @@
       "iso3166Alpha2Code": "TH",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-03",
       "mostRecentExtendedBreakCode": "2",
@@ -6806,6 +7108,9 @@
       "iso3166Alpha2Code": "TL",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -6856,12 +7161,15 @@
       "iso3166Alpha2Code": "TG",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-03",
+      "mostRecentResponseDate": "2021-04-08",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "2"
       ],
@@ -6877,7 +7185,8 @@
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
         "2",
-        "3"
+        "3",
+        "5"
       ]
     }
   },
@@ -6890,6 +7199,8 @@
       "iso3166Alpha2Code": "TK",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "mostRecentResponseDate": "2021-03-31",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -6919,6 +7230,9 @@
       "iso3166Alpha2Code": "TO",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
+      "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-01-29",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -6935,6 +7249,8 @@
       "iso3166Alpha2Code": "TT",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-10",
       "mostRecentExtendedBreakCode": "2",
@@ -6952,8 +7268,10 @@
       "iso3166Alpha2Code": "TN",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-07",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
@@ -6979,58 +7297,62 @@
       "iso3166Alpha2Code": "TR",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-02",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "8"
+        "2"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "8"
+        "2",
+        "4",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "8"
+        "2",
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "8"
+        "2",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "7"
+        "1",
+        "2",
+        "4",
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1",
         "2",
-        "3",
-        "4",
-        "5"
+        "5",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1",
         "2",
-        "3",
-        "4",
-        "5"
+        "5",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
         "1",
         "2",
-        "3",
-        "4",
-        "5"
+        "5",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "1",
+        "2"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
         "1",
-        "2",
-        "3",
-        "4",
-        "5"
+        "2"
       ]
     }
   },
@@ -7043,6 +7365,8 @@
       "iso3166Alpha2Code": "TM",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "mostRecentResponseDate": "2021-03-04",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -7071,6 +7395,8 @@
       "iso3166Alpha2Code": "TC",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true
     }
   },
@@ -7083,6 +7409,8 @@
       "iso3166Alpha2Code": "TV",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -7111,12 +7439,24 @@
       "iso3166Alpha2Code": "UG",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-01-27",
+      "mostRecentResponseDate": "2021-04-08",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
         "3"
+      ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
+      "mostRecentInPersonAdditionalSupportPrimary": [
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "5"
+      ],
+      "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "6"
@@ -7141,10 +7481,16 @@
         "5"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "6"
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1",
+        "2",
+        "3",
+        "4"
       ]
     }
   },
@@ -7157,33 +7503,46 @@
       "iso3166Alpha2Code": "UA",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
-        "3",
-        "4"
+        "3"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "1"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "7"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "7"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "7"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
         "7"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
         "1",
-        "2",
+        "4",
         "5"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
@@ -7211,6 +7570,8 @@
       "iso3166Alpha2Code": "AE",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-05",
       "mostRecentExtendedBreakCode": "2",
@@ -7260,27 +7621,30 @@
       "iso3166Alpha2Code": "GB",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-30",
+      "mostRecentResponseDate": "2021-04-11",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "7"
+        "3",
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "4",
-        "5"
+        "3",
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
-        "4",
-        "5"
+        "3",
+        "4"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "4",
-        "5"
+        "3",
+        "4"
       ]
     }
   },
@@ -7293,8 +7657,10 @@
       "iso3166Alpha2Code": "US",
       "wbRegion": "North America",
       "wbRegionCode": "NAC",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-04-01",
+      "mostRecentResponseDate": "2021-04-12",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2",
@@ -7303,34 +7669,40 @@
       ],
       "mostRecentVaccineAvailabilityForTeachersCode": "1",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
-        "5"
+        "8"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
         "8"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
-        "5"
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesUpperSecondaryCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesHigherCode": [
-        "1"
+        "1",
+        "8"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "1"
+        "1",
+        "8"
       ]
     }
   },
@@ -7343,8 +7715,10 @@
       "iso3166Alpha2Code": "UY",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-29",
+      "mostRecentResponseDate": "2021-04-14",
       "mostRecentExtendedBreakCode": "1",
       "mostRecentVaccineAvailabilityForTeachersCode": "1"
     }
@@ -7358,6 +7732,8 @@
       "iso3166Alpha2Code": "UZ",
       "wbRegion": "Europe and Central Asia",
       "wbRegionCode": "ECS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-01",
       "mostRecentExtendedBreakCode": "2",
@@ -7405,7 +7781,9 @@
       "m49code": 548,
       "iso3166Alpha2Code": "VU",
       "wbRegion": "East Asia and Pacific",
-      "wbRegionCode": "EAS"
+      "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income"
     }
   },
   {
@@ -7417,6 +7795,8 @@
       "iso3166Alpha2Code": "VE",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "UMC",
+      "wbIncomeLevelName": "Upper middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-03-02",
       "mostRecentExtendedBreakCode": "2",
@@ -7468,6 +7848,8 @@
       "iso3166Alpha2Code": "VN",
       "wbRegion": "East Asia and Pacific",
       "wbRegionCode": "EAS",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-02-03",
       "mostRecentExtendedBreakCode": "2",
@@ -7509,31 +7891,37 @@
       "iso3166Alpha2Code": "VI",
       "wbRegion": "Latin America and Caribbean",
       "wbRegionCode": "LCN",
+      "wbIncomeLevelCode": "HIC",
+      "wbIncomeLevelName": "High income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-26",
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "3",
         "4"
       ],
-      "mostRecentVaccineAvailabilityForTeachersCode": "1",
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
+        "3",
         "4"
       ],
       "mostRecentInPersonAdditionalSupportPrimary": [
+        "3",
         "4"
       ],
       "mostRecentInPersonAdditionalSupportLowerSecondary": [
+        "3",
         "4"
       ],
       "mostRecentInPersonAdditionalSupportUpperSecondary": [
+        "3",
         "4"
       ],
       "mostRecentRemoteEducationModalitiesPrePrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesPrimaryCode": [
-        "1"
+        "6"
       ],
       "mostRecentRemoteEducationModalitiesLowerSecondaryCode": [
         "1"
@@ -7545,7 +7933,7 @@
         "1"
       ],
       "mostRecentRemoteEducationModalitiesVocationalCode": [
-        "6"
+        "1"
       ]
     }
   },
@@ -7558,8 +7946,10 @@
       "iso3166Alpha2Code": "PS",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
-      "mostRecentResponseDate": "2021-03-01",
+      "mostRecentResponseDate": "2021-04-19",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "2"
@@ -7594,6 +7984,8 @@
       "iso3166Alpha2Code": "YE",
       "wbRegion": "Middle East and North Africa",
       "wbRegionCode": "MEA",
+      "wbIncomeLevelCode": "LIC",
+      "wbIncomeLevelName": "Low income",
       "mostRecentResponseDate": "2021-02-27",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
@@ -7622,11 +8014,15 @@
       "iso3166Alpha2Code": "ZM",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
-      "mostRecentResponseDate": "2021-03-07",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
+      "owidHasVaccine": true,
+      "mostRecentResponseDate": "2021-04-09",
       "mostRecentExtendedBreakCode": "2",
       "mostRecentEducationStatusCode": [
         "4"
       ],
+      "mostRecentVaccineAvailabilityForTeachersCode": "2",
       "mostRecentInPersonAdditionalSupportPrePrimary": [
         "2",
         "3",
@@ -7658,6 +8054,8 @@
       "iso3166Alpha2Code": "ZW",
       "wbRegion": "Sub-Saharan Africa",
       "wbRegionCode": "SSF",
+      "wbIncomeLevelCode": "LMC",
+      "wbIncomeLevelName": "Lower middle income",
       "owidHasVaccine": true,
       "mostRecentResponseDate": "2021-04-04",
       "mostRecentExtendedBreakCode": "2",
