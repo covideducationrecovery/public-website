@@ -281,27 +281,34 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="/maps/">Maps</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDataDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Data
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDataDropdown">
+            <li><a class="dropdown-item" href="/maps/">Maps</a></li>
+            <li><a class="dropdown-item" href="/graphs/">Graphs</a></li>
+            <li><a class="dropdown-item" href="/country-list/">Country List</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/data/">Download</a></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/graphs/">Graphs</a>
+          <a class="nav-link" href="#">Stories</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/country-list/">Country Details</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about/#disclaimer">Disclaimer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/methodology/">Methodology</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about/">Partnership</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navBarAboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navBarAboutDropdown">
+            <li><a class="dropdown-item" href="/about/">Partnership</a></li>
+            <li><a class="dropdown-item" href="/about/#disclaimer">Disclaimer</a></li>
+            <li><a class="dropdown-item" href="/methodology/">Methodology</a></li>
+          </ul>
         </li>
         
         <li class="nav-item">
-          <span class="btn btn-outline-primary" href="/contact">Contact Us</span>
+          <a class="btn btn-outline-primary" href="/contact/oduc">Contact Us</a>
         </li>
         
       </ul>

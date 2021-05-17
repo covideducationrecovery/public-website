@@ -1,0 +1,27 @@
+  
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+  
+publish_mode: editorial_workflow
+logo_url: https://beta.covideducationrecovery.global/img/GlobalTracker-2.svg
+media_folder: 'img'
+collections:
+  - name: 'posts'
+    label: 'Posts '
+    folder: '_posts'
+    identifier_field: title
+    create: true
+    editor:
+      preview: true
+    slug: '{{year}}-{{month}}-{{day}}'
+    fields:
+      - {label: 'Title', name: 'title', widget: 'text', default: '', required: true}
+      - {label: 'Date', name: 'date', widget: 'datetime', date_format: "YYYY-MM-DD", picker_utc: true}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", media_folder: /img/posts, default: "unknown.png"}
+      - {label: "Image Alt Text", name: "image-alt-text", widget: 'text', default: '', required: false}
+      - {label: "Sub Title", name: "sub-title", widget: 'text', default: '', required: false, hint: 'a collaborative effort of Johns Hopkins University, the World Bank, and UNICEF'}
+      - { label: 'Media Contacts', name: 'media-contacts', widget: 'markdown' }
+      - { label: 'Main Content', name: 'body', widget: 'markdown' }
+
