@@ -1,0 +1,286 @@
+[
+  {
+    "id": "wb_HD_HCI_HLOS_FE",
+    "description": "Harmonized Test Scores, Female"
+  },
+  {
+    "id": "wb_HD_HCI_HLOS_MA",
+    "description": "Harmonized Test Scores, Male"
+  },
+  {
+    "id": "wb_HD_HCI_HLOS",
+    "description": "Harmonized Test Scores"
+  },
+  {
+    "id": "wb_HD_HCI_LAYS_FE",
+    "description": "Learning-Adjusted Years of School, Female"
+  },
+  {
+    "id": "wb_HD_HCI_LAYS_MA",
+    "description": "Learning-Adjusted Years of School, Male"
+  },
+  {
+    "id": "wb_HD_HCI_LAYS",
+    "description": "Learning-Adjusted Years of School"
+  },
+  {
+    "id": "wb_SE_LPV_PRIM_FE",
+    "description": "Learning poverty: Share of Female Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)"
+  },
+  {
+    "id": "wb_SE_LPV_PRIM_MA",
+    "description": "Learning poverty: Share of Male Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)"
+  },
+  {
+    "id": "wb_SE_LPV_PRIM",
+    "description": "Learning poverty: Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%)"
+  },
+  {
+    "id": "wb_SE_PRE_ENRL_FE",
+    "description": "Enrolment in pre-primary education, female (number)"
+  },
+  {
+    "id": "wb_SE_PRE_ENRL",
+    "description": "Enrolment in pre-primary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SE_PRM_ENRL_FE",
+    "description": "Enrolment in primary education, female (number)"
+  },
+  {
+    "id": "wb_SE_PRM_ENRL",
+    "description": "Primary education, pupils"
+  },
+  {
+    "id": "wb_SE_PRM_ENRR_FE",
+    "description": "School enrollment, primary, female (% gross)"
+  },
+  {
+    "id": "wb_SE_PRM_ENRR_MA",
+    "description": "School enrollment, primary, male (% gross)"
+  },
+  {
+    "id": "wb_SE_PRM_ENRR",
+    "description": "School enrollment, primary (% gross)"
+  },
+  {
+    "id": "wb_SE_PRM_NENR_FE",
+    "description": "School enrollment, primary, female (% net)"
+  },
+  {
+    "id": "wb_SE_PRM_NENR_MA",
+    "description": "School enrollment, primary, male (% net)"
+  },
+  {
+    "id": "wb_SE_PRM_NENR",
+    "description": "School enrollment, primary (% net)"
+  },
+  {
+    "id": "wb_SE_SEC_ENRL_FE",
+    "description": "Enrolment in secondary education, female (number)"
+  },
+  {
+    "id": "wb_SE_SEC_ENRL",
+    "description": "Secondary education, pupils"
+  },
+  {
+    "id": "wb_SE_SEC_ENRR_FE",
+    "description": "School enrollment, secondary, female (% gross)"
+  },
+  {
+    "id": "wb_SE_SEC_ENRR_MA",
+    "description": "School enrollment, secondary, male (% gross)"
+  },
+  {
+    "id": "wb_SE_SEC_ENRR",
+    "description": "School enrollment, secondary (% gross)"
+  },
+  {
+    "id": "wb_SE_SEC_NENR_FE",
+    "description": "School enrollment, secondary, female (% net)"
+  },
+  {
+    "id": "wb_SE_SEC_NENR_MA",
+    "description": "School enrollment, secondary, male (% net)"
+  },
+  {
+    "id": "wb_SE_SEC_NENR",
+    "description": "School enrollment, secondary (% net)"
+  },
+  {
+    "id": "wb_SI_POV_DDAY_MI",
+    "description": "Multidimensional poverty, Monetary poverty (% of population deprived)"
+  },
+  {
+    "id": "wb_SP_DYN_TFRT_IN",
+    "description": "Fertility rate, total (births per woman)"
+  },
+  {
+    "id": "wb_SP_POP_0014_FE_IN",
+    "description": "Population ages 0-14, female"
+  },
+  {
+    "id": "wb_SP_POP_0014_MA_IN",
+    "description": "Population ages 0-14, male"
+  },
+  {
+    "id": "wb_SP_POP_0014_TO",
+    "description": "Population ages 0-14, total"
+  },
+  {
+    "id": "wb_SP_POP_1564_FE_IN",
+    "description": "Population ages 15-64, female"
+  },
+  {
+    "id": "wb_SP_POP_1564_MA_IN",
+    "description": "Population ages 15-64, male"
+  },
+  {
+    "id": "wb_SP_POP_1564_TO",
+    "description": "Population ages 15-64, total"
+  },
+  {
+    "id": "wb_SP_POP_65UP_FE_IN",
+    "description": "Population ages 65 and above, female"
+  },
+  {
+    "id": "wb_SP_POP_65UP_MA_IN",
+    "description": "Population ages 65 and above, male"
+  },
+  {
+    "id": "wb_SP_POP_65UP_TO",
+    "description": "Population ages 65 and above, total"
+  },
+  {
+    "id": "wb_SP_POP_TOTL_FE_IN",
+    "description": "Population, female"
+  },
+  {
+    "id": "wb_SP_POP_TOTL_MA_IN",
+    "description": "Population, male"
+  },
+  {
+    "id": "wb_SP_POP_TOTL",
+    "description": "Population, total"
+  },
+  {
+    "id": "wb_SP_PRE_TOTL_FE_IN",
+    "description": "School age population, pre-primary education, female (number)"
+  },
+  {
+    "id": "wb_SP_PRE_TOTL_IN",
+    "description": "School age population, pre-primary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SP_PRE_TOTL_MA_IN",
+    "description": "School age population, pre-primary education, male (number)"
+  },
+  {
+    "id": "wb_SP_PRM_GRAD_FE",
+    "description": "School age population, last grade of primary education, female (number)"
+  },
+  {
+    "id": "wb_SP_PRM_GRAD_MA",
+    "description": "School age population, last grade of primary education, male (number)"
+  },
+  {
+    "id": "wb_SP_PRM_GRAD_TO",
+    "description": "School age population, last grade of primary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SP_PRM_TOTL_FE_IN",
+    "description": "School age population, primary education, female (number)"
+  },
+  {
+    "id": "wb_SP_PRM_TOTL_IN",
+    "description": "School age population, primary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SP_PRM_TOTL_MA_IN",
+    "description": "School age population, primary education, male (number)"
+  },
+  {
+    "id": "wb_SP_SEC_LTOT_FE_IN",
+    "description": "School age population, lower secondary education, female (number)"
+  },
+  {
+    "id": "wb_SP_SEC_LTOT_IN",
+    "description": "School age population, lower secondary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SP_SEC_LTOT_MA_IN",
+    "description": "School age population, lower secondary education, male (number)"
+  },
+  {
+    "id": "wb_SP_SEC_TOTL_FE_IN",
+    "description": "School age population, secondary education, female (number)"
+  },
+  {
+    "id": "wb_SP_SEC_TOTL_IN",
+    "description": "School age population, secondary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SP_SEC_TOTL_MA_IN",
+    "description": "School age population, secondary education, male (number)"
+  },
+  {
+    "id": "wb_SP_SEC_UTOT_FE_IN",
+    "description": "School age population, upper secondary education, female (number)"
+  },
+  {
+    "id": "wb_SP_SEC_UTOT_IN",
+    "description": "School age population, upper secondary education, both sexes (number)"
+  },
+  {
+    "id": "wb_SP_SEC_UTOT_MA_IN",
+    "description": "School age population, upper secondary education, male (number)"
+  },
+  {
+    "id": "wb_UIS_E_02_M",
+    "description": "Enrolment in pre-primary education, male (number)"
+  },
+  {
+    "id": "wb_UIS_E_1_M",
+    "description": "Enrolment in primary education, male (number)"
+  },
+  {
+    "id": "wb_UIS_E_2_F",
+    "description": "Enrolment in lower secondary education, female (number)"
+  },
+  {
+    "id": "wb_UIS_E_2_M",
+    "description": "Enrolment in lower secondary education, male (number)"
+  },
+  {
+    "id": "wb_UIS_E_2",
+    "description": "Enrolment in lower secondary education, both sexes (number)"
+  },
+  {
+    "id": "wb_UIS_E_23_M",
+    "description": "Enrolment in secondary education, male (number)"
+  },
+  {
+    "id": "wb_UIS_E_3_F",
+    "description": "Enrolment in upper secondary education, female (number)"
+  },
+  {
+    "id": "wb_UIS_E_3_M",
+    "description": "Enrolment in upper secondary education, male (number)"
+  },
+  {
+    "id": "wb_UIS_E_3",
+    "description": "Enrolment in upper secondary education, both sexes (number)"
+  },
+  {
+    "id": "wb_UIS_SCHBSP_1_WINTERN",
+    "description": "Proportion of primary schools with access to Internet for pedagogical purposes (%)"
+  },
+  {
+    "id": "wb_UIS_SCHBSP_2_WINTERN",
+    "description": "Proportion of lower secondary schools with access to Internet for pedagogical purposes (%)"
+  },
+  {
+    "id": "wb_UIS_SCHBSP_3_WINTERN",
+    "description": "Proportion of upper secondary schools with access to Internet for pedagogical purposes (%)"
+  }
+]

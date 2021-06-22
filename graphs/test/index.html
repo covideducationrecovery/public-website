@@ -7,14 +7,14 @@
     <meta name="twitter:card" content="summary_large_image" />
     
     
-    <meta name="twitter:title" content="COVID-19 Global Education Recovery Tracker" />
+    <meta name="twitter:title" content="Graphs" />
     <meta name="twitter:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF." />
     <meta name="twitter:image" content="https://www.covideducationrecovery.global/img/og-image.png" />
 
-    <meta property="og:title" content="COVID-19 Global Education Recovery Tracker">
+    <meta property="og:title" content="Graphs">
     <meta property="og:image" content="https://www.covideducationrecovery.global/img/og-image.png\">
     <meta property="og:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
-    <meta property="og:url" content="https://www.covideducationrecovery.global//country-list/" />
+    <meta property="og:url" content="https://www.covideducationrecovery.global//graphs/test/" />
     <meta property="og:type" content="website">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -26,6 +26,8 @@
     <script src="/js/vue.min.js" type="text/javascript"></script>
       
       
+    <script src="/js/d3.min.js" type="text/javascript"></script>
+      
       
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.bundle.min.js" type="text/javascript"></script>
@@ -33,9 +35,6 @@
       
     <link href="/css/all.min.css" rel="stylesheet">
       
-      
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
         
     
 
@@ -51,7 +50,7 @@
   </script>
   
 
-    <title>COVID-19 Global Education Recovery Tracker</title>
+    <title>Graphs</title>
     <style>
      
       @font-face {
@@ -101,8 +100,26 @@
       
     </style>
     <style>
-      [marked] {background-color: green !important;}
-      .table-header-sticky {position: sticky; top: 0; background-color: #FFFFFF !important; box-shadow: 0 5px 5px -5px #00000040 !important;}
+      svg {fill: #DDDDDD;}
+      .support-targeted {fill: #1A49BF;}
+      .support-tutoring-volunteer {fill: #000000;}
+      .support-tutoring {fill: #26B1FF;}
+      .support-school-year {fill: #FFA733;}
+      .support-school-day {fill: #A7FFE6;}
+      .support-other {fill: #C7A7FF;}
+      .support-no-data {fill: #DDDDDD;}
+
+      .modality-tutoring {fill: #1A49BF;}
+      .modality-paper-packets {fill: #000000;}
+      .modality-mobile {fill: #26B1FF;}
+      .modality-radio {fill: #FFA733;}
+      .modality-television {fill: #A7FFE6;}
+      .modality-online {fill: #C7A7FF;}
+      .modality-no-data {fill: #DDDDDD;}
+
+      .graph-key {max-width: 600px; margin: auto; font-size: smaller;}
+      /* .graph-key {display: flex; flex-flow: row nowrap; align-items: center; justify-content: center; font-size: small;} */
+      .graph-key-color {height: 2rem; width: 2rem; margin: 0.2rem;}
     </style>
   </head>
   <body>
@@ -277,222 +294,382 @@
 
 
     <div class="spacer-5"></div>
-
-    <div id="vue-app" class="container-fluid" v-cloak>
-      <div class="d-flex flex-row justify-content-between align-items-center">
-        <h1>Country Details</h1>
-        <span>Latest Update: ${mostRecentResponseDate | iso8601ToLocaleDateString}</span>
-        <a class="btn btn-outline-primary" href="/data/"><i class="fas fa-file-download"></i> Get This Data</a>
+    <div class="col-6" id="graph"></div>
+    <div id="vue-app" class="container mb-5">
+      <h1>Graphs</h1>
+      <div class="row text-center my-3">
+        <h2>In-Person Educational Supports</h2>
+        <p>For systems where schools are open for in-person education, what additional educational support is being offered to mitigate learning loss among students?</p>
+        <div id="observablehq-viewof-Data_Type-fc38e864" style="width: 50%;" ></div>
+        <div id="observablehq-chart-fc38e864" style="width: 100%;"></div>
+        <div class="my-3">
+          This graph displays additional academic supports to mitigate learning loss for schools that are open for in-person education. Data is displayed by regional level and grade level as of the last survey response
+        </div>
+        <div class="graph-key w-100">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><svg class="support-school-day graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Changes in School Day</strong>:  The school day is extended, contracted, or otherwise adjusted to accommodate loss of schooling.</td>
+              </tr>
+              <tr>
+                <td><svg class="support-school-year graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Changes in School Year Calendar</strong>: The school year calendar is extended, contracted, or otherwise adjusted to accommodate loss of schooling. </td>
+              </tr>
+              <tr>
+                <td><svg class="support-tutoring graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Additional Tutoring by Teachers</strong>: Tutoring offered as a support or remediation strategy by teachers to support available in-country learning options for vulnerable students. </td>
+              </tr>
+              <tr>
+                <td><svg class="support-tutoring-volunteer graph-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Additional Tutoring by Volunteer/Non-Profit Organizations</strong>:	Tutoring offered as a support or remediation strategy by volunteers to support available in-country learning options for vulnerable students.</td>
+              </tr>
+              <tr>
+                <td><svg class="support-targeted graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Targeted Remedial Measures for Specific Groups</strong>:  Interventions are offered as additional supports for targeted students or groups</td>
+              </tr>
+              <tr>
+                <td><svg class="support-other graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Other</strong>:	Other academic supports not listed above.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
       </div>
-      <table class="table table-sm table-hover">
-        <thead>
-          <tr>
-            <th class="table-header-sticky">Country</th>
-            <th class="table-header-sticky">World Bank Region</th>
-            <th class="table-header-sticky">School Status / Education Modality</th>
-            <th class="table-header-sticky">Teachers Currently Being Vaccinated as a Priority Group</th>
-            <th class="table-header-sticky">COVID-19 Vaccines Authorized <span class="badge bg-secondary rounded-pill" style="opacity: 0.5" title="Courtesy of Our World In Data"><i class="fas fa-info"></i></span></th>
-            <th class="table-header-sticky">In-Person Supports</th>
-            <th class="table-header-sticky">Remote Supports</th>
-            <th class="table-header-sticky">Updated</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="country of countries" v-if="country.fields.mostRecentResponseDate">
-            <td><a :href="'/profile/?' + country.fields.iso3166Alpha2Code">${ country.fields.countryName}</a></td>
-            <td>${ country.fields.wbRegion}</td>
-            <td>
-              <span class="badge bg-secondary" v-if="country.educationServices.includes('extendedBreak')" title="On extended break"><i class="fas fa-umbrella-beach"></i></span>
-              <span class="badge bg-danger" v-if="country.educationServices.includes('covidClosed')" title="Closed due to COVID-19"><i class="fas fa-times"></i></span>
-              <span class="badge bg-secondary" v-if="country.educationServices.includes('remote')" title="Remote"><i class="fas fa-home"></i></span>
-              <span class="badge bg-info" v-if="country.educationServices.includes('hybrid')" title="Hybrid"><i class="fas fa-school"></i> + <i class="fas fa-home"></i></span>
-              <span class="badge bg-dark" v-if="country.educationServices.includes('inPerson')" title="In-person"><i class="fas fa-school"></i></span>
-            </td>
-            <td v-if="country.fields.mostRecentVaccineAvailabilityForTeachersCode">
-              <span class="badge bg-success" v-if="country.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('1')" title="Teachers are currently being vaccinated as a priority group"><i class="fas fa-check"></i></span>
-              <span class="badge bg-danger" v-if="country.fields.mostRecentVaccineAvailabilityForTeachersCode.includes('2')" title="Teachers have not been prioritized"><i class="fas fa-times"></i></span>
-            </td>
-            <td v-else></td>
-            <td>
-              <span v-if="country.fields.owidHasVaccine" class="badge bg-success text-center" title="Vaccines have been authorized"><i class="fas fa-check"></i></span>
-            </td>
-            <td>
-              <span v-if="country.hasInPersonAdditionalSupports" class="badge bg-secondary" v-bind:show-popout="country.fields.iso3166Alpha2Code + '-ips'"><i class="fas fa-eye"></i>&nbsp;&nbsp;View</button></span>
-              <div v-if="country.hasInPersonAdditionalSupports" v-bind:id="country.fields.iso3166Alpha2Code + '-ips'" class="hidden">
-                <table>
-                  <tr v-for="field in mostRecentInPersonAdditionalSupportFields" v-if="country.fields[field.name] && !country.fields[field.name].includes('7') && !country.fields[field.name].includes('8')">
-                    <td><small class="">${field.text}</small></td>
-                    <td><span class="badge bg-dark mx-1" v-for="supportType in mostRecentInPersonAdditionalSupportTypes" v-bind:marked="country.fields[field.name].includes(supportType.value)" v-bind:title="supportType.title"><i v-bind:class="'fas fa-' + supportType.faIcon"></i></span></td>
-                  </tr>
-                </table>
-                <hr >
-                <a class="badge bg-light text-dark" href="/methodology/#definitions">What do these mean?</a>
-              </div>
-            </td>
-            <td>
-              <span v-if="country.hasRemoteEducationModalities" class="badge bg-secondary" show-popout><i class="fas fa-eye"></i>&nbsp;&nbsp;View</button></span>
-              <div v-if="country.hasRemoteEducationModalities" class="hidden">
-                <table>
-                  <tr v-for="field in mostRecentRemoteEducationModalityFields" v-if="country.fields[field.name] && !country.fields[field.name].includes('6') && !country.fields[field.name].includes('7')">
-                    <td><small>${field.text}</small></td>
-                    <td><span class="badge bg-dark mx-1" v-for="modalityType in mostRecentRemoteEducationModalityTypes" v-bind:marked="country.fields[field.name].includes(modalityType.value)" v-bind:title="modalityType.title"><i v-bind:class="'fas fa-' + modalityType.faIcon"></i></span></td>
-                  </tr>                    
-                </table>
-                <hr >
-                <a class="badge bg-light text-dark" href="/methodology/#definitions">What do these mean?</a>
-              </div>
-            </td>
-            <td>${ country.fields.mostRecentResponseDate | iso8601ToLocaleDateString }</td>
-          </tr>
-        </tbody>
-      </table>
+
+      <div class="spacer-10"></div>
+
+      <div class="row text-center my-3">
+        <h2>Remote Educational Supports</h2>
+        <p>For those learning remotely, how is education provided?</p>
+        <div id="observablehq-viewof-Data_Type-fc38e8642" style="width: 50%;" ></div>
+        <div id="observablehq-chart-fc38e8642" style="width: 100%;"></div>
+        <div class="my-3">
+          This graph displays remote learning modalities at the regional level and grade level offered in each country as of the last survey response. 
+          <br />
+        </div>
+        <div class="graph-key w-100">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><svg class="modality-online graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Online Platforms</strong>:	Education is provided through synchronous or asynchronous online platforms. </td>
+              </tr>
+              <tr>
+                <td><svg class="modality-television graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Television</strong>:  Education is provided by broadcasting instruction through television programs or education-designated channels. </td>
+              </tr>
+              <tr>
+                <td><svg class="modality-radio graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Radio</strong>: Education is provided by broadcasting instruction through radio.  </td>
+              </tr>
+              <tr>
+                <td><svg class="modality-mobile graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Mobile Devices</strong>: Education is provided through cellular phones and/or tablets.  </td>
+              </tr>
+              <tr>
+                <td><svg class="modality-paper-packets graph-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Take Home Packages (paper-based)</strong>:	Education is provided by distributing take home curriculum packages to students.</td>
+              </tr>
+              <tr>
+                <td><svg class="modality-tutoring graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Tutoring</strong>:  Tutoring offered as a support or remediation strategy. </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+      </div>
+    
+      <div class="spacer-10"></div>
+
+      <div class="row text-center my-3">
+        <p>For additional definitions, please see our <a href="/methodology/">Methodology</a>.</p>
+      </div>
+
       <div class="spacer-5"></div>
-
-      <div class="container">
-        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of ${mostRecentResponseDate | iso8601ToLocaleDateString}. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+  
+      <div class="row">
+        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Most recent survey responses are as of 19 April 2021. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
       </div>
-
     </div>
-
+    
     <div class="spacer-10"></div>
+    
+
 
     <script>
-
-      var vm;
-
-      const initTippy = () => {
-        tippy('[title]', {
-          placement: 'top',
-          onShow(instance) {
-            instance.setContent(instance.reference.title);
-          }
+      function getLearningStatsbyRegionS2Q3A (country_json, fieldName) {
+  
+      const modes = ['name','Changes in school day','Changes in school-year calendar', 'Additional tutoring by teachers', 'Additional tutoring by volunteer/non-profit organizations', 'Targeted remedial measures for specific groups','Other'];
+      
+      const wbRegions = d3.groups(country_json, d => d.fields.wbRegion).map(([region, info]) => {
+        let base = [0, 0, 0, 0, 0, 0, 0, 0];
+        let length = 0;
+        info.forEach(element => {
+          if (element.fields[fieldName] === undefined) {
+            // Do Nothing
+          } else {
+              length += 1;
+              element.fields[fieldName].forEach(mode => {
+                
+                base[mode-1] += 1;
+              });
+              
+          } 
         });
-        tippy('[show-popout]', {
-          placement: 'bottom',
-          allowHTML: true,
-          interactive: true,
-          onShow(instance) {
-            const clone = (instance.reference.nextElementSibling.innerHTML);
-            instance.setContent('<table>' + clone + '</table>');
-          }
-        });
-      }
-
-      const csvFieldMapping = [
-        {jsonField: '', csvField: ''}
-      ]
-
-      const mostRecentInPersonAdditionalSupportFields = [
-        {name: 'mostRecentInPersonAdditionalSupportPrePrimary', text: 'Pre-Primary'},
-        {name: 'mostRecentInPersonAdditionalSupportPrimary', text: 'Primary'},
-        {name: 'mostRecentInPersonAdditionalSupportLowerSecondary', text: 'Lower Secondary'},
-        {name: 'mostRecentInPersonAdditionalSupportUpperSecondary', text: 'Upper Secondary'}
-      ]
-      const mostRecentInPersonAdditionalSupportTypes = [
-        {value: '1', title: 'School Day Changes', faIcon: 'calendar-day'},
-        {value: '2', title: 'School Year Changes', faIcon: 'calendar-alt'},
-        {value: '3', title: 'Teacher Tutoring', faIcon: 'school'},
-        {value: '4', title: 'Non-Teacher Tutoring', faIcon: 'home'},
-        {value: '5', title: 'Targeted Remedial Measures', faIcon: 'bullseye'},
-        {value: '6', title: 'Other', faIcon: 'question'}
-      ]
-      const mostRecentRemoteEducationModalityFields = [
-        {name: 'mostRecentRemoteEducationModalitiesPrePrimaryCode', text: 'Pre-Primary'},
-        {name: 'mostRecentRemoteEducationModalitiesPrimaryCode', text: 'Primary'},
-        {name: 'mostRecentRemoteEducationModalitiesLowerSecondaryCode', text: 'Lower Secondary'},
-        {name: 'mostRecentRemoteEducationModalitiesUpperSecondaryCode', text: 'Upper Secondary'},
-        {name: 'mostRecentRemoteEducationModalitiesHigherCode', text: 'Higher Education'},
-        {name: 'mostRecentRemoteEducationModalitiesVocationalCode', text: 'Technical/Vocational'}
-      ]
-      const mostRecentRemoteEducationModalityTypes = [
-        {value: '1', title: 'Online platforms', faIcon: 'globe'},
-        {value: '2', title: 'Television', faIcon: 'tv'},
-        {value: '3', title: 'Radio', faIcon: 'broadcast-tower'},
-        {value: '4', title: 'Mobile devices', faIcon: 'mobile'},
-        {value: '5', title: 'Take-home packages', faIcon: 'paperclip'},
-        {value: '8', title: 'Tutoring', faIcon: 'chalkboard-teacher'}
-      ]
-
-      const prepareData = (countries) => {
-        countries.sort((country1, country2) => {
-          return country1.fields.countryName.localeCompare(country2.fields.countryName)
-        });
-
-        mostRecentResponseDate = new Date('2021-01-24')
-        for (country of countries) {
-          country.educationServices = [];
-          if (country.fields.mostRecentExtendedBreakCode && country.fields.mostRecentExtendedBreakCode.includes('1')) {
-            country.educationServices.push('extendedBreak');
-          } else if (country.fields.mostRecentEducationStatusCode) {
-            if (country.fields.mostRecentEducationStatusCode.includes('1')) {country.educationServices.push('covidClosed')}
-            if (country.fields.mostRecentEducationStatusCode.includes('2')) {country.educationServices.push('remote')}
-            if (country.fields.mostRecentEducationStatusCode.includes('3')) {country.educationServices.push('hybrid')}
-            if (country.fields.mostRecentEducationStatusCode.includes('4')) {country.educationServices.push('inPerson')}
-          }
-
-          country.hasInPersonAdditionalSupports = mostRecentInPersonAdditionalSupportFields.reduce((flag, item) => {
-            if (country.fields[item.name] && !country.fields[item.name].includes('7') && !country.fields[item.name].includes('8')) return true;
-          }, false)
-
-          country.hasRemoteEducationModalities = mostRecentRemoteEducationModalityFields.reduce((flag, item) => {
-            if (country.fields[item.name] && !country.fields[item.name].includes('6') && !country.fields[item.name].includes('7')) return true;
-          }, false)
-
-          if (country.fields.mostRecentResponseDate) {
-            responseDate = new Date(country.fields.mostRecentResponseDate);
-            if (responseDate.getTime() > mostRecentResponseDate.getTime()) {mostRecentResponseDate = responseDate}
-          }
-        }
+        
         return {
-            countries: countries,
-            mostRecentResponseDate: mostRecentResponseDate,
-            mostRecentInPersonAdditionalSupportFields: mostRecentInPersonAdditionalSupportFields,
-            mostRecentInPersonAdditionalSupportTypes: mostRecentInPersonAdditionalSupportTypes,
-            mostRecentRemoteEducationModalityFields: mostRecentRemoteEducationModalityFields,
-            mostRecentRemoteEducationModalityTypes: mostRecentRemoteEducationModalityTypes
+        name: region,
+        'Changes in school day': 100*base[0]/length,
+        'Changes in school-year calendar': 100*base[1]/length,
+        'Additional tutoring by teachers': 100*base[2]/length,
+        'Additional tutoring by volunteer/non-profit organizations': 100*base[3]/length,
+        'Targeted remedial measures for specific groups': 100*base[4]/length,
+        //'N/A': base[5]/length,
+        //"I Don't know": base[6]/length,
+        'Other': 100*base[7]/length
+        
+      }
+        
+        
+      });
+      wbRegions['y'] = "Percentage By Region";
+      wbRegions['columns'] = modes;
+    return wbRegions;
+    }
+
+
+    function merge (data) {
+  
+      const result = {}; 
+      
+      data.forEach(obj => {
+        
+        if (result[obj.name]) { 
+            //result[obj.name] += 1; 
+          } else { 
+            result[obj.name] = {
+              name: obj.name
+            };
+          } 
+        
+        for (let [key, value] of Object.entries(obj)) {
+          
+          if (key == 'name') {
+            result[obj.name][key] = value
+          } else if (result[obj.name][key] ) {
+            result[obj.name][key] += value/4;
+          } else {
+            result[obj.name][key] = value/4;
+          } 
+        }
+      });
+      
+      var out = Object.values(result);
+      out['y'] = 'Percentage By Region Across All Grades';
+      out['columns'] = ['name','Changes in school day','Changes in school-year calendar', 'Additional tutoring by teachers', 'Additional tutoring by volunteer/non-profit organizations', 'Targeted remedial measures for specific groups','Other'];
+      return out; //(7)
+
+    };
+
+      fetch('https://www.covideducationrecovery.global/data/global.json')
+        .then(response => response.json())
+        .then((country_json) => {
+          console.log('countries:', country_json);
+  
+          const Data_Type = 'mostRecentInPersonAdditionalSupportPrePrimary';
+
+          lists = getLearningStatsbyRegionS2Q3A(country_json, 'mostRecentInPersonAdditionalSupportPrePrimary').concat(getLearningStatsbyRegionS2Q3A(country_json, 'mostRecentInPersonAdditionalSupportPrimary')).concat(getLearningStatsbyRegionS2Q3A(country_json, 'mostRecentInPersonAdditionalSupportLowerSecondary')).concat(getLearningStatsbyRegionS2Q3A(country_json, 'mostRecentInPersonAdditionalSupportUpperSecondary'));
+          all = merge(lists);
+
+            if (Data_Type == 'all') {
+               data = all;
+            } else {
+               data = getLearningStatsbyRegionS2Q3A(country_json, Data_Type);
+            } 
+
+           keys = data.columns.slice(1);
+           groupKey = data.columns[0];
+          //
+
+          margin = ({top: 10, right: 10, bottom: 20, left: 40})
+          height = 400
+          width = 600
+
+          yAxis = g => g
+            .attr("transform", `translate(${margin.left},0)`)
+            .call(d3.axisLeft(y).ticks(null, "s").tickFormat(formatTick))
+            .call(g => g.select(".domain").remove())
+            .call(g => g.select(".tick:last-of-type text").clone()
+                .attr("x", 3)
+                .attr("text-anchor", "start")
+                .attr("font-weight", "bold")
+                .text(data.y))
+
+          xAxis = g => g
+          .attr("transform", `translate(0,${height - margin.bottom})`)
+          .call(d3.axisBottom(x0).tickSizeOuter(0))
+          .call(g => g.select(".domain").remove())
+
+          function formatTick(d) {
+            const s = (d).toFixed(2);
+            return s;
+          }
+
+          y = d3.scaleLinear()
+            //.domain([0, d3.max(data, d => d3.max(keys, key => d[key]))]).nice()
+            .domain([0, 100]).nice()
+            .rangeRound([height - margin.bottom, margin.top])
+
+        test = d3.max(data, d => d3.max(keys, key => d[key]))
+
+        x0 = d3.scaleBand()
+          .domain(data.map(d => d[groupKey]))
+          .rangeRound([margin.left, width - margin.right])
+          .paddingInner(0.1)
+
+        x1 = d3.scaleBand()
+          .domain(keys)
+          .rangeRound([0, x0.bandwidth()])
+          .padding(0.05)
+
+
+        
+
+        
+
+        color = d3.scaleOrdinal()
+          .range(["#A7FFE6", "#FFA733", "#26B1FF", "#000000", "#1A49BF", "#C7A7FF", "#90E0EF", "#FFA733"])
+
+
+            const svg = d3
+              .select('.chart')
+              .append('svg')
+              .attr('width', width)
+              .attr('height', height);
+
+            svg.append("g")
+              .selectAll("g")
+              .data(data)
+              .join("g")
+                .attr("transform", d => `translate(${x0(d[groupKey])},0)`)
+              .selectAll("rect")
+              .data(d => keys.map(key => ({key, value: d[key]})))
+              .join("rect")
+                .attr("x", d => x1(d.key))
+                .attr("y", d => y(d.value))
+                .attr("width", x1.bandwidth())
+                .attr("height", d => y(0) - y(d.value))
+                .attr("fill", d => color(d.key));
+
+            svg.append("g")
+                .call(xAxis);
+
+            svg.append("g")
+                .call(yAxis);
+
+            console.log(svg);
+
+            document.getElementById('graph').appendChild = svg;
+  
+          
+        })
+  
+    </script>
+  </section>
+
+
+
+  <!-- ---------------------------------------------------
+  --------------------------------------------------- -->
+
+
+  <!-- <script type="module">
+
+    import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import notebook from "https://api.observablehq.com/@camdens/grouped-bar-chart-s2q3a.js?v=3";
+    
+    // Select the element into which we’ll embed the chart.
+    const chart = document.querySelector("#observablehq-chart-fc38e864");
+    const chart_selector = document.querySelector("#observablehq-viewof-Data_Type-fc38e864");
+    // Instantiate a standard library that can be used by the definition of width below.
+    const library = new Library();
+    
+    // Pass the custom library to the runtime when instantiating our notebook.
+    const runtime = new Runtime(library);
+    const main = runtime.module(notebook, name => {
+        if (name === "chart") return new Inspector(chart);
+  if (name === "viewof Data_Type") return new Inspector(chart_selector);
+  return ["data","x0","test","y","yAxis","groupKey","keys","x1","xAxis"].includes(name);
+    });
+    
+    // Redefine width as a generator that yields the chart element’s clientWidth (if
+    // changed) whenever the window resize event fires. If desired, use a
+    // ResizeObserver instead; see the custom-fluid-width-and-height example.
+    main.redefine("width", library.Generators.observe(notify => {
+      let width = notify(chart.clientWidth); // initial width
+      function resized() {
+        let newWidth = chart.clientWidth;
+        if (newWidth !== width) {
+          notify(width = newWidth);
         }
       }
-
-      const renderData = (data) => {
-        vm = new Vue({
-          el: '#vue-app',
-          data: prepareData(data),
-          delimiters: ['${','}'],  // need to use these because jekyll competes for 
-          filters: {
-            iso8601ToLocaleDateString: (value) => {
-              if (value) {
-                return (new Date(value)).toLocaleDateString(undefined, {timeZone:'UTC'});
-              } else {
-                return null
-              }
-            }
-          },
-          mounted: () => {
-            initTippy();
-          }
-        });
-      }
-
-      // if we have a token, use it to call the api, otherwise redirect to login screen
-      const dataSource = '/data/global.json'
-      fetch(dataSource)
-        .then(response => {
-          switch (response.status) {
-            case 200:
-              // huzzah we have the data
-              response.json().then(data => renderData(data));
-              break;
-            case 403: 
-              // denied because of invalid token
-              window.location = '/login';
-              break;
-            default:
-          }
-        })
-        .catch(error => {
-          document.getElementById(`loading`).innerText = "Error loading the data. We apologize for the inconvenience; please try again later.";
-          console.error(error);
-        })
+      addEventListener("resize", resized);
+      return () => removeEventListener("resize", resized);
+    }));
+    
     </script>
+
+
+
+<script type="module">
+
+    import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import notebook from "https://api.observablehq.com/@camdens/grouped-bar-chart.js?v=3";
+    
+    // Select the element into which we’ll embed the chart.
+    const chart = document.querySelector("#observablehq-chart-fc38e8642");
+    const chart_selector = document.querySelector("#observablehq-viewof-Data_Type-fc38e8642");
+    // Instantiate a standard library that can be used by the definition of width below.
+    const library = new Library();
+    
+    // Pass the custom library to the runtime when instantiating our notebook.
+    const runtime = new Runtime(library);
+    const main = runtime.module(notebook, name => {
+        if (name === "chart") return new Inspector(chart);
+  if (name === "viewof Data_Type") return new Inspector(chart_selector);
+  return ["data","x0","test","y","yAxis","groupKey","keys","x1","xAxis"].includes(name);
+    });
+    
+    // Redefine width as a generator that yields the chart element’s clientWidth (if
+    // changed) whenever the window resize event fires. If desired, use a
+    // ResizeObserver instead; see the custom-fluid-width-and-height example.
+    main.redefine("width", library.Generators.observe(notify => {
+      let width = notify(chart.clientWidth); // initial width
+      function resized() {
+        let newWidth = chart.clientWidth;
+        if (newWidth !== width) {
+          notify(width = newWidth);
+        }
+      }
+      addEventListener("resize", resized);
+      return () => removeEventListener("resize", resized);
+    }));
+    
+    </script> -->
+       
+   </div>
+       
+
   </body>
 </html>
