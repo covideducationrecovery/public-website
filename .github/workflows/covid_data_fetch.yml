@@ -8,10 +8,13 @@ jobs:
   get-covid-data:
     runs-on: ubuntu-latest
     steps:
+      - run: git config --global url."git@github.com:".insteadOf "https://github.com/"
+    
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.COVID }}
           
+      
       - run: git config --global user.email "beta@covideducationrecovery.global"
       - run: git config --global user.name "Automated Covid Data"
 
