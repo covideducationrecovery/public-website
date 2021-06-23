@@ -35,7 +35,7 @@ jobs:
 
       - run: git pull
       - run: git add .
-      - run: git commit -m "Added files"
+      - run: git commit -m "automated covid data update"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
