@@ -1,5 +1,5 @@
 ### Automation status
-[![covid_data_fetch](https://github.com/covideducationrecovery/public-website/actions/workflows/covid_data_fetch.yml/badge.svg?branch=master)](https://github.com/covideducationrecovery/public-website/actions/workflows/covid_data_fetch.yml)
+[![covid_data_fetch](https://github.com/covideducationrecovery/public-website/actions/workflows/covid_data_fetch.yml/badge.svg)](https://github.com/covideducationrecovery/public-website/actions/workflows/covid_data_fetch.yml)
 
 # Live website
 
