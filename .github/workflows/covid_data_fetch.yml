@@ -8,7 +8,12 @@ jobs:
   get-covid-data:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.COVID }}
+          
       - run: git config --global user.email "beta@covideducationrecovery.global"
       - run: git config --global user.name "Automated Covid Data"
 
@@ -28,8 +33,11 @@ jobs:
           cd data
           python fetch_covid_data.py
 
-
       - run: git pull
       - run: git add .
-      - run: git commit -m "Added files"
-      - run: git push
+      - run: git commit -m "automated covid data update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.COVID }}
+          branch: ${{ github.ref }}

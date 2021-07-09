@@ -17,8 +17,8 @@ def update_json_file():
     url_look_up = 'countries_codes.csv'
     
     
-    data_all = pd.read_csv(url_data, error_bad_lines=False).loc[: , ['iso_code','total_cases','total_deaths','total_vaccinations','people_vaccinated','people_fully_vaccinated']]
-    data_look_up = pd.read_csv(url_look_up, error_bad_lines=False, keep_default_na=False, na_values=[""]).loc[: , ['iso2','iso3']].groupby(['iso3']).head(1)
+    data_all = pd.read_csv(url_data, encoding = "ISO-8859-1", error_bad_lines=False).loc[: , ['iso_code','total_cases','total_deaths','total_vaccinations','people_vaccinated','people_fully_vaccinated']]
+    data_look_up = pd.read_csv(url_look_up, encoding = "ISO-8859-1", error_bad_lines=False, keep_default_na=False, na_values=[""]).loc[: , ['iso2','iso3']].groupby(['iso3']).head(1)
     
     result = data_all.to_json(orient ='records')
     parsed = json.loads(result)
