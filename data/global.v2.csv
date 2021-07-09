@@ -1,0 +1,981 @@
+__id,countryName,iso3166Alpha2Code,iso3166Alpha3Code,m49code,wbCountryCode,wbIncomeLevelCode,wbIncomeLevelName,wbLendingTypeCode,wbLendingTypeName,wbRegion,wbRegionCode,responseDate,roundId,extendedBreakCode,educationStatusCode,educationStatusPrePrimaryCode,educationStatusPrimaryCode,educationStatusLowerSecondaryCode,educationStatusUpperSecondaryCode,educationStatusHigherCode,educationStatusVocationalCode,vaccineAvailabilityForTeachersCode,inPersonAdditionalSupportPrePrimary,inPersonAdditionalSupportPrimary,inPersonAdditionalSupportLowerSecondary,inPersonAdditionalSupportUpperSecondary,remoteEducationModalitiesPrePrimaryCode,remoteEducationModalitiesPrimaryCode,remoteEducationModalitiesLowerSecondaryCode,remoteEducationModalitiesUpperSecondaryCode,remoteEducationModalitiesHigherCode,remoteEducationModalitiesVocationalCode
+reco2S9XeAisbpJxz,Afghanistan,AF,AFG,4,AFG,LIC,Low income,IDX,IDA,South Asia,SAS,2021-01-29,1,2,3,,,,,,,,,,,,,1,1,1,1,1
+rec1zyw2hisAeiB6H,Afghanistan,AF,AFG,4,AFG,LIC,Low income,IDX,IDA,South Asia,SAS,2021-03-01,2,2,3,,,,,,,,,,,,7,7,7,7,7,7
+reckMF8pHXfmfcUZ0,Albania,AL,ALB,8,ALB,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,"3,4",,,,,,,,,,,,"1,2,4","1,2,4","1,2,4","1,2,4","1,4","1,4"
+recEDAOLp7bg8bt2D,Albania,AL,ALB,8,ALB,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-04,2,2,"3,4",,,,,,,2,8,8,8,8,"1,2,4","1,2,4","1,2,4","1,2,4","1,4","1,4"
+rec6uvk6Oljd2AVV1,Albania,AL,ALB,8,ALB,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-04,8,2,4,4,4,4,4,2,4,1,8,8,8,8,"1,2,4","1,2,4","1,2,4","1,2,4","1,4","1,4"
+rec8ByPBCKXjxtT0r,Algeria,DZ,DZA,12,DZA,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-01-27,1,3,4,,,,,,,,,,,,,,,,,
+recXW6bW3l3zAH3E0,Algeria,DZ,DZA,12,DZA,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-02-23,2,2,4,,,,,,,2,2,"2,6","2,6","2,6",,,,,,
+recEEbnyaI7dOkmGw,Algeria,DZ,DZA,12,DZA,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-05,4,2,4,,,,,,,2,2,"2,5","2,5","2,5",,,,,,
+recp6I0uKEv0PIK4D,Algeria,DZ,DZA,12,DZA,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-17,7,2,4,4,4,4,4,3,3,2,2,"2,5","2,5","2,5",6,6,6,6,1,1
+reciWUyqxWAXRe4Kx,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+recX7npLgwmoSh8f5,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-23,2,2,4,,,,,,,2,7,7,7,7,,,,,,
+recPVH32Amz9K2R4n,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-14,3,2,3,,,,,,,2,8,8,8,8,6,1,1,1,6,6
+recrLef96sVBnORx3,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-29,4,2,"3,4",,,,,,,1,8,8,8,8,6,6,6,6,6,6
+recRWC0pboWXRNvPn,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-09,5,2,3,,,,,,,1,8,8,8,8,6,6,6,6,6,6
+recLza5ovCQDLMdpx,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-26,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+reccZ71AtjncvkaUM,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-19,7,2,"2,4","2,4","2,4","2,4","2,4","2,4",5,2,,,,,,,,,,
+recDtItJSEletGb17,American Samoa,AS,ASM,16,ASM,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-12,9,1,4,4,4,4,4,5,5,2,8,8,8,8,,,,,,
+reck2nmHFx6andqdj,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-03,2,2,"3,4",,,,,,,2,8,8,8,8,7,7,1,1,1,1
+recZ6bk7gfmhNqnqi,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,4,,,,,,,4,8,8,8,8,,,,,,
+recsjsjneSpXE2KGA,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,4,,,,,,,2,8,8,8,8,,,,,,
+recXCYLzPMvAgwkrY,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,4,,,,,,,1,8,8,8,8,,,,,,
+recpKmJvBgkynruDT,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-01,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recgL1llo1pXHw7cD,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+rec7s2L25QLpyNpem,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recRF6iAJxOvuDHxU,Andorra,AD,AND,20,AND,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,1,,,,,,,,1,,,,,,,,,,
+rec1bCACMR3VWqsdu,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-01-30,1,3,1,,,,,,,,,,,,,,,,,
+recGGd8k41klNQVrV,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-03-02,2,2,"3,4",,,,,,,2,"1,2","1,2","1,2",1,7,2,2,2,6,6
+recLETjnTr5EvmhvI,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-03-05,3,2,4,,,,,,,2,"1,2","1,2,6","1,2,6","1,2,6",,,,,,
+recEbKILPCjmXIfAa,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-05,4,2,4,,,,,,,1,"1,2","1,2,6","1,2,6","1,2,6",,,,,,
+recKgVIxiyH5r8SHt,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-26,6,2,4,4,4,4,4,4,4,1,,,,,,,,,,
+rec41dtqQ8EHsJnaI,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-05-18,7,2,4,4,4,4,4,4,4,1,"1,2","1,2,6","1,2,6","1,2,6",,,,,,
+recxGPyRwNuUTVRhM,Angola,AO,AGO,24,AGO,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,1,"1,2","1,2,6","1,2,6","1,2,6",,,,,,
+recCVTECATSDHYj1v,Argentina,AR,ARG,32,ARG,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,1,,,,,,,,,,,,,,,,,,
+recU0JVo7lDkCT4dH,Argentina,AR,ARG,32,ARG,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-24,2,2,"2,3",,,,,,,2,1,,7,7,1,"1,4,5","1,4,5","1,4,5","1,4,5","1,4,5"
+recWaxzaf2raAzSuh,Argentina,AR,ARG,32,ARG,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-28,6,2,"3,2",3,"3,2","3,2","3,2",2,2,2,,,,,,,,,,
+recxGDq4cPgjyH9lj,Argentina,AR,ARG,32,ARG,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-07,8,2,"4,3,2","4,3","4,3,2","4,3,2","3,2",2,2,1,7,7,7,7,7,"1,4,5","1,2,4,5","1,2,4,5",1,1
+recGTGpCpO013lCws,Armenia,AM,ARM,51,ARM,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,"3,4",,,,,,,,,,,,5,5,5,5,"1,5","1,5"
+recuCcYhvkd960HXw,Armenia,AM,ARM,51,ARM,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-02,2,2,"3,4",,,,,,,2,1,7,7,7,5,5,5,5,"1,5","1,5"
+reci836BuduwV7LiN,Armenia,AM,ARM,51,ARM,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-01,8,2,"4,3",4,4,4,3,3,3,2,7,2,2,2,5,5,5,5,"1,5","1,5"
+recyYzmZAT1AdDxV0,Aruba,AW,ABW,533,ABW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-30,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recDVRh7GRlaOyWCm,Aruba,AW,ABW,533,ABW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-20,7,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+recM5J5J5YVkLsJxY,Aruba,AW,ABW,533,ABW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-03,8,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+reckazn89ya7hu82e,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-23,2,2,"2,3,4",,,,,,,2,8,2,2,2,8,1,1,1,1,1
+recfFTsp8ryksxWVP,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-15,3,2,"3,4",,,,,,,2,8,8,8,8,6,1,1,1,6,6
+recfoEsSFVCYlFblb,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-29,4,2,"3,4",,,,,,,2,"1,6","1,6","1,6","1,6",8,8,"1,8","1,8",6,6
+recL5aPZo2BjLRDeV,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-12,5,1,,,,,,,,2,,,,,,,,,,
+recKmIXJcz94qcE3n,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-07,6,2,4,4,4,4,4,3,3,2,5,5,5,5,1,1,1,1,1,1
+recwHk3BOxo88cYdu,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,2,2,2,2,2,2,2,2,,,,,1,1,1,1,1,1
+recWQOtMVTmkrEx3c,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-03,8,2,"3,4","3,4","3,4","3,4",3,"3,4","3,4",2,8,8,8,8,1,1,1,1,1,1
+reclZ6GWABjvzj53p,Australia,AU,AUS,36,AUS,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-14,9,2,"4,3",4,4,"4,3","4,3","3,2","3,2",2,6,6,6,6,1,1,1,1,1,6
+rec1ps3NpusK5fusM,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-28,1,2,"2,3",,,,,,,,,,,,"1,2","1,2","1,2",1,1,1
+recUS6XEmp9O46aOx,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-25,2,2,3,,,,,,,4,8,1,1,1,8,1,1,1,1,6
+recTUngVP7ZySjNEo,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,"3,4",,,,,,,2,8,8,8,3,6,1,1,"1,5",1,7
+recauU98RQLBOVjIx,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,1,,,,,,,,1,,,,,,,,,,
+recfLjeJ5AZhzRwb0,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,3,,,,,,,1,8,8,8,8,6,6,6,6,6,6
+recajJgHCqyHTl0iG,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-08,6,2,"4,3",3,4,3,4,3,4,2,8,8,8,8,7,7,1,1,6,6
+recHPGXYbHjoQQc2a,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,"4,3",3,4,3,3,3,3,4,8,8,8,8,1,1,1,1,1,1
+recrkfieE5kj6s8mQ,Austria,AT,AUT,40,AUT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,"4,3",4,4,"3,4","3,4",3,3,1,8,8,8,8,6,1,1,1,1,1
+recwCU9lNDEfsnviF,Azerbaijan,AZ,AZE,31,AZE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-02,1,2,3,,,,,,,,,,,,6,6,6,6,6,6
+rec3z1BWG40Z13B4s,Azerbaijan,AZ,AZE,31,AZE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-03,2,2,3,,,,,,,1,8,8,8,8,2,2,2,2,6,2
+rec2ZJjpA8kECiqgl,Azerbaijan,AZ,AZE,31,AZE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-06,5,2,"2,3",,,,,,,1,7,7,7,7,7,"1,2","1,2","1,2",1,"1,2"
+rec77SGisGfeztndo,Azerbaijan,AZ,AZE,31,AZE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-07,8,2,3,3,3,3,3,3,3,1,7,7,7,7,7,"1,2","1,2","1,2",1,"1,2"
+recDYmi8yWIMufEJY,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-01-31,1,2,2,,,,,,,,,,,,"1,5",1,1,1,1,1
+recfztj0bfPNlpjCR,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-26,2,2,3,,,,,,,2,2,"2,6,8","2,6","2,8",8,1,1,1,6,6
+recJEn3SGNy8X8Dhy,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-15,3,2,3,,,,,,,2,"1,5","1,5","1,5","1,5","1,4",1,1,1,1,6
+recy4NQ0VYAuewHpC,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-29,4,2,3,,,,,,,2,8,8,8,8,"1,5",1,1,1,1,6
+recCVDsTHNGw8N1pw,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-09,5,2,3,,,,,,,2,6,6,6,6,"1,5",1,1,1,6,6
+recHFpHc72FfsGnKj,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-07,6,2,"3,2",3,3,3,"3,2","3,2","3,2",1,"1,6",6,6,6,"1,5",1,1,1,6,6
+recEb1PhtPh5XAgFX,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-19,7,2,"2,4",2,"2,4","2,4","2,4","2,4","2,4",1,8,8,8,8,"1,5","1,5","1,5","1,5",6,6
+recDLdS2ZWsajknE6,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-29,8,2,2,2,2,2,2,5,5,2,,,,,1,1,1,1,6,6
+rec2EGthkRchveyxP,"Bahamas, The",BS,BHS,44,BHS,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-16,9,2,"4,3",4,4,"4,3","4,3",5,5,1,"1,6","1,6","1,6","1,6",6,1,1,1,6,6
+recEo6LI48QF81Pf3,Bahrain,BH,BHR,48,BHR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-09,1,2,2,,,,,,,,,,,,"2,3","2,3","1,2,3","1,2,3","1,4",6
+recrg5iS7srf87G4N,Bahrain,BH,BHR,48,BHR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-23,2,2,2,,,,,,,1,,,,,"2,3","2,3","1,2,3","1,2,3","1,4",6
+rec13dyUJ78DNnW97,Bahrain,BH,BHR,48,BHR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-05,4,2,3,,,,,,,1,,,,,"2,3","2,3","1,2,3","1,2,3","1,4",6
+receTobEiqJV2uWue,Bahrain,BH,BHR,48,BHR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-29,6,2,3,4,3,3,3,3,3,1,,2,2,2,"2,3","2,3","1,2,3","1,2,3","1,4",6
+recoEUK49HcWg1KLx,Bahrain,BH,BHR,48,BHR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,1,,,,,,,,1,,,,,,,,,,
+recufqj6zXt0m4vne,Bangladesh,BD,BGD,50,BGD,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-02-15,1,2,2,,,,,,,,,,,,7,"1,2,3,4","1,2,4","1,2,4","1,4",1
+recu7ScGHzptzMRFQ,Bangladesh,BD,BGD,50,BGD,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-02-27,2,2,2,,,,,,,1,,,,,7,"1,2,3,4","1,2,4","1,2,4","1,4",1
+recmJVMnhmRWzClEC,Bangladesh,BD,BGD,50,BGD,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-04-01,4,2,2,,,,,,,1,,,,,7,"1,2,3,4","1,2,4","1,2,4","1,4",1
+recfTZP02OX4U8eHU,Bangladesh,BD,BGD,50,BGD,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-05-25,8,2,2,5,2,2,2,2,2,1,,,,,7,"1,2,3,4","1,2,3,4","1,2,3,4","1,4","1,4"
+recCi5k0qWcKjv5Sq,Belarus,BY,BLR,112,BLR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+recTAWAihrzah9Bb5,Belarus,BY,BLR,112,BLR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-17,2,2,4,,,,,,,1,,,,,,,,,,
+recgwxYUsabTddKyQ,Belarus,BY,BLR,112,BLR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-31,4,2,4,,,,,,,1,7,7,7,7,,,,,,
+recrpO3iIeSKutyKc,Belarus,BY,BLR,112,BLR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-28,6,2,4,4,4,4,4,4,4,1,,,,,,,,,,
+recgb3vbeuq513xKJ,Belarus,BY,BLR,112,BLR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-02,8,1,,,,,,,,1,,,,,,,,,,
+rec7WCBZo6MfVa1WE,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-31,1,2,"3,4",,,,,,,,,,,,7,"1,5",7,1,1,1
+recP1vRtKdjgLu447,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-01,2,2,"2,3,4",,,,,,,2,1,1,1,1,"1,8","1,8","1,8","1,8","1,8","1,8"
+recWTt3CY5b4rjg7n,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,"3,4",,,,,,,2,8,8,8,8,7,7,1,1,1,1
+recva7ixg6TMfkGnx,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,2,"1,4",,,,,,,2,8,8,8,8,,,,,,
+recKsU2vidBXcHgHp,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,1,,,,,,,,2,,,,,,,,,,
+reclevXwF4CrcrIST,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,"4,3",4,4,4,3,3,3,2,8,8,8,8,7,7,7,1,1,1
+recYFqiulteQn42Xv,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,5,5,2,8,8,8,8,,,,,,
+rec0npiJuuI8IgEmP,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,"3,4","3,4","3,4","3,4","3,4","3,4",4,2,8,8,8,8,1,1,1,1,1,6
+rec3RAFp4RPMugQ57,Belgium,BE,BEL,56,BEL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,"4,2","4,2",2,8,8,8,8,7,7,7,7,"1,4","1,4"
+recblNbpZRGSbAzF3,Benin,BJ,BEN,204,BEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,4,,,,,,,,1,7,7,7,,,,,,
+recdyD2WRmqGGvDC0,Benin,BJ,BEN,204,BEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-28,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+rec07zgLewJuW4kSQ,Benin,BJ,BEN,204,BEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recWijdflS9t5vDsc,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-02-01,1,2,4,,,,,,,,,,,,,,,,,
+recXn0Ei6stgI3i7L,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-02-23,2,2,4,,,,,,,1,8,8,8,8,,,,,,
+recf66LmstPvyC0wK,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-03-06,3,2,4,,,,,,,2,1,1,1,1,,,,,,
+rec4U9xItEesMBvXl,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-03-31,4,2,2,,,,,,,1,,,,,6,1,1,1,1,1
+rec8mJr3PJ42qGvVW,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-04-12,5,1,,,,,,,,1,,,,,,,,,,
+reckCz3E7cGpK1ImN,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-05-07,6,2,3,3,3,3,3,2,2,1,3,3,3,3,1,1,1,1,1,1
+reco4FAQ3NNSao0R4,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-05-20,7,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+rect2JzTzexwBDLC6,Bermuda,BM,BMU,60,BMU,HIC,High income,LNX,Not classified,North America,NAC,2021-06-17,9,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recZDaHsgD2306MrP,Bhutan,BT,BTN,64,BTN,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-01-29,1,2,2,,,,,,,,,,,,6,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5"
+rec3gSraDokcq6shX,Bhutan,BT,BTN,64,BTN,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-02-26,2,2,"1,2,4",,,,,,,4,8,2,2,2,7,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5"
+recjMBZVMydD7pM6q,Bhutan,BT,BTN,64,BTN,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-04-21,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+recGOiSaI9PIA0wIg,Bolivia,BO,BOL,68,BOL,LMC,Lower middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-01,2,2,"2,4",,,,,,,2,8,8,8,8,7,7,7,7,7,7
+recXVzrO83xGbGICM,Bolivia,BO,BOL,68,BOL,LMC,Lower middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-04,6,2,5,5,5,5,5,5,5,2,,,,,,,,,,
+recMOvdZ7URplUfry,Bosnia and Herzegovina,BA,BIH,70,BIH,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,"3,4",,,,,,,,,,,,7,"1,2,4,5","1,2,4,5","1,4,5",1,6
+recb6VK389XvglfwW,Bosnia and Herzegovina,BA,BIH,70,BIH,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,"3,4",,,,,,,,,,,,7,"1,2,4,5","1,2,4,5","1,4,5",1,6
+rec2fd84WZv1CIgyJ,Bosnia and Herzegovina,BA,BIH,70,BIH,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-04,8,2,3,4,3,3,3,3,3,2,7,7,7,7,8,"1,2,4","1,2,4","1,4","1,4","1,4"
+rec2BYrpY4apB0SZB,Botswana,BW,BWA,72,BWA,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-26,6,2,4,1,4,4,4,3,4,4,,,,,,,,,,
+recwzt2xvJD06FXPE,Botswana,BW,BWA,72,BWA,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-08,9,2,4,4,4,4,4,3,4,2,7,2,2,2,5,"3,5","2,3","2,3",1,6
+reci5EcE0MpP5cSk1,Botswana,BW,BWA,72,BWA,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-08,9,2,4,4,4,4,4,3,4,2,7,2,2,2,5,"3,5","2,3","2,3",1,6
+reccUkQa3mVJami43,Brazil,BR,BRA,76,BRA,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-02,2,2,"2,3,4",,,,,,,1,8,8,8,8,6,"1,2,4","1,2,4","1,2,4","1,4","1,4"
+recozxqGpnQ1zxx54,Brazil,BR,BRA,76,BRA,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-09,3,2,2,,,,,,,2,,,,,7,7,7,7,7,7
+rec41f49sOBFFozYr,Brazil,BR,BRA,76,BRA,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-03,4,2,2,,,,,,,2,,,,,7,7,7,7,7,7
+recgWFMSNbG7TuZ5K,Brazil,BR,BRA,76,BRA,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-14,5,2,2,,,,,,,2,,,,,7,7,7,7,7,7
+recMD6qpPK7BgHUkl,Brazil,BR,BRA,76,BRA,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-04,6,2,"3,2","3,2","3,2","3,2","3,2","3,2","3,2",1,8,8,8,8,7,7,7,7,7,7
+recAwaBeSn3gIC9oI,Brazil,BR,BRA,76,BRA,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-05,8,2,"3,2","3,2","3,2","3,2","3,2","3,2","3,2",1,8,8,8,8,7,7,7,7,7,7
+recM0DN44u7Oc5zZk,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-01,1,2,3,,,,,,,,,,,,8,1,1,1,1,1
+recX3gjsuJ80V8XIL,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-23,2,2,3,,,,,,,2,8,8,8,8,8,6,6,6,6,6
+rec7WQxqmqK8CUSMY,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-13,3,2,"3,4",,,,,,,2,8,8,8,8,7,7,1,1,1,6
+recJklwk3NqWumcxL,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-26,4,2,"3,4",,,,,,,1,4,4,4,4,1,1,1,1,1,6
+rec8dEAomXrWuSodc,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-10,5,1,,,,,,,,1,,,,,,,,,,
+recdWNpJahTzJXCaS,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-30,6,2,4,4,4,4,4,4,1,2,8,8,8,8,,,,,,
+recAMrgRHsywWFov3,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-18,7,2,3,3,3,3,3,3,3,2,8,8,8,8,1,1,1,1,1,1
+recdrOccIa0Hln7Ax,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-30,8,2,3,3,3,3,3,3,3,2,8,8,8,8,1,1,1,1,1,1
+recZWACIt5uM76xaO,British Virgin Islands,VG,VGB,92,VGB,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-16,9,2,3,3,3,3,3,3,3,1,7,7,7,7,1,1,1,1,1,1
+recDVlnBHP3cEd6sz,Brunei Darussalam,BN,BRN,96,BRN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-06,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recoX3DV7LNS5RIUS,Bulgaria,BG,BGR,100,BGR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,3,,,,,,,,,,,,"1,2","1,2","1,2","1,2","1,2","1,2"
+recXrGqMiOSYJdzjc,Bulgaria,BG,BGR,100,BGR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-04,2,2,3,,,,,,,1,8,8,8,8,"1,2","1,2","1,2","1,2","1,2","1,2"
+recWA4fqJcyA5oPet,Bulgaria,BG,BGR,100,BGR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-01,8,1,,,,,,,,1,,,,,,,,,,
+rec7JJCCkTGP7b1mm,Burkina Faso,BF,BFA,854,BFA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recgACUefdbA28Anj,Burkina Faso,BF,BFA,854,BFA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,,1,6,6,6,,,,,,
+recDYcLS1Q0mgOBdD,Burkina Faso,BF,BFA,854,BFA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-04,6,2,4,4,4,4,4,4,4,2,7,6,6,6,,,,,,
+recS8WsSpdlGFFzxt,Burkina Faso,BF,BFA,854,BFA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,7,6,6,6,,,,,,
+recm30slVSxyZWqbI,Burundi,BI,BDI,108,BDI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-08,3,2,4,,,,,,,,,,,,,,,,,
+rec9jizsh64pb6dC3,Burundi,BI,BDI,108,BDI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-06,5,2,4,,,,,,,2,,5,5,,,,,,,
+reciGKBJ7E6I7b2Ig,Burundi,BI,BDI,108,BDI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-04,8,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recOQQswtfdcZumrR,Cabo Verde,CV,CPV,132,CPV,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-02-05,1,2,3,,,,,,,,,,,,6,2,2,2,6,6
+recd6ZNp0lOwj1L0r,Cabo Verde,CV,CPV,132,CPV,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-05-05,6,2,3,5,3,3,3,5,3,2,,,,,6,2,"2,3","2,3",6,6
+recHLcJJVoHoQke8Q,Cabo Verde,CV,CPV,132,CPV,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-07,8,2,3,5,3,3,3,5,3,2,8,8,8,8,6,"2,3","2,3","2,3",6,6
+recngK8QOeQSWuYYm,Cambodia,KH,KHM,116,KHM,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-01-29,1,2,"3,4",,,,,,,,,,,,"1,2,3","1,2,5","1,2,5","1,2,5",1,1
+rec8nO9MKLMHqpOsr,Cambodia,KH,KHM,116,KHM,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-25,2,2,"3,4",,,,,,,2,"2,3","2,3","2,3","2,3","1,2,3","1,2,5","1,2,5","1,2,5",1,1
+recVh4Iv2aLGYIqPc,Cambodia,KH,KHM,116,KHM,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-04-04,4,2,2,,,,,,,1,,,,,"1,2,3","1,2,5","1,2,5","1,2,5",1,1
+recoLtjxaEBUg6E3u,Cambodia,KH,KHM,116,KHM,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-02,8,2,2,2,2,2,2,2,2,1,,,,,"1,2,3","1,2,5","1,2,5","1,2,5",1,1
+rechSqJHY61xGxBQ0,Cameroon,CM,CMR,120,CMR,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recnfo41X6LYOQKmL,Cameroon,CM,CMR,120,CMR,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,,6,6,6,6,,,,,,
+rec88owaUoYSKoGKY,Cameroon,CM,CMR,120,CMR,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-04-08,5,1,,,,,,,,2,,,,,,,,,,
+recshy5jCaFMLb3en,Cameroon,CM,CMR,120,CMR,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,1,5,5,5,5,,,,,,
+rec4AH37JlapXlnsM,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-02-01,1,2,"3,4",,,,,,,,,,,,1,1,1,1,1,1
+recgLGwDecKfHBVq3,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-02-23,2,2,"3,4",,,,,,,2,8,8,8,8,8,1,1,1,1,6
+recwFZpGPGgd2nTJT,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-03-12,3,2,"2,3,4",,,,,,,2,8,8,8,8,"1,2,4","1,2,4","1,2,4","1,2,4",1,1
+recojgJodxnHoIg66,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-03-29,4,2,"3,4",,,,,,,2,8,8,8,8,"1,2,4","1,2,4","1,2,4","1,2,4",1,1
+recRMsoPGcCteBRrQ,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-04-12,5,2,3,,,,,,,2,8,8,8,8,1,1,1,1,1,1
+recPCqZ48AdWBd66z,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-05-09,6,2,3,3,3,3,3,3,3,1,8,8,8,8,"1,2","1,2","1,2","1,2","1,2","1,2"
+recAXe2RkvFGlHALM,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-05-20,7,2,3,3,3,3,3,3,3,1,,,,,"1,2","1,2","1,2","1,2","1,2","1,2"
+recDftsfd5SZyJd1n,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-06-03,8,2,3,3,3,3,3,3,3,1,8,8,8,8,1,1,1,1,1,1
+recBTKyLMDcDFkCgB,Canada,CA,CAN,124,CAN,HIC,High income,LNX,Not classified,North America,NAC,2021-06-17,9,2,"3,2","3,2","3,2","3,2","3,2","3,2","3,2",1,8,8,8,8,"1,2,3","1,2,3","1,2,3","1,2,3",1,1
+recPsuMkbyK3HDtLy,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-01,1,2,4,,,,,,,,,,,,,,,,,
+rec4tXCFfcyKhrzMj,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-23,2,2,4,,,,,,,1,8,8,8,8,,,,,,
+recVZyhpKLSJWuzqD,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-14,3,2,4,,,,,,,1,8,8,8,8,,,,,,
+recZYGGSBbL2XsgSP,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-30,4,2,4,,,,,,,2,8,8,8,8,,,,,,
+recTcnPkEQh0zCFks,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-12,5,2,4,,,,,,,1,6,6,6,6,,,,,,
+recuPqv0BiiuVstJy,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-07,6,2,4,4,4,4,4,4,4,2,"3,6","3,6","3,6","3,6",,,,,,
+recJpNA5Impbj2rHq,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-20,7,2,4,4,4,4,4,4,4,1,6,6,6,6,,,,,,
+rec5XT7R8M1qXpdOY,Cayman Islands,KY,CYM,136,CYM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-17,9,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recta4FXIJpub3gFx,Central African Republic,CF,CAF,140,CAF,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-04,6,2,4,4,4,4,4,4,4,2,7,,7,7,,,,,,
+recRyj5lRaMhHlIHG,Central African Republic,CF,CAF,140,CAF,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-06,8,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recgz2PoF8Z4aQcK0,Chad,TD,TCD,148,TCD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recCJ7Uy3UJYB5HqG,Chad,TD,TCD,148,TCD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-24,2,2,4,,,,,,,,8,2,2,2,,,,,,
+recXxakdCHTMsXvvT,Chad,TD,TCD,148,TCD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-02,4,2,4,,,,,,,,2,2,2,2,,,,,,
+recnX5khahHROnzA5,Chad,TD,TCD,148,TCD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,2,2,2,2,,,,,,
+recd8z8UZ2fjG8OA1,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,"2,3",,,,,,,,,,,,1,1,1,1,1,6
+recPDu1O0alnU6y4g,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-27,2,2,"2,3",,,,,,,1,8,8,8,8,8,1,1,1,1,6
+recCtzlTu5R6zrPrZ,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,4,,,,,,,2,1,1,1,1,,,,,,
+recHn9v3jV08gJow6,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-27,4,2,4,,,,,,,2,8,8,8,8,,,,,,
+rec6PvZ5RkV4lX7np,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,1,,,,,,,,2,,,,,,,,,,
+recsiMinwIg8nIjXk,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-06,6,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recwW2n43bkbv4Ixd,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+reclCPXWt76s1x0be,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-02,8,1,,,,,,,,1,,,,,,,,,,
+recqMaBozWXt3vHEx,Channel Islands,,,,CHI,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-19,9,2,4,4,4,4,4,4,4,2,6,6,6,6,,,,,,
+recxL6rmZJjW9retZ,Chile,CL,CHL,152,CHL,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,1,,,,,,,,,,,,,,,,,,
+recKKVtqSkBJCWPpA,Chile,CL,CHL,152,CHL,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-01,2,1,,,,,,,,1,,,,,,,,,,
+recm2JxdJkEw9qVMi,Chile,CL,CHL,152,CHL,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-07,6,2,2,2,2,2,2,2,2,,,,,,,,,,,
+recBErpqlfDV4i2I3,China,CN,CHN,156,CHN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-01-29,1,2,,,,,,,,,,,,,,,,,,
+recswnDmiwWgLNNLm,China,CN,CHN,156,CHN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-25,2,1,,,,,,,,2,,,,,,,,,,
+rec3SpmB493HeXGQs,China,CN,CHN,156,CHN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-04-05,4,2,4,,,,,,,2,7,5,5,5,,,,,,
+recBbY7fNMydBqNAQ,China,CN,CHN,156,CHN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-06-04,8,2,4,4,4,4,4,4,4,2,7,5,5,5,,,,,,
+recB8G9tXcSWA9o1b,Colombia,CO,COL,170,COL,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,2,3,,,,,,,,,,,,"2,3,4,5","1,2,3,4","1,2,3,4,5","1,4,5","1,4,5","1,4"
+rec6j9sxu1RZO4p0u,Colombia,CO,COL,170,COL,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-25,2,2,3,,,,,,,2,8,8,8,8,"1,2,3,4,5","1,2,3,4,8","1,2,3,4,5,8","1,4,5","1,4,5","1,4"
+recxBPYlHyR2BLmWm,Colombia,CO,COL,170,COL,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-30,6,2,"3,2","3,2","3,2","3,2","3,2","3,2","3,2",2,8,8,8,8,"1,2,3,4,5,8","1,2,3,4,5,8","1,2,3,4,5,8","1,4,5,8","1,4,5","1,4,5"
+recV0nrE9d0XFc3VW,Colombia,CO,COL,170,COL,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-04,8,2,"3,2","3,2","3,2","3,2","3,2","3,2","3,2",1,8,8,8,8,"1,2,3,4,5,8","1,2,3,4,5,8","1,2,3,4,5,8","1,4,5,8","1,4,5","1,4,5"
+recZKuXOEyjVPeKLf,Comoros,KM,COM,174,COM,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-29,1,2,"1,4",,,,,,,,,,,,,,,,,
+reclXHftUKCq4gLLo,Comoros,KM,COM,174,COM,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-26,1,3,"1,4,5",,,,,,,,,,,,,,,,,
+recoK7zW4Zd0vD1La,Comoros,KM,COM,174,COM,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-26,2,2,"1,4",,,,,,,,"2,4","2,4","2,4","2,4",,,,,,
+rec6YMMVTAsqpOamk,Comoros,KM,COM,174,COM,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-26,2,3,4,,,,,,,,"2,4","2,4","2,4","2,4",,,,,,
+recKFIAMp127qQ0AH,Comoros,KM,COM,174,COM,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-04,4,2,4,,,,,,,2,2,"2,5",2,2,,,,,,
+rec100UwsPOzuI2m2,Comoros,KM,COM,174,COM,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-26,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+rectFzdTyrrpkLbVg,"Congo, Dem. Rep.",CD,COD,180,COD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-27,1,2,2,,,,,,,,,,,,1,"1,3",1,1,7,7
+recjIPT9uicvF5hua,"Congo, Dem. Rep.",CD,COD,180,COD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,4,,,,,,,,2,2,2,2,,,,,,
+recQ1yFk7oKlV9rfl,"Congo, Dem. Rep.",CD,COD,180,COD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-06,5,2,4,,,,,,,2,2,2,2,2,,,,,,
+rec3bSsX8KCxLPvx0,"Congo, Dem. Rep.",CD,COD,180,COD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,2,2,2,2,,,,,,
+recKroDceEgTGQ0IN,"Congo, Dem. Rep.",CD,COD,180,COD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-21,9,2,4,4,4,4,4,4,4,2,2,2,2,2,,,,,,
+recc1jClq5uSQJ3sU,"Congo, Rep.",CG,COG,178,COG,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-04-29,6,2,3,4,3,3,3,4,4,2,,,,,,,,,,
+recUFoFgULdG51Wh9,"Congo, Rep.",CG,COG,178,COG,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-06,8,2,3,4,3,3,3,4,4,,,,,,7,"3,5",5,"1,2,3,4,5",7,5
+reczVvjdGI4wpC1R5,Cook Islands,CK,COK,184,COK,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-01-26,1,2,4,,,,,,,,,,,,,,,,,
+rec4EGD47EdnbMNn8,Cook Islands,CK,COK,184,COK,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-03,2,2,4,,,,,,,,,,,,,,,,,
+recjh08Oq7u4pyuUN,Cook Islands,CK,COK,184,COK,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-31,4,2,4,,,,,,,2,7,7,7,7,,,,,,
+recAYpR3Bikdljk0u,Cook Islands,CK,COK,184,COK,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-04,6,2,4,4,4,4,4,3,4,,7,7,7,7,6,6,6,6,6,6
+recL1c2bmCJypeo8T,Cook Islands,CK,COK,184,COK,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-21,7,2,4,4,4,4,4,3,4,,,,,,,,,,,
+rec2oZRL8ulluFQ5A,Costa Rica,CR,CRI,188,CRI,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-18,2,2,3,,,,,,,2,,,,,"2,3","1,2,3,5","1,2,3,5","1,2,3,5",1,1
+recHDHE7cXPOTmen5,Costa Rica,CR,CRI,188,CRI,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-03,6,2,3,3,3,3,3,3,3,2,8,8,8,8,"2,3","1,2,3,5","1,2,3,5","1,2,3,5",1,1
+recocmil9d1zDhDPb,Cote d'Ivoire,CI,CIV,384,CIV,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-05,1,2,4,,,,,,,,,,,,,,,,,
+recFYxVACpdbg6NU2,Cote d'Ivoire,CI,CIV,384,CIV,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,4,2,2,7,7,,,,,,
+recK6hnBrZIZwdjFB,Cote d'Ivoire,CI,CIV,384,CIV,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-08,5,2,4,,,,,,,1,2,2,2,2,,,,,,
+reckxG6n0Qk8h09xJ,Cote d'Ivoire,CI,CIV,384,CIV,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,1,2,2,2,2,,,,,,
+recxatNzBXSpS0rzw,Croatia,HR,HRV,191,HRV,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-28,1,2,3,,,,,,,,,,,,7,2,"1,2","1,4","1,4","1,4"
+recAnema1uJ2Xe2HW,Croatia,HR,HRV,191,HRV,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-03,2,2,4,,,,,,,2,1,7,7,7,,,,,,
+recdMke8Xg5DkG6Sq,Croatia,HR,HRV,191,HRV,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-02,8,2,3,3,3,3,3,3,3,1,7,7,7,7,7,2,"1,2","1,4","1,4","1,4"
+recdhMZqlci4NxWru,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-01,1,2,4,,,,,,,,,,,,,,,,,
+recNFH4woflxDN5kz,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-23,2,2,2,,,,,,,4,,,,,2,2,2,2,1,6
+recHvibnzFa3XEP6S,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-12,3,2,2,,,,,,,,,,,,2,2,2,2,1,6
+reccBhzv1yO1Vb84K,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-25,4,2,2,,,,,,,,,,,,2,2,2,2,1,2
+rec32JSPqgMKfF4Kn,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-12,5,1,,,,,,,,2,,,,,,,,,,
+recPSotI6xOusYMJG,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-06,6,2,2,2,2,2,2,2,2,2,,,,,2,2,2,2,2,2
+recDMkwPBlzoSMzcq,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-16,7,2,2,2,2,2,2,2,2,2,,,,,2,2,2,2,2,2
+recMebWW7a1Hen2C1,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-03,8,2,2,2,2,2,2,2,2,2,,,,,2,2,2,2,1,2
+recKEPXUhIdwfwz0d,Cuba,CU,CUB,192,CUB,UMC,Upper middle income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-17,9,2,2,4,2,2,2,2,2,2,7,7,7,7,1,"1,2","1,2","1,2",1,1
+recxmCkulVj7P1G1s,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+recXPdSBEEaiUTYAF,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-26,2,2,4,,,,,,,2,8,8,8,8,,,,,,
+recBqmcqXn1MbLTdO,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-15,3,2,4,,,,,,,2,8,8,8,8,,,,,,
+rec6rsXuCw0iVV4t3,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-29,4,2,"2,4",,,,,,,2,8,8,8,8,6,6,6,6,1,6
+rec2m5hZV59kf3DlT,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-12,5,2,"2,4",,,,,,,2,,,,,6,6,6,6,6,6
+reclHnPT3AkWxgpQL,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-09,6,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recioUumllfij4pWt,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-20,7,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recxRMGUHAJycqwCi,Curacao,CW,CUW,531,CUW,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-17,9,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recCP26x6iWqwkAAA,Cyprus,CY,CYP,196,CYP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-11,1,2,"2,3",,,,,,,,,,,,"1,2","1,2",1,1,1,1
+recDW1AGIvEmY2r4S,Cyprus,CY,CYP,196,CYP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-02,2,2,3,,,,,,,2,8,8,8,8,"1,2,5","1,2,5","1,2,5","1,2,5",6,"1,2,5"
+recxm51FAuApsmkD3,Cyprus,CY,CYP,196,CYP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-04,4,2,4,,,,,,,2,8,8,8,8,,,,,,
+rec1VY3GrkP10c1XJ,Cyprus,CY,CYP,196,CYP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-06,8,2,4,4,4,4,4,4,4,2,7,,2,7,,,,,,
+rec7xVOf49c143IDx,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,"2,4",,,,,,,,,,,,7,7,1,1,1,1
+rec9UFQWoiwDEsTu5,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-28,2,2,"2,3",,,,,,,2,8,8,8,8,1,1,1,1,1,"1,6"
+recscw10rUIuCv61N,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-12,3,2,"2,4",,,,,,,1,8,8,8,8,1,1,1,1,1,1
+recrgszcuinz6iFmA,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-27,4,2,2,,,,,,,1,,,,,1,1,1,1,1,1
+rectcmSf0ga5m219u,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-10,5,2,2,,,,,,,1,,,,,"1,2","1,2",1,1,1,1
+recLfLUtDRc3CDPsA,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,"3,2",3,3,2,2,2,2,1,7,7,7,7,"1,2","1,2",1,"1,2",1,1
+recjnSvkHy7RvGMxm,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,"4,3,2",4,"4,3",2,2,2,2,1,7,7,7,7,1,"1,2",1,"1,2",1,1
+recbAUkORu1yEaMxd,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,"2,4","2,4","2,4","2,4","2,4","2,4","2,4",1,8,8,8,8,1,1,1,1,1,1
+recfh5o5b26vRC9HJ,Czech Republic,CZ,CZE,203,CZE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,4,4,1,7,7,7,7,,,,,,
+recG3As7jSQLei0EX,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,2,,,,,,,,,,,,1,1,1,1,1,1
+recgQOLl3Ywow9qvA,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-23,2,2,"2,4",,,,,,,2,8,8,8,8,8,1,1,1,1,1
+recN7qhPDuLhyrYgn,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-13,3,2,"3,4",,,,,,,2,5,5,5,8,7,1,1,1,1,7
+recQzf2VeDY2sjCR8,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,2,"2,3,4",,,,,,,2,4,4,4,4,1,1,1,1,1,1
+rechHWnN0Gjv23Lrm,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,"3,4",,,,,,,2,4,4,4,4,6,1,1,1,1,1
+rec5aNK0pBoMGfdti,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-09,6,2,"4,3",4,4,4,3,3,4,2,"3,4,5","3,4,5","3,4,5","3,4,5",,,,,,
+rec7A7CFB9bLc8lKQ,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-18,7,2,4,4,4,4,4,3,3,2,4,4,4,4,7,7,7,1,1,7
+recMZ7moZZHEgS1Vr,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-30,8,2,4,4,4,4,4,5,4,2,4,4,4,4,,,,,,
+recnqHaDR6l7X9S1k,Denmark,DK,DNK,208,DNK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,4,4,2,"4,5","4,5","4,5","4,5",,,,,,
+recNpMKoaH0aUE3AP,Djibouti,DJ,DJI,262,DJI,LMC,Lower middle income,IDX,IDA,Middle East and North Africa,MEA,2021-01-28,1,2,4,,,,,,,,,,,,,,,,,
+recR6czRnrA46rbcX,Djibouti,DJ,DJI,262,DJI,LMC,Lower middle income,IDX,IDA,Middle East and North Africa,MEA,2021-03-02,2,2,4,,,,,,,,1,5,5,5,,,,,,
+recbeL7poXYdknXSQ,Djibouti,DJ,DJI,262,DJI,LMC,Lower middle income,IDX,IDA,Middle East and North Africa,MEA,2021-04-30,6,2,4,4,4,4,4,4,4,1,7,5,5,5,,,,,,
+rec9krSb8KR6YC0Ar,Djibouti,DJ,DJI,262,DJI,LMC,Lower middle income,IDX,IDA,Middle East and North Africa,MEA,2021-06-21,9,2,4,4,4,4,4,4,4,1,7,5,5,5,,,,,,
+recijmVS6PrO2FAzg,Dominica (OECS),DM,DMA,212,DMA,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-13,1,2,"3,4",,,,,,,,,,,,7,"1,2,4,5","1,2,4,5","1,2,4,5",7,1
+rectcT8ib2IgnPuFl,Dominica (OECS),DM,DMA,212,DMA,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-26,2,2,"3,4",,,,,,,2,1,7,7,7,7,"1,2,4,5","1,2,4,5","1,2,4,5",7,1
+reclFLoIm1o2w23m4,Dominican Republic,DO,DOM,214,DOM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-09,1,2,2,,,,,,,,,,,,6,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",6,6
+recC7ZMfpjCgb8P12,Dominican Republic,DO,DOM,214,DOM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-24,2,2,2,,,,,,,2,,,,,6,"2,3,4,5","2,3,4,5","2,3,4,5",6,6
+recQTBCiFnJQ5yQiQ,Dominican Republic,DO,DOM,214,DOM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-30,6,2,2,1,2,2,2,2,2,1,,,,,6,"2,3,4,5","2,3,4,5","2,3,4,5",6,6
+recnyYBS0aOW0xObR,Ecuador,EC,ECU,218,ECU,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,2,2,,,,,,,,,,,,"1,2,3,4","1,2,3,4,5","1,2,3,4","1,2,3,4,5","1,2,3,4","1,2,3,4"
+recpclO0Gnz6wwOSI,Ecuador,EC,ECU,218,ECU,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-26,2,2,2,,,,,,,2,,,,,"1,2,3,4","1,2,3,4,5","1,2,3,4","1,2,3,4,5","1,2,3,4","1,2,3,4"
+recF7bKMnm6aicZNp,Ecuador,EC,ECU,218,ECU,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-04,6,2,"4,3,2","4,3,2","4,3,2","4,3,2","4,3,2","4,3,2","4,3,2",1,7,7,7,7,"1,2,3,4","1,2,3,4,5","1,2,3,4","1,2,3,4,5","1,2,3,4","1,2,3,4"
+recMQCzwMMSr4Bncd,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-02-03,1,2,5,,,,,,,,,,,,,,,,,
+recQME9ntAUd8Ikrh,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-02-23,2,1,5,,,,,,,2,,,,,,,,,,
+rec4T81H7dN3311H6,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-01,4,2,3,,,,,,,2,8,8,8,8,6,2,"1,2",1,6,"1,2"
+rec4LUHlCCkcz4jni,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-06,5,2,3,,,,,,,2,8,8,8,8,6,2,"1,2",1,6,"1,2"
+recvQJCcOJRkAunkX,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-29,6,2,"4,3",4,4,3,3,3,4,2,8,8,8,8,6,2,"1,2",1,6,"1,2"
+recrHGOdSvAH2FUTi,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-04,8,1,,,,,,,,1,,,,,,,,,,
+rec8qSRGBgKRVoEg8,"Egypt, Arab Rep.",EG,EGY,818,EGY,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-14,9,1,,,,,,,,1,,,,,,,,,,
+recEgwwBiDm4cZdbZ,El Salvador,SV,SLV,222,SLV,LMC,Lower middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,2,2,,,,,,,,,,,,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",1,"1,2"
+recQyCHjGwZaMhGxv,El Salvador,SV,SLV,222,SLV,LMC,Lower middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-26,2,2,2,,,,,,,2,,,,,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",1,"1,2"
+rec8twmu6qvEkZ5dW,El Salvador,SV,SLV,222,SLV,LMC,Lower middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-03,6,2,3,3,3,3,3,3,3,1,7,7,7,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",1,"1,2"
+recrlxpVsytXPuo4g,Equatorial Guinea,GQ,GNQ,226,GNQ,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+rech2m3AmnqO7yjqx,Equatorial Guinea,GQ,GNQ,226,GNQ,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-03-02,2,2,"2,3",,,,,,,1,"5,6","5,6","5,6","5,6","1,2,3,5","1,2,3,5",5,5,6,"1,5"
+rec4JbyPZmNfVp3HI,Equatorial Guinea,GQ,GNQ,226,GNQ,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-05-05,6,2,4,4,4,4,4,3,3,1,"5,6","5,6","5,6","5,6","1,2,3,5","1,2,3,5",5,5,6,"1,5"
+recyyb9s5PMBOvXt2,Eritrea,ER,ERI,232,ERI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-08,3,2,2,,,,,,,,,,,,7,5,5,"2,5",8,7
+recBwog2lrQeDMBud,Eritrea,ER,ERI,232,ERI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-05,4,2,4,,,,,,,,"2,3","2,3","2,3","2,3",,,,,,
+rectkOCsxZrSzTW8Y,Eritrea,ER,ERI,232,ERI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-26,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+recTl9ohJqe5WkivD,Eritrea,ER,ERI,232,ERI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,"2,3","2,3,5","2,3,5","2,3,5",,,,,,
+recLc8Y0C0XY5faNi,Estonia,EE,EST,233,EST,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-03,2,2,3,,,,,,,1,8,8,8,8,1,1,1,1,1,1
+recrgpAQHsPOIURb5,Estonia,EE,EST,233,EST,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-21,3,2,2,,,,,,,,,,,,,,,,,
+recVSWwnCR5cASgtt,Estonia,EE,EST,233,EST,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-02,8,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+rec2W7nfCIWYgeuhR,Eswatini,SZ,SWZ,748,SWZ,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-02-01,1,2,1,,,,,,,,,,,,,,,,,
+recD7REncpn0JgauA,Eswatini,SZ,SWZ,748,SWZ,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-02-01,1,2,1,,,,,,,,,,,,,,,,,
+recVtCbCZUseDcBHn,Eswatini,SZ,SWZ,748,SWZ,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-02-23,2,2,5,,,,,,,,,,,,,,,,,
+recdgIxjRO7TtPkRy,Eswatini,SZ,SWZ,748,SWZ,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-02-23,2,2,2,,,,,,,,,,,,,3,3,3,1,1
+reczuPLoBNPQlBErk,Eswatini,SZ,SWZ,748,SWZ,LMC,Lower middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-06,5,2,3,,,,,,,2,2,2,2,2,5,"3,4,5,8","1,3,4,5,8","1,3,4,8","1,4,8","1,4,8"
+rechcbV10Ob6FlKEw,Ethiopia,ET,ETH,231,ETH,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-27,1,2,4,,,,,,,,,,,,,,,,,
+recFwfZ2v7ZYFinfr,Ethiopia,ET,ETH,231,ETH,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-01,4,2,4,,,,,,,2,"1,2","1,2","1,2","1,2",,,,,,
+reczS4j2b5FHz4gLA,Ethiopia,ET,ETH,231,ETH,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-28,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+recX1b9XRjuSqbifG,Ethiopia,ET,ETH,231,ETH,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,4,1,1,1,1,,,,,,
+recsSRY73nXhN39nm,Faroe Islands,FO,FRO,234,FRO,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-09,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recBSGtAQMMfFdUGE,Fiji,FJ,FJI,242,FJI,UMC,Upper middle income,IDB,Blend,East Asia and Pacific,EAS,2021-06-06,8,2,1,1,1,1,1,1,1,2,,,,,,,,,,
+recxam64oE9g6nCRz,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-02,2,2,2,,,,,,,2,,,,,8,"1,8","1,8","1,8",1,6
+recXx6ECn3pGecj7t,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-15,3,2,"2,4",,,,,,,2,8,8,8,8,6,6,6,6,6,6
+recc8cKStlSt8GwXY,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,"2,3,4",,,,,,,2,8,8,8,8,7,7,7,1,1,1
+recZ3k233a5EvO8FY,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,4,,,,,,,2,8,8,8,8,,,,,,
+rec93wwHJf13AzKMB,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-01,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recCEAQ3OvpPrdUhf,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,4,4,4,4,4,4,4,2,6,6,6,6,,,,,,
+recX4vMt7bocllCsK,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,2,6,6,6,6,,,,,,
+rec3o9y5rn5EPJQlC,Finland,FI,FIN,246,FIN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,1,,,,,,,,2,,,,,,,,,,
+recrEE1en9kTSKoeX,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-04,2,3,"3,4",,,,,,,2,6,6,6,6,1,1,1,1,1,6
+recyFw92dEw5HKhqe,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,4,,,,,,,2,5,5,5,5,,,,,,
+recIRVKd9xqILZmf2,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-27,4,2,"2,3,4",,,,,,,2,8,8,8,8,7,7,7,1,1,1
+recXCDa4yIwJ6VPsX,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,1,,,,,,,,2,,,,,,,,,,
+reckd1BhT0eHZAMUK,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-09,6,2,"4,3",4,4,3,3,3,3,1,8,8,8,8,1,1,1,1,1,1
+recl1lTsqnNAI5lGk,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,"4,3",4,4,"4,3",3,3,3,1,5,5,5,5,"1,2","1,2","1,2","1,2","1,2","1,2"
+recTgvCNXg79YTQqZ,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,"4,3",4,4,4,3,"4,3",3,1,7,7,7,7,1,1,1,1,1,1
+recTY2UsMjJJ1v3wM,France,FR,FRA,250,FRA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,"4,3",4,4,4,3,3,3,1,5,5,,5,1,1,1,1,1,1
+recdHhgskx14OyvyQ,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-01,1,2,4,,,,,,,,,,,,,,,,,
+recnHZMJ6rRX5qS3N,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-23,2,2,"3,4",,,,,,,2,8,8,8,8,8,6,6,6,6,6
+recPW9AyYxU5kcmmE,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-15,3,2,3,,,,,,,2,8,8,8,8,,,,,,
+recxxQgZ3b4Qy6tCA,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-29,4,2,4,,,,,,,2,8,8,8,8,,,,,,
+recFrJkwQlEjLHH3z,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-12,5,1,,,,,,,,2,,,,,,,,,,
+rec6nzNHrmeekcdFY,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-09,6,2,"4,3",4,4,4,3,3,3,4,8,8,8,8,1,1,1,1,1,1
+recCwVVe5tvLGwkuz,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,"4,3",4,4,"4,3","4,3","4,3",3,1,8,8,8,8,"1,2","1,2","1,2","1,2","1,2","1,2"
+rec3dWQs9pFNR6QDE,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-03,8,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recHYu3vAjTB4pHtD,French Polynesia,PF,PYF,258,PYF,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-17,9,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recNezxSRPKx9RZJZ,Gabon,GA,GAB,266,GAB,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-02-05,1,2,3,,,,,,,,,,,,5,1,1,1,1,7
+recfMFJn8gCTscjFf,Gabon,GA,GAB,266,GAB,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-03-04,2,2,"3,4,5",,,,,,,,2,2,2,2,5,1,1,1,1,7
+recPvlB631aGKQKmQ,Gabon,GA,GAB,266,GAB,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-03-15,3,4,4,,,,,,,2,5,5,5,5,,,,,,
+reczaltrO25UB8irL,Gabon,GA,GAB,266,GAB,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-09,5,2,3,,,,,,,2,"2,6","2,6","2,6","2,6",5,6,6,1,1,1
+recJHowtpNpt5NeYC,Gabon,GA,GAB,266,GAB,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,6,6,6,6,,,,,,
+rec3ccARVle8NREbG,"Gambia, The",GM,GMB,270,GMB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recE5gU4fxFkiy6cl,"Gambia, The",GM,GMB,270,GMB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,4,,,,,,,3,,,,,,,,,,
+recl9hgUT8XoubVSn,"Gambia, The",GM,GMB,270,GMB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-01,4,2,4,,,,,,,2,,,,5,,,,,,
+recj9g01sUbHKBNPW,"Gambia, The",GM,GMB,270,GMB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-19,5,2,4,,,,,,,2,,,,5,,,,,,
+recYw55v3DWczGjQ5,"Gambia, The",GM,GMB,270,GMB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-06,8,2,,,,,,,,,,,,,,,,,,
+rec6M3AY36AnrEUjI,Georgia,GE,GEO,268,GEO,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,3,,,,,,,,,,,,"1,2,4","1,2,4","1,2,4","1,2,4",1,1
+recKcPTJjbyfpScOZ,Georgia,GE,GEO,268,GEO,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,3,,,,,,,2,1,7,7,7,"1,2,4","1,2,4","1,2,4","1,2,4",1,1
+recOGPHeF2xv0Kq0u,Georgia,GE,GEO,268,GEO,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-05-26,8,2,3,3,3,3,3,3,3,2,7,7,7,7,"1,2,4","1,2,4","1,2,4","1,2,4",1,1
+rec2UjqIFJm8VTYFB,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,"1,2",,,,,,,,,,,,8,1,1,1,1,1
+recZMGaTU06tFOK4P,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-25,2,2,3,,,,,,,1,1,1,1,1,8,1,1,1,6,6
+recHWx4moy4SKwzvu,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-13,3,2,"3,4",,,,,,,1,1,1,1,1,1,1,1,1,1,1
+recoR8k3b9TnMkvT6,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,1,,,,,,,,1,,,,,,,,,,
+recxT8bGRHY58ilGR,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,"3,4",,,,,,,1,8,8,8,8,6,6,6,1,1,6
+recPvjpdZimtGQzot,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,"3,2",3,3,"3,2","3,2",2,2,1,6,6,6,6,1,1,1,1,6,6
+recJCFfBbfBGAKkXv,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,"4,3","4,3","4,3",3,3,5,5,1,6,6,6,6,1,1,6,6,6,6
+recGvqzjXo2OjT0J6,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-01,8,1,"4,3,2","4,3","4,3",2,2,2,2,1,"1,6","1,6",6,6,1,1,1,1,6,6
+recqrYNsQ9xOOfUbz,Germany,DE,DEU,276,DEU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-13,9,1,,,,,,,,1,,,,,,,,,,
+recDxXJz71m3aanuk,Ghana,GH,GHA,288,GHA,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-05,1,2,"3,4",,,,,,,,,,,,"2,3,5","1,2,3,5","1,2,3,5","1,4","1,4","1,4"
+recnAFgHg2ZkziN4c,Ghana,GH,GHA,288,GHA,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-06,3,2,"3,4",,,,,,,,,,,,"2,3,5","1,2,3,5","1,2,3,5","1,4","1,4","1,4"
+recV9E1Q8qQzYXTQK,Gibraltar,GI,GIB,292,GIB,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-09,6,2,4,4,4,4,4,4,4,2,6,6,6,6,,,,,,
+recHY83F6CyAs5mrd,Greece,GR,GRC,300,GRC,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+recqUIT65LDc7PVIL,Greece,GR,GRC,300,GRC,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-03,2,2,4,,,,,,,1,8,8,8,8,,,,,,
+rec4Pg81LJsqXg0LP,Greece,GR,GRC,300,GRC,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-04,4,2,2,,,,,,,1,,,,,"4,5",1,1,1,1,1
+recjLhY8BC3pRdbq8,Greece,GR,GRC,300,GRC,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-06,8,2,4,4,4,4,4,4,4,1,2,2,2,2,,,,,,
+rec0TZilNed9klfmE,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-23,2,2,2,,,,,,,2,,,,,8,6,6,6,6,6
+reczRG9fV1gfw7w82,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-15,3,2,4,,,,,,,2,8,8,8,8,,,,,,
+recWMJ3WeApZMn14y,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-27,4,2,3,,,,,,,2,8,8,8,8,1,1,1,1,1,1
+recMMaRgXmMQlni6U,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-10,5,2,3,,,,,,,2,8,8,8,8,6,6,6,1,1,6
+rec2UYUEHwwC9dAdC,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-30,6,2,"4,3",4,4,4,3,3,3,2,8,8,8,8,7,7,1,1,1,1
+rec6ek1LA0XLoDcWg,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,"4,3",4,4,4,3,3,3,2,8,8,8,8,6,6,6,1,1,1
+recjuWcjrSBsqxpuJ,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-30,8,2,4,4,4,4,4,3,4,2,4,4,4,4,6,6,6,6,1,6
+recqxOSGsu0TC8slx,Greenland,GL,GRL,304,GRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recVazeEtzSfunNEt,Grenada (OECS),GD,GRD,308,GRD,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-13,1,2,"3,4",,,,,,,,,,,,"1,5","1,2,5","1,2,4","1,2,4","1,4",4
+recljPT241q0lIhFI,Grenada (OECS),GD,GRD,308,GRD,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-26,2,2,"3,4",,,,,,,2,1,7,7,7,"1,5","1,2,5","1,2,4","1,2,4","1,4",4
+recfIIepvbW6K8s6O,Grenada (OECS),GD,GRD,308,GRD,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-04-29,6,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recPgcCpZxvLOY9Bd,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-01,1,2,"2,3",,,,,,,,,,,,8,"1,5","1,5","1,5",1,1
+recUdxUfeSYtvpMjK,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-27,2,2,3,,,,,,,1,8,"1,3","1,3",1,8,"1,5","1,5","1,5",1,1
+recC8KoUJ2u8mfcup,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-14,3,2,"2,3",,,,,,,1,"1,3","1,3","1,3","1,3",6,"1,5","1,5","1,5",1,1
+recKh7RkjXxTajpnu,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-27,4,1,,,,,,,,1,,,,,,,,,,
+recSFqT3UDZfWBW07,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-11,5,2,"2,4",,,,,,,1,8,"3,6","3,6","3,6",6,"1,5,8","1,5,8","1,5,8",6,6
+recENShqarUPZ3V5N,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-27,6,2,4,4,4,4,4,5,5,2,6,6,6,6,,,,,,
+recgHsjO65ijPnGuZ,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,"2,3","2,3","2,3","2,3","2,3","2,3",5,2,3,3,3,3,"1,5","1,5","1,5","1,5",1,1
+recQcHj6OPKeKTDQ3,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-01,8,1,,,,,,,,1,,,,,,,,,,
+reclJeKPZETIpIcbK,Guam,GU,GUM,316,GUM,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-14,9,1,,,,,,,,1,,,,,,,,,,
+rec8HOkOXnrz8r2Lu,Guatemala,GT,GTM,320,GTM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-09,1,2,2,,,,,,,,,,,,"1,2,3,4","1,2,3,4,5","1,2,3,4,5","1,2,3,4",6,6
+receH82qL7vG78MA0,Guatemala,GT,GTM,320,GTM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-30,6,2,3,1,3,3,3,3,3,1,8,8,8,8,6,"2,3,4,5","2,3,4,5","2,3,4,5",6,6
+rec4SSAMTjzgR1BG3,Guinea,GN,GIN,324,GIN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recZcJVntvdu6tcf6,Guinea,GN,GIN,324,GIN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,4,,,,,,,,1,3,3,3,,,,,,
+recfUfOoyJljCaLJZ,Guinea,GN,GIN,324,GIN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-05,3,2,4,,,,,,,,,,,,,,,,,
+recye1X8hdbKluGVC,Guinea,GN,GIN,324,GIN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-02,6,2,4,4,4,4,4,4,4,2,,2,2,2,,,,,,
+recbkgNvdNaZFBNB1,Guinea,GN,GIN,324,GIN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,2,,2,2,2,,,,,,
+recnBO56bU7xtm571,Guinea-Bissau,GW,GNB,624,GNB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-05,1,1,,,,,,,,,,,,,,,,,,
+recRuv9Uo1EpbF1q6,Guinea-Bissau,GW,GNB,624,GNB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,,1,7,7,7,,,,,,
+recQqy10s1vmps6CJ,Guinea-Bissau,GW,GNB,624,GNB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-01,4,2,4,,,,,,,2,7,7,7,7,,,,,,
+recWU9ZpACN7UgZM2,Guinea-Bissau,GW,GNB,624,GNB,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-04,8,2,4,4,4,4,4,4,5,1,7,7,7,7,,,,,,
+recOSRUI3ZUgR18jU,Guyana,GY,GUY,328,GUY,UMC,Upper middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-13,1,2,"3,4",,,,,,,,,,,,"2,3,5","2,3,5","2,3,5","2,3,5",1,7
+recxvLOb9TnltvWNV,Guyana,GY,GUY,328,GUY,UMC,Upper middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-26,2,2,"3,4",,,,,,,2,1,7,7,7,"2,3,5","2,3,5","2,3,5","2,3,5",1,7
+recMuRXSmEtg4UQ3i,Guyana,GY,GUY,328,GUY,UMC,Upper middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-04-29,6,2,"2,4",2,2,2,4,2,2,2,7,7,7,7,"2,3,5","1,2,3,5","1,2,3,5","1,2,3,5",1,7
+recsL3bZvQMTWGD9A,Haiti,HT,HTI,332,HTI,LIC,Low income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-12,1,1,,,,,,,,,,,,,,,,,,
+recfHb4hZRdb1c6I5,Haiti,HT,HTI,332,HTI,LIC,Low income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-25,2,2,4,,,,,,,,1,7,7,7,,,,,,
+recM8MWNUmE499pKj,Haiti,HT,HTI,332,HTI,LIC,Low income,IDX,IDA,Latin America and Caribbean,LCN,2021-04-29,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+reclK7VIXhQNUpLLn,Honduras,HN,HND,340,HND,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-16,1,2,2,,,,,,,,,,,,"1,2,4,5","1,2,3,4,5","1,4","1,4","1,4",6
+reclPt3MuGY9YF8Vu,Honduras,HN,HND,340,HND,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-26,2,2,2,,,,,,,,,,,,"1,2,4,5","1,2,3,4,5","1,4","1,4","1,4",6
+recU6kQvunl8sEvvx,Honduras,HN,HND,340,HND,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-05-03,6,2,2,2,2,2,2,2,2,2,,,,,"1,2,4,5","1,2,3,4,5","1,4","1,4","1,4",6
+reczBoAQeRKefLrMv,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-02,1,2,2,,,,,,,,,,,,8,1,1,1,6,6
+recfVq2YaVmJLtFXL,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-26,2,2,2,,,,,,,2,,,,,8,6,6,6,6,6
+recGOILAJsfu9El2h,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-16,3,2,2,,,,,,,2,,,,,1,1,1,1,1,6
+recrmSM4SzKoEUpC2,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,2,2,,,,,,,2,,,,,1,1,1,1,1,1
+recoF6cGnJIrR5Ep7,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,2,,,,,,,1,,,,,6,1,1,1,1,6
+recJBOKeQWjdo1Orx,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-08,6,2,3,3,3,3,3,3,3,2,8,8,8,8,6,6,6,6,6,6
+recPelsYDqjGoaPCK,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+recmItvTy2gdoU4ZQ,Hungary,HU,HUN,348,HUN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,1,,,,,,,,2,,,,,,,,,,
+rec2ERUVb91B051Zv,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-04,2,2,4,,,,,,,2,8,8,8,8,,,,,,
+rec2xcWECL9njt7sv,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-15,3,2,4,,,,,,,2,8,8,8,8,,,,,,
+recHeKE3feGAg5s98,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,2,"2,4",,,,,,,2,8,8,8,8,6,6,6,6,6,6
+reczZo9wE3lOkWEIo,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-09,5,2,4,,,,,,,1,8,8,8,8,,,,,,
+recM2XEuoELoBqYbF,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-09,6,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+rec7m3ZVALWxzs0mg,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recuFaNCSjMNFzrGf,Iceland,IS,ISL,352,ISL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,1,,,,,,,,1,,,,,,,,,,
+recHX86XSDDdOujy1,India,IN,IND,356,IND,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-01-29,1,2,3,,,,,,,,,,,,"4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4",6
+recZCtNLbnBWjaN0Y,India,IN,IND,356,IND,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-02-26,2,2,3,,,,,,,3,7,1,1,1,"4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4",6
+recJS5o6vjrvVipW5,India,IN,IND,356,IND,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-04-27,6,2,2,2,2,2,2,2,2,2,,,,,,,,,,
+recOYoKc27pxfUD38,India,IN,IND,356,IND,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-05-25,8,1,2,2,2,2,2,2,2,1,,,,,"4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4",6
+reci5Urn1wK19xcFV,Indonesia,ID,IDN,360,IDN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-02,1,2,"2,3",,,,,,,,,,,,"1,2,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,4,5","1,4,5"
+recomeG0mjctUEs4L,Indonesia,ID,IDN,360,IDN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-25,2,2,"2,3",,,,,,,1,1,7,7,7,"1,2,5,8","1,2,3,4,5,8","1,2,3,4,5,8","1,2,3,4,5","1,4,5","1,4,5"
+recOv4JnswodDxJmU,Indonesia,ID,IDN,360,IDN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-04-04,4,2,"2,3,4",,,,,,,1,7,7,7,7,"1,2,3,5,8","1,2,3,4,5,8","1,3,4,5,8","1,3,4,5","1,4,5","1,4,5"
+recvahTddED9tLJcM,Indonesia,ID,IDN,360,IDN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-05-27,8,2,"4,3,2","4,3,2","4,3,2","4,3,2","4,3,2","4,3,2","4,3,2",1,7,7,7,7,"1,2,3,5,8","1,2,3,4,5,8","1,3,4,5,8","1,3,4,5","1,4,5","1,4,5"
+recVIy93oGWYp23aN,Indonesia,ID,IDN,360,IDN,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-06-10,9,2,"4,3,2","4,3,2","4,3,2","4,3,2","4,3,2","4,3,2","4,3,2",1,7,7,7,7,"1,2,3,5,8","1,2,3,4,5,8","1,3,4,5,8","1,3,4,5","1,4,5","1,4,5"
+recbcol6RAvYcAzrL,"Iran, Islamic Rep.",IR,IRN,364,IRN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-02-09,1,2,3,,,,,,,,,,,,6,"1,2",1,1,1,7
+reckInj3Elu515Lpc,"Iran, Islamic Rep.",IR,IRN,364,IRN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-03-01,2,2,3,,,,,,,4,,,,,6,"1,2",1,1,1,7
+recLPQ95wcCneLYsb,"Iran, Islamic Rep.",IR,IRN,364,IRN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-07,5,2,3,,,,,,,1,8,8,8,8,6,"1,2",1,1,1,7
+recHuhHHkg78YZUAs,"Iran, Islamic Rep.",IR,IRN,364,IRN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-29,6,2,"4,3",4,4,4,"4,3",3,4,1,8,8,8,8,6,"1,2",1,1,1,7
+recE6fUe0keOAwMKZ,"Iran, Islamic Rep.",IR,IRN,364,IRN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-21,9,2,"4,3",4,4,4,"4,3",3,4,1,8,8,8,8,6,"1,2",1,1,1,7
+recZhlV43tBB06Nlb,Iraq,IQ,IRQ,368,IRQ,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-01-29,1,2,3,,,,,,,,,,,,6,"1,2,4","1,2,4","1,2,4","1,4",6
+recXPWXPHOTPuu1VK,Iraq,IQ,IRQ,368,IRQ,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-02-26,2,2,3,,,,,,,,8,8,8,8,6,"1,2,4","1,2,4","1,2,4","1,4",6
+recUdoxnqSafWYVZX,Iraq,IQ,IRQ,368,IRQ,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-19,5,2,3,,,,,,,4,8,8,8,8,6,"1,2,4","1,2,4","1,2,4","1,4",6
+recORc2mMBWyJpZUD,Iraq,IQ,IRQ,368,IRQ,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-05,6,2,3,5,3,3,3,5,5,4,8,8,8,8,6,"1,2,4","1,2,4","1,2,4","1,4",6
+recTCndkZmUKQJqaB,Iraq,IQ,IRQ,368,IRQ,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-09,9,2,2,5,2,2,2,5,5,4,,,,,6,"1,2,4","1,2,4","1,2,4","1,4",6
+recBjn1iNI3cXhPLa,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,2,,,,,,,,,,,,8,"1,2","1,2","1,2",1,1
+recLSBKuJSb2Lylrm,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-28,2,2,2,,,,,,,2,8,8,8,8,1,1,1,1,1,1
+recyYJevuBuudiPmK,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-07,3,2,"2,4",,,,,,,2,5,5,6,6,7,7,1,1,1,1
+recwOTmN2EPXU9R12,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-27,4,2,"2,4",,,,,,,2,"5,6","5,6",7,7,1,1,1,1,1,1
+recWvN7ioVBUHflKT,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-10,5,1,,,,,,,,2,,,,,,,,,,
+rec8QYLID5V45ufIB,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-30,6,2,"4,2",4,4,4,2,2,2,2,5,5,5,5,"1,4,5","1,4,5","1,4,5","1,4,5","1,4,5","1,4,5"
+rec0h9k03UTYYax0y,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,1,5,5,5,5,,,,,,
+recz0BO0GxTpcGu6T,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,2,5,5,5,5,,,,,,
+recdT0iRUgHjI7PbN,Ireland,IE,IRL,372,IRL,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,4,4,2,5,5,5,5,,,,,,
+recIMZG35h8zI8FBF,Isle of Man,IM,IMN,833,IMN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-01,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recapwAA4HSbshIqN,Isle of Man,IM,IMN,833,IMN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+rec1trJhY7A7XIATB,Isle of Man,IM,IMN,833,IMN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recTZ8jhPdq7ueJ51,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-01-30,1,2,2,,,,,,,,,,,,7,1,1,1,1,1
+recagx8p5OAIUnsa3,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-23,2,2,"3,4",,,,,,,1,8,8,3,1,7,1,1,1,1,1
+receiDNJYj0likYbK,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-12,3,2,"3,4",,,,,,,2,3,3,3,3,7,7,1,1,1,1
+recH43A48jhxxJFXg,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-28,4,2,"3,4",,,,,,,2,3,3,3,3,7,7,1,1,1,1
+recy9Lvc2kGD2EhGf,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-09,5,2,"3,4",,,,,,,2,3,3,3,3,7,7,7,7,1,1
+recdrXPHLUaG3VKjK,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-06,6,2,4,4,4,4,4,4,4,2,3,3,3,3,,,,,,
+recFfmyikSA6KRsGN,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-16,7,2,4,4,4,4,4,4,4,2,3,3,3,3,,,,,,
+recRQKm00SxjZyA95,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-28,8,2,4,4,4,4,4,4,4,2,3,3,3,3,,,,,,
+recwFJXMaloHlDueq,Israel,IL,ISR,376,ISR,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-17,9,2,4,4,4,4,4,4,4,1,3,3,3,3,,,,,,
+recITKqODr0EnDn3v,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-30,1,2,4,,,,,,,,,,,,,,,,,
+recfZN5SplWtmD7lV,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-27,2,2,4,,,,,,,1,8,8,8,8,,,,,,
+recwp0w9IwQamoXKh,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-12,3,2,"2,4",,,,,,,1,"5,6","5,6","5,6","5,6",7,7,7,1,1,6
+recrtI2JTERYyfdk2,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,"2,4",,,,,,,1,"5,6","5,6","5,6","5,6",6,1,1,1,1,6
+rec1lMSLp1etAPfuP,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,4,,,,,,,1,5,5,5,5,,,,,,
+recjhnWTm4fsIOSPZ,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-06,6,2,"4,3",4,4,4,3,4,4,1,5,5,5,5,7,7,7,1,1,6
+recvQvOas6B9PzOkN,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,"4,3",4,4,4,3,4,4,1,5,5,5,5,7,7,7,1,1,6
+recYX3sbLN6Umm0rO,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-29,8,2,"4,3",4,4,4,3,4,4,1,5,5,5,5,7,7,7,1,1,6
+recGrdbaVqCkTg5Mj,Italy,IT,ITA,380,ITA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,1,,,,,,,,1,,,,,,,,,,
+recAT9NHYFvZuUF5P,Jamaica,JM,JAM,388,JAM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,2,2,,,,,,,,,,,,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4","1,2,3,4,5"
+recmXVAJPMl3rxAan,Jamaica,JM,JAM,388,JAM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-26,2,2,2,,,,,,,2,,,,,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4","1,2,3,4,5"
+rec1luVb0nK64Ewpx,Jamaica,JM,JAM,388,JAM,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-29,6,2,3,3,3,3,3,3,3,1,7,7,7,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4","1,2,3,4,5"
+recvb1bYeQnTj2pea,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-01-30,1,2,3,,,,,,,,,,,,8,1,1,1,1,6
+recaGX8S3XDmoFHJv,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-23,2,2,"3,4",,,,,,,2,"1,2,3,8","1,2,3,6","1,2,3,5,6","1,2,5,6",8,"1,4,5,8","1,4,5,8","1,4,5,8","1,4,5,8",1
+recZv1xQOHPOrHl8V,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-15,3,2,"3,4",,,,,,,2,"1,6","1,6","1,6","1,6","1,2","1,2","1,2","1,2",1,1
+recvWvxPdAaRj2rdS,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-01,4,2,3,,,,,,,2,"1,2","1,2,5","1,2,5","1,2",1,1,1,1,1,1
+recu2FmPK0ilom3uH,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-12,5,2,3,,,,,,,2,"1,2,3,6","1,2,3,5,6","1,2,3,5,6","1,2,3,5,6","1,4","1,4","1,4","1,4","1,4","1,4"
+recA7yramYUQRpwPk,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-07,6,2,3,3,3,3,3,3,3,2,"1,2,6","1,2,6","2,6","2,6",1,1,1,1,1,1
+recHJd2SqpQSZaIhv,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,3,3,3,3,3,3,3,2,1,1,1,1,6,6,6,6,6,6
+recTG19U95RTPjFWc,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-03,8,2,3,3,3,3,3,2,2,2,"1,2","1,2","1,2","1,2",1,1,1,1,1,1
+recWxzpZp5hgQgecO,Japan,JP,JPN,392,JPN,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-17,9,2,3,3,3,3,3,3,3,2,"1,2","1,2","1,2","1,2",1,1,1,1,1,1
+recyUzoRQjUERapOB,Jordan,JO,JOR,400,JOR,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-01-28,1,2,2,,,,,,,,,,,,"1,2","1,2,5","1,2,5","1,2,5",1,1
+recx85XhwmhZRt3Mh,Jordan,JO,JOR,400,JOR,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-03-01,2,2,3,,,,,,,2,1,7,7,7,"1,2","1,2,5","1,2,5","1,2,5",1,1
+recbY8UZ3SwJTIllX,Jordan,JO,JOR,400,JOR,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-05,4,2,2,,,,,,,2,,,,,"1,2","1,2,5","1,2,5","1,2,5",1,1
+recKPuhsLlmYF6w3M,Jordan,JO,JOR,400,JOR,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-02,6,2,2,2,2,2,2,2,2,1,,,,,"1,2","1,2,5","1,2,5","1,2,5",1,1
+recOBg6ML4gY8sH5T,Jordan,JO,JOR,400,JOR,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-21,9,2,2,2,2,2,2,2,2,1,,,,,"1,2","1,2,5","1,2,5","1,2,5",1,1
+recaKgxUZ1EGZrQ3g,Kazakhstan,KZ,KAZ,398,KAZ,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-25,1,2,3,,,,,,,,,,,,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,4","1,4"
+rec2XSnQK8xO3Em5q,Kazakhstan,KZ,KAZ,398,KAZ,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-02,2,2,3,,,,,,,2,1,7,7,7,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,4","1,4"
+recBY24Ua9uJ1KDEA,Kazakhstan,KZ,KAZ,398,KAZ,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-05-26,8,1,,,,,,,,1,,,,,,,,,,
+recc8N2wQPWlq9s3V,Kenya,KE,KEN,404,KEN,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-02-09,1,2,4,,,,,,,,,,,,,,,,,
+recWIHcw895bIYRB2,Kenya,KE,KEN,404,KEN,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,2,2,2,2,2,,,,,,
+recty1rLDcJoWXTmD,Kenya,KE,KEN,404,KEN,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-04-07,5,1,,,,,,,,1,,,,,,,,,,
+recH79GKb9ujYNsGS,Kenya,KE,KEN,404,KEN,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-05-24,7,2,4,4,4,4,4,3,4,1,2,2,2,2,7,7,7,7,1,7
+rec6Q9ADFlBatSZz3,Kenya,KE,KEN,404,KEN,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-08,9,2,4,4,4,4,4,4,4,1,1,1,1,1,,,,,,
+recRKFhPWAeN632Hu,Kenya,KE,KEN,404,KEN,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-22,10,2,4,4,4,4,4,4,4,1,2,2,2,2,,,,,,
+rec1ArGyFntQSEmdV,Kiribati,KI,KIR,296,KIR,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-01-29,1,2,4,,,,,,,,,,,,,,,,,
+rec63VN4sEpUqDnVR,Kiribati,KI,KIR,296,KIR,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-02,8,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+reckI5ZKBhM8jqqn9,"Korea, Rep.",KR,KOR,410,KOR,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-03,1,1,,,,,,,,,,,,,,,,,,
+recWTfsESZFz27PcD,"Korea, Rep.",KR,KOR,410,KOR,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-15,9,2,3,3,3,3,3,3,3,1,7,"3,5","3,5","3,5","1,2,4,5,8","1,2,4,8","1,2,4,8","1,2,4,8",1,"1,2,4"
+recYjEyObh0AAsB5m,Kosovo,,,,XKX,UMC,Upper middle income,IDX,IDA,Europe and Central Asia,ECS,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+recpOweaqi9oORGWF,Kosovo,,,,XKX,UMC,Upper middle income,IDX,IDA,Europe and Central Asia,ECS,2021-03-03,2,2,4,,,,,,,,"1,2,4,6","1,2,4,6","1,2,6","1,2,6",,,,,,
+recqzgrX9uZXUlYJ2,Kosovo,,,,XKX,UMC,Upper middle income,IDX,IDA,Europe and Central Asia,ECS,2021-05-27,8,2,4,4,4,4,4,3,4,1,"1,2,4,6","1,2,4,6","1,2,6","1,2,6","1,2",2,2,2,1,2
+recpARWT9tAl76hVP,Kuwait,KW,KWT,414,KWT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-09,1,2,2,,,,,,,,,,,,6,6,6,1,1,6
+rec7yMhIb2KRV6mnD,Kuwait,KW,KWT,414,KWT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-01,2,2,2,,,,,,,1,,,,,6,1,1,1,1,6
+recuHPZDyfFn5m10K,Kuwait,KW,KWT,414,KWT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-05,4,2,2,,,,,,,1,,,,,6,1,1,1,1,6
+rec62Gdu4hc1x6aj7,Kuwait,KW,KWT,414,KWT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-04,6,2,2,"4,1",2,2,2,2,1,1,8,8,8,8,6,1,1,1,1,6
+rec5es9Dtfm4kBlea,Kuwait,KW,KWT,414,KWT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,1,,,,,,,,1,,,,,,,,,,
+recLYsNmCIXc590CJ,Kyrgyz Republic,KG,KGZ,417,KGZ,LMC,Lower middle income,IDX,IDA,Europe and Central Asia,ECS,2021-03-01,2,2,3,,,,,,,,,7,7,7,2,2,"2,4","2,4","1,4","1,4"
+recKpSBxCcdLesiSw,Kyrgyz Republic,KG,KGZ,417,KGZ,LMC,Lower middle income,IDX,IDA,Europe and Central Asia,ECS,2021-04-01,4,2,"3,4",,,,,,,2,7,7,7,7,2,2,"2,4","2,4","1,4","1,4"
+reclWgeAKh2R3qB0a,Kyrgyz Republic,KG,KGZ,417,KGZ,LMC,Lower middle income,IDX,IDA,Europe and Central Asia,ECS,2021-06-01,8,1,,,,,,,,2,,,,,,,,,,
+recGDxjHsplQ16Rla,Lao PDR,LA,LAO,418,LAO,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-03,8,2,2,2,2,2,2,2,2,1,,,,,2,"1,2",2,2,2,2
+recsW7AVJyKNVvYVF,Latvia,LV,LVA,428,LVA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-12,1,2,"2,5",,,,,,,,,,,,7,"1,2,4,5","1,2,4,5","1,2,4,5","1,4,5","1,4,5"
+reckCRYXaq5mQWyuC,Latvia,LV,LVA,428,LVA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-05,8,2,3,3,3,3,3,2,3,,,,,,7,"1,2,4,5","1,2,4,5","1,2,4,5","1,4,5","1,4,5"
+recMn7WgqSHzFVToX,Latvia,LV,LVA,428,LVA,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-16,9,2,"4,3,2",4,4,"4,3,2","4,3,2",4,4,1,,2,2,2,7,"1,2,4,5","1,2,4,5","1,2,4,5","1,4,5","1,4,5"
+recT4XlQ1XKFESajU,Lebanon,LB,LBN,422,LBN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-01-29,1,2,2,,,,,,,,,,,,"1,4","1,4","1,4","1,4","1,4","1,4"
+recHLeducm47wdUvV,Lebanon,LB,LBN,422,LBN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-02-23,2,2,2,,,,,,,2,,,,,"1,4","1,4","1,4","1,4","1,4","1,4"
+recfkcA9OsLjniwYj,Lebanon,LB,LBN,422,LBN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-05,4,2,2,,,,,,,1,,,,,"1,4","1,4","1,4","1,4","1,4","1,4"
+receGZhO47ObBNVkn,Lebanon,LB,LBN,422,LBN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-19,5,2,3,,,,,,,1,,,,,"1,4","1,4","1,4","1,4","1,4","1,4"
+recDtWMI13npUMU0k,Lebanon,LB,LBN,422,LBN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-01,6,2,"2,3",2,2,2,3,2,2,1,7,7,7,"2,4","1,4","1,4","1,4","1,4","1,4","1,4"
+recb3OIqcm3ZL5slC,Lebanon,LB,LBN,422,LBN,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-21,9,2,"4,2,3",4,4,"4,2","4,3","4,2","4,2",1,7,7,7,"2,4","1,4","1,4","1,4","1,4","1,4","1,4"
+rec6MqjTrSk3t2Cgd,Lesotho,LS,LSO,426,LSO,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-01,1,2,1,,,,,,,,,,,,,,,,,
+rec5EstjQe26T8vFX,Lesotho,LS,LSO,426,LSO,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-23,4,2,1,,,,,,,,,,,,,,,,,
+recOlQxW4tCPcvS2r,Lesotho,LS,LSO,426,LSO,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-05,6,2,4,4,4,4,4,4,4,2,"2,4","2,4,6","2,4,6","2,3,6",,,,,,
+recungIwZhB0hYxZW,Lesotho,LS,LSO,426,LSO,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-06,8,2,4,4,4,4,4,4,4,2,2,"1,2,4,6","1,2,4,6","1,2,3,6",,,,,,
+recOyCsS9aezZdfw6,Liberia,LR,LBR,430,LBR,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-05,1,2,3,,,,,,,,,,,,6,"3,4,5","3,4,5","1,3,4,5","1,3,4,5",6
+rechRmiaJx6to1dbM,Liberia,LR,LBR,430,LBR,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,,8,7,7,7,,,,,,
+recVrToRSHn3vTqpe,Liberia,LR,LBR,430,LBR,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-07,3,2,4,,,,,,,2,3,3,3,7,,,,,,
+recOau20DrjDpKLe4,Liberia,LR,LBR,430,LBR,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-19,5,2,4,,,,,,,2,3,3,3,7,,,,,,
+recV6XTGDPpg6xPg5,Liberia,LR,LBR,430,LBR,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-04,6,2,4,4,4,4,4,4,4,2,7,"2,3,4,5","2,3,4,5","2,4,5",,,,,,
+recEN3Mkng8ZWZMd6,Libya,LY,LBY,434,LBY,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-03-04,2,2,3,,,,,,,,"1,2","1,2,4","1,2,4","1,2",7,"1,2,4","1,2,4","1,2,4","1,2,4",6
+recAuqq3TkRhacHBQ,Libya,LY,LBY,434,LBY,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-05,4,2,3,,,,,,,4,"1,2","1,2,4","1,2,4","1,2",7,"1,2,4","1,2,4","1,2,4","1,2,4",6
+recB7G4dysmRHvezn,Libya,LY,LBY,434,LBY,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-04,6,2,4,4,4,4,4,4,4,2,"1,2","1,2,4","1,2,4","1,2",,,,,,
+recqDaWgwOP7SZGr2,Libya,LY,LBY,434,LBY,UMC,Upper middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-18,7,2,4,4,4,4,4,4,4,2,"1,2,6","1,2,4,6","1,2,4,6","1,2,4,6",,,,,,
+rec6u378ppikwr1pT,Liechtenstein,LI,LIE,438,LIE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-01,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recsOW6Sfn5RN9l3x,Liechtenstein,LI,LIE,438,LIE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+rec7HHlXRF1Ny5FgI,Liechtenstein,LI,LIE,438,LIE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+recYDTpxCWo1MYGSZ,Lithuania,LT,LTU,440,LTU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-03,2,2,3,,,,,,,1,8,8,8,8,6,6,6,6,6,6
+recU3BOmTxNRl3yTR,Lithuania,LT,LTU,440,LTU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-01,8,2,3,4,3,3,3,2,2,1,8,8,8,8,6,6,6,6,6,6
+reccOC2ZojLef0KEa,Lithuania,LT,LTU,440,LTU,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-14,9,2,3,4,3,3,3,2,2,1,8,8,8,8,6,6,6,6,6,6
+recIto5o3xWw0PZep,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-30,1,2,3,,,,,,,,,,,,8,6,1,1,1,1
+recUGU9ayHX0RHeF3,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-23,2,2,3,,,,,,,2,"1,5,6","1,6",1,,8,1,1,1,1,1
+recIZLgcE8jH5nC7B,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-15,3,2,"3,4",,,,,,,2,"1,2",1,"1,2","1,2",7,"1,2",1,1,1,1
+reczMRMp5jhlJhKIW,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,2,"3,4",,,,,,,2,"1,6","1,6","1,6","1,6",1,1,1,1,1,1
+recc2NYmHYKJ0G11l,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,3,,,,,,,2,"1,5,6","1,5,6","1,5,6","1,5,6",1,1,1,1,1,1
+recfS85pTA6SG7YkD,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,3,3,3,3,3,3,3,2,"1,2,6","1,2,6","1,6",6,1,1,1,1,6,6
+recP8RBzAxBYy1y2o,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-17,7,2,"4,3","4,3","4,3","4,3","4,3","4,3","4,3",2,"1,2,6","1,2,6","1,6","1,6",6,6,6,1,1,1
+recPCtVxEb01Cw37K,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,3,3,3,3,3,3,3,2,"1,2","1,2","1,2","1,2",1,1,1,1,1,1
+reciWIxhD9uKlkEYF,Luxembourg,LU,LUX,442,LUX,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,3,3,3,3,3,3,3,2,1,1,1,1,1,1,1,1,1,1
+recWLPt7xiKJCJP1E,Madagascar,MG,MDG,450,MDG,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-28,1,2,3,,,,,,,,,,,,7,"3,5","3,5","3,5",7,7
+rec1NR98ly00zfzLZ,Madagascar,MG,MDG,450,MDG,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-05,3,2,4,,,,,,,,7,7,7,7,,,,,,
+recAxcdGiIkHXDu2w,Madagascar,MG,MDG,450,MDG,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-06,5,1,,,,,,,,2,,,,,,,,,,
+recCNzWCflblpDZy8,Madagascar,MG,MDG,450,MDG,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-26,6,1,1,1,1,1,1,1,1,2,,,,,,,,,,
+recdZofBPIDa3nFK1,Madagascar,MG,MDG,450,MDG,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-02,8,2,"4,3",4,"4,3",4,4,4,4,2,8,6,6,8,6,"2,3","2,3,5","2,3,5",6,6
+rectOXr7yt5nysBfJ,Malawi,MW,MWI,454,MWI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-06,3,2,4,,,,,,,2,,"2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+recnW7ABp4QGp5uO4,Malawi,MW,MWI,454,MWI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-05,4,2,4,,,,,,,2,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",,,,,,
+recA8tndrFjqmhElD,Malawi,MW,MWI,454,MWI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,"1,2,4","1,2,3,5","1,2,3,5","1,2,3,5",,,,,,
+rec8yzdwtUHUHok1Y,Malaysia,MY,MYS,458,MYS,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-01-29,1,2,2,,,,,,,,,,,,"1,2","1,2,4,5","1,2,4,5","1,2,4,5","1,4","1,4,5"
+recWUZ9x92aCLv8VB,Malaysia,MY,MYS,458,MYS,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-24,2,2,4,,,,,,,1,,,,,"4,5","1,2,4,5","1,2,4,5","1,4","1,4,5",
+rec8oJxu5DyxTItQH,Malaysia,MY,MYS,458,MYS,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-04-01,4,2,"2,4",,,,,,,2,7,7,7,6,"1,2","1,2,4,5","1,2,4,5","1,2,4,5","1,4","1,4,5"
+rec4bOkXSPd5XFo1h,Malaysia,MY,MYS,458,MYS,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-05-31,8,2,2,2,2,2,2,2,2,2,,,,,"1,2","1,2,4,5","1,2,4,5","1,2,4,5","1,4","1,4,5"
+recOrcba9TaHmPCCW,Malaysia,MY,MYS,458,MYS,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-06-13,9,2,2,2,2,2,2,2,2,2,,,,,"1,2","1,2,4,5","1,2,4,5","1,2,4,5","1,4","1,4,5"
+recLIhdeapHaAC3AA,Maldives,MV,MDV,462,MDV,UMC,Upper middle income,IDX,IDA,South Asia,SAS,2021-01-29,1,2,3,,,,,,,,,,,,2,2,2,2,"1,2","1,2"
+recoqGq5kJ4UKEKuD,Maldives,MV,MDV,462,MDV,UMC,Upper middle income,IDX,IDA,South Asia,SAS,2021-02-26,2,2,3,,,,,,,2,8,8,8,8,2,2,2,2,"1,2","1,2"
+rec2YN4tLbJ2mJ37J,Maldives,MV,MDV,462,MDV,UMC,Upper middle income,IDX,IDA,South Asia,SAS,2021-04-24,6,2,4,4,4,4,4,3,3,2,,,,,,,,,,
+recnLNiaJRKN2dPIC,Maldives,MV,MDV,462,MDV,UMC,Upper middle income,IDX,IDA,South Asia,SAS,2021-05-26,8,2,3,3,3,3,3,3,3,2,2,2,2,2,2,"1,2","1,2","1,2","1,2","1,2"
+receDDRVtIsCDPuVS,Mali,ML,MLI,466,MLI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-26,1,2,4,,,,,,,,,,,,,,,,,
+recqdFTd8T6FKVlWh,Mali,ML,MLI,466,MLI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-30,6,2,4,4,4,4,4,4,4,2,2,"2,3,4,5","2,3,4,5",2,,,,,,
+recr2GmCzo1K4GKoi,Mali,ML,MLI,466,MLI,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,2,"2,3,4,5","2,3,4,5",2,,,,,,
+recISDUVv22Cw2STv,Marshall Islands,MH,MHL,584,MHL,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-12,1,2,4,,,,,,,2,,,,,,,,,,
+recdvki3aCYoasYvn,Marshall Islands,MH,MHL,584,MHL,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-27,2,2,4,,,,,,,2,,,,,,,,,,
+reckAFRSIp3C4uGii,Marshall Islands,MH,MHL,584,MHL,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-24,2,2,4,,,,,,,2,7,7,7,7,,,,,,
+recD3fXOWpIQiqpCc,Marshall Islands,MH,MHL,584,MHL,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-02,8,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recOyoJwdoA4QQuY8,Mauritania,MR,"MRT
+",474,MRT,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recR8xcwpafUuHL6R,Mauritania,MR,"MRT
+",474,MRT,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,,2,2,2,2,,,,,,
+recJCa7tWv6wdR08E,Mauritania,MR,"MRT
+",474,MRT,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-12,5,2,4,,,,,,,2,"2,5","2,5","2,5","2,5",,,,,,
+recYfOCNU1pzYhTsx,Mauritania,MR,"MRT
+",474,MRT,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,1,2,2,2,2,,,,,,
+recY3lo18A8eCzVq2,Mauritania,MR,"MRT
+",474,MRT,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,1,2,2,2,2,,,,,,
+recg780EZ2zc1Al73,Mauritius,MU,MUS,480,MUS,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-01-28,1,2,4,,,,,,,,,,,,,,,,,
+recSLx3jgq4eNY3my,Mauritius,MU,MUS,480,MUS,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,2,2,2,2,2,,,,,,
+rec97oFVu66qWz8IB,Mauritius,MU,MUS,480,MUS,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-01,4,2,"1,2",,,,,,,2,,,,,6,"1,2","1,2",1,1,1
+recBePUGzpmetnmuw,Mauritius,MU,MUS,480,MUS,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-08,5,2,"1,2",,,,,,,2,,,,,6,"1,2","1,2",1,1,1
+reco88k275Em48a6T,Mauritius,MU,MUS,480,MUS,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-06,8,1,3,3,3,3,3,3,3,1,2,2,2,2,1,"1,2","1,2","1,2",1,1
+recQn22QcL1dJ83Tw,Mexico,MX,MEX,484,MEX,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-26,2,2,2,,,,,,,2,,,,,"1,2","1,2","1,2","1,2",1,6
+recJi29ZvVVsRHGdW,Mexico,MX,MEX,484,MEX,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-30,6,2,2,2,2,2,2,2,2,1,,,,,"1,2","1,2","1,2","1,2",1,6
+rec6qGpkj4sKMOqEi,Mexico,MX,MEX,484,MEX,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-08,9,2,2,2,2,2,2,2,2,1,,,,,"1,2","1,2","1,2","1,2",1,6
+recaEJub0ozYNDLiH,Mexico,MX,MEX,484,MEX,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-08,9,2,2,2,2,2,2,2,2,1,,,,,"1,2","1,2","1,2","1,2",1,6
+recbFNfGh5oUnvlHJ,Moldova,MD,MDA,498,MDA,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-26,1,2,4,,,,,,,,,,,,,,,,,
+recftlyrqahYlFmCX,Moldova,MD,MDA,498,MDA,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-03,2,2,2,,,,,,,2,,,,,7,"1,4","1,4","1,4","1,4","1,4"
+recnySMNXnDHiaEJL,Moldova,MD,MDA,498,MDA,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-02,4,2,3,,,,,,,1,7,7,7,7,7,"1,4","1,4","1,4","1,4","1,4"
+rechbo0u07ZnY7N0J,Moldova,MD,MDA,498,MDA,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-05-27,8,2,4,4,4,4,4,3,3,1,7,7,7,7,7,1,1,1,1,1
+recCYkBvkw4eiWL8y,Mongolia,MN,MNG,496,MNG,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-01-26,1,1,,,,,,,,1,,,,,,,,,,
+rec9IWq7VjWyiG5BC,Mongolia,MN,MNG,496,MNG,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-24,2,2,,,,,,,,,,,,,,,,,,
+recaZ7X7fcutKmYs4,Mongolia,MN,MNG,496,MNG,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-04-01,4,2,"1,2",,,,,,,1,,,,,2,"2,5","2,5","2,5,8",1,7
+recJAAfYphTg7USee,Mongolia,MN,MNG,496,MNG,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-05-26,8,2,"3,2,1",1,"3,2,1","3,2,1","3,2",2,5,1,7,5,5,"3,5",2,"2,5","2,5","2,5,8",1,7
+recoz0cSKiJjUgsyu,Montenegro,ME,MNE,499,MNE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-27,1,2,2,,,,,,,,,,,,7,"1,2,4","1,2,4","1,2,4","1,4","1,2,4"
+recUAGjWI9WFr53Sf,Montenegro,ME,MNE,499,MNE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,2,,,,,,,2,,,,,1,"1,2,4","1,2,4","1,2,4","1,4","1,2,4"
+recfJ5z2NP98iiO2v,Montenegro,ME,MNE,499,MNE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-05,4,2,3,,,,,,,2,7,7,7,7,"1,2","1,2,4","1,2,4","1,2,4","1,4","1,2,4"
+recmiyV3XwEE5d2D3,Montenegro,ME,MNE,499,MNE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-08,5,2,3,,,,,,,1,7,7,7,7,1,"1,2","1,2","1,2",1,"1,2"
+reccdqz6dxcSF66AK,Montenegro,ME,MNE,499,MNE,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-03,8,2,3,4,3,3,3,5,3,1,7,7,7,7,1,"1,2","1,2","1,2",1,"1,2"
+recQ5UMzKDIzKRwr1,Morocco,MA,MAR,504,MAR,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-01-28,1,1,"3,4,5",,,,,,,,,,,,"1,2","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,4,5","1,2,4"
+recS4dJ99DaCigKnf,Morocco,MA,MAR,504,MAR,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-03-02,2,2,"3,4,5",,,,,,,1,,6,6,,"1,2","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,4,5","1,2,4"
+recFnuyA2nwnYeIKK,Morocco,MA,MAR,504,MAR,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-19,5,2,"3,4",,,,,,,1,,6,6,,"1,2","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,4,5","1,2,4"
+rec253mPCYiTk4DAx,Morocco,MA,MAR,504,MAR,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-05,6,2,3,3,3,3,3,3,3,1,,6,6,6,"1,2","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,4,5","1,2,4"
+recmHnytM13BeqAtI,Morocco,MA,MAR,504,MAR,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-05,8,2,3,3,3,3,3,3,3,1,8,6,6,6,"1,2","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,4,5","1,2,4"
+recfIFdajia2KlRA8,Morocco,MA,MAR,504,MAR,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-21,9,2,3,3,3,3,3,3,3,1,8,6,6,6,"1,2","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,4,5","1,2,4"
+reclaNUVwkMn3AEsN,Mozambique,MZ,MOZ,508,MOZ,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-05,1,2,2,,,,,,,,,,,,7,"2,3,4,5","2,3,4,5","1,4,5","1,4,5","1,4,5"
+recujh73uie9kJ5ju,Mozambique,MZ,MOZ,508,MOZ,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-28,6,2,3,1,3,3,3,3,3,2,,,,,,,,,,
+recKwHO7jzRtxJIyB,Mozambique,MZ,MOZ,508,MOZ,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,3,4,3,3,3,3,3,1,2,"2,3,4","2,3","2,3",7,"2,3,5","2,3,5","1,2,3,5","1,5","1,5"
+rec0aECXnys5n2HCu,Myanmar,MM,MMR,104,MMR,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-02,1,2,1,,,,,,,,,,,,,,,,,
+rec4nQlKgN9tCPNM5,Myanmar,MM,MMR,104,MMR,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-28,2,2,1,,,,,,,2,,,,,,,,,,
+rec7BCTxorCSfpo8R,Myanmar,MM,MMR,104,MMR,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-05,8,2,"4,2,1","4,2,1","4,2,1","4,2,1","4,2,1","1,5","1,5",,,,,,,,,,,
+recJdE8xUBixWAPvn,Namibia,NA,NAM,516,NAM,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-08,5,2,3,,,,,,,2,1,"1,3","1,3","1,3",5,5,5,"5,8",8,8
+recnxZrOHei0EjpQs,Namibia,NA,NAM,516,NAM,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-26,6,2,3,3,3,3,3,4,4,2,,,,,,,,,,
+recUDJ2adh4dPpM04,Namibia,NA,NAM,516,NAM,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-05-18,7,2,3,3,3,3,3,4,4,2,1,"1,3","1,3","1,3",5,5,5,"5,8",8,8
+rec3OFPYaZ2qEOnxn,Namibia,NA,NAM,516,NAM,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-07,8,2,3,3,3,3,3,4,4,2,"1,5","1,3,5","1,3,5","1,3,5",5,5,5,"5,8","1,8",8
+recIBPF3zw8IKiQzk,Nauru,NR,NRU,520,NRU,HIC,High income,IBD,IBRD,East Asia and Pacific,EAS,2021-04-30,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recax43h4l1Tp7978,Nauru,NR,NRU,520,NRU,HIC,High income,IBD,IBRD,East Asia and Pacific,EAS,2021-05-20,7,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recEXIGrXj4HscY3l,Nauru,NR,NRU,520,NRU,HIC,High income,IBD,IBRD,East Asia and Pacific,EAS,2021-06-03,8,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recLpcNGYVoPtIKE9,Nepal,NP,NPL,524,NPL,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-01-29,1,2,3,,,,,,,,,,,,"1,4,5","1,2,4,5","1,2,3,4,5","1,2,3,4",1,1
+rec0vMh4qc1aex2fO,Nepal,NP,NPL,524,NPL,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-02-27,2,2,3,,,,,,,2,2,2,2,"2,4","1,4,5","1,2,4,5","1,2,3,4,5","1,2,3,4",1,1
+recM9DdRET183skrF,Nepal,NP,NPL,524,NPL,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-04-23,6,2,3,3,3,3,3,3,3,1,,,,,,,,,,
+recdLiH3P1k2wek6f,Nepal,NP,NPL,524,NPL,LMC,Lower middle income,IDX,IDA,South Asia,SAS,2021-05-26,8,2,2,2,2,2,2,2,2,2,,,,,"1,2,3","1,2,3,4,5","1,2,3,4,5","1,2,3,4","1,4","1,4"
+recddQ3gwBUe2f4tw,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-30,1,2,3,,,,,,,,,,,,7,1,1,1,1,1
+rec6Uo7mUh7gly6VL,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-23,2,1,,,,,,,,2,,,,,,,,,,
+recYyAAuy35PkSZmc,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-07,3,2,"2,3,4",,,,,,,2,4,4,4,4,7,7,"1,5","1,5",1,1
+recGNuyGFNoIphB5e,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-23,4,2,3,,,,,,,2,3,3,3,3,1,1,1,1,1,1
+rec69yj1EfCfNwb0m,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,"3,4",,,,,,,2,4,4,4,4,6,1,1,1,1,1
+reciLXah3lCyOVoMZ,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-06,6,2,4,4,4,4,4,3,4,2,4,4,4,4,7,7,1,1,1,1
+reci01i1lYMmRYYOf,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,"4,3",4,4,3,3,3,3,2,8,8,8,8,6,6,1,1,1,1
+recJUIQPumClEMMOr,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,3,4,2,8,8,8,8,6,1,1,1,1,1
+recdEUVXsFLdADTmo,Netherlands,NL,NLD,528,NLD,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-16,9,2,"4,3",4,4,"4,3","4,3","3,2","3,2",2,1,1,1,1,7,7,6,6,6,6
+rec7M2xzFUbEBLFFm,New Caledonia,NC,NCL,540,NCL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-07,6,2,4,4,4,4,4,5,5,2,8,8,8,8,,,,,,
+recELuAWTlIG7CJDy,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-01-30,1,2,4,,,,,,,,,,,,,,,,,
+rec3aESFFaUeyRW3O,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-28,2,2,"2,4",,,,,,,2,"3,7","3,7","3,7","1,7",,,,,,
+recs7KjJOXp5PoWS2,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-14,3,2,4,,,,,,,2,5,5,5,5,,,,,,
+recqYwdp6pMWneBas,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-27,4,2,4,,,,,,,2,"3,5","3,5","3,5","3,5",,,,,,
+reclJgwGdeesKySbL,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-09,5,2,4,,,,,,,2,5,5,5,5,,,,,,
+recUe53n96d58IKWN,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-07,6,2,4,4,4,4,4,3,5,2,8,8,8,8,7,7,7,7,1,6
+recoaNS3pDNCqd5J5,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,4,4,4,4,4,4,4,2,7,"5,6",6,6,,,,,,
+recXbHFznSN3r39D4,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-02,8,2,4,4,4,4,4,4,4,2,5,5,5,5,,,,,,
+reczDgrfrKH4P2NXe,New Zealand,NZ,NZL,554,NZL,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-15,9,2,4,4,4,4,4,4,4,2,5,5,5,5,,,,,,
+recC0Y1ZjDKEz58qL,Nicaragua,NI,NIC,558,NIC,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-12,1,2,4,,,,,,,,,,,,,,,,,
+reciG3sdHyCFsJvTu,Nicaragua,NI,NIC,558,NIC,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-02-26,2,2,4,,,,,,,,,,,,,,,,,
+receubyVBMrOEdwPl,Nicaragua,NI,NIC,558,NIC,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-04-30,6,2,4,4,4,4,4,4,4,2,,"3,4","3,4",,,,,,,
+recsN1QsWdUIMGEel,Nicaragua,NI,NIC,558,NIC,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-06-08,9,2,4,4,4,4,4,4,4,2,,"3,4","3,4",,,,,,,
+recDHRsg2r61ZwYLi,Nicaragua,NI,NIC,558,NIC,LMC,Lower middle income,IDX,IDA,Latin America and Caribbean,LCN,2021-06-08,9,2,4,4,4,4,4,4,4,2,,"3,4","3,4",,,,,,,
+reclaeakajZIz9Uc2,Niger,NE,NER,562,NER,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recBwsCLcKGvF8Qw9,Niger,NE,NER,562,NER,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-26,2,2,4,,,,,,,,1,7,7,7,,,,,,
+recJVFblm2s33WZ18,Niger,NE,NER,562,NER,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-31,4,2,4,,,,,,,2,7,7,7,7,,,,,,
+rec1oR3a6ZKOSzj9S,Niger,NE,NER,562,NER,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-07,5,2,4,,,,,,,2,7,7,7,7,,,,,,
+recndcaUHZjr9Z5DN,Niger,NE,NER,562,NER,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-02,8,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recxJOVTBILSuSgso,Niger,NE,NER,562,NER,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-13,9,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recenJIMn8jUsT5PO,Nigeria,NG,NGA,566,NGA,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-02-03,1,2,"3,4",,,,,,,,,,,,6,"1,2,5","1,2,5","1,2,5",1,6
+recFuR9GX1Qv9gHGd,Nigeria,NG,NGA,566,NGA,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-04-30,6,2,3,4,3,3,3,3,4,4,2,2,2,2,6,"1,2,3,5","1,2,3,5","1,2,3,5",1,6
+recnnZNO81kU7ptF0,Nigeria,NG,NGA,566,NGA,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-06,8,2,3,4,3,3,3,3,4,4,2,2,2,2,6,"1,2,3,5","1,2,3,5","1,2,3,5",1,6
+rec3JyYRdwsRThzs9,Niue,NU,NIU,570,NIU,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-30,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recixTD7bimEzWaoT,Niue,NU,NIU,570,NIU,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recTsb4vHWLXjgvOY,Niue,NU,NIU,570,NIU,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-03,8,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+recA11pMwpgeSzKng,North Macedonia,MK,MKD,807,MKD,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-27,1,2,3,,,,,,,,,,,,"1,2","1,2,4","1,2,4","1,4","1,4","1,4"
+recTZAmUGTqzgeJvo,North Macedonia,MK,MKD,807,MKD,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,3,,,,,,,2,1,7,7,7,"1,2","1,2,4,5","1,2,4","1,4","1,4","1,4"
+reci3gPhMXfsShBr7,North Macedonia,MK,MKD,807,MKD,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-05,4,2,3,,,,,,,1,1,7,7,7,"1,2","1,2,4,5","1,2,4","1,4","1,4","1,4"
+recKqQ0EsMzDfdxhx,North Macedonia,MK,MKD,807,MKD,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-02,8,2,"3,2",4,3,2,2,3,3,1,7,1,1,7,7,"1,2,4,5","1,2,4,5","1,4","1,5","1,4"
+recRxm8E86zcMgI4K,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-02,1,2,3,,,,,,,,,,,,8,1,1,1,1,6
+recLkKZUgyaP0qEmW,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-02-24,2,2,3,,,,,,,1,8,8,8,8,1,1,1,1,1,1
+recy5cN0MUE37pbwN,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-15,3,2,"2,3",,,,,,,1,8,8,8,8,6,"1,5,8","1,5,8","1,5,8",1,6
+recaP4gNZMJjryAep,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-28,4,2,4,,,,,,,1,5,5,5,5,,,,,,
+rec17f5sjvm79c4G1,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-11,5,2,3,,,,,,,1,5,5,5,5,1,1,1,1,1,1
+recPm4i6mO8szetxd,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-07,6,2,3,3,3,3,3,3,3,1,5,5,5,5,1,1,1,1,1,1
+recBjeDzei6GsQBnT,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,3,3,3,3,3,3,3,1,"5,6","5,6","5,6","5,6",1,1,1,1,1,1
+recffWiRUEoS5WaxP,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-03,8,2,3,3,3,3,3,3,3,1,5,5,5,5,1,1,1,1,1,1
+recl93oK5nsaRiaXl,Northern Mariana Islands,MP,MNP,580,MNP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-15,9,1,,,,,,,,1,,,,,,,,,,
+recVd6tVIdz3k53OC,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-30,1,2,3,,,,,,,,,,,,8,6,6,6,1,1
+recm7JbwiprJunwf1,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-23,2,3,"3,4",,,,,,,2,8,8,8,8,8,1,1,1,1,6
+recqNLTgoN7QEHadQ,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,3,,,,,,,2,8,8,8,8,1,1,1,1,1,1
+recjknpR7lXyWuwNe,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,1,,,,,,,,2,,,,,,,,,,
+recDvHskp6MB1El7U,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,3,,,,,,,2,8,8,8,8,1,1,1,1,1,1
+rec3NUhyxpcy91CqN,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,"4,3","4,3","4,3","4,3","4,3",3,3,2,8,8,8,8,1,1,1,1,1,1
+recl9f7GWBIyQ1fzg,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,3,3,3,3,3,2,"3,2",2,8,8,8,8,1,1,1,1,1,1
+recHDBKhUG1HUd7xk,Norway,NO,NOR,578,NOR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,1,,,,,,,,2,,,,,,,,,,
+recyqlAVYdsGXtfYS,Oman,OM,OMN,512,OMN,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-09,1,2,3,,,,,,,,,,,,6,1,1,1,1,6
+recIhXuJxb21iT0J6,Oman,OM,OMN,512,OMN,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-01,2,2,3,,,,,,,1,,,,,6,1,1,1,1,6
+recNfS8rnFN2tXA52,Oman,OM,OMN,512,OMN,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-05,4,2,2,,,,,,,1,,,,,6,1,1,1,1,6
+recqkAawMufNzRceO,Oman,OM,OMN,512,OMN,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-04,6,2,2,1,2,2,2,2,2,1,,,,,6,1,1,1,1,6
+rec8c6YM76uVUOV2x,Oman,OM,OMN,512,OMN,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,2,2,1,2,2,2,2,2,1,,,,,6,1,1,1,1,6
+rec2ImLDBetUkaI2E,Pakistan,PK,PAK,586,PAK,LMC,Lower middle income,IDB,Blend,South Asia,SAS,2021-01-31,1,2,4,,,,,,,,,,,,,,,,,
+recd4PHodVz9OqZJD,Pakistan,PK,PAK,586,PAK,LMC,Lower middle income,IDB,Blend,South Asia,SAS,2021-01-29,1,2,3,,,,,,,,,,,,2,"2,5","2,5","2,5","2,5",6
+recFKJAS0OuGsxgN9,Pakistan,PK,PAK,586,PAK,LMC,Lower middle income,IDB,Blend,South Asia,SAS,2021-04-29,6,2,"3,1,4","3,1","3,1","3,1","4,3,1","4,3",4,2,,,,,,,,,,
+recpEZWIp3ol2SlOM,Pakistan,PK,PAK,586,PAK,LMC,Lower middle income,IDB,Blend,South Asia,SAS,2021-06-07,8,2,"2,3",1,2,2,3,"4,3",5,1,7,7,7,"2,6",2,"1,2,3,4,5","1,2,3,4,5","1,2,4,5",1,6
+rec0tWVWpsegNZt59,Panama,PA,PAN,591,PAN,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-09,1,2,2,,,,,,,,,,,,6,"2,3,4,5","2,3,4,5","1,2,3,4",6,6
+rec2Qyw1BrrzcdAcd,Panama,PA,PAN,591,PAN,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-24,2,1,,,,,,,,2,,,,,,,,,,
+recV45Rr9xtAWGSnf,Panama,PA,PAN,591,PAN,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-25,4,1,,,,,,,,,,,,,,,,,,
+recLI03uBDy4d6Tjq,Panama,PA,PAN,591,PAN,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-06,6,2,3,5,3,3,3,5,5,1,8,8,8,8,6,"2,3,4,5","2,3,4,5","1,2,3,4,5",6,6
+rec5zqdhUvW93r9vg,Papua New Guinea,PG,PNG,598,PNG,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-01-29,1,2,"2,3,4",,,,,,,,,,,,,,,,,
+recPvN3lq5VtarDsE,Papua New Guinea,PG,PNG,598,PNG,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-03-01,2,2,4,,,,,,,,8,8,8,8,,,,,,
+recP6AzvfDpAZHBVQ,Papua New Guinea,PG,PNG,598,PNG,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-05-26,8,2,"4,2","4,2","4,2","4,2","4,2","4,2","4,2",1,8,"3,4","3,4","3,4","2,3,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,5","1,5"
+recjVulmUwdvCHiwe,Paraguay,PY,PRY,600,PRY,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-07,1,2,3,,,,,,,,,,,,6,6,6,6,6,6
+recg0wu5kBCDFP2Md,Paraguay,PY,PRY,600,PRY,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-02,4,2,3,,,,,,,2,7,7,7,7,6,"1,2,3,4","1,2,3,4","1,2,3,4",6,6
+recg2L37cMH67j7r0,Paraguay,PY,PRY,600,PRY,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-17,5,2,3,,,,,,,,,,,,6,"1,2,3,4","1,2,3,4","1,2,3,4",6,6
+rec6UJhtgFcxQG5Ab,Paraguay,PY,PRY,600,PRY,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-26,6,2,2,2,2,2,2,2,2,2,,,,,,,,,,
+recEeGgNwlVqxMeHg,Paraguay,PY,PRY,600,PRY,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-03,8,2,2,2,2,2,2,2,2,2,,,,,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,4,5","1,4,5"
+recEHruz7EGBctrsu,Peru,PE,PER,604,PER,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,1,,,,,,,,,,,,,,,,,,
+recs7jogb7zQWpOMH,Peru,PE,PER,604,PER,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-01,2,1,,,,,,,,2,,,,,,,,,,
+recEBTXqNwWxDCdsK,Peru,PE,PER,604,PER,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-25,4,1,,,,,,,,,,,,,,,,,,
+recxnAQXBikBQd9bb,Peru,PE,PER,604,PER,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-05-04,6,2,"4,2",2,4,4,2,2,2,2,7,8,7,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",6,6
+rec7v0UpfsLr7tbDp,Philippines,PH,PHL,608,PHL,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-01-27,1,2,2,,,,,,,,,,,,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5",6,6
+rece01pJIGuEIJAsT,Philippines,PH,PHL,608,PHL,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-03-01,2,2,2,,,,,,,2,,,,,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5","1,6",6
+recYo6Mbc3MijAph0,Philippines,PH,PHL,608,PHL,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-03-25,4,2,2,,,,,,,,,,,,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5",6,6
+recKOzBHv3zXYT6jK,Philippines,PH,PHL,608,PHL,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-04-02,4,2,2,,,,,,,2,,,,,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5","1,5","1,5"
+recnGLyAgBYTN8owm,Philippines,PH,PHL,608,PHL,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-05-26,8,2,2,2,2,2,2,"3,2",5,1,7,7,7,7,"1,2,3,5","1,2,3,5","1,2,3,5","1,2,3,5","1,5","1,5"
+recsygUIOvoeAj8o9,Poland,PL,POL,616,POL,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,3,,,,,,,,,,,,7,1,7,1,1,1
+recxi9LOxmMIHufiW,Poland,PL,POL,616,POL,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-02,2,2,3,,,,,,,1,1,8,7,7,"1,5","1,4","1,4","1,4","1,4","1,4"
+recgRJFxiRojHyT7u,Poland,PL,POL,616,POL,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-01,8,2,4,4,4,4,4,3,4,1,7,7,7,7,"1,5",1,1,1,1,1
+recWn70e6DVH8efjr,Poland,PL,POL,616,POL,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-11,9,2,4,4,4,4,4,3,4,1,7,7,7,7,"1,5",1,1,1,1,1
+recWMSmdJSNynUugF,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-31,1,2,2,,,,,,,,,,,,8,6,1,1,1,6
+rec5ox5Bq2cA9pzY1,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-25,2,2,"2,3",,,,,,,2,"6,8","6,7","6,7",7,1,1,1,1,1,6
+recakRcusNwtJ8qyP,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,"2,4",,,,,,,2,8,8,8,8,7,7,7,1,1,6
+recrA9BdfBE9KbO9B,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,2,,,,,,,2,8,8,8,8,7,7,1,1,1,1
+recKRxUveKPQMrs9C,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,"2,4",,,,,,,2,,,,,7,7,7,1,1,7
+recA8H7Gk9Pwf3Ubf,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-01,6,2,4,4,4,4,4,4,4,2,3,3,3,3,,,,,,
+recx1mEWtDkPeCuMM,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,1,7,7,7,7,,,,,,
+recDlIHQZC98L90zK,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,1,8,8,8,8,,,,,,
+recPh4waKEg62Jo6y,Portugal,PT,PRT,620,PRT,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-14,9,1,,,,,,,,1,,,,,,,,,,
+recdbBOMaHb6kpCSB,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-01,1,2,2,,,,,,,,,,,,1,1,1,1,6,6
+recwX7JD31LoIZUNA,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-27,2,2,2,,,,,,,1,8,8,"6,8",8,"1,2,3","1,2,3","1,2,3","1,2,3",6,6
+reczQURalw2udskto,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-14,3,2,"2,3",,,,,,,1,8,8,8,8,1,1,"1,2","1,2",6,6
+recRwtbQMDEFmLejK,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-28,4,2,4,,,,,,,2,7,7,7,7,,,,,,
+rec7FUcNFuKOGkFtx,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-11,5,2,"2,3",,,,,,,2,7,7,7,7,1,1,1,1,1,1
+recsdUEbONfRbFrI3,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-07,6,2,2,2,2,2,2,5,5,2,,,,,1,1,1,1,6,6
+recEeU9YH9wT5Sodd,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-20,7,2,2,2,2,2,2,5,5,2,,,,,1,1,1,1,1,6
+rechycW7uoGxPOMf5,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-03,8,2,2,2,2,2,2,5,5,2,,,,,1,1,1,1,1,6
+recOKLm8jg9356NFc,Puerto Rico,PR,PRI,630,PRI,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-15,9,1,,,,,,,,1,,,,,,,,,,
+rectaoD6FU59zx1ZT,Qatar,QA,QAT,634,QAT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-09,1,2,2,,,,,,,,,,,,6,"1,4","1,4","1,4","1,4",6
+recQ9GcDm5yMuHbC3,Qatar,QA,QAT,634,QAT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-01,2,2,2,,,,,,,1,,,,,6,"1,4","1,4","1,4","1,4",6
+recDrd89iFfOvZgAW,Qatar,QA,QAT,634,QAT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-05,4,2,"3,4",,,,,,,1,,,,,6,"1,4","1,4","1,4","1,4",6
+recetPk4M7YmWuXFZ,Qatar,QA,QAT,634,QAT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-29,6,2,"4,3",4,4,3,3,3,4,1,,,2,2,6,"1,4","1,4","1,4","1,4",6
+recXZ1JawzXGGUTCb,Qatar,QA,QAT,634,QAT,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,2,"4,3",4,4,3,3,3,4,1,,,2,2,6,"1,4","1,4","1,4","1,4",6
+recBj5vOtATcsnMz5,Romania,RO,ROU,642,ROU,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-26,1,2,2,,,,,,,,,,,,"4,5","1,4,5","1,4,5","1,4,5",1,"1,4,5"
+recQMUTp2SHwWmc0e,Romania,RO,ROU,642,ROU,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,3,,,,,,,1,1,"3,4,5","3,4,5","3,4,5","4,5","1,4,5","1,4,5","1,4,5",1,"1,4,5"
+recpcH5D3wCFCon4N,Romania,RO,ROU,642,ROU,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-04,4,1,,,,,,,,1,,,,,,,,,,
+recVk2NCXWsZA0avC,Romania,RO,ROU,642,ROU,HIC,High income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-01,8,2,"4,3",4,4,3,3,2,3,1,5,"3,4,5","3,4,5","3,4,5","1,4,5","1,4,5","1,4,5,8","1,4,5,8",1,"1,4,5,8"
+recs6GSaQW31cUKpI,Russian Federation,RU,RUS,643,RUS,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-27,1,2,3,,,,,,,,,,,,7,7,7,1,1,1
+recEdvNpP8UYyrJB2,Russian Federation,RU,RUS,643,RUS,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-17,2,2,4,,,,,,,1,,,,,,,,,,
+rec6mspwiKJRa6tr7,Russian Federation,RU,RUS,643,RUS,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-31,4,2,4,,,,,,,1,7,7,7,7,,,,,,
+recoetKwxNVeZO9FF,Russian Federation,RU,RUS,643,RUS,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-15,5,2,4,,,,,,,1,7,7,7,7,,,,,,
+recNXCJZxJM8wOznt,Russian Federation,RU,RUS,643,RUS,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-28,6,2,4,4,4,4,4,4,4,1,,,,,,,,,,
+recwxr8si9VDtcb7m,Russian Federation,RU,RUS,643,RUS,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-01,8,1,,,,,,,,1,,,,,,,,,,
+recYlEk2P3G1jS6Be,Rwanda,RW,RWA,646,RWA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-02,1,2,3,,,,,,,,,,,,"1,2,3","1,2,3","1,2,3","1,2,3",6,6
+recvKLeUy1nKRC7bO,Rwanda,RW,RWA,646,RWA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-13,3,2,4,,,,,,,4,2,"2,4,5","2,4,5","2,4,5",,,,,,
+recDWftgubLD1vwDN,Rwanda,RW,RWA,646,RWA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-26,4,2,4,,,,,,,1,"2,5","2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+rec8GHVtku1BivQPB,Rwanda,RW,RWA,646,RWA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-16,7,2,4,4,4,4,4,4,4,1,"2,5","2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+recmhicPlfe4Khp6T,Rwanda,RW,RWA,646,RWA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,1,"2,5","2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+recBQcdQoCzrrDDfD,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+rec9dFTxvArNwrGRy,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-02,2,2,"2,3",,,,,,,2,8,8,8,8,8,6,1,1,1,1
+recEIeVFi0iTq4mNb,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-15,3,2,2,,,,,,,2,,,,,1,"1,8","1,8","1,8",1,1
+rectTSSEeFGm6BNNz,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,2,,,,,,,1,,,,,1,1,1,1,1,1
+rec0BVkvQt9qGCqb9,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,"2,3,4",,,,,,,1,7,7,7,7,7,7,1,1,1,1
+rec4YGi1zRgkul4BL,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,4,4,4,4,4,4,4,1,7,7,7,7,,,,,,
+rectTjhZOa1jR5jD6,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,2,6,6,,,,,,,,
+reckKt7hH9PJz0Bnj,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,1,5,5,,,,,,,,
+reckS1csrPIaeDQv9,San Marino,SM,SMR,674,SMR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,4,4,1,5,5,,,,,,,,
+recuVgfFj7HCFO1nW,Sao Tome and Principe,ST,STP,678,STP,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,"1,2",,,,,,,,,,,,7,2,2,2,6,6
+recoK0rmfRhThRhr8,Sao Tome and Principe,ST,STP,678,STP,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-28,6,2,4,4,4,4,4,4,4,2,,,,,,,,,,
+recnEpZ3VTSdFVVl9,Sao Tome and Principe,ST,STP,678,STP,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,1,7,7,7,7,,,,,,
+rec0up2w8d1dGiTHd,Saudi Arabia,SA,SAU,682,SAU,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-01-28,1,2,3,,,,,,,,,,,,"1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5",1,6
+recowlHs6981ijjWS,Saudi Arabia,SA,SAU,682,SAU,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-01,2,2,2,,,,,,,2,,,,,"1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5","1,4",6
+recIsf7lKpgiYccOa,Saudi Arabia,SA,SAU,682,SAU,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-19,5,2,2,,,,,,,2,,,,,"1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5","1,4",6
+recNXFmzODJ9VtVKq,Saudi Arabia,SA,SAU,682,SAU,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-29,6,1,,,,,,,,2,,,,,,,,,,
+rec1eNB6dyVkCxh44,Saudi Arabia,SA,SAU,682,SAU,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,1,,,,,,,,2,,,,,,,,,,
+recfbSqCEhpjnzvEV,Senegal,SN,SEN,686,SEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+rec6pTPxnKJC4mVwz,Senegal,SN,SEN,686,SEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,4,,,,,,,2,2,"2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+recRrMazSmiJHCJSl,Senegal,SN,SEN,686,SEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-10,5,2,4,,,,,,,2,2,"2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+recKmEmq5HLtfLGwC,Senegal,SN,SEN,686,SEN,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,2,"2,3,4,5","2,3,4,5","2,3,4,5",,,,,,
+recIl8g6oYyODAwyk,Serbia,RS,SRB,688,SRB,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,3,,,,,,,,,,,,7,"1,2","1,2",1,1,1
+rec5Imk3DMHk7UaCj,Serbia,RS,SRB,688,SRB,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,3,,,,,,,1,1,7,7,7,7,"1,2","1,2",1,1,1
+receJuXnm7r5g70IZ,Serbia,RS,SRB,688,SRB,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-02,8,2,3,4,3,3,3,3,3,1,1,7,7,7,7,"1,2,4","1,2,4","1,4","1,4","1,4"
+rec5UquI7yE030d1O,Seychelles,SC,SYC,690,SYC,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-29,6,2,3,3,3,3,3,3,3,2,,,,,,,,,,
+recwnDWLDmr8FhrPd,Seychelles,SC,SYC,690,SYC,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-08,9,2,3,3,3,3,3,3,3,2,8,8,8,8,6,"1,2,3","1,2,3","1,2,3",1,6
+rec8TzmjJIT5jMAa7,Seychelles,SC,SYC,690,SYC,HIC,High income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-08,9,2,3,3,3,3,3,3,3,2,8,8,8,8,6,"1,2,3","1,2,3","1,2,3",1,6
+rectbxhhI4GjrQuNm,Sierra Leone,SL,SLE,694,SLE,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-05,1,2,3,,,,,,,,,,,,3,"3,5","3,5","3,5",7,7
+recUwnB5izIMsKaYJ,Sierra Leone,SL,SLE,694,SLE,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-02,2,2,4,,,,,,,2,2,"2,3","2,3","2,3",,,,,,
+recVaQSHEq8stV2gG,Sierra Leone,SL,SLE,694,SLE,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-05,4,2,4,,,,,,,,"2,6","2,3","2,3","2,3",,,,,,
+rec0SVifzVB9G9GuJ,Sierra Leone,SL,SLE,694,SLE,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-08,5,2,4,,,,,,,2,2,"2,3","2,3","2,3",,,,,,
+recttpAjxfGEolzYA,Sierra Leone,SL,SLE,694,SLE,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,4,4,4,4,4,4,4,2,2,"2,3","2,3","2,3",,,,,,
+reca7L22uDWAyszo6,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-01-31,1,2,3,,,,,,,,,,,,8,6,1,1,1,6
+recFXhLZVqTzUh0uF,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-01,2,2,4,,,,,,,2,"1,5","1,5","1,5","1,5",,,,,,
+recEitl5xlOMCT19U,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-14,3,1,,,,,,,,1,,,,,,,,,,
+recq6n2AGw65noy9C,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-27,4,2,4,,,,,,,1,"1,5","1,5","1,5","1,5",,,,,,
+recx2eyZynsEhuTIQ,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-12,5,2,4,,,,,,,1,8,6,6,6,,,,,,
+recedFjMrZ1N57pqA,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-04-30,6,2,4,4,4,4,4,4,4,1,3,3,3,3,,,,,,
+recAEpdUFpb4dWTlS,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-20,7,2,"2,4",4,"2,4","2,4","2,4",2,2,1,7,3,3,3,6,"1,5","1,5","1,5","1,5","1,5"
+recI84EUj9Tyi5E7v,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-01,8,1,,,,,,,,1,,,,,,,,,,
+rec0JQdmBnbpbPPNh,Singapore,SG,SGP,702,SGP,HIC,High income,LNX,Not classified,East Asia and Pacific,EAS,2021-06-17,9,1,,,,,,,,1,,,,,,,,,,
+recb0Mr0Y2CWlfZ3C,Sint Maarten (Dutch part),SX,SXM,534,SXM,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-30,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recaPEthzGgtkt8YL,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-31,1,2,3,,,,,,,,,,,,8,1,1,1,1,6
+recxe1hWU3UvU8OKx,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-26,2,2,"3,4",,,,,,,1,,"2,3,4","2,3,4","2,3,4",8,1,1,1,1,1
+recs3eZC8qmMVIpFu,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-12,3,2,"2,3",,,,,,,2,1,"1,3",3,,1,"1,2,4,5","1,4,5","1,4",1,1
+recQ952O9rM2S3uTT,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-26,4,2,3,,,,,,,2,7,4,4,7,1,1,1,1,1,1
+recUHwgT6Pwt88UnR,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,1,,,,,,,,1,,,,,,,,,,
+recPwlsaXLgqe0GJn,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-02,6,2,"4,2,3","4,2","4,2","4,3,2",2,2,2,1,,3,"3,4",4,1,"1,2,5,8","1,5,8",1,1,1
+recK7uR3KEW4wHBob,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-16,7,2,4,4,4,4,4,2,2,2,,"3,4,6","3,4,6",6,7,7,7,7,1,1
+recFfKVMOkbwvoaBO,Slovak Republic,SK,SVK,703,SVK,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-01,8,2,4,4,4,4,4,2,4,2,,"3,4","3,4",,7,"1,2,5,8","1,5,8",1,1,1
+rec5eU0Mbypn00CnG,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-31,1,2,3,,,,,,,,,,,,8,6,1,1,1,6
+recB4fVifFM6pPWww,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-01,2,2,"2,4",,,,,,,2,8,8,8,8,1,7,1,1,1,1
+recIsZvgU2B1T1ZeS,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,3,,,,,,,1,8,8,8,8,1,1,1,1,1,1
+reci14u4BBnA0yxUm,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,"3,4",,,,,,,1,7,7,7,7,1,1,1,1,1,1
+recArPzPrbgwgRfKi,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,"3,4",,,,,,,1,,,,,7,7,1,1,1,1
+rec9NEJ3PF1FbfdR6,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,"4,3",4,4,3,3,3,3,1,7,7,7,7,1,1,1,1,1,1
+rec6LJYHu2NBqcXDX,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,1,6,6,6,6,,,,,,
+recMK33JDYqO8czyN,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,4,4,1,,5,5,5,,,,,,
+recoQrMRh3FkVUHq4,Slovenia,SI,SVN,705,SVN,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-17,9,2,4,4,4,4,4,4,4,1,5,5,5,5,,,,,,
+recbtxuQP16CQrh2m,Solomon Islands,SB,SLB,90,SLB,LMC,Lower middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-02,8,2,4,4,4,4,4,4,4,2,,,,3,,,,,,
+recmRlSKRSJGeWLcC,Somalia,SO,SOM,706,SOM,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-07,3,2,4,,,,,,,,8,8,8,8,,,,,,
+recuqOhSBOcahpZit,Somalia,SO,SOM,706,SOM,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-03,4,2,"1,4",,,,,,,1,7,7,7,7,,,,,,
+recqyOnifxBAub7sF,Somalia,SO,SOM,706,SOM,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-04,6,2,"4,1","4,1","4,1","4,1","4,1","4,1","4,1",2,,"2,3","2,3","2,3",,,,,,
+recur1hC9GttZIDHE,Somalia,SO,SOM,706,SOM,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-05-19,7,2,"4,1","4,1","4,1","4,1","4,1","4,1","4,1",2,,"2,3","2,3","2,3",,,,,,
+recuFmg456iG1DwN9,Somalia,SO,SOM,706,SOM,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-10,9,2,,,,,,,,,,,,,,,,,,
+rec00RQ89ontWNdJQ,South Africa,ZA,ZAF,710,ZAF,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-01-29,1,2,1,,,,,,,,,,,,,,,,,
+recPhPqhPStOcN2Zv,South Africa,ZA,ZAF,710,ZAF,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-04-06,5,2,3,,,,,,,2,,2,2,2,,,,,,
+recsKVtuk508I2B49,South Africa,ZA,ZAF,710,ZAF,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-05-04,6,2,4,4,4,4,4,3,3,2,,2,2,2,7,7,7,7,1,1
+recwhjOSfTWpbxiFD,South Africa,ZA,ZAF,710,ZAF,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,3,3,2,7,2,2,2,7,7,7,7,1,1
+recovmyvJGFNaLxRR,South Africa,ZA,ZAF,710,ZAF,UMC,Upper middle income,IBD,IBRD,Sub-Saharan Africa,SSF,2021-06-13,9,2,4,4,4,4,4,3,3,2,7,2,2,2,7,7,7,7,1,1
+recXlEK8x2ECqoBez,South Sudan,SS,SSD,728,SSD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-28,1,2,"2,4,5",,,,,,,,,,,,3,3,3,3,6,6
+recNTY3hEvhD2Vhww,South Sudan,SS,SSD,728,SSD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-03,4,2,"2,4,5",,,,,,,2,7,7,7,7,3,3,3,3,6,7
+recKCC2GbPMyUv0UZ,South Sudan,SS,SSD,728,SSD,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,2,7,7,7,7,,,,,,
+recDI2su5zkVQxANJ,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,"3,4",,,,,,,,,,,,8,6,6,1,1,6
+recudZFmSxcOdGLrG,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-23,2,2,"3,4",,,,,,,1,8,8,8,8,8,6,1,1,1,6
+recAGjwtxKPHH42Xr,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-09,3,2,4,,,,,,,2,"3,6","3,6","3,6","3,6",,,,,,
+recBKwNFDeJzXiabY,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-28,4,2,4,,,,,,,1,8,8,8,8,,,,,,
+recOOMmkhhD8o0qXh,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-12,5,2,4,,,,,,,1,6,6,6,6,,,,,,
+recSPjZzGNpcu01Po,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-06,6,2,4,4,4,4,4,4,4,1,6,6,6,6,,,,,,
+recXZBM4ORKfUXgEy,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-20,7,2,4,4,4,4,4,4,4,1,6,6,6,6,,,,,,
+recpi8PHRNKMpxrkx,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-03,8,2,"3,4","3,4","3,4","3,4","3,4","3,4","3,4",1,6,6,6,6,,,,,,
+recEN45ZSmvxIgnbQ,Spain,ES,ESP,724,ESP,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-15,9,2,4,4,4,4,4,4,4,1,6,6,6,6,,,,,,
+recNf2jT3wTSPwdLA,Sri Lanka,LK,LKA,144,LKA,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-01-29,1,2,3,,,,,,,2,,,,,2,"1,2,4,5","1,2,4,5","1,2,4,5","1,4,5","1,4,5"
+reczOYzfS6Max4LFy,Sri Lanka,LK,LKA,144,LKA,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-05-02,6,2,"2,1","2,1","2,1","2,1","2,1","2,1","2,1",2,,,,,2,"1,3,4,5,8","1,2,3,4,5,8","1,2,3,4,5,8","1,4,5","1,4,5"
+recDJT3C42VETtgVP,Sri Lanka,LK,LKA,144,LKA,LMC,Lower middle income,IBD,IBRD,South Asia,SAS,2021-05-26,8,2,"2,1",1,"2,1","2,1","2,1","2,1","2,1",2,,,,,6,"1,3,4,5,8","1,2,3,4,5,8","1,2,3,4,5,8","1,4","1,4"
+recDFtTciiNKeDEvY,St Martin (French part),MF,MAF,663,MAF,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-01,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recsvc5ykclac20NJ,St Martin (French part),MF,MAF,663,MAF,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-20,7,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recBm2aY3wAtvmwtQ,St Martin (French part),MF,MAF,663,MAF,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-03,8,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+rec3fsR7vz3iSDxfx,St. Lucia (OECS),LC,LCA,662,LCA,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-12,1,2,3,,,,,,,,,,,,"1,2","1,2,4,5","1,4,5","1,4,5","1,4","1,4"
+recOFgWb9jC4ABOKM,St. Lucia (OECS),LC,LCA,662,LCA,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-03-01,2,2,,,,,,,,,,,,,,,,,,
+recFSQ7LICvDG1XTu,St. Lucia (OECS),LC,LCA,662,LCA,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-26,2,2,3,,,,,,,,,,,,"1,2","1,2,4,5","1,4,5","1,4,5","1,4","1,4"
+recqmlVGzei4rsTD0,St. Vincent and the Grenadines (OECS),VC,VCT,670,VCT,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-14,1,2,2,,,,,,,,,,,,1,"1,2,3,4,5","1,2,3,4","1,2,3,4",6,6
+recB4pzMvo2GFUF3l,St. Vincent and the Grenadines (OECS),VC,VCT,670,VCT,UMC,Upper middle income,IDB,Blend,Latin America and Caribbean,LCN,2021-02-26,2,2,2,,,,,,,2,,,,,1,"1,2,4,5","1,2,4","1,2,4",6,6
+recDkpUgpSsAmTr1w,Sudan,SD,SDN,729,SDN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-26,1,2,5,,,,,,,,,,,,,,,,,
+recm3VCjcxjESR6aG,Sudan,SD,SDN,729,SDN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-07,5,2,4,,,,,,,2,2,2,2,2,,,,,,
+recBBfn2Y5NEXm0EH,Sudan,SD,SDN,729,SDN,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,1,1,1,1,1,3,3,2,2,2,2,2,7,"2,3","2,3","2,3",1,6
+recnrfWFE2vLDUjqo,Suriname,SR,SUR,740,SUR,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-02,2,2,"3,4",,,,,,,2,2,2,2,2,7,"1,2,4,5","1,4,5","1,4",1,7
+rec5rLs4orpeCsNuu,Suriname,SR,SUR,740,SUR,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-16,5,2,2,,,,,,,2,,,,,7,"1,2,4,5","1,4,5","1,4",1,7
+recxOrb6ygvakhphJ,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-01,1,2,"3,4",,,,,,,,,,,,8,1,1,1,1,1
+rec5TqYRJ3REjWB1J,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-25,2,2,"3,4",,,,,,,2,8,8,8,8,8,1,1,1,1,6
+recZDCSswA0qPGx1o,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,3,,,,,,,2,8,8,8,8,6,1,1,1,1,6
+recYzmKa1jwa4k5tt,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-29,4,2,3,,,,,,,2,"2,6","2,6","1,2,6","1,2,6",6,6,1,1,1,6
+recnQGeJcEKVR0MFV,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,3,,,,,,,2,8,8,8,8,6,6,6,1,6,6
+recfZYMJlAqvkm3Tm,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-07,6,2,"4,3",4,4,4,"4,3","4,3,2","4,3,2",2,6,6,6,6,1,1,1,1,6,6
+reciSSE9dqMy2Tvda,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,"4,3,2","4,3","4,3","4,3","4,3,2",5,"3,2",2,6,6,6,6,6,6,6,1,1,6
+recNpgT7Iz3Q1Hxsd,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-01,8,2,"4,3,2","4,3","4,3","4,3,2","4,3,2","3,2","4,3,2",2,1,1,1,1,1,1,1,1,6,6
+recSKNaBxvJYC32Az,Sweden,SE,SWE,752,SWE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-16,9,1,,,,,,,,2,,,,,,,,,,
+recur0PDgIGZU4KXh,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-31,1,2,"3,4",,,,,,,,,,,,8,1,1,1,1,1
+recqQuPVcLO8lCCef,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-26,2,2,"3,4",,,,,,,2,8,1,8,8,8,1,1,1,1,6
+recMVrgKCMAeQkAyZ,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-14,3,2,"2,3,4",,,,,,,2,1,1,,"1,6",7,7,1,1,1,1
+recwi4y7sPiHARlds,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-27,4,2,4,,,,,,,1,1,1,,"1,6",,,,,,
+recomI1wq4trhDBPN,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,1,,,,,,,,2,,,,,,,,,,
+recB2fQEuabZcKymn,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-05,6,2,4,4,4,4,4,3,4,2,8,8,8,8,7,7,7,7,1,7
+recYGyCGRwOrtsBFz,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,4,4,4,4,4,4,"2,4",2,8,8,8,8,,,,,,
+recMEaSYoWesNDG3Y,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-02,8,2,4,4,4,4,4,5,5,1,8,8,8,8,,,,,,
+receku6AAuLiKcO44,Switzerland,CH,CHE,756,CHE,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-12,9,2,4,4,4,4,4,4,5,2,4,4,4,4,,,,,,
+rec1lEBH1Ck3Rjitd,Syria,SY,SYR,760,SYR,LIC,Low income,IDX,IDA,Middle East and North Africa,MEA,2021-03-02,2,2,4,,,,,,,,7,"2,5","2,5","2,5",,,,,,
+recsm8YyFN9bNjmKv,Syria,SY,SYR,760,SYR,LIC,Low income,IDX,IDA,Middle East and North Africa,MEA,2021-05-22,7,1,4,4,4,4,4,"4,2",4,2,7,"2,5","2,5","2,5",7,1,"1,2,5","1,2,4,5","1,5",7
+recDnnqVzUVdwOXw2,Tajikistan,TJ,TJK,762,TJK,LIC,Low income,IDX,IDA,Europe and Central Asia,ECS,2021-01-25,1,2,4,,,,,,,,,,,,,,,,,
+rec9WngADzxqB4rMd,Tajikistan,TJ,TJK,762,TJK,LIC,Low income,IDX,IDA,Europe and Central Asia,ECS,2021-03-01,2,2,4,,,,,,,,1,,,,,,,,,
+recDwuJ05ZCmwBkoL,Tajikistan,TJ,TJK,762,TJK,LIC,Low income,IDX,IDA,Europe and Central Asia,ECS,2021-04-09,5,2,4,,,,,,,1,7,8,8,8,,,,,,
+recAopn0bGCyqZaUh,Tajikistan,TJ,TJK,762,TJK,LIC,Low income,IDX,IDA,Europe and Central Asia,ECS,2021-06-02,8,2,4,4,4,4,4,4,4,1,7,2,2,2,,,,,,
+recT6Foh8yrAqpMGO,Tanzania,TZ,TZA,834,TZA,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-14,9,1,,,,,,,,2,,,,,,,,,,
+recil3oiUT7jp0dmP,Thailand,TH,THA,764,THA,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-03,1,2,3,,,,,,,,,,,,"1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5"
+rec1DIvCLtD3ZCtCo,Thailand,TH,THA,764,THA,UMC,Upper middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-06-04,8,2,3,3,3,3,3,3,3,2,"1,2,3","1,2,3","1,2,3","1,2,3","1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5","1,2,4,5"
+rectmt2IMGGNBibdV,Timor-Leste,TL,TLS,626,TLS,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-01-27,1,2,4,,,,,,,,,,,,,,,,,
+recAxbqwGoze6JdJD,Timor-Leste,TL,TLS,626,TLS,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-03-04,2,2,4,,,,,,,,,,,,,,,,,
+recu3TsIq17u0a1LT,Timor-Leste,TL,TLS,626,TLS,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-03-31,4,2,2,,,,,,,2,,,,,"1,2,3,4","1,2,3,4","1,2,3,4","1,2,3,4",6,"1,2,3,4"
+recjADRM3Hz2S1YZ0,Timor-Leste,TL,TLS,626,TLS,LMC,Lower middle income,IDB,Blend,East Asia and Pacific,EAS,2021-05-30,8,2,2,2,2,2,2,2,2,1,,,,,"1,2,3,4","1,2,3,4","1,2,3,4","1,2,3,4",6,"1,2,3,4"
+recGM6MLeJsuhQ4Yc,Togo,TG,TGO,768,TGO,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-02-04,1,2,4,,,,,,,,,,,,,,,,,
+recuSkcQUiWyVIZRC,Togo,TG,TGO,768,TGO,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-03,2,2,4,,,,,,,,2,"2,3,5","2,3,5","2,3",,,,,,
+recfCHjcWJy1dBfB1,Togo,TG,TGO,768,TGO,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-08,5,2,4,,,,,,,2,2,"2,3,5","2,3,5","2,3,5",,,,,,
+rechzDE8FeNf8yE7c,Togo,TG,TGO,768,TGO,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-03,8,2,4,4,4,4,4,4,4,1,2,"2,3,5","2,3,5","2,3,5",,,,,,
+recAnuRxXOvpqGiYK,Tokelau,TK,TKL,772,TKL,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-01-26,1,2,4,,,,,,,,,,,,,,,,,
+recp9ZR52ABZPznQV,Tokelau,TK,TKL,772,TKL,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-04,2,2,4,,,,,,,,,,,,,,,,,
+recSpP1tBxUCpZ8Ta,Tokelau,TK,TKL,772,TKL,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-03-31,4,2,4,,,,,,,2,7,7,7,7,,,,,,
+rec1JkgVRl00llupO,Tokelau,TK,TKL,772,TKL,UMC,Upper middle income,LNX,Not classified,East Asia and Pacific,EAS,2021-05-04,6,2,4,4,4,4,4,2,1,,7,7,7,7,6,6,6,6,6,6
+reccmYmbIu2ytOScU,Tonga,TO,TON,776,TON,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-01-29,1,2,4,,,,,,,,,,,,,,,,,
+recZLvwuBo89F03Xa,Tonga,TO,TON,776,TON,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-06-02,8,2,4,4,4,4,4,4,4,4,8,8,8,8,,,,,,
+recezv9sIBNeqs7DS,Trinidad and Tobago,TT,TTO,780,TTO,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-10,3,2,3,,,,,,,,,,,,,,,,,
+recEXRTFW5XjGqafI,Tunisia,TN,TUN,788,TUN,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-01-26,1,2,4,,,,,,,,,,,,,,,,,
+receObK9YejiZFqFa,Tunisia,TN,TUN,788,TUN,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-03-01,2,2,4,,,,,,,2,,6,6,6,,,,,,
+recwMgmUhdwiRzUka,Tunisia,TN,TUN,788,TUN,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-04-07,5,2,4,,,,,,,2,,6,6,6,,,,,,
+recC9BUCgpFDwUTzQ,Tunisia,TN,TUN,788,TUN,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-05-07,6,2,"4,2",4,4,4,"4,2","4,3,2",4,2,,6,6,6,7,7,7,"1,2","1,2",6
+rec9r3JWbnK56mUMI,Tunisia,TN,TUN,788,TUN,LMC,Lower middle income,IBD,IBRD,Middle East and North Africa,MEA,2021-06-21,9,1,,,,,,,,1,,,,,,,,,,
+recThrCeiJf6A9hn9,Turkey,TR,TUR,792,TUR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-01-26,1,1,"2,3,5",,,,,,,,,,,,"1,2","1,2","1,2","1,2",1,"1,2"
+recLUF48L5bBE45Mg,Turkey,TR,TUR,792,TUR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-02,2,2,3,,,,,,,1,8,8,8,8,7,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",1,"1,2,3,4,5"
+recQJ3jT3rbCx0ZJV,Turkey,TR,TUR,792,TUR,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-12,5,2,3,,,,,,,2,2,"2,4,5","2,4","2,4","1,2,4,5","1,2,5,8","1,2,5,8","1,2,5,8","1,2","1,2"
+recfEXOkd7GQ19Ugy,Turkmenistan,TM,TKM,795,TKM,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,4,,,,,,,,,,,,,,,,,
+reciLeNz6MTfKPK0a,Turkmenistan,TM,TKM,795,TKM,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-04,2,2,4,,,,,,,,1,7,7,7,,,,,,
+recV3obKqugDC8sEW,Turkmenistan,TM,TKM,795,TKM,UMC,Upper middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-05-26,8,1,,,,,,,,1,,,,,,,,,,
+recUfrkZ7eOZ7nKY2,Turks and Caicos Islands,TC,TCA,796,TCA,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-01,6,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+recDKXrpNkoamcCOa,Turks and Caicos Islands,TC,TCA,796,TCA,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-20,7,4,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+rec4bWsPR9Fc9b9be,Turks and Caicos Islands,TC,TCA,796,TCA,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-03,8,2,4,4,4,4,4,4,4,2,8,8,8,8,,,,,,
+reclu8FgKtNPuRE4U,Tuvalu,TV,TUV,798,TUV,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-01-26,1,2,4,,,,,,,,,,,,,,,,,
+recXkPgny61MQWIJZ,Tuvalu,TV,TUV,798,TUV,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-02-24,2,2,4,,,,,,,,1,,7,7,,,,,,
+recx4nFGfx3DxfiDz,Tuvalu,TV,TUV,798,TUV,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-04-01,4,2,4,,,,,,,,7,7,7,7,,,,,,
+recrtpBvnCHETPAGW,Tuvalu,TV,TUV,798,TUV,UMC,Upper middle income,IDX,IDA,East Asia and Pacific,EAS,2021-05-26,8,2,4,4,4,4,4,5,5,4,7,7,7,7,,,,,,
+recHcZg8uxlabATBx,Uganda,UG,UGA,800,UGA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-27,1,2,"2,3",,,,,,,,,,,,6,"2,3,4,5","2,3,4,5","1,2,3,4,5",6,6
+recdqytBzAeam3mKy,Uganda,UG,UGA,800,UGA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-08,5,2,"2,3",,,,,,,2,,5,5,5,6,"2,3,4,5","2,3,4,5","1,2,3,4,5","1,2,3,4","1,2,3,4"
+recnlOOC9CQXPsnwh,Uganda,UG,UGA,800,UGA,LIC,Low income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-07,8,2,1,1,1,1,1,1,1,1,,,,,,,,,,
+recQEf5Oa0apgGUNz,Ukraine,UA,UKR,804,UKR,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-02-03,1,2,"2,3,4",,,,,,,,,,,,7,"1,2,5","1,2","1,2",1,1
+recFFGihFvPSNqVpS,Ukraine,UA,UKR,804,UKR,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-03-01,2,2,"2,3,4",,,,,,,2,1,7,7,7,7,"1,2,5","1,2","1,2",1,1
+recKG1syYU5iNijuZ,Ukraine,UA,UKR,804,UKR,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-04-09,5,2,"2,3",,,,,,,2,1,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",7,"1,4,5","1,2","1,2",1,1
+recnJeHajmQnv6CaE,Ukraine,UA,UKR,804,UKR,LMC,Lower middle income,IBD,IBRD,Europe and Central Asia,ECS,2021-06-03,8,2,4,4,4,4,4,3,5,1,1,"1,2,3,4,5","1,2,3,4,5","1,2,3,4,5",7,7,7,7,"1,5,8",6
+recxDaisr5fzKSNnc,United Arab Emirates,AE,ARE,784,ARE,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-02-09,1,2,2,,,,,,,,,,,,6,6,6,1,1,6
+recsPeoqNFuF8MBzX,United Arab Emirates,AE,ARE,784,ARE,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-01,2,2,3,,,,,,,1,1,7,7,7,6,2,1,1,1,6
+rec8yQ7EIteD0gicX,United Arab Emirates,AE,ARE,784,ARE,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-05,4,2,"3,4",,,,,,,1,7,7,7,7,6,2,1,1,1,6
+recqO6UB01OPrAXEz,United Arab Emirates,AE,ARE,784,ARE,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-04,6,2,"4,3",4,4,3,3,3,4,1,7,7,7,7,6,2,1,1,1,6
+recRDaSifZVnySEZ3,United Arab Emirates,AE,ARE,784,ARE,HIC,High income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,2,"4,3",4,4,3,3,3,4,1,7,7,7,7,6,2,1,1,1,6
+recRV34X1dATDXMqI,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-01-31,1,2,"2,3,4",,,,,,,,,,,,8,1,1,1,1,1
+rec5PkRziUxqQkDDm,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-02-25,2,2,3,,,,,,,1,7,7,7,7,7,"1,2,5","1,2,5","1,2,5",1,6
+rec0bwKWM128WHrSj,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-13,3,2,4,,,,,,,2,8,8,8,8,,,,,,
+recolBEEkOqLy1qXD,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-03-30,4,2,4,,,,,,,2,7,"4,5","4,5","4,5",,,,,,
+reca2wI0sBzFcWMg4,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-04-11,5,2,4,,,,,,,2,"3,4","3,4","3,4","3,4",,,,,,
+recOKK2XGvaoJk8N9,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-06,6,2,4,4,4,4,4,3,3,2,3,3,3,3,7,1,1,1,1,1
+recG2lsaZ7CBohFjr,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-19,7,2,4,4,4,4,4,4,4,2,"3,4","3,4","3,4","3,4",,,,,,
+recIodsnQjjcKNZM9,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-05-30,8,2,4,4,4,4,4,4,4,2,"3,4","3,4",4,4,,,,,,
+recFO3GKTeywjJmvZ,United Kingdom,GB,GBR,826,GBR,HIC,High income,LNX,Not classified,Europe and Central Asia,ECS,2021-06-12,9,2,4,4,4,4,4,4,4,2,"3,4","3,4","3,4","3,4",,,,,,
+recb6OgRaTBNgPTew,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-02-08,1,2,"3,4",,,,,,,,,,,,8,"1,2","1,2",1,1,1
+recqQMM0XyuoateJW,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-02-23,2,2,"2,3",,,,,,,1,8,"2,3,4","2,3,4","2,3,4",8,"1,5","1,4,5","1,4,5","1,4",1
+recJb5ig2CZShdeRv,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-03-14,3,2,"2,3,4",,,,,,,1,8,1,1,1,1,1,1,1,1,6
+reclI12yDW6ueG7Zi,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-04-01,4,2,"2,3,4",,,,,,,1,5,5,8,5,1,1,1,1,1,1
+recEMrnKzLgGMNckT,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-04-12,5,2,"2,3,4",,,,,,,1,8,8,8,8,"1,8","1,8","1,8","1,8","1,8","1,8"
+rec0Da9kAfzqT0ZbO,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-05-07,6,2,3,4,3,3,3,3,3,1,8,8,8,8,6,1,1,6,1,1
+rec98TsaO4uSsprah,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-05-20,7,2,"2,3,4","2,3,4","2,3,4","2,3,4","2,3,4","2,3,4","2,3,4",1,8,8,8,8,1,1,1,1,1,1
+recUtDuqAi1ZL4heu,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-06-03,8,2,"3,4","3,4","3,4","3,4","3,4","2,3,4","3,4",2,"1,5","1,5","1,5","1,5",1,1,1,1,1,1
+recPwLjx43c5dCThA,United States,US,USA,840,USA,HIC,High income,LNX,Not classified,North America,NAC,2021-06-14,9,1,,,,,,,,2,,,,,,,,,,
+recgjS3d5CfO6d2T1,Uruguay,UY,URY,858,URY,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-12,1,1,,,,,,,,,,,,,,,,,,
+recwbnzeJibe19nwQ,Uruguay,UY,URY,858,URY,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-02-24,2,1,,,,,,,,,,,,,,,,,,
+recDWz4vH0BLvLuwV,Uruguay,UY,URY,858,URY,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-29,4,1,,,,,,,,1,,,,,,,,,,
+recgdg5a6ZRgXWQNp,Uruguay,UY,URY,858,URY,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-14,5,1,,,,,,,,1,,,,,,,,,,
+recGBlLRTj94dm4co,Uruguay,UY,URY,858,URY,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-04-30,6,2,"3,2","3,2","3,2","3,2",2,2,2,1,"1,2","1,2","1,2",8,1,"1,2,4","1,2,4","1,4",1,1
+rectQp4eez8owxTpn,Uruguay,UY,URY,858,URY,HIC,High income,IBD,IBRD,Latin America and Caribbean,LCN,2021-06-07,8,2,"4,2",4,4,2,2,2,2,1,"1,2","1,2","1,2","1,2",7,"1,4,5","1,4,5","1,4,5",1,1
+recoEdYpPNjS1u3Mj,Uzbekistan,UZ,UZB,860,UZB,LMC,Lower middle income,IDB,Blend,Europe and Central Asia,ECS,2021-01-26,1,2,3,,,,,,,,,,,,7,2,2,2,1,6
+recSE7sXaPK2l7lkz,Uzbekistan,UZ,UZB,860,UZB,LMC,Lower middle income,IDB,Blend,Europe and Central Asia,ECS,2021-03-02,2,2,3,,,,,,,,1,7,7,7,2,2,2,2,1,6
+reccSWtkUDv1ZUVtw,Uzbekistan,UZ,UZB,860,UZB,LMC,Lower middle income,IDB,Blend,Europe and Central Asia,ECS,2021-04-01,4,2,3,,,,,,,2,7,7,7,7,2,2,2,2,1,6
+recdnbXD9SqoiV0tt,Uzbekistan,UZ,UZB,860,UZB,LMC,Lower middle income,IDB,Blend,Europe and Central Asia,ECS,2021-04-27,6,2,3,3,3,3,3,3,3,1,,,,,,,,,,
+rece5L2EwTVnaEVNm,Uzbekistan,UZ,UZB,860,UZB,LMC,Lower middle income,IDB,Blend,Europe and Central Asia,ECS,2021-06-02,8,1,,,,,,,,1,,,,,,,,,,
+rectMB3gIDuZqgzLc,Venezuela,VE,VEN,862,VEN,UMC,Upper middle income,IBD,IBRD,Latin America and Caribbean,LCN,2021-03-02,2,2,2,,,,,,,2,,,,,7,"1,2,3,4,5,8","1,2,3,4,5,8","1,2,3,4,5,8",6,6
+recUKEeJwUI5AaMTn,Vietnam,VN,VNM,704,VNM,LMC,Lower middle income,IBD,IBRD,East Asia and Pacific,EAS,2021-02-03,1,2,3,,,,,,,,,,,,7,"1,2,5","1,2,5","1,2,5",1,6
+recWxmDH1RTJwuMOY,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-01-31,1,2,"2,3",,,,,,,,,,,,8,1,1,1,1,1
+recR5EDecsTLdsbaH,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-02-23,2,2,2,,,,,,,1,8,8,8,8,8,1,1,1,1,1
+recG8VhbOg29UB3fp,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-13,3,2,2,,,,,,,2,,,,,1,1,1,1,1,6
+recQTx0eLiJJyLPoP,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-03-26,4,2,"3,4",,,,,,,1,4,4,4,4,1,1,1,1,1,6
+recpEpitzQYaxzAFU,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-04-09,5,2,"3,4",,,,,,,2,"3,4","3,4","3,4","3,4",6,6,1,1,1,1
+recZO5ilCDuipktL0,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-09,6,2,"4,2",4,4,2,2,2,4,2,4,4,4,4,6,6,1,1,1,1
+recmm95Zf1qFsYqh3,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-18,7,2,4,4,4,4,4,3,4,2,4,4,4,4,7,7,7,1,1,7
+recOgCjpShghHrnw7,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-05-30,8,2,3,3,3,3,3,3,3,2,8,8,8,8,1,1,1,1,1,1
+recpyswvkMVDEMdzj,Virgin Islands (US),VI,VIR,850,VIR,HIC,High income,LNX,Not classified,Latin America and Caribbean,LCN,2021-06-17,9,1,,,,,,,,2,,,,,,,,,,
+receK1uRY0H8r7ime,West Bank and Gaza,PS,PSE,275,PSE,LMC,Lower middle income,LNX,Not classified,Middle East and North Africa,MEA,2021-01-29,1,2,3,,,,,,,,,,,,7,1,1,1,1,1
+recwi8MiOPnzn2KrY,West Bank and Gaza,PS,PSE,275,PSE,LMC,Lower middle income,LNX,Not classified,Middle East and North Africa,MEA,2021-03-01,2,2,2,,,,,,,2,,,,,7,1,1,1,1,1
+rec3T5mKtmePV1bdO,West Bank and Gaza,PS,PSE,275,PSE,LMC,Lower middle income,LNX,Not classified,Middle East and North Africa,MEA,2021-04-19,5,2,2,,,,,,,2,,,,,7,1,1,1,1,1
+rectWP6USqoh0dSFg,West Bank and Gaza,PS,PSE,275,PSE,LMC,Lower middle income,LNX,Not classified,Middle East and North Africa,MEA,2021-05-05,6,2,3,3,3,3,3,2,2,1,7,7,7,7,7,"1,2,5","1,2","1,2",1,1
+recZPTF0AEJQ4mA2g,West Bank and Gaza,PS,PSE,275,PSE,LMC,Lower middle income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-07,8,2,3,3,3,3,3,2,2,1,7,7,7,7,7,"1,2,5","1,2","1,2",1,1
+recKopg8TWwGYjREg,West Bank and Gaza,PS,PSE,275,PSE,LMC,Lower middle income,LNX,Not classified,Middle East and North Africa,MEA,2021-06-21,9,1,,,,,,,,1,,,,,,,,,,
+recNxRj4GQt0LPt65,"Yemen, Rep.",YE,YEM,887,YEM,LIC,Low income,IDX,IDA,Middle East and North Africa,MEA,2021-01-28,1,3,4,,,,,,,,,,,,,,,,,
+rec9JV7NmrPUTYVS5,"Yemen, Rep.",YE,YEM,887,YEM,LIC,Low income,IDX,IDA,Middle East and North Africa,MEA,2021-02-27,2,2,4,,,,,,,,7,6,6,6,,,,,,
+recUhouv2KkwX2nkV,"Yemen, Rep.",YE,YEM,887,YEM,LIC,Low income,IDX,IDA,Middle East and North Africa,MEA,2021-05-02,6,2,4,4,4,4,4,4,4,2,7,"2,6","2,6","2,6",,,,,,
+recFULiRrfOYPfxeI,"Yemen, Rep.",YE,YEM,887,YEM,LIC,Low income,IDX,IDA,Middle East and North Africa,MEA,2021-05-17,7,2,4,4,4,4,4,4,4,2,7,"2,6","2,6","2,6",,,,,,
+reccjm1YhVp6lpg4F,Zambia,ZM,ZMB,894,ZMB,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-01-27,1,2,1,,,,,,,,,,,,,,,,,
+recvvyGd51hMkNpCR,Zambia,ZM,ZMB,894,ZMB,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-03-07,3,2,4,,,,,,,,"2,3,5","2,3,5","2,3,5","2,3,5",,,,,,
+recbcp1yrzZSi4hcm,Zambia,ZM,ZMB,894,ZMB,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-04-09,5,2,4,,,,,,,2,"2,3,5","2,3,5","2,3,5","2,3,5",,,,,,
+rectx7FRGHO6wGtOq,Zambia,ZM,ZMB,894,ZMB,LMC,Lower middle income,IDX,IDA,Sub-Saharan Africa,SSF,2021-06-06,8,2,4,4,4,4,4,3,4,1,"2,3,5","2,3,5","2,3,5","2,3,5",7,7,7,7,1,7
+recNAn227FBzgWt12,Zimbabwe,ZW,ZWE,716,ZWE,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-01-27,1,2,1,,,,,,,,,,,,,,,,,
+reciOlB5YlOEshImG,Zimbabwe,ZW,ZWE,716,ZWE,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-03-03,2,2,1,,,,,,,2,,,,,,,,,,
+recwVvINF2JofAGcb,Zimbabwe,ZW,ZWE,716,ZWE,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-03-08,3,2,2,,,,,,,2,,,,,"1,3","1,3","1,3",1,6,6
+recmj5hvECNNnFBp5,Zimbabwe,ZW,ZWE,716,ZWE,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-04-04,4,2,4,,,,,,,1,"2,5","2,5","2,5","2,5",,,,,,
+recmaL5cUiNw0XbuR,Zimbabwe,ZW,ZWE,716,ZWE,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-04-29,6,2,"4,3","4,3","4,3","4,3","4,3","4,3","4,3",1,"2,5","2,5","2,5","2,5","1,3","1,3","1,3",1,6,6
+reclcXTi1JNpKEbCC,Zimbabwe,ZW,ZWE,716,ZWE,LMC,Lower middle income,IDB,Blend,Sub-Saharan Africa,SSF,2021-06-02,8,2,"4,3","4,3","4,3","4,3","4,3","4,3","4,3",1,"2,5","2,5","2,5","2,5","1,3","1,3,4","1,3,4","1,4","1,4","1,4"

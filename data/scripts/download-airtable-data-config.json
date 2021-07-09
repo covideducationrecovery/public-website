@@ -1,0 +1,63 @@
+[
+  {
+    "table": "countries",
+    "view": "export",
+    "filename": "./countries.json",
+    "keepFields": [
+      "__id",
+      "countryName",
+      "iso3166Alpha2Code",
+      "iso3166Alpha3Code",
+      "m49code",
+      "owidHasVaccine",
+      "responsesPublic",
+      "wbCountryCode",
+      "wbIncomeLevelCode",
+      "wbIncomeLevelName",
+      "wbLendingTypeCode",
+      "wbLendingTypeName",
+      "wbRegion",
+      "wbRegionCode"
+    ]
+  },
+  {
+    "table": "responsesPublic",
+    "view": "export", 
+    "filename": "./responses-public.json",
+    "keepFields": [
+      "__id",
+      "responseDate",
+      "extendedBreakCode",
+      "educationStatusCode",
+      "educationStatusPrePrimaryCode",
+      "educationStatusPrimaryCode",
+      "educationStatusLowerSecondaryCode",
+      "educationStatusUpperSecondaryCode",
+      "educationStatusHigherCode",
+      "educationStatusVocationalCode",
+      "vaccineAvailabilityForTeachersCode",
+      "inPersonAdditionalSupportPrePrimary",
+      "inPersonAdditionalSupportPrimary",
+      "inPersonAdditionalSupportLowerSecondary",
+      "inPersonAdditionalSupportUpperSecondary",
+      "remoteEducationModalitiesPrePrimaryCode",
+      "remoteEducationModalitiesPrimaryCode",
+      "remoteEducationModalitiesLowerSecondaryCode",
+      "remoteEducationModalitiesUpperSecondaryCode",
+      "remoteEducationModalitiesHigherCode",
+      "remoteEducationModalitiesVocationalCode"
+    ]
+  },
+  {
+    "table": "responseRounds",
+    "view": "export", 
+    "filename": "./response-rounds.json",
+    "keepFields": [
+      "__id",
+      "roundNumber",
+      "startDate",
+      "endDate",
+      "surveyDocuments"
+    ]
+  }
+]
