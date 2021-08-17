@@ -34896,6 +34896,95 @@
           "__id": "recxnAQXBikBQd9bb",
           "roundId": 6,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-08-17",
+          "extendedBreakCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15",
+            "16",
+            "18"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "educationStatusPrePrimaryCode": [
+            "3",
+            "2",
+            "1"
+          ],
+          "educationStatusPrimaryCode": [
+            "3",
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "3",
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3",
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "2"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "educationStatusCode": [
+            "2",
+            "3"
+          ],
+          "__id": "recPTlGQo2KuFHqUb",
+          "roundId": 14,
+          "type": "observed"
         }
       ],
       "__id": "recWr4lkeouPeuBvX"
