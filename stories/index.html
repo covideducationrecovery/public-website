@@ -27,6 +27,8 @@
     <link href="/css/all.min.css" rel="stylesheet">
       
       
+      
+      
         
     
 
@@ -48,7 +50,7 @@
       @font-face {
         font-family: 'FuturaPTWebLight';
         src:
-          url('/webfonts//Futura-PT_Light.woff2') format('woff2'),
+          url('/webfonts/Futura-PT_Light.woff2') format('woff2'),
           url('/webfonts/Futura-PT_Light.woff') format('woff');
         font-weight: normal;
         font-style: normal;
@@ -90,9 +92,12 @@
       [marked] {background-color: green !important;}
       .table-header-sticky {position: sticky; top: 0; background-color: #FFFFFF !important; box-shadow: 0 5px 5px -5px #00000040 !important;}
 
+      .hidden, [v-cloak] {display: none;}
+
       
 
       
+
     </style>
   </head>
   <body>
@@ -270,6 +275,30 @@
 <div class="container">
   <h2 class="text-center">Stories and Insights</h2>
   <div class="spacer-3"></div>
+  
+  <!--
+this represents a story summary. It knows how to render the summary based upon whether it's a blog post or infographic
+-->
+<br />
+
+<div class="row g-0 bg-light position-relative rounded">
+  <div class="col-md-4 mb-md-0 p-md-4">
+    
+    <img src="/img/whats-new-infographic.png" alt="Data Points" class="img img-fluid" />
+    
+  </div>
+  <div class="col-md-8 p-4 ps-md-0">
+    <h5 class="mt-0">
+      Data Points 2021 August 25
+    </h5>
+    <p>Get the latest insights on the trends we are seeing as the global education sector responds to and recovers from COVID-19.</p>
+    
+    <a href="/stories/2021-08-25-gert-data-points/" class="btn btn-primary stretched-link">View or download</a>
+    
+  </div>
+</div>
+
+
   
   <!--
 this represents a story summary. It knows how to render the summary based upon whether it's a blog post or infographic
