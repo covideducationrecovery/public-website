@@ -1,5 +1,5 @@
 {
-    "fileDate": "2021-09-09T12:48:16.718056",
+    "fileDate": "2021-09-10T01:30:10.744194",
     "places": [
         {
             "iso_code": "AFG",
@@ -649,9 +649,9 @@
             "iso_code": "GMB",
             "total_cases": 9789.0,
             "total_deaths": 328.0,
-            "total_vaccinations": 351281.0,
-            "people_vaccinated": 193496.0,
-            "people_fully_vaccinated": 157785.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "GM"
         },
         {
@@ -936,9 +936,9 @@
             "iso_code": "KIR",
             "total_cases": 2.0,
             "total_deaths": null,
-            "total_vaccinations": 24229.0,
-            "people_vaccinated": 19589.0,
-            "people_fully_vaccinated": 4640.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "KI"
         },
         {
@@ -1791,15 +1791,6 @@
             "people_vaccinated": 26606.0,
             "people_fully_vaccinated": 24269.0,
             "iso2": "TC"
-        },
-        {
-            "iso_code": "TUV",
-            "total_cases": null,
-            "total_deaths": null,
-            "total_vaccinations": 10692.0,
-            "people_vaccinated": 6167.0,
-            "people_fully_vaccinated": 4525.0,
-            "iso2": "TV"
         },
         {
             "iso_code": "UGA",
