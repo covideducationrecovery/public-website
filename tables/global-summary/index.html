@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-    <title>FAQ - COVID-19 Global Education Recovery Tracker</title>
-    <meta name="description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
+    <title>Global summary - COVID-19 Global Education Recovery Tracker</title>
+    <meta name="description" content="Our table of countries lists all the countries/territories we track, along with the most recent summary status information.">
 
     <meta name="twitter:card" content="summary_large_image" />
     
     
-    <meta name="twitter:title" content="FAQ - COVID-19 Global Education Recovery Tracker" />
-    <meta name="twitter:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF." />
-    <meta name="twitter:image" content="https://www.covideducationrecovery.global/img/og-image.png" />
+    <meta name="twitter:title" content="Global summary - COVID-19 Global Education Recovery Tracker" />
+    <meta name="twitter:description" content="Our table of countries lists all the countries/territories we track, along with the most recent summary status information." />
+    <meta name="twitter:image" content="https://www.covideducationrecovery.global//img/visualizations/global-summary.jpg" />
 
-    <meta property="og:title" content="FAQ - COVID-19 Global Education Recovery Tracker">
-    <meta property="og:image" content="https://www.covideducationrecovery.global/img/og-image.png\">
-    <meta property="og:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
-    <meta property="og:url" content="https://www.covideducationrecovery.global//faq/" />
+    <meta property="og:title" content="Global summary - COVID-19 Global Education Recovery Tracker">
+    <meta property="og:image" content="https://www.covideducationrecovery.global//img/visualizations/global-summary.jpg">
+    <meta property="og:description" content="Our table of countries lists all the countries/territories we track, along with the most recent summary status information.">
+    <meta property="og:url" content="https://www.covideducationrecovery.global//tables/global-summary/" />
     <meta property="og:type" content="website">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -30,9 +30,19 @@
     <script src="/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <link href="/css/all.min.css" rel="stylesheet">
       
+    <script src="//polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver" crossorigin="anonymous"></script>
+      
+      
+    <script src="/js/vue.min.js" type="text/javascript"></script>
+      
+      
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap-vue.min.css" />
+    <script src="/js/bootstrap-vue.min.js"></script>
       
       
       
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
         
     
 
@@ -268,13 +278,262 @@
 
     
     <div class="spacer-5"></div>
-<div class="container">
-  <h2 class="text-center">Frequently Asked Questions</h2>
-  <div class="spacer-3"></div>
-  
-    the collection is empty
-  
-</div>
+
+<div id="app" class="container-fluid" v-cloak>
+  <template v-if="errorLoading">
+    <div class="w-100 d-flex flex-column justify-content-center align-items-start">
+        <h4>We encountered an error while loading this page.</h4>
+        <span class="text-muted">${ errorMessage }</span>
+    </div>
+  </template>
+  <template v-else>
+    <div class="d-flex flex-row justify-content-between align-items-center">
+      <h1>Global summary</h1>
+      <span>Latest update: ${ mostRecentResponseDate }</span>
+      <a class="btn btn-outline-primary" href="/data/"><i class="fas fa-file-download"></i> Get This Data</a>
+    </div>
+    <div>
+      Showing ${ displayedCountries.length } ${ displayedCountries.length === 1 ? 'country / territory' : 'countries / territories' }
+    </div>
+    <b-table
+      :fields="displayedColumns"
+      hover
+      :items="displayedCountries"
+      responsive
+      small
+      :sort-by="'name'"
+      @sort-changed="sortChanged"
+      primary-key="__id"
+    >
+      <template #cell(countryName)="data">
+        <a :href="data.item.href">${ data.value }</a>
+      </template>
+
+      <template #cell(educationStatus)="data">
+        <span v-if="data.item.$displayedResponse.$educationServices.includes('extendedBreak')" class="badge bg-secondary" tippy="On extended break"><i class="fas fa-umbrella-beach"></i></span>
+        <span v-if="data.item.$displayedResponse.$educationServices.includes('covidClosed')" class="badge bg-danger" tippy="Closed due to COVID-19"><i class="fas fa-times"></i></span>
+        <span v-if="data.item.$displayedResponse.$educationServices.includes('remote')" class="badge bg-secondary" tippy="Remote"><i class="fas fa-home"></i></span>
+        <span v-if="data.item.$displayedResponse.$educationServices.includes('hybrid')" class="badge bg-info" tippy="Hybrid"><i class="fas fa-school"></i> + <i class="fas fa-home"></i></span>
+        <span v-if="data.item.$displayedResponse.$educationServices.includes('inPerson')" class="badge bg-dark" tippy="In-person"><i class="fas fa-school"></i></span>
+      </template>
+
+      <template #cell(vaccinationInfo)="data">
+        <span v-if="data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('1')" class="badge bg-success" tippy="Teachers are currently being vaccinated as a priority group"><i class="fas fa-syringe"></i></span>
+        <span v-if="data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('2') || data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('7')" class="badge bg-danger" tippy="Teachers were or are not prioritized"><i class="fas fa-tasks"></i></span>
+        <span v-if="data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('1') || data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('5') || data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('6')" class="badge bg-success" tippy="Teachers were or are prioritized"><i class="fas fa-tasks"></i></span>
+        <span v-if="data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('1') || data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('2') || data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('5')" class="badge bg-warning" tippy="Vaccine supply is limited to prioritized groups"><i class="fas fa-infinity"></i></span>
+        <span v-if="data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('6') || data.item.$displayedResponse.vaccineAvailabilityForTeachersCode?.includes('7')" class="badge bg-success" tippy="Vaccine supply is not limited and eligibility is open to all authorized individuals"><i class="fas fa-infinity"></i></span>
+      </template>
+
+      <template #cell(inPersonSupports)="data">
+        <span v-if="data.item.$displayedResponse?.$hasInPersonAdditionalSupports" class="badge bg-secondary" show-popout><i class="fas fa-eye"></i>&nbsp;&nbsp;View</button></span>
+        <div v-if="data.item.$displayedResponse?.$hasInPersonAdditionalSupports" class="hidden">
+          <table>
+            <tr v-for="field in inPersonAdditionalSupportFields" v-if="data.item.$displayedResponse[field.name] && !data.item.$displayedResponse[field.name].includes('7') && !data.item.$displayedResponse[field.name].includes('8')">
+              <td><small class="">${field.text}</small></td>
+              <td><span class="badge bg-dark mx-1" v-for="supportType in inPersonAdditionalSupportTypes" v-bind:marked="data.item.$displayedResponse[field.name].includes(supportType.value)" v-bind:title="supportType.title"><i v-bind:class="'fas fa-' + supportType.faIcon"></i></span></td>
+            </tr>
+          </table>
+          <hr >
+          <a class="badge bg-light text-dark" href="/methodology/#definitions">What do these mean?</a>
+        </div>
+      </template>
+
+      <template #cell(remoteSupports)="data">
+        <span v-if="data.item.$displayedResponse?.$hasRemoteEducationModalities" class="badge bg-secondary" show-popout><i class="fas fa-eye"></i>&nbsp;&nbsp;View</button></span>
+        <div v-if="data.item.$displayedResponse?.$hasRemoteEducationModalities" class="hidden">
+          <table>
+            <tr v-for="field in remoteEducationModalityFields" v-if="data.item.$displayedResponse[field.name] && !data.item.$displayedResponse[field.name].includes('6') && !data.item.$displayedResponse[field.name].includes('7')">
+              <td><small>${field.text}</small></td>
+              <td><span class="badge bg-dark mx-1" v-for="modalityType in remoteEducationModalityTypes" v-bind:marked="data.item.$displayedResponse[field.name].includes(modalityType.value)" v-bind:title="modalityType.title"><i v-bind:class="'fas fa-' + modalityType.faIcon"></i></span></td>
+            </tr>                    
+          </table>
+          <hr >
+          <a class="badge bg-light text-dark" href="/methodology/#definitions">What do these mean?</a>
+        </div>
+      </template>
+
+    </b-table>
+    <div class="spacer-5"></div>
+    <div class="container">
+      To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of ${ mostRecentResponseDate }. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+    </div>
+  </template>
+</div>         
+<script>
+Vue.use(BootstrapVue)
+const $vm = new Vue({
+  el: '#app',
+  data () {
+    return {
+      countries: [],
+      displayedColumns: [
+        { key: 'countryName', label: 'Country / territory', sortable: true },
+        { key: 'wbRegion', label: 'Region', sortable: true },
+        { key: 'wbIncomeLevelName', label: 'Income Level', sortable: true },
+        { key: 'educationStatus', label: 'Education Status' },
+        { key: 'vaccinationInfo', label: 'Teacher Vaccinations' },
+        { key: 'inPersonSupports', label: 'In-person supports' },
+        { key: 'remoteSupports', label: 'Remote Supports' },
+        { key: 'lastUpdate', label: 'Last Updated', sortable: true, class: 'text-center' }
+      ],
+      errorLoading: false,
+      errorMessage: undefined,
+      filter: {
+        upToRoundId: Infinity,
+        showNoResponses: false
+      },
+      inPersonAdditionalSupportFields: [
+        {name: 'inPersonAdditionalSupportPrePrimary', text: 'Pre-Primary'},
+        {name: 'inPersonAdditionalSupportPrimary', text: 'Primary'},
+        {name: 'inPersonAdditionalSupportLowerSecondary', text: 'Lower Secondary'},
+        {name: 'inPersonAdditionalSupportUpperSecondary', text: 'Upper Secondary'}
+      ],
+      inPersonAdditionalSupportTypes: [
+        {value: '1', title: 'School Day Changes', faIcon: 'calendar-day'},
+        {value: '2', title: 'School Year Changes', faIcon: 'calendar-alt'},
+        {value: '3', title: 'Teacher Tutoring', faIcon: 'school'},
+        {value: '4', title: 'Non-Teacher Tutoring', faIcon: 'home'},
+        {value: '5', title: 'Targeted Remedial Measures', faIcon: 'bullseye'},
+        {value: '6', title: 'Other', faIcon: 'question'}
+      ],
+      remoteEducationModalityFields: [
+        {name: 'remoteEducationModalitiesPrePrimaryCode', text: 'Pre-Primary'},
+        {name: 'remoteEducationModalitiesPrimaryCode', text: 'Primary'},
+        {name: 'remoteEducationModalitiesLowerSecondaryCode', text: 'Lower Secondary'},
+        {name: 'remoteEducationModalitiesUpperSecondaryCode', text: 'Upper Secondary'},
+        {name: 'remoteEducationModalitiesHigherCode', text: 'Higher Education'},
+        {name: 'remoteEducationModalitiesVocationalCode', text: 'Technical/Vocational'}
+      ],
+      remoteEducationModalityTypes: [
+        {value: '1', title: 'Online platforms', faIcon: 'globe'},
+        {value: '2', title: 'Television', faIcon: 'tv'},
+        {value: '3', title: 'Radio', faIcon: 'broadcast-tower'},
+        {value: '4', title: 'Mobile devices', faIcon: 'mobile'},
+        {value: '5', title: 'Take-home packages', faIcon: 'paperclip'},
+        {value: '8', title: 'Tutoring', faIcon: 'chalkboard-teacher'}
+      ]
+    }
+  },
+  delimiters: ['${','}'],  // need to use these because jekyll competes for 
+  async created() {
+    // load critical data in this block; a failure will cause an error message to be diplayed
+    try {
+      const globalV2Response = await fetch('/data/global.v2.min.json')
+      if (globalV2Response.ok) {
+        const globalV2data = await globalV2Response.json()
+        this.countries = this.processCountries(globalV2data.countries)
+      } else {
+        throw new Error(`HTTP Error ${globalV2Response.status}: ${globalV2Response.statusText} (${globalV2Response.url.split('/').pop()})`)
+      }
+    } catch (e) {
+      console.error(e)
+      this.errorLoading = true
+      this.errorMessage = e.message
+    }
+  },
+  updated () {
+    this.bindTippy()
+  },
+  computed: {
+    // access this computed property to render the data, it applies the rules set by this.filter
+    displayedCountries () {
+      return this.countries
+        .map((country) => {
+          country.$displayedResponse = country.$responsesReversed?.find((response) => {
+            return response.roundId <= this.filter.upToRoundId
+          })
+          return country
+        })
+        .map((country) => {
+          return {
+            ...country, 
+            href: `/profile?${country.iso3166Alpha2Code || country.__id || 'unknown'}`,
+            lastUpdate: country.$displayedResponse?.responseDate || 'unknown'
+          }
+        })
+        .filter((country) => {
+          return this.filter.showNoResponses ? true : country.$displayedResponse
+        })
+    },
+    mostRecentResponseDate () {
+      // flatten all the responses into an array and iterate through them to
+      // determine the most recent date for all of them
+      return this.countries
+        .flatMap(country => country.responsesPublic || [] )
+        .reduce((mrrd, response) => {
+          return response.responseDate > mrrd ? response.responseDate : mrrd
+        }, '0000-00-00')
+    }
+  },
+  methods: {
+    bindTippy () {
+      // bind tippy to the elements that need it, but wait until vue rendering is complete
+      this.$nextTick(() => {
+        tippy('[tippy]', {
+          placement: 'top',
+          onShow(instance) {
+            instance.setContent(instance.reference.getAttribute('tippy'));
+          }
+        });
+        tippy('[show-popout]', {
+          placement: 'bottom',
+          allowHTML: true,
+          interactive: true,
+          onShow(instance) {
+            const clone = (instance.reference.nextElementSibling.innerHTML);
+            instance.setContent('<table>' + clone + '</table>');
+          }
+        });
+      })
+    },
+    // pre-process the data to improve page rendering performance
+    processCountries (countries) {
+      for (const country of countries) {
+
+        // responsesPublic are sorted chronologically by default, so we set up 
+        // $responsesReversed to improve selection performance for more recent responses
+        country.$responsesReversed = country.responsesPublic?.slice().reverse()
+
+        // iterate through all the responses and synthesize some helper values for the UI:
+        country.responsesPublic?.forEach((response) => {
+
+          // $educationServices is a synthesis of two different fields
+          response.$educationServices = []
+          if (response.extendedBreakCode?.includes('1')) {
+            response.$educationServices.push('extendedBreak');
+          } else if (response.educationStatusCode) {
+            if (response.educationStatusCode.includes('1')) {response.$educationServices.push('covidClosed')}
+            if (response.educationStatusCode.includes('2')) {response.$educationServices.push('remote')}
+            if (response.educationStatusCode.includes('3')) {response.$educationServices.push('hybrid')}
+            if (response.educationStatusCode.includes('4')) {response.$educationServices.push('inPerson')}
+          }
+
+          // $hasInPersonAdditionalSupports determines if we should show the icon & its hover table if there are in-person supports
+          // codes 7 & 8 correspond to other and unknown so ignore those too
+          response.$hasInPersonAdditionalSupports = this.inPersonAdditionalSupportFields
+            .some((item) => {
+              return response[item.name] && !response[item.name].includes('7') && !response[item.name].includes('8')
+            })
+
+          // $hasRemoteEducationModalities determines if we should show the icon & its hover table if there are remode education supports
+          // codes 6 & 7 correspond to other and unknown so ignore those too
+          response.$hasRemoteEducationModalities = this.remoteEducationModalityFields
+            .some((item) => {
+              return response[item.name] && !response[item.name].includes('6') && !response[item.name].includes('7')
+            })
+        })
+
+      }
+      return countries
+    },
+    sortChanged (ctx) {
+      // rebind tippy popovers, because <b-table> sorting doesn't preserve 
+      this.bindTippy()
+    }
+  }
+})
+</script>
 
   </body>
 </html>

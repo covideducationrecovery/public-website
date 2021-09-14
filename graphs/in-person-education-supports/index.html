@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-    <title>FAQ - COVID-19 Global Education Recovery Tracker</title>
-    <meta name="description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
+    <title>In-person education supports - COVID-19 Global Education Recovery Tracker</title>
+    <meta name="description" content="This graph displays additional academic supports to mitigate learning loss for schools that are open for in-person education. Data is displayed by regional level and grade level as of the last survey response.">
 
     <meta name="twitter:card" content="summary_large_image" />
     
     
-    <meta name="twitter:title" content="FAQ - COVID-19 Global Education Recovery Tracker" />
-    <meta name="twitter:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF." />
-    <meta name="twitter:image" content="https://www.covideducationrecovery.global/img/og-image.png" />
+    <meta name="twitter:title" content="In-person education supports - COVID-19 Global Education Recovery Tracker" />
+    <meta name="twitter:description" content="This graph displays additional academic supports to mitigate learning loss for schools that are open for in-person education. Data is displayed by regional level and grade level as of the last survey response." />
+    <meta name="twitter:image" content="https://www.covideducationrecovery.global//img/visualizations/in-person-education-supports.jpg" />
 
-    <meta property="og:title" content="FAQ - COVID-19 Global Education Recovery Tracker">
-    <meta property="og:image" content="https://www.covideducationrecovery.global/img/og-image.png\">
-    <meta property="og:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
-    <meta property="og:url" content="https://www.covideducationrecovery.global//faq/" />
+    <meta property="og:title" content="In-person education supports - COVID-19 Global Education Recovery Tracker">
+    <meta property="og:image" content="https://www.covideducationrecovery.global//img/visualizations/in-person-education-supports.jpg">
+    <meta property="og:description" content="This graph displays additional academic supports to mitigate learning loss for schools that are open for in-person education. Data is displayed by regional level and grade level as of the last survey response.">
+    <meta property="og:url" content="https://www.covideducationrecovery.global//graphs/in-person-education-supports/" />
     <meta property="og:type" content="website">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -102,6 +102,28 @@
       .hidden, [v-cloak] {display: none;}
 
       
+
+      
+      svg {fill: #DDDDDD;}
+.support-targeted {fill: #1A49BF;}
+.support-tutoring-volunteer {fill: #000000;}
+.support-tutoring {fill: #26B1FF;}
+.support-school-year {fill: #FFA733;}
+.support-school-day {fill: #A7FFE6;}
+.support-other {fill: #C7A7FF;}
+.support-no-data {fill: #DDDDDD;}
+
+.modality-tutoring {fill: #1A49BF;}
+.modality-paper-packets {fill: #000000;}
+.modality-mobile {fill: #26B1FF;}
+.modality-radio {fill: #FFA733;}
+.modality-television {fill: #A7FFE6;}
+.modality-online {fill: #C7A7FF;}
+.modality-no-data {fill: #DDDDDD;}
+
+.graph-key {max-width: 600px; margin: auto; font-size: smaller;}
+/* .graph-key {display: flex; flex-flow: row nowrap; align-items: center; justify-content: center; font-size: small;} */
+.graph-key-color {height: 2rem; width: 2rem; margin: 0.2rem;}
 
       
 
@@ -268,13 +290,120 @@
 
     
     <div class="spacer-5"></div>
-<div class="container">
-  <h2 class="text-center">Frequently Asked Questions</h2>
-  <div class="spacer-3"></div>
-  
-    the collection is empty
-  
-</div>
 
+<div id="vue-app" class="container mb-5">
+  <h1>In-person education supports</h1>
+  <div class="my-3 d-flex flex-column">
+    <span>
+      This graph displays additional academic supports to mitigate learning loss for schools that are open for in-person education. Data is displayed by regional level and grade level as of the last survey response.
+      (<a href="#notes">see notes below</a>)      
+    </span>
+  </div>
+
+      <div class="row my-3">
+        <div class="alert alert-success d-flex flex-column align-items-start">
+          <div id="observablehq-viewof-Data_Type-fc38e864" style="width: 50%;" ></div>
+        </div>
+        <div id="observablehq-chart-fc38e864" style="width: 100%;"></div>
+        <div class="my-3">
+          <p>For systems where schools are open for in-person education, what additional educational support is being offered to mitigate learning loss among students?</p>
+        </div>
+        <div class="graph-key w-100">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" colspan="2">Legend</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><svg class="support-school-day graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Changes in School Day</strong>:  The school day is extended, contracted, or otherwise adjusted to accommodate loss of schooling.</td>
+              </tr>
+              <tr>
+                <td><svg class="support-school-year graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Changes in School Year Calendar</strong>: The school year calendar is extended, contracted, or otherwise adjusted to accommodate loss of schooling. </td>
+              </tr>
+              <tr>
+                <td><svg class="support-tutoring graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Additional Tutoring by Teachers</strong>: Tutoring offered as a support or remediation strategy by teachers to support available in-country learning options for vulnerable students. </td>
+              </tr>
+              <tr>
+                <td><svg class="support-tutoring-volunteer graph-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Additional Tutoring by Volunteer/Non-Profit Organizations</strong>:	Tutoring offered as a support or remediation strategy by volunteers to support available in-country learning options for vulnerable students.</td>
+              </tr>
+              <tr>
+                <td><svg class="support-targeted graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Targeted Remedial Measures for Specific Groups</strong>:  Interventions are offered as additional supports for targeted students or groups</td>
+              </tr>
+              <tr>
+                <td><svg class="support-other graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
+                <td class="text-start"><strong>Other</strong>:	Other academic supports not listed above.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>  
+      </div>
+    
+      <div class="spacer-10"></div>
+
+      <div class="row">
+        <h2 id="notes" class="text-muted">Notes about this data</h2>
+        <p>
+          For additional definitions, please see our <a href="/methodology/">Methodology</a>.
+        </p>
+      </div>
+  
+      <div class="spacer-5"></div>
+  
+      <div class="row">
+        <h5>Citation</h5>
+        <p>
+          Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of <span id="mostRecentResponseDate"></span>. Accessed on <span id="accessedOn"></span>. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
+        </p>
+      </div>
+    
+    <div class="spacer-10"></div>  
+</div>
+       
+
+<script type="module">
+
+  import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import notebook from "https://api.observablehq.com/@camdens/grouped-bar-chart-s2q3a.js?v=3";
+  
+  // Select the element into which we’ll embed the chart.
+  const chart = document.querySelector("#observablehq-chart-fc38e864");
+  const chart_selector = document.querySelector("#observablehq-viewof-Data_Type-fc38e864");
+  // Instantiate a standard library that can be used by the definition of width below.
+  const library = new Library();
+  
+  // Pass the custom library to the runtime when instantiating our notebook.
+  const runtime = new Runtime(library);
+  const main = runtime.module(notebook, name => {
+    if (name === "chart") return new Inspector(chart);
+    if (name === "viewof Data_Type") return new Inspector(chart_selector);
+    return ["data","x0","test","y","yAxis","groupKey","keys","x1","xAxis"].includes(name);
+  });
+  
+  // Redefine width as a generator that yields the chart element’s clientWidth (if
+  // changed) whenever the window resize event fires. If desired, use a
+  // ResizeObserver instead; see the custom-fluid-width-and-height example.
+  main.redefine("width", library.Generators.observe(notify => {
+    let width = notify(chart.clientWidth); // initial width
+    function resized() {
+      let newWidth = chart.clientWidth;
+      if (newWidth !== width) {
+        notify(width = newWidth);
+      }
+    }
+    addEventListener("resize", resized);
+    return () => removeEventListener("resize", resized);
+  }));
+
+  document.querySelector("#mostRecentResponseDate").innerText = '2021-09-14T15:37:55-04:00'.slice(0,10)
+  document.getElementById("accessedOn").innerText = (new Date()).toISOString().slice(0,10)
+  
+</script>
   </body>
 </html>
