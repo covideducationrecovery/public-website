@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  
+  <head>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-    <title>COVID-19 Global Education Recovery Tracker</title>
-    <meta name="description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
+    <title>Country profiles - COVID-19 Global Education Recovery Tracker</title>
+    <meta name="description" content="Select a country to view detailed statistics about it, including education and population metrics, coronavirus cases, deaths, and vaccinations, and more.">
 
     <meta name="twitter:card" content="summary_large_image" />
     
     
-    <meta name="twitter:title" content="COVID-19 Global Education Recovery Tracker" />
-    <meta name="twitter:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF." />
-    <meta name="twitter:image" content="https://www.covideducationrecovery.global/img/og-image.png" />
+    <meta name="twitter:title" content="Country profiles - COVID-19 Global Education Recovery Tracker" />
+    <meta name="twitter:description" content="Select a country to view detailed statistics about it, including education and population metrics, coronavirus cases, deaths, and vaccinations, and more." />
+    <meta name="twitter:image" content="https://www.covideducationrecovery.global//img/visualizations/country-profile.jpg" />
 
-    <meta property="og:title" content="COVID-19 Global Education Recovery Tracker">
-    <meta property="og:image" content="https://www.covideducationrecovery.global/img/og-image.png\">
-    <meta property="og:description" content="Monitoring the impact of the COVID-19 pandemic on response and recovery for students across the globe, by Johns Hopkins University, the World Bank, and UNICEF.">
+    <meta property="og:title" content="Country profiles - COVID-19 Global Education Recovery Tracker">
+    <meta property="og:image" content="https://www.covideducationrecovery.global//img/visualizations/country-profile.jpg">
+    <meta property="og:description" content="Select a country to view detailed statistics about it, including education and population metrics, coronavirus cases, deaths, and vaccinations, and more.">
     <meta property="og:url" content="https://www.covideducationrecovery.global//profile/" />
     <meta property="og:type" content="website">
 
@@ -110,186 +109,168 @@
       
 
       
+      .progress { height: 3em }
+.bg-male { background-color: #0C619D; flex-direction: row; align-items: center }
+.bg-female { background-color: #AA5986; flex-direction: row; align-items: center }
+
+.fas {
+  font-size: 0.75em;
+  margin-left: 0.2em;
+  margin-right: 0.2em
+}
+
+.percentage:after {
+  content: '%'
+}
+
+.not-available:after {
+  content: 'not available'
+}
+
+.table> :not(caption)>*>* {
+  border-bottom: none;
+}
+
+/* RESET RULES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --white: #fff;
+  --divider: lightgrey;
+  --body: #f5f7f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.chart-wrapper {
+  max-width: 1150px;
+  padding: 0 10px;
+  margin: 0 auto;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width:auto;
+}
+
+.chart-wrapper::-webkit-scrollbar { 
+  width: 10px;
+  border-radius: 10px;
+}
+.chart-wrapper::-webkit-scrollbar-thumb {
+  background: rgb(207, 207, 207);
+  border-radius: 5px;
+}
+
+
+
+/* CHART-VALUES
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.chart-wrapper .chart-values {
+  position: relative;
+  display: flex;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.chart-wrapper .chart-values li {
+  flex: 1;
+  min-width: 120px;
+  max-width: 120px;
+  text-align: center;
+}
+
+.chart-wrapper .chart-values li:not(:last-child) {
+  position: relative;
+}
+
+.chart-wrapper .chart-values li:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 400px;
+  border-right: 1px solid var(--divider);
+}
+
+
+/* CHART-BARS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+.chart-wrapper .chart-bars .group li {
+  position: absolute;
+  display: flex;
+  color: var(--white);
+  margin-bottom: 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  /* height: 3em; */
+  left: 0;
+  width: 0;
+  opacity: 1;
+  background-color: hotpink;
+  transition: all 0.65s linear 0.2s;
+}
+
+.chart-wrapper .chart-bars .group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+  font-size: 16px;
+  border-radius: 0px;
+  
+  /* height: 3em; */
+  
+  width: 100%;
+  
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .chart-wrapper .chart-bars li {
+    padding: 5px;
+  }
+
+  .chart-wrapper .chart-values {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 0.5rem;
+  }
+
+  .chart-wrapper .chart-values li {
+    flex: 1;
+    min-width: 40px;
+    text-align: center;
+  }
+
+  .chart-wrapper .chart-bars .group li {
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    /* height: 3em; */
+  } 
+
+
+}
+
+      
 
     </style>
-  <style>
-    .progress {
-      height: 3em
-    }
-
-    .bg-male {
-      background-color: #0C619D;
-      flex-direction: row;
-      align-items: center
-    }
-
-    .bg-female {
-      background-color: #AA5986;
-      flex-direction: row;
-      align-items: center
-    }
-
-    .fas {
-      font-size: 0.75em;
-      margin-left: 0.2em;
-      margin-right: 0.2em
-    }
-
-    .percentage:after {
-      content: '%'
-    }
-
-    .not-available:after {
-      content: 'not available'
-    }
-
-    .table> :not(caption)>*>* {
-      border-bottom: none;
-    }
-
-    /* RESET RULES
-        –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    :root {
-      --white: #fff;
-      --divider: lightgrey;
-      --body: #f5f7f8;
-    }
-
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .chart-wrapper {
-      max-width: 1150px;
-      padding: 0 10px;
-      margin: 0 auto;
-      overflow-y: hidden;
-      overflow-x: scroll;
-      width:auto;
-    }
-
-    .chart-wrapper::-webkit-scrollbar { 
-      width: 10px;
-      border-radius: 10px;
-    }
-    .chart-wrapper::-webkit-scrollbar-thumb {
-      background: rgb(207, 207, 207);
-      border-radius: 5px;
-    }
-
-
-
-    /* CHART-VALUES
-        –––––––––––––––––––––––––––––––––––––––––––––––––– */
-    .chart-wrapper .chart-values {
-      position: relative;
-      display: flex;
-      margin-bottom: 20px;
-      font-weight: bold;
-      font-size: 1rem;
-    }
-
-    .chart-wrapper .chart-values li {
-      flex: 1;
-      min-width: 120px;
-      max-width: 120px;
-      text-align: center;
-    }
-
-    .chart-wrapper .chart-values li:not(:last-child) {
-      position: relative;
-    }
-
-    .chart-wrapper .chart-values li:not(:last-child)::before {
-      content: '';
-      position: absolute;
-      right: 0;
-      height: 400px;
-      border-right: 1px solid var(--divider);
-    }
-
-
-    /* CHART-BARS
-        –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-    
-
-    .chart-wrapper .chart-bars .group li {
-      position: absolute;
-      display: flex;
-      color: var(--white);
-      margin-bottom: 0px;
-      font-size: 16px;
-      border-radius: 5px;
-      padding: 15px 10px;
-      /* height: 3em; */
-      left: 0;
-      width: 0;
-      opacity: 1;
-      background-color: hotpink;
-      transition: all 0.65s linear 0.2s;
-    }
-
-    .chart-wrapper .chart-bars .group {
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 70px;
-      font-size: 16px;
-      border-radius: 0px;
-      
-      /* height: 3em; */
-      
-      width: 100%;
-      
-    }
-
-    
-
-    @media screen and (max-width: 1000px) {
-      .chart-wrapper .chart-bars li {
-        padding: 5px;
-      }
-
-      .chart-wrapper .chart-values {
-        position: relative;
-        display: flex;
-        margin-bottom: 20px;
-        font-weight: bold;
-        font-size: 0.5rem;
-      }
-
-      .chart-wrapper .chart-values li {
-        flex: 1;
-        min-width: 40px;
-        text-align: center;
-      }
-
-      .chart-wrapper .chart-bars .group li {
-        font-size: 10px;
-        border-radius: 5px;
-        padding: 15px 10px;
-        /* height: 3em; */
-      } 
-
-
-    }
-  </style>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
     <a class="navbar-brand" href="/">
       <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 250 50" style="enable-background:new 0 0 250 50;" xml:space="preserve">
@@ -447,1269 +428,1262 @@
   </div>
 </nav>
 
+    
+    <div class="spacer-5"></div>
 
-  <div class="spacer-5"></div>
-
-  <div id="vue-app" class="container" v-cloak>
-    <template v-if="errorLoading">
-      <div class="w-100 d-flex flex-column justify-content-center align-items-start">
-        <h4>We encountered an error while loading this page.</h4>
-        <span class="text-muted">${ errorMessage }</span>
-      </div>
-    </template>
-    <template v-if="place">
-      <div class="w-100 bg-light rounded d-flex flex-row justify-content-between align-items-start p-3">
-        <div class="d-flex flex-column flex-grow-1 justify-content-between m-2">
-          <h2 style="margin-bottom: 0">${ place.fields.countryName }</h2>
-          <span class="text-muted">${ place.fields.wbRegion }</span>
-          <h5 class="mt-3">
-            Population:
-            <span v-if="place.fields.indicators?.wb_SP_POP_TOTL.value">${ place.fields.indicators.wb_SP_POP_TOTL.value |
-              friendlyNumber }</span>
-            <span v-else>unknown</span>
-            <i class="fas fa-info-circle"
-              :popover="`Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. Female or male population is the percentage of the population. <hr>Source: World Bank<br>Updated: ${ place.fields.indicators?.wb_SP_POP_TOTL?.date }`"></i>
-          </h5>
-          <div v-if="PopMalePer" class="progress" style="height: 3em;">
-            <div v-if="PopMalePer" :style="{width: PopMalePer + '%' }" class="progress-bar bg-male" role="progressbar"
-              :aria-valuenow=" PopMalePer " aria-valuemin="0" aria-valuemax="100">
-              <i class="fas fa-male mx-1"></i>
-              <span class="percentage">${ PopMalePer.toFixed(2) | friendlyNumber }</span>
-            </div>
-            <div v-if="PopFemalePer" :style="{width: PopFemalePer + '%' }" class="progress-bar bg-female"
-              role="progressbar" :aria-valuenow=" PopFemalePer " aria-valuemin="0" aria-valuemax="100">
-              <i class="fas fa-female mx-1"></i>
-              <span class="percentage">${ PopFemalePer.toFixed(2) | friendlyNumber }</span>
-            </div>
-          </div>
-          <h5 v-if="place.fields.indicators" class="mt-3">
-            School-age population:
-            <span v-if="schoolAgePopulation">${ schoolAgePopulation.total | friendlyNumber }</span>
-            <span v-else>unknown</span>
-            <i class="fas fa-info-circle"
-              :popover="`School-aged population is calculated by adding the primary and secondary grade-level populations. Refer to education statistics below for more information.`"></i>
-          </h5>
-          <div v-if="schoolAgePopulation" class="progress" style="height: 3em;">
-            <div v-if="schoolAgePopulation.malePercent" :style="{width: schoolAgePopulation.malePercent + '%' }"
-              class="progress-bar bg-male" role="progressbar" :aria-valuenow=" schoolAgePopulation.malePercent "
-              aria-valuemin="0" aria-valuemax="100">
-              <i class="fas fa-male mx-1"></i>
-              <span class="percentage">${ schoolAgePopulation.malePercent }</span>
-
-            </div>
-            <div v-if="schoolAgePopulation" :style="{width: schoolAgePopulation.femalePercent + '%' }"
-              class="progress-bar bg-female" role="progressbar" :aria-valuenow=" schoolAgePopulation.femalePercent "
-              aria-valuemin="0" aria-valuemax="100">
-              <i class="fas fa-female mx-1"></i>
-              <span class="percentage">${ schoolAgePopulation.femalePercent }</span>
-
-            </div>
-          </div>
-        </div>
-        <img :src="`https://flagcdn.com/${ place.fields?.iso3166Alpha2Code?.toLowerCase() }.svg`"
-          class="float-right w-25 rounded m-2" :alt="`Flag of ${ place.fields.countryName }`">
-      </div>
-
-      <div v-if="placeCovid" class="w-100 bg-light rounded p-3 my-5">
-        <h3>
-          Covid-19 Statistics
+<div id="vue-app" class="container" v-cloak>
+  <template v-if="errorLoading">
+    <div class="w-100 d-flex flex-column justify-content-center align-items-start">
+      <h4>We encountered an error while loading this page.</h4>
+      <span class="text-muted">${ errorMessage }</span>
+    </div>
+  </template>
+  <template v-if="place">
+    <div class="w-100 bg-light rounded d-flex flex-row justify-content-between align-items-start p-3">
+      <div class="d-flex flex-column flex-grow-1 justify-content-between m-2">
+        <h2 style="margin-bottom: 0">${ place.fields.countryName }</h2>
+        <span class="text-muted">${ place.fields.wbRegion }</span>
+        <h5 class="mt-3">
+          Population:
+          <span v-if="place.fields.indicators?.wb_SP_POP_TOTL.value">${ place.fields.indicators.wb_SP_POP_TOTL.value |
+            friendlyNumber }</span>
+          <span v-else>unknown</span>
           <i class="fas fa-info-circle"
-            :popover="`<strong>Cases</strong>: total number of cases since the beginning of the Covid-19 pandemic.<br><strong>Deaths</strong>: total number of deaths attributed to Covid-19 since the beginning of the pandemic.</br><strong>Vaccinations</strong>: the number of people who have been fully vaccinated for protection against Covid-19.<hr>Source: Our World In Data<br>Updated: ${ this.placeCovid.updated }`"></i>
-        </h3>
-        <div class="d-flex flex-row justify-content-around align-items-start m-5">
-          <div class="d-flex flex-column align-items-center">
-            <h5>${ placeCovid['total_cases'] | friendlyNumber }</h5>
-            <h2><i class="fas fa-virus"></i> </h2>
-            <span>Cases</span>
+            :popover="`Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. Female or male population is the percentage of the population. <hr>Source: World Bank<br>Updated: ${ place.fields.indicators?.wb_SP_POP_TOTL?.date }`"></i>
+        </h5>
+        <div v-if="PopMalePer" class="progress" style="height: 3em;">
+          <div v-if="PopMalePer" :style="{width: PopMalePer + '%' }" class="progress-bar bg-male" role="progressbar"
+            :aria-valuenow=" PopMalePer " aria-valuemin="0" aria-valuemax="100">
+            <i class="fas fa-male mx-1"></i>
+            <span class="percentage">${ PopMalePer.toFixed(2) | friendlyNumber }</span>
           </div>
-          <div class="d-flex flex-column align-items-center">
-            <h5>${ placeCovid['total_deaths'] | friendlyNumber }</h5>
-            <h2><i class="fas fa-heart-broken"></i></h2>
-            <span>Deaths</span>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-            <h5>${ placeCovid['people_fully_vaccinated'] | friendlyNumber }</h5>
-            <h2><i class="fas fa-syringe"></i></h2>
-            <span>Vaccinations</span>
+          <div v-if="PopFemalePer" :style="{width: PopFemalePer + '%' }" class="progress-bar bg-female"
+            role="progressbar" :aria-valuenow=" PopFemalePer " aria-valuemin="0" aria-valuemax="100">
+            <i class="fas fa-female mx-1"></i>
+            <span class="percentage">${ PopFemalePer.toFixed(2) | friendlyNumber }</span>
           </div>
         </div>
-        <div class="d-flex flex-row justify-content-end">
-          <a :href="`https://coronavirus.jhu.edu/region/${place.fields.iso3166Alpha2Code?.toLowerCase()}`">More
-            information about coronavirus in this country <i class="fas fa-external-link-alt"></i></a>
+        <h5 v-if="place.fields.indicators" class="mt-3">
+          School-age population:
+          <span v-if="schoolAgePopulation">${ schoolAgePopulation.total | friendlyNumber }</span>
+          <span v-else>unknown</span>
+          <i class="fas fa-info-circle"
+            :popover="`School-aged population is calculated by adding the primary and secondary grade-level populations. Refer to education statistics below for more information.`"></i>
+        </h5>
+        <div v-if="schoolAgePopulation" class="progress" style="height: 3em;">
+          <div v-if="schoolAgePopulation.malePercent" :style="{width: schoolAgePopulation.malePercent + '%' }"
+            class="progress-bar bg-male" role="progressbar" :aria-valuenow=" schoolAgePopulation.malePercent "
+            aria-valuemin="0" aria-valuemax="100">
+            <i class="fas fa-male mx-1"></i>
+            <span class="percentage">${ schoolAgePopulation.malePercent }</span>
+
+          </div>
+          <div v-if="schoolAgePopulation" :style="{width: schoolAgePopulation.femalePercent + '%' }"
+            class="progress-bar bg-female" role="progressbar" :aria-valuenow=" schoolAgePopulation.femalePercent "
+            aria-valuemin="0" aria-valuemax="100">
+            <i class="fas fa-female mx-1"></i>
+            <span class="percentage">${ schoolAgePopulation.femalePercent }</span>
+
+          </div>
         </div>
       </div>
-      <!--- Gant Chart-->
+      <img :src="`https://flagcdn.com/${ place.fields?.iso3166Alpha2Code?.toLowerCase() }.svg`"
+        class="float-right w-25 rounded m-2" :alt="`Flag of ${ place.fields.countryName }`">
+    </div>
+
+    <div v-if="placeCovid" class="w-100 bg-light rounded p-3 my-5">
+      <h3>
+        Covid-19 Statistics
+        <i class="fas fa-info-circle"
+          :popover="`<strong>Cases</strong>: total number of cases since the beginning of the Covid-19 pandemic.<br><strong>Deaths</strong>: total number of deaths attributed to Covid-19 since the beginning of the pandemic.</br><strong>Vaccinations</strong>: the number of people who have been fully vaccinated for protection against Covid-19.<hr>Source: Our World In Data<br>Updated: ${ this.placeCovid.updated }`"></i>
+      </h3>
+      <div class="d-flex flex-row justify-content-around align-items-start m-5">
+        <div class="d-flex flex-column align-items-center">
+          <h5>${ placeCovid['total_cases'] | friendlyNumber }</h5>
+          <h2><i class="fas fa-virus"></i> </h2>
+          <span>Cases</span>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <h5>${ placeCovid['total_deaths'] | friendlyNumber }</h5>
+          <h2><i class="fas fa-heart-broken"></i></h2>
+          <span>Deaths</span>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <h5>${ placeCovid['people_fully_vaccinated'] | friendlyNumber }</h5>
+          <h2><i class="fas fa-syringe"></i></h2>
+          <span>Vaccinations</span>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-end">
+        <a :href="`https://coronavirus.jhu.edu/region/${place.fields.iso3166Alpha2Code?.toLowerCase()}`">More
+          information about coronavirus in this country <i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+    <!--- Gant Chart-->
 
 
 
-      <div v-if="placeTimeline" class="w-100 bg-light rounded p-3 my-5">
-        <h3>
-          Education Status History
-          <i class="fas fa-info-circle"
-            popover="Overall status is determined by combining Primary, Lower Secondary, and Upper Secondary status. <strong>Light gray indicates no data for a particular response round.</strong>"></i>
-        </h3>
-        <div class="chart-wrapper">
-          <ul class="chart-values">
-            <li v-for='(index, pos) in placeTimeline?.periods' v-bind:style= "[placeTimeline?.periods[pos]?.type == 'observed' ? {'color': ''} : {'color': 'lightgray'}]" 
-              :popover="placeTimeline?.periods[pos]?.type == 'observed' ? 'Round ' + index.roundNumber : 'Round ' + index.roundNumber + '<hr> No data collected.'"
-              :data-round="pos"
-              :key='pos'>${ index.endDate }</li>
-          </ul>
-          <ul class="chart-bars">
-            <!-- <li data-duration="1-2" data-color="#0C619D">Online</li>
-                      <li data-duration="3-7" data-color="#AA5986">Hybrid</li>
-                      <li data-duration="4½-6" data-color="#FF9100">In Person</li> -->
-              <div  v-if="placeTimeline.countryInfo[1].times.length > 0" class="group">
-                <li v-for='dates in placeTimeline.countryInfo[1].times' :data-duration="dates" data-color="#e63946">Closed</li>
-              </div>
-              <div  v-if="placeTimeline.countryInfo[6].times.length > 0" class="group">
-                <li v-for='dates in placeTimeline.countryInfo[6].times' :data-duration="dates" data-color="#1B1725">Extended Break</li>
-              </div>
-              <div  v-if="placeTimeline.countryInfo[2].times.length > 0"class="group">
-                <li v-for='dates in placeTimeline.countryInfo[2].times' :data-duration="dates" data-color="#AA5986">Remote</li>
-              </div>
-              <div  v-if="placeTimeline.countryInfo[3].times.length > 0"class="group">
-                <li v-for='dates in placeTimeline.countryInfo[3].times' :data-duration="dates" data-color="#FF9100">Hybrid</li>
-              </div>
-              <div  v-if="placeTimeline.countryInfo[4].times.length > 0"class="group">
-                <li v-for='dates in placeTimeline.countryInfo[4].times' :data-duration="dates" data-color="#0C619D">In Person</li>
-              </div>
-            
-            
-            
-            
-            <!--- Unknown Data -->
-            <!-- <li v-for='dates in placeTimeline[5].times' :data-duration="dates" data-color="#FF9100">${ dates }</li> -->
-
-          </ul>
+    <div v-if="placeTimeline" class="w-100 bg-light rounded p-3 my-5">
+      <h3>
+        Education Status History
+        <i class="fas fa-info-circle"
+          popover="Overall status is determined by combining Primary, Lower Secondary, and Upper Secondary status. <strong>Light gray indicates no data for a particular response round.</strong>"></i>
+      </h3>
+      <div class="chart-wrapper">
+        <ul class="chart-values">
+          <li v-for='(index, pos) in placeTimeline?.periods' v-bind:style= "[placeTimeline?.periods[pos]?.type == 'observed' ? {'color': ''} : {'color': 'lightgray'}]" 
+            :popover="placeTimeline?.periods[pos]?.type == 'observed' ? 'Round ' + index.roundNumber : 'Round ' + index.roundNumber + '<hr> No data collected.'"
+            :data-round="pos"
+            :key='pos'>${ index.endDate }</li>
+        </ul>
+        <ul class="chart-bars">
+          <!-- <li data-duration="1-2" data-color="#0C619D">Online</li>
+                    <li data-duration="3-7" data-color="#AA5986">Hybrid</li>
+                    <li data-duration="4½-6" data-color="#FF9100">In Person</li> -->
+            <div  v-if="placeTimeline.countryInfo[1].times.length > 0" class="group">
+              <li v-for='dates in placeTimeline.countryInfo[1].times' :data-duration="dates" data-color="#e63946">Closed</li>
+            </div>
+            <div  v-if="placeTimeline.countryInfo[6].times.length > 0" class="group">
+              <li v-for='dates in placeTimeline.countryInfo[6].times' :data-duration="dates" data-color="#1B1725">Extended Break</li>
+            </div>
+            <div  v-if="placeTimeline.countryInfo[2].times.length > 0"class="group">
+              <li v-for='dates in placeTimeline.countryInfo[2].times' :data-duration="dates" data-color="#AA5986">Remote</li>
+            </div>
+            <div  v-if="placeTimeline.countryInfo[3].times.length > 0"class="group">
+              <li v-for='dates in placeTimeline.countryInfo[3].times' :data-duration="dates" data-color="#FF9100">Hybrid</li>
+            </div>
+            <div  v-if="placeTimeline.countryInfo[4].times.length > 0"class="group">
+              <li v-for='dates in placeTimeline.countryInfo[4].times' :data-duration="dates" data-color="#0C619D">In Person</li>
+            </div>
           
-        </div>
+          
+          
+          
+          <!--- Unknown Data -->
+          <!-- <li v-for='dates in placeTimeline[5].times' :data-duration="dates" data-color="#FF9100">${ dates }</li> -->
+
+        </ul>
+        
       </div>
+    </div>
 
 
-      <!--- Gant Chart-->
-      <div class="w-100 bg-light rounded p-3 my-5">
-        <div class="w-100 d-flex flex-row justify-content-between align-items-baseline">
-          <h3>Education Status</h3>
-          <span>Updated ${ this.place.fields.mostRecentResponseDate }</span>
-        </div>
-        <div class="d-flex flex-row align-items-center col-10 col-md-8 col-lg-6 mx-auto my-2">
-          <h5 class="flex-grow-1">Overall <i class="fas fa-info-circle"
-              popover="Overall status is determined by combining Primary, Lower Secondary, and Upper Secondary status."></i>
-          </h5>
-          <span class="badge bg-secondary"
-            v-if="educationServices('mostRecentEducationStatusCode').includes('extendedBreak')"><i
+    <!--- Gant Chart-->
+    <div class="w-100 bg-light rounded p-3 my-5">
+      <div class="w-100 d-flex flex-row justify-content-between align-items-baseline">
+        <h3>Education Status</h3>
+        <span>Updated ${ this.place.fields.mostRecentResponseDate }</span>
+      </div>
+      <div class="d-flex flex-row align-items-center col-10 col-md-8 col-lg-6 mx-auto my-2">
+        <h5 class="flex-grow-1">Overall <i class="fas fa-info-circle"
+            popover="Overall status is determined by combining Primary, Lower Secondary, and Upper Secondary status."></i>
+        </h5>
+        <span class="badge bg-secondary"
+          v-if="educationServices('mostRecentEducationStatusCode').includes('extendedBreak')"><i
+            class="fas fa-umbrella-beach"></i> On extended break</span>
+        <span class="badge bg-danger"
+          v-if="educationServices('mostRecentEducationStatusCode').includes('covidClosed')"><i
+            class="fas fa-times"></i> Closed due to COVID-19</span>
+        <span class="badge bg-secondary"
+          v-if="educationServices('mostRecentEducationStatusCode').includes('remote')"><i class="fas fa-home"></i>
+          Remote</span>
+        <span class="badge bg-info" v-if="educationServices('mostRecentEducationStatusCode').includes('hybrid')"><i
+            class="fas fa-school"></i> + <i class="fas fa-home"></i> Hybrid</span>
+        <span class="badge bg-dark" v-if="educationServices('mostRecentEducationStatusCode').includes('inPerson')"><i
+            class="fas fa-school"></i> In-Person</span>
+      </div>
+      <template v-for="gradeLevel of gradeLevelList">
+        <div v-if="place.fields[gradeLevel.mresKey]"
+          class="d-flex flex-row align-items-center col-10 col-md-8 col-lg-6 mx-auto my-2">
+          <h5 class="flex-grow-1">${ gradeLevel.label }<i v-if="gradeLevel.infoText" class="fas fa-info-circle"
+              :popover="gradeLevel.infoText"></i></h5>
+          <span class="badge bg-secondary" v-if="educationServices(gradeLevel.mresKey).includes('extendedBreak')"><i
               class="fas fa-umbrella-beach"></i> On extended break</span>
-          <span class="badge bg-danger"
-            v-if="educationServices('mostRecentEducationStatusCode').includes('covidClosed')"><i
+          <span class="badge bg-danger" v-if="educationServices(gradeLevel.mresKey).includes('covidClosed')"><i
               class="fas fa-times"></i> Closed due to COVID-19</span>
-          <span class="badge bg-secondary"
-            v-if="educationServices('mostRecentEducationStatusCode').includes('remote')"><i class="fas fa-home"></i>
-            Remote</span>
-          <span class="badge bg-info" v-if="educationServices('mostRecentEducationStatusCode').includes('hybrid')"><i
+          <span class="badge bg-secondary" v-if="educationServices(gradeLevel.mresKey).includes('remote')"><i
+              class="fas fa-home"></i> Remote</span>
+          <span class="badge bg-info" v-if="educationServices(gradeLevel.mresKey).includes('hybrid')"><i
               class="fas fa-school"></i> + <i class="fas fa-home"></i> Hybrid</span>
-          <span class="badge bg-dark" v-if="educationServices('mostRecentEducationStatusCode').includes('inPerson')"><i
+          <span class="badge bg-dark" v-if="educationServices(gradeLevel.mresKey).includes('inPerson')"><i
               class="fas fa-school"></i> In-Person</span>
         </div>
-        <template v-for="gradeLevel of gradeLevelList">
-          <div v-if="place.fields[gradeLevel.mresKey]"
-            class="d-flex flex-row align-items-center col-10 col-md-8 col-lg-6 mx-auto my-2">
-            <h5 class="flex-grow-1">${ gradeLevel.label }<i v-if="gradeLevel.infoText" class="fas fa-info-circle"
-                :popover="gradeLevel.infoText"></i></h5>
-            <span class="badge bg-secondary" v-if="educationServices(gradeLevel.mresKey).includes('extendedBreak')"><i
-                class="fas fa-umbrella-beach"></i> On extended break</span>
-            <span class="badge bg-danger" v-if="educationServices(gradeLevel.mresKey).includes('covidClosed')"><i
-                class="fas fa-times"></i> Closed due to COVID-19</span>
-            <span class="badge bg-secondary" v-if="educationServices(gradeLevel.mresKey).includes('remote')"><i
-                class="fas fa-home"></i> Remote</span>
-            <span class="badge bg-info" v-if="educationServices(gradeLevel.mresKey).includes('hybrid')"><i
-                class="fas fa-school"></i> + <i class="fas fa-home"></i> Hybrid</span>
-            <span class="badge bg-dark" v-if="educationServices(gradeLevel.mresKey).includes('inPerson')"><i
-                class="fas fa-school"></i> In-Person</span>
-          </div>
-        </template>
-        <div>
-          <h4 class="mt-4">In-person education supports by grade level</h4>
-          <div class="table-responsive">
-            <table class="w-100 table table-hover">
-              <tr v-for="gradeLevel in gradeLevelList">
-                <th scope="row">${gradeLevel.label}</td>
-                <td v-for="ipasOption in ipasOptions"><small
-                    v-if="place.fields[gradeLevel.ipasKey]?.includes(ipasOption.value)"
-                    class="d-flex flex-row align-items-start"><i
-                      v-bind:class="`fas fa-${ ipasOption.faIcon } mx-1 my-auto`"></i><span>${ ipasOption.label
-                      }</span></small></td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div>
-          <h4 class="mt-4">Remote education supports by grade level</h4>
-          <div class="table-responsive">
-            <table class="w-100 table table-hover">
-              <tr v-for="gradeLevel in gradeLevelList">
-                <th scope="row">${gradeLevel.label}</td>
-                <td v-for="mrremOption in mrremOptions"><small
-                    v-if="place.fields[gradeLevel.mrremKey]?.includes(mrremOption.value)"
-                    class="d-flex flex-row align-items-start"><i
-                      v-bind:class="`fas fa-${ mrremOption.faIcon } mx-1 my-auto`"></i><span>${ mrremOption.label
-                      }</span></small></td>
-              </tr>
-            </table>
-          </div>
+      </template>
+      <div>
+        <h4 class="mt-4">In-person education supports by grade level</h4>
+        <div class="table-responsive">
+          <table class="w-100 table table-hover">
+            <tr v-for="gradeLevel in gradeLevelList">
+              <th scope="row">${gradeLevel.label}</td>
+              <td v-for="ipasOption in ipasOptions"><small
+                  v-if="place.fields[gradeLevel.ipasKey]?.includes(ipasOption.value)"
+                  class="d-flex flex-row align-items-start"><i
+                    v-bind:class="`fas fa-${ ipasOption.faIcon } mx-1 my-auto`"></i><span>${ ipasOption.label
+                    }</span></small></td>
+            </tr>
+          </table>
         </div>
       </div>
-
-      <div class="w-100 bg-light rounded p-3 my-5">
-        <h3>
-          Education Statistics
-        </h3>
-        <template v-if="place.fields.indicators">
-          <div class="my-3">
-            <h4>
-              School-age populations
-              <i class="fas fa-info-circle"
-                :popover="`Population of the age group theoretically corresponding to the specified education level as indicated by theoretical entrance age and duration.<hr>Source: World Bank<br>Updated: ${ place.fields.indicators?.wb_SP_PRE_TOTL_MA_IN?.date }`"></i>
-            </h4>
-            <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
-              <h6 class="col-3">Pre-Primary</h6>
-              <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
-                ${ (place.fields.indicators.wb_SP_PRE_TOTL_FE_IN?.value +
-                place.fields.indicators?.wb_SP_PRE_TOTL_MA_IN?.value ).toLocaleString('en-US') }
-              </h6>
-              <div class="progress text-center col-6">
-                <div v-if="prePrimaryMalePer" :style="{width: prePrimaryMalePer + '%' }" class="progress-bar bg-male"
-                  role="progressbar" :aria-valuenow=" prePrimaryMalePer" aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-male mx-1"></i>
-                  <span class="percentage">${ prePrimaryMalePer.toFixed(2) }</span>
-                </div>
-                <div v-if="prePrimaryFemalePer" :style="{width: prePrimaryFemalePer + '%' }"
-                  class="progress-bar bg-female" role="progressbar" :aria-valuenow="prePrimaryFemalePer"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-female mx-1"></i>
-                  <span class="percentage">${ prePrimaryFemalePer.toFixed(2) }</span>
-                </div>
-              </div>
-            </div>
-            <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
-              <h6 class="col-3">Primary (all years)</h6>
-              <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
-                ${ place.fields.indicators.wb_SP_PRM_TOTL_IN?.value.toLocaleString() }
-              </h6>
-              <div class="progress text-center col-6">
-                <div v-if="primaryMalePer" :style="{width: primaryMalePer + '%' }" class="progress-bar bg-male"
-                  role="progressbar" :aria-valuenow="primaryMalePer " aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-male mx-1"></i>
-                  <span class="percentage">${ primaryMalePer.toFixed(2) }</span>
-
-                </div>
-                <div v-if="primaryFemalePer" :style="{width: primaryFemalePer + '%' }" class="progress-bar bg-female"
-                  role="progressbar" :aria-valuenow="primaryFemalePer" aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-female mx-1"></i>
-                  <span class="percentage">${ primaryFemalePer.toFixed(2) }</span>
-                </div>
-              </div>
-            </div>
-            <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
-              <h6 class="col-3">Primary (final year)</h6>
-              <h6 v-if="place.fields.indicators.wb_SP_PRM_GRAD_TO" class="col-3">
-                ${ place.fields.indicators.wb_SP_PRM_GRAD_TO.value.toLocaleString() }
-              </h6>
-              <div class="progress text-center col-6">
-                <div v-if="primaryLastMalePer" :style="{width: primaryMalePer + '%' }" class="progress-bar bg-male"
-                  role="progressbar" :aria-valuenow="primaryLastMalePer " aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-male mx-1"></i>
-                  <span class="percentage">${ primaryLastMalePer.toFixed(2) }</span>
-                </div>
-                <div v-if="primaryLastFemalePer" :style="{width: primaryLastFemalePer + '%' }"
-                  class="progress-bar bg-female" role="progressbar" :aria-valuenow="primaryLastFemalePer"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-female mx-1"></i>
-                  <span class="percentage">${ primaryLastFemalePer.toFixed(2) }</span>
-                </div>
-              </div>
-            </div>
-            <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
-              <h6 class="col-3">Secondary (lower)</h6>
-              <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
-                ${ place.fields.indicators.wb_SP_SEC_LTOT_IN.value.toLocaleString() }
-              </h6>
-              <div class="progress text-center col-6">
-                <div v-if="lowerSecondaryMalePer" :style="{width: lowerSecondaryMalePer + '%' }"
-                  class="progress-bar bg-male" role="progressbar" :aria-valuenow="primaryMalePer " aria-valuemin="0"
-                  aria-valuemax="100">
-                  <i class="fas fa-male mx-1"></i>
-                  <span class="percentage">${ lowerSecondaryMalePer.toFixed(2) }</span>
-
-                </div>
-                <div v-if="lowerSecondaryFemalePer" :style="{width: lowerSecondaryFemalePer + '%' }"
-                  class="progress-bar bg-female" role="progressbar" :aria-valuenow="lowerSecondaryFemalePer"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-female mx-1"></i>
-                  <span class="percentage">${ lowerSecondaryFemalePer.toFixed(2) }</span>
-                </div>
-              </div>
-            </div>
-            <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
-              <h6 class="col-3">Secondary (upper)</h6>
-              <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
-                ${ place.fields.indicators.wb_SP_SEC_UTOT_IN.value.toLocaleString() }
-              </h6>
-              <div class="progress text-center col-6">
-                <div v-if="upperSecondaryMalePer" :style="{width: upperSecondaryMalePer + '%' }"
-                  class="progress-bar bg-male" role="progressbar" :aria-valuenow="upperSecondaryMalePer "
-                  aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-male mx-1"></i>
-                  <span class="percentage">${ upperSecondaryMalePer.toFixed(2) }</span>
-
-                </div>
-                <div v-if="upperSecondaryFemalePer" :style="{width: upperSecondaryFemalePer + '%' }"
-                  class="progress-bar bg-female" role="progressbar" :aria-valuenow="upperSecondaryFemalePer"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-female mx-1"></i>
-                  <span class="percentage">${ upperSecondaryFemalePer.toFixed(2) }</span>
-                </div>
-              </div>
-            </div>
-            <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
-              <h6 class="col-3">Secondary (combined)</h6>
-              <h6 v-if="place.fields.indicators.wb_SP_SEC_TOTL_IN" class="col-3">
-                ${ place.fields.indicators.wb_SP_SEC_TOTL_IN.value.toLocaleString() }
-              </h6>
-              <div class="progress text-center col-6">
-                <div v-if="secondaryMalePer" :style="{width: secondaryMalePer + '%' }" class="progress-bar bg-male"
-                  role="progressbar" :aria-valuenow="secondaryMalePer " aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-male mx-1"></i>
-                  <span class="percentage">${ secondaryMalePer.toFixed(2) }</span>
-
-                </div>
-                <div v-if="secondaryFemalePer" :style="{width: secondaryFemalePer + '%' }"
-                  class="progress-bar bg-female" role="progressbar" :aria-valuenow="secondaryFemalePer"
-                  aria-valuemin="0" aria-valuemax="100">
-                  <i class="fas fa-female mx-1"></i>
-                  <span class="percentage">${ secondaryFemalePer.toFixed(2) }</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="my-3">
-            <h4>Enrollment ratios</h4>
-            <h5 class="my-3">
-              Gross enrollment ratios
-              <i class="fas fa-info-circle"
-                popover="The ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown.<hr>Source: World Bank<br>Date: TK"></i>
-            </h5>
-            <div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-2">Primary</h6>
-                <div v-if="place.fields.indicators.wb_SE_PRM_ENRR" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_PRM_ENRR.value + '%' }"
-                    class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_PRM_ENRR.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <span class="percentage">${ place.fields.indicators.wb_SE_PRM_ENRR.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_PRM_ENRR_MA" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_PRM_ENRR_MA.value + '%' }"
-                    class="progress-bar bg-male" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_PRM_ENRR_MA.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-male mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_PRM_ENRR_MA.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_PRM_ENRR_FE" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_PRM_ENRR_FE.value + '%' }"
-                    class="progress-bar bg-female" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_PRM_ENRR_FE.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-female mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_PRM_ENRR_FE.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-2">Secondary</h6>
-                <div v-if="place.fields.indicators.wb_SE_SEC_ENRR" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_SEC_ENRR.value + '%' }"
-                    class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_SEC_ENRR.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <span class="percentage">${ place.fields.indicators.wb_SE_SEC_ENRR.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_SEC_ENRR_MA" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_SEC_ENRR_MA.value + '%' }"
-                    class="progress-bar bg-male" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_SEC_ENRR_MA.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-male mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_SEC_ENRR_MA.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_SEC_ENRR_FE" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_SEC_ENRR_FE.value + '%' }"
-                    class="progress-bar bg-female" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_SEC_ENRR_FE.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-female mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_SEC_ENRR_FE.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-            </div>
-            <h5 class="my-3">
-              Net enrollment ratios
-              <i class="fas fa-info-circle"
-                popover="The ratio of children of official school age who are enrolled in school to the population of the corresponding official school age.<hr>Source: World Bank<br>Date: TK"></i>
-            </h5>
-            <div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-2">Primary</h6>
-                <div v-if="place.fields.indicators.wb_SE_PRM_NENR" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_PRM_NENR.value + '%' }"
-                    class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_PRM_NENR.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <span class="percentage">${ place.fields.indicators.wb_SE_PRM_NENR.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_PRM_NENR_MA" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_PRM_NENR_MA.value + '%' }"
-                    class="progress-bar bg-male" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_PRM_NENR_MA.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-male mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_PRM_NENR_MA.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_PRM_NENR_FE" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_PRM_NENR_FE.value + '%' }"
-                    class="progress-bar bg-female" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_PRM_NENR_FE.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-female mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_PRM_NENR_FE.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-2">Secondary</h6>
-                <div v-if="place.fields.indicators.wb_SE_SEC_NENR" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_SEC_NENR.value + '%' }"
-                    class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_SEC_NENR.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <span class="percentage">${ place.fields.indicators.wb_SE_SEC_NENR.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_SEC_NENR_MA" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_SEC_NENR_MA.value + '%' }"
-                    class="progress-bar bg-male" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_SEC_NENR_MA.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-male mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_SEC_NENR_MA.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_SEC_NENR_FE" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_SEC_NENR_FE.value + '%' }"
-                    class="progress-bar bg-female" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_SEC_NENR_FE.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-female mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_SEC_NENR_FE.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="my-3">
-            <h4>Poverty</h4>
-            <div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-2">
-                  Learning
-                  <i class="fas fa-info-circle"
-                    popover="Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%).<hr>Source: World Bank<br>Date: TK"></i>
-                </h6>
-                <div v-if="place.fields.indicators.wb_SE_LPV_PRIM" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_LPV_PRIM.value + '%' }"
-                    class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_LPV_PRIM.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <span class="percentage">${ place.fields.indicators.wb_SE_LPV_PRIM.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_LPV_PRIM_MA" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_LPV_PRIM_MA.value + '%' }"
-                    class="progress-bar bg-male" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_LPV_PRIM_MA.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-male mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_LPV_PRIM_MA.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_SE_LPV_PRIM_FE" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SE_LPV_PRIM_FE.value + '%' }"
-                    class="progress-bar bg-female" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SE_LPV_PRIM_FE.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <i class="fas fa-female mx-1"></i>
-                    <span class="percentage">${ place.fields.indicators.wb_SE_LPV_PRIM_FE.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-2">
-                  Monetary
-                  <i class="fas fa-info-circle"
-                    popover="Multidimensional poverty, Monetary poverty (% of population deprived)<hr>Source: World Bank<br>Date: TK"></i>
-                </h6>
-                <div v-if="place.fields.indicators.wb_SI_POV_DDAY_MI" class="progress text-center col-3">
-                  <div :style="{width: place.fields.indicators.wb_SI_POV_DDAY_MI.value + '%' }"
-                    class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
-                    :aria-valuenow=" place.fields.indicators.wb_SI_POV_DDAY_MI.value " aria-valuemin="0"
-                    aria-valuemax="100">
-                    <span class="percentage">${ place.fields.indicators.wb_SI_POV_DDAY_MI.value.toFixed(2) }</span>
-                  </div>
-                </div>
-                <div v-else
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div
-                  class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="my-3">
-            <h4>
-              School internet access <i class="fas fa-info-circle"
-                popover="Proportion of schools, by grade level, with access to Internet for pedagogical purposes.<hr>Source: UNESCO Institute for Statistics via World Bank<br>Updated: TK"></i>
-            </h4>
-            <div class="d-flex flex-row justify-content-center align-items-center my-3">
-              <span class="col-3">Primary</span>
-              <div v-if="place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN" class="col-9 progress text-center w-50"
-                style="height: 3em">
-                <div class="progress-bar bg-info d-flex flex-row align-items-center" role="progressbar"
-                  :style="{ width: place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN?.value.toFixed(2) + '%' }"
-                  :aria-valuenow="place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN?.value.toFixed(2)" aria-valuemin="0"
-                  aria-valuemax="100">
-                  <i class="fas fa-globe mx-1"></i>
-                  ${ place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN?.value.toFixed(2) }%
-                </div>
-              </div>
-              <div v-else
-                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-              </div>
-            </div>
-            <div class="d-flex flex-row justify-content-center align-items-center my-3">
-              <span class="col-3">Lower Secondary</span>
-              <div v-if="place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN" class="col-9 progress text-center w-50"
-                style="height: 3em">
-                <div class="progress-bar bg-info d-flex flex-row align-items-center" role="progressbar"
-                  :style="{ width: place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN?.value.toFixed(2) + '%' }"
-                  :aria-valuenow="place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN?.value.toFixed(2)" aria-valuemin="0"
-                  aria-valuemax="100">
-                  <i class="fas fa-globe mx-1"></i>
-                  ${ place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN?.value.toFixed(2) }%
-                </div>
-              </div>
-              <div v-else
-                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-              </div>
-            </div>
-            <div class="d-flex flex-row justify-content-center align-items-center my-3">
-              <span class="col-3">Lower Secondary</span>
-              <div v-if="place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN" class=" col-9 progress text-center w-50"
-                style="height: 3em">
-                <div class="progress-bar bg-info d-flex flex-row align-items-center" role="progressbar"
-                  :style="{ width: place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN?.value.toFixed(2) + '%' }"
-                  :aria-valuenow="place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN?.value.toFixed(2)" aria-valuemin="0"
-                  aria-valuemax="100">
-                  <i class="fas fa-globe mx-1"></i>
-                  ${ place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN?.value.toFixed(2) }%
-                </div>
-              </div>
-              <div v-else
-                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
-              </div>
-            </div>
-          </div>
-          <div class="my-3">
-            <h4>Other</h4>
-            <div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-3">
-                  Learning years adjusted
-                  <i class="fas fa-info-circle"
-                    popover="Learning-Adjusted Years of School<hr>Source: World Bank<br>Date: TK"></i>
-                </h6>
-                <div v-if="place.fields.indicators.wb_HD_HCI_LAYS" class="text-center col-3">
-                  <span>${ place.fields.indicators.wb_HD_HCI_LAYS.value.toFixed(2) }</span>
-                </div>
-                <div v-else
-                  class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_HD_HCI_LAYS_MA" class="text-center col-3">
-                  <i class="fas fa-male mx-1"></i>
-                  <span>${ place.fields.indicators.wb_HD_HCI_LAYS_MA.value.toFixed(2) }</span>
-                </div>
-                <div v-else
-                  class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_HD_HCI_LAYS_FE" class="text-center col-3">
-                  <i class="fas fa-female mx-1"></i>
-                  <span>${ place.fields.indicators.wb_HD_HCI_LAYS_FE.value.toFixed(2) }</span>
-                </div>
-                <div v-else
-                  class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-              <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
-                <h6 class="col-3">
-                  Harmonized test scores
-                  <i class="fas fa-info-circle" popover="Harmonized Test Scores<hr>Source: World Bank<br>Date: TK"></i>
-                </h6>
-                <div v-if="place.fields.indicators.wb_HD_HCI_HLOS" class="text-center col-3">
-                  <span>${ place.fields.indicators.wb_HD_HCI_HLOS.value.toFixed(2) }</span>
-                </div>
-                <div v-else
-                  class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_HD_HCI_HLOS_MA" class="text-center col-3">
-                  <i class="fas fa-male mx-1"></i>
-                  <span>${ place.fields.indicators.wb_HD_HCI_HLOS_MA.value.toFixed(2) }</span>
-                </div>
-                <div v-else
-                  class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-                <div v-if="place.fields.indicators.wb_HD_HCI_HLOS_FEM" class="text-center col-3">
-                  <i class="fas fa-female mx-1"></i>
-                  <span>${ place.fields.indicators.wb_HD_HCI_HLOS_FE.value.toFixed(2) }</span>
-                </div>
-                <div v-else
-                  class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
-                </div>
-              </div>
-            </div>
-          </div>
-        </template>
-        <template v-else>
-          <div class="w-100 text-center not-available"></div>
-        </template>
+      <div>
+        <h4 class="mt-4">Remote education supports by grade level</h4>
+        <div class="table-responsive">
+          <table class="w-100 table table-hover">
+            <tr v-for="gradeLevel in gradeLevelList">
+              <th scope="row">${gradeLevel.label}</td>
+              <td v-for="mrremOption in mrremOptions"><small
+                  v-if="place.fields[gradeLevel.mrremKey]?.includes(mrremOption.value)"
+                  class="d-flex flex-row align-items-start"><i
+                    v-bind:class="`fas fa-${ mrremOption.faIcon } mx-1 my-auto`"></i><span>${ mrremOption.label
+                    }</span></small></td>
+            </tr>
+          </table>
+        </div>
       </div>
+    </div>
 
-      <div class="spacer-10"></div>
+    <div class="w-100 bg-light rounded p-3 my-5">
+      <h3>
+        Education Statistics
+      </h3>
+      <template v-if="place.fields.indicators">
+        <div class="my-3">
+          <h4>
+            School-age populations
+            <i class="fas fa-info-circle"
+              :popover="`Population of the age group theoretically corresponding to the specified education level as indicated by theoretical entrance age and duration.<hr>Source: World Bank<br>Updated: ${ place.fields.indicators?.wb_SP_PRE_TOTL_MA_IN?.date }`"></i>
+          </h4>
+          <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
+            <h6 class="col-3">Pre-Primary</h6>
+            <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
+              ${ (place.fields.indicators.wb_SP_PRE_TOTL_FE_IN?.value +
+              place.fields.indicators?.wb_SP_PRE_TOTL_MA_IN?.value ).toLocaleString('en-US') }
+            </h6>
+            <div class="progress text-center col-6">
+              <div v-if="prePrimaryMalePer" :style="{width: prePrimaryMalePer + '%' }" class="progress-bar bg-male"
+                role="progressbar" :aria-valuenow=" prePrimaryMalePer" aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-male mx-1"></i>
+                <span class="percentage">${ prePrimaryMalePer.toFixed(2) }</span>
+              </div>
+              <div v-if="prePrimaryFemalePer" :style="{width: prePrimaryFemalePer + '%' }"
+                class="progress-bar bg-female" role="progressbar" :aria-valuenow="prePrimaryFemalePer"
+                aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-female mx-1"></i>
+                <span class="percentage">${ prePrimaryFemalePer.toFixed(2) }</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
+            <h6 class="col-3">Primary (all years)</h6>
+            <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
+              ${ place.fields.indicators.wb_SP_PRM_TOTL_IN?.value.toLocaleString() }
+            </h6>
+            <div class="progress text-center col-6">
+              <div v-if="primaryMalePer" :style="{width: primaryMalePer + '%' }" class="progress-bar bg-male"
+                role="progressbar" :aria-valuenow="primaryMalePer " aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-male mx-1"></i>
+                <span class="percentage">${ primaryMalePer.toFixed(2) }</span>
 
-      <div class="container">
-        To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global
-        Education Recovery Tracker. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF.
-      </div>
+              </div>
+              <div v-if="primaryFemalePer" :style="{width: primaryFemalePer + '%' }" class="progress-bar bg-female"
+                role="progressbar" :aria-valuenow="primaryFemalePer" aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-female mx-1"></i>
+                <span class="percentage">${ primaryFemalePer.toFixed(2) }</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
+            <h6 class="col-3">Primary (final year)</h6>
+            <h6 v-if="place.fields.indicators.wb_SP_PRM_GRAD_TO" class="col-3">
+              ${ place.fields.indicators.wb_SP_PRM_GRAD_TO.value.toLocaleString() }
+            </h6>
+            <div class="progress text-center col-6">
+              <div v-if="primaryLastMalePer" :style="{width: primaryMalePer + '%' }" class="progress-bar bg-male"
+                role="progressbar" :aria-valuenow="primaryLastMalePer " aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-male mx-1"></i>
+                <span class="percentage">${ primaryLastMalePer.toFixed(2) }</span>
+              </div>
+              <div v-if="primaryLastFemalePer" :style="{width: primaryLastFemalePer + '%' }"
+                class="progress-bar bg-female" role="progressbar" :aria-valuenow="primaryLastFemalePer"
+                aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-female mx-1"></i>
+                <span class="percentage">${ primaryLastFemalePer.toFixed(2) }</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
+            <h6 class="col-3">Secondary (lower)</h6>
+            <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
+              ${ place.fields.indicators.wb_SP_SEC_LTOT_IN.value.toLocaleString() }
+            </h6>
+            <div class="progress text-center col-6">
+              <div v-if="lowerSecondaryMalePer" :style="{width: lowerSecondaryMalePer + '%' }"
+                class="progress-bar bg-male" role="progressbar" :aria-valuenow="primaryMalePer " aria-valuemin="0"
+                aria-valuemax="100">
+                <i class="fas fa-male mx-1"></i>
+                <span class="percentage">${ lowerSecondaryMalePer.toFixed(2) }</span>
 
-    </template>
+              </div>
+              <div v-if="lowerSecondaryFemalePer" :style="{width: lowerSecondaryFemalePer + '%' }"
+                class="progress-bar bg-female" role="progressbar" :aria-valuenow="lowerSecondaryFemalePer"
+                aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-female mx-1"></i>
+                <span class="percentage">${ lowerSecondaryFemalePer.toFixed(2) }</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
+            <h6 class="col-3">Secondary (upper)</h6>
+            <h6 v-if="place.fields.indicators.wb_SP_PRE_TOTL_FE_IN" class="col-3">
+              ${ place.fields.indicators.wb_SP_SEC_UTOT_IN.value.toLocaleString() }
+            </h6>
+            <div class="progress text-center col-6">
+              <div v-if="upperSecondaryMalePer" :style="{width: upperSecondaryMalePer + '%' }"
+                class="progress-bar bg-male" role="progressbar" :aria-valuenow="upperSecondaryMalePer "
+                aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-male mx-1"></i>
+                <span class="percentage">${ upperSecondaryMalePer.toFixed(2) }</span>
 
-  </div>
+              </div>
+              <div v-if="upperSecondaryFemalePer" :style="{width: upperSecondaryFemalePer + '%' }"
+                class="progress-bar bg-female" role="progressbar" :aria-valuenow="upperSecondaryFemalePer"
+                aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-female mx-1"></i>
+                <span class="percentage">${ upperSecondaryFemalePer.toFixed(2) }</span>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 d-flex flex-row justify-content-center align-items-center my-3">
+            <h6 class="col-3">Secondary (combined)</h6>
+            <h6 v-if="place.fields.indicators.wb_SP_SEC_TOTL_IN" class="col-3">
+              ${ place.fields.indicators.wb_SP_SEC_TOTL_IN.value.toLocaleString() }
+            </h6>
+            <div class="progress text-center col-6">
+              <div v-if="secondaryMalePer" :style="{width: secondaryMalePer + '%' }" class="progress-bar bg-male"
+                role="progressbar" :aria-valuenow="secondaryMalePer " aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-male mx-1"></i>
+                <span class="percentage">${ secondaryMalePer.toFixed(2) }</span>
+
+              </div>
+              <div v-if="secondaryFemalePer" :style="{width: secondaryFemalePer + '%' }"
+                class="progress-bar bg-female" role="progressbar" :aria-valuenow="secondaryFemalePer"
+                aria-valuemin="0" aria-valuemax="100">
+                <i class="fas fa-female mx-1"></i>
+                <span class="percentage">${ secondaryFemalePer.toFixed(2) }</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-3">
+          <h4>Enrollment ratios</h4>
+          <h5 class="my-3">
+            Gross enrollment ratios
+            <i class="fas fa-info-circle"
+              popover="The ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown.<hr>Source: World Bank<br>Date: TK"></i>
+          </h5>
+          <div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-2">Primary</h6>
+              <div v-if="place.fields.indicators.wb_SE_PRM_ENRR" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_PRM_ENRR.value + '%' }"
+                  class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_PRM_ENRR.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <span class="percentage">${ place.fields.indicators.wb_SE_PRM_ENRR.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_PRM_ENRR_MA" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_PRM_ENRR_MA.value + '%' }"
+                  class="progress-bar bg-male" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_PRM_ENRR_MA.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-male mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_PRM_ENRR_MA.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_PRM_ENRR_FE" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_PRM_ENRR_FE.value + '%' }"
+                  class="progress-bar bg-female" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_PRM_ENRR_FE.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-female mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_PRM_ENRR_FE.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-2">Secondary</h6>
+              <div v-if="place.fields.indicators.wb_SE_SEC_ENRR" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_SEC_ENRR.value + '%' }"
+                  class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_SEC_ENRR.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <span class="percentage">${ place.fields.indicators.wb_SE_SEC_ENRR.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_SEC_ENRR_MA" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_SEC_ENRR_MA.value + '%' }"
+                  class="progress-bar bg-male" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_SEC_ENRR_MA.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-male mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_SEC_ENRR_MA.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_SEC_ENRR_FE" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_SEC_ENRR_FE.value + '%' }"
+                  class="progress-bar bg-female" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_SEC_ENRR_FE.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-female mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_SEC_ENRR_FE.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+          </div>
+          <h5 class="my-3">
+            Net enrollment ratios
+            <i class="fas fa-info-circle"
+              popover="The ratio of children of official school age who are enrolled in school to the population of the corresponding official school age.<hr>Source: World Bank<br>Date: TK"></i>
+          </h5>
+          <div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-2">Primary</h6>
+              <div v-if="place.fields.indicators.wb_SE_PRM_NENR" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_PRM_NENR.value + '%' }"
+                  class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_PRM_NENR.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <span class="percentage">${ place.fields.indicators.wb_SE_PRM_NENR.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_PRM_NENR_MA" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_PRM_NENR_MA.value + '%' }"
+                  class="progress-bar bg-male" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_PRM_NENR_MA.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-male mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_PRM_NENR_MA.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_PRM_NENR_FE" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_PRM_NENR_FE.value + '%' }"
+                  class="progress-bar bg-female" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_PRM_NENR_FE.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-female mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_PRM_NENR_FE.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-2">Secondary</h6>
+              <div v-if="place.fields.indicators.wb_SE_SEC_NENR" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_SEC_NENR.value + '%' }"
+                  class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_SEC_NENR.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <span class="percentage">${ place.fields.indicators.wb_SE_SEC_NENR.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_SEC_NENR_MA" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_SEC_NENR_MA.value + '%' }"
+                  class="progress-bar bg-male" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_SEC_NENR_MA.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-male mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_SEC_NENR_MA.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_SEC_NENR_FE" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_SEC_NENR_FE.value + '%' }"
+                  class="progress-bar bg-female" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_SEC_NENR_FE.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-female mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_SEC_NENR_FE.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-3">
+          <h4>Poverty</h4>
+          <div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-2">
+                Learning
+                <i class="fas fa-info-circle"
+                  popover="Share of Children at the End-of-Primary age below minimum reading proficiency adjusted by Out-of-School Children (%).<hr>Source: World Bank<br>Date: TK"></i>
+              </h6>
+              <div v-if="place.fields.indicators.wb_SE_LPV_PRIM" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_LPV_PRIM.value + '%' }"
+                  class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_LPV_PRIM.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <span class="percentage">${ place.fields.indicators.wb_SE_LPV_PRIM.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_LPV_PRIM_MA" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_LPV_PRIM_MA.value + '%' }"
+                  class="progress-bar bg-male" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_LPV_PRIM_MA.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-male mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_LPV_PRIM_MA.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_SE_LPV_PRIM_FE" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SE_LPV_PRIM_FE.value + '%' }"
+                  class="progress-bar bg-female" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SE_LPV_PRIM_FE.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <i class="fas fa-female mx-1"></i>
+                  <span class="percentage">${ place.fields.indicators.wb_SE_LPV_PRIM_FE.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-2">
+                Monetary
+                <i class="fas fa-info-circle"
+                  popover="Multidimensional poverty, Monetary poverty (% of population deprived)<hr>Source: World Bank<br>Date: TK"></i>
+              </h6>
+              <div v-if="place.fields.indicators.wb_SI_POV_DDAY_MI" class="progress text-center col-3">
+                <div :style="{width: place.fields.indicators.wb_SI_POV_DDAY_MI.value + '%' }"
+                  class="progress-bar bg-secondary d-flex flex-row align-items-center" role="progressbar"
+                  :aria-valuenow=" place.fields.indicators.wb_SI_POV_DDAY_MI.value " aria-valuemin="0"
+                  aria-valuemax="100">
+                  <span class="percentage">${ place.fields.indicators.wb_SI_POV_DDAY_MI.value.toFixed(2) }</span>
+                </div>
+              </div>
+              <div v-else
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div
+                class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-3">
+          <h4>
+            School internet access <i class="fas fa-info-circle"
+              popover="Proportion of schools, by grade level, with access to Internet for pedagogical purposes.<hr>Source: UNESCO Institute for Statistics via World Bank<br>Updated: TK"></i>
+          </h4>
+          <div class="d-flex flex-row justify-content-center align-items-center my-3">
+            <span class="col-3">Primary</span>
+            <div v-if="place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN" class="col-9 progress text-center w-50"
+              style="height: 3em">
+              <div class="progress-bar bg-info d-flex flex-row align-items-center" role="progressbar"
+                :style="{ width: place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN?.value.toFixed(2) + '%' }"
+                :aria-valuenow="place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN?.value.toFixed(2)" aria-valuemin="0"
+                aria-valuemax="100">
+                <i class="fas fa-globe mx-1"></i>
+                ${ place.fields.indicators.wb_UIS_SCHBSP_1_WINTERN?.value.toFixed(2) }%
+              </div>
+            </div>
+            <div v-else
+              class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-center align-items-center my-3">
+            <span class="col-3">Lower Secondary</span>
+            <div v-if="place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN" class="col-9 progress text-center w-50"
+              style="height: 3em">
+              <div class="progress-bar bg-info d-flex flex-row align-items-center" role="progressbar"
+                :style="{ width: place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN?.value.toFixed(2) + '%' }"
+                :aria-valuenow="place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN?.value.toFixed(2)" aria-valuemin="0"
+                aria-valuemax="100">
+                <i class="fas fa-globe mx-1"></i>
+                ${ place.fields.indicators.wb_UIS_SCHBSP_2_WINTERN?.value.toFixed(2) }%
+              </div>
+            </div>
+            <div v-else
+              class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-center align-items-center my-3">
+            <span class="col-3">Lower Secondary</span>
+            <div v-if="place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN" class=" col-9 progress text-center w-50"
+              style="height: 3em">
+              <div class="progress-bar bg-info d-flex flex-row align-items-center" role="progressbar"
+                :style="{ width: place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN?.value.toFixed(2) + '%' }"
+                :aria-valuenow="place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN?.value.toFixed(2)" aria-valuemin="0"
+                aria-valuemax="100">
+                <i class="fas fa-globe mx-1"></i>
+                ${ place.fields.indicators.wb_UIS_SCHBSP_3_WINTERN?.value.toFixed(2) }%
+              </div>
+            </div>
+            <div v-else
+              class="col-3 text-center text-muted progress d-flex flex-row align-items-center justify-content-center not-available">
+            </div>
+          </div>
+        </div>
+        <div class="my-3">
+          <h4>Other</h4>
+          <div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-3">
+                Learning years adjusted
+                <i class="fas fa-info-circle"
+                  popover="Learning-Adjusted Years of School<hr>Source: World Bank<br>Date: TK"></i>
+              </h6>
+              <div v-if="place.fields.indicators.wb_HD_HCI_LAYS" class="text-center col-3">
+                <span>${ place.fields.indicators.wb_HD_HCI_LAYS.value.toFixed(2) }</span>
+              </div>
+              <div v-else
+                class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_HD_HCI_LAYS_MA" class="text-center col-3">
+                <i class="fas fa-male mx-1"></i>
+                <span>${ place.fields.indicators.wb_HD_HCI_LAYS_MA.value.toFixed(2) }</span>
+              </div>
+              <div v-else
+                class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_HD_HCI_LAYS_FE" class="text-center col-3">
+                <i class="fas fa-female mx-1"></i>
+                <span>${ place.fields.indicators.wb_HD_HCI_LAYS_FE.value.toFixed(2) }</span>
+              </div>
+              <div v-else
+                class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+            <div class="w-100 my-3 d-flex flew-row justify-content-between align-items-center">
+              <h6 class="col-3">
+                Harmonized test scores
+                <i class="fas fa-info-circle" popover="Harmonized Test Scores<hr>Source: World Bank<br>Date: TK"></i>
+              </h6>
+              <div v-if="place.fields.indicators.wb_HD_HCI_HLOS" class="text-center col-3">
+                <span>${ place.fields.indicators.wb_HD_HCI_HLOS.value.toFixed(2) }</span>
+              </div>
+              <div v-else
+                class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_HD_HCI_HLOS_MA" class="text-center col-3">
+                <i class="fas fa-male mx-1"></i>
+                <span>${ place.fields.indicators.wb_HD_HCI_HLOS_MA.value.toFixed(2) }</span>
+              </div>
+              <div v-else
+                class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+              <div v-if="place.fields.indicators.wb_HD_HCI_HLOS_FEM" class="text-center col-3">
+                <i class="fas fa-female mx-1"></i>
+                <span>${ place.fields.indicators.wb_HD_HCI_HLOS_FE.value.toFixed(2) }</span>
+              </div>
+              <div v-else
+                class="col-3 text-muted d-flex flex-row align-items-center justify-content-center not-available">
+              </div>
+            </div>
+          </div>
+        </div>
+      </template>
+      <template v-else>
+        <div class="w-100 text-center not-available"></div>
+      </template>
+    </div>
+
+    <div class="spacer-10"></div>
+
+    <div class="container">
+      To cite this work, use the following: Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global
+      Education Recovery Tracker. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF.
+    </div>
+
+  </template>
+  <template v-else>
+    <h2>Select a country / territory</h2>
+    <div class="d-flex flex-row flex-wrap">
+      <a v-for="country of displayedCountries" :href="`/profile?${country.fields.iso3166Alpha2Code}`" class="m-2">${ country.fields.countryName }</a>
+    </div>
+  </template>
+
+</div>
 
 
-  <div class="spacer-10"></div>
+<div class="spacer-10"></div>
 
 
 
 
-  <script>
+<script>
+const vm = new Vue({
+  el: '#vue-app',
+  data() {
+    return {
+      countries: [],
+      errorLoading: false,
+      errorMessage: undefined,
+      places: [],
+      placesCovid: [],
+      placesTimeline: [],
+      responseRounds: [],
+      // this structure defines the various grade levels and the variable names for the fields which are broken out by grade level
+      // if a variable doesn't include a grade level, it is left undefined (e.g. in-person academic supports [ipasKey] isn't collected for higher or vocational)
+      gradeLevelList: [
+        { label: 'Pre-Primary', mresKey: 'mostRecentEducationStatusPrePrimaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportPrePrimary', mrremKey: 'mostRecentRemoteEducationModalitiesPrePrimaryCode' },
+        { label: 'Primary', mresKey: 'mostRecentEducationStatusPrimaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportPrimary', mrremKey: 'mostRecentRemoteEducationModalitiesPrimaryCode' },
+        { label: 'Lower Secondary', mresKey: 'mostRecentEducationStatusLowerSecondaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportLowerSecondary', mrremKey: 'mostRecentRemoteEducationModalitiesLowerSecondaryCode' },
+        { label: 'Upper Secondary', mresKey: 'mostRecentEducationStatusUpperSecondaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportUpperSecondary', mrremKey: 'mostRecentRemoteEducationModalitiesUpperSecondaryCode' },
+        { label: 'Higher Education', mresKey: 'mostRecentEducationStatusHigherCode', ipasKey: undefined, mrremKey: 'mostRecentRemoteEducationModalitiesHigherCode' },
+        { label: 'Technical/vocational', mresKey: 'mostRecentEducationStatusVocationalCode', ipasKey: undefined, mrremKey: 'mostRecentRemoteEducationModalitiesVocationalCode' }
+      ],
+      ipasOptions: [
+        { value: '1', label: 'School Day Changes', faIcon: 'calendar-day' },
+        { value: '2', label: 'School Year Changes', faIcon: 'calendar-alt' },
+        { value: '3', label: 'Teacher Tutoring', faIcon: 'school' },
+        { value: '4', label: 'Non-Teacher Tutoring', faIcon: 'home' },
+        { value: '5', label: 'Targeted Remedial Measures', faIcon: 'bullseye' },
+        { value: '6', label: 'Other', faIcon: 'question' }
+      ],
+      mrremOptions: [
+        { value: '1', label: 'Online platforms', faIcon: 'globe' },
+        { value: '2', label: 'Television', faIcon: 'tv' },
+        { value: '3', label: 'Radio', faIcon: 'broadcast-tower' },
+        { value: '4', label: 'Mobile devices', faIcon: 'mobile' },
+        { value: '5', label: 'Take-home packages', faIcon: 'paperclip' },
+        { value: '8', label: 'Tutoring', faIcon: 'chalkboard-teacher' }
+      ],
 
-    const vm = new Vue({
-      el: '#vue-app',
-      data() {
-        return {
-          countries: [],
-          errorLoading: false,
-          errorMessage: undefined,
-          places: [],
-          placesCovid: [],
-          placesTimeline: [],
-          responseRounds: [],
-          // this structure defines the various grade levels and the variable names for the fields which are broken out by grade level
-          // if a variable doesn't include a grade level, it is left undefined (e.g. in-person academic supports [ipasKey] isn't collected for higher or vocational)
-          gradeLevelList: [
-            { label: 'Pre-Primary', mresKey: 'mostRecentEducationStatusPrePrimaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportPrePrimary', mrremKey: 'mostRecentRemoteEducationModalitiesPrePrimaryCode' },
-            { label: 'Primary', mresKey: 'mostRecentEducationStatusPrimaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportPrimary', mrremKey: 'mostRecentRemoteEducationModalitiesPrimaryCode' },
-            { label: 'Lower Secondary', mresKey: 'mostRecentEducationStatusLowerSecondaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportLowerSecondary', mrremKey: 'mostRecentRemoteEducationModalitiesLowerSecondaryCode' },
-            { label: 'Upper Secondary', mresKey: 'mostRecentEducationStatusUpperSecondaryCode', ipasKey: 'mostRecentInPersonAdditionalSupportUpperSecondary', mrremKey: 'mostRecentRemoteEducationModalitiesUpperSecondaryCode' },
-            { label: 'Higher Education', mresKey: 'mostRecentEducationStatusHigherCode', ipasKey: undefined, mrremKey: 'mostRecentRemoteEducationModalitiesHigherCode' },
-            { label: 'Technical/vocational', mresKey: 'mostRecentEducationStatusVocationalCode', ipasKey: undefined, mrremKey: 'mostRecentRemoteEducationModalitiesVocationalCode' }
-          ],
-          ipasOptions: [
-            { value: '1', label: 'School Day Changes', faIcon: 'calendar-day' },
-            { value: '2', label: 'School Year Changes', faIcon: 'calendar-alt' },
-            { value: '3', label: 'Teacher Tutoring', faIcon: 'school' },
-            { value: '4', label: 'Non-Teacher Tutoring', faIcon: 'home' },
-            { value: '5', label: 'Targeted Remedial Measures', faIcon: 'bullseye' },
-            { value: '6', label: 'Other', faIcon: 'question' }
-          ],
-          mrremOptions: [
-            { value: '1', label: 'Online platforms', faIcon: 'globe' },
-            { value: '2', label: 'Television', faIcon: 'tv' },
-            { value: '3', label: 'Radio', faIcon: 'broadcast-tower' },
-            { value: '4', label: 'Mobile devices', faIcon: 'mobile' },
-            { value: '5', label: 'Take-home packages', faIcon: 'paperclip' },
-            { value: '8', label: 'Tutoring', faIcon: 'chalkboard-teacher' }
-          ],
+      // add object to contain covid indicators here
 
-          // add object to contain covid indicators here
-
-          filter: {
-            upToRoundId: Infinity,
-            showNoResponses: false
-          },
-          inPersonAdditionalSupportFields: [
-            { name: 'inPersonAdditionalSupportPrePrimary', text: 'Pre-Primary' },
-            { name: 'inPersonAdditionalSupportPrimary', text: 'Primary' },
-            { name: 'inPersonAdditionalSupportLowerSecondary', text: 'Lower Secondary' },
-            { name: 'inPersonAdditionalSupportUpperSecondary', text: 'Upper Secondary' }
-          ],
-          inPersonAdditionalSupportTypes: [
-            { value: '1', title: 'School Day Changes', faIcon: 'calendar-day' },
-            { value: '2', title: 'School Year Changes', faIcon: 'calendar-alt' },
-            { value: '3', title: 'Teacher Tutoring', faIcon: 'school' },
-            { value: '4', title: 'Non-Teacher Tutoring', faIcon: 'home' },
-            { value: '5', title: 'Targeted Remedial Measures', faIcon: 'bullseye' },
-            { value: '6', title: 'Other', faIcon: 'question' }
-          ],
-          remoteEducationModalityFields: [
-            { name: 'remoteEducationModalitiesPrePrimaryCode', text: 'Pre-Primary' },
-            { name: 'remoteEducationModalitiesPrimaryCode', text: 'Primary' },
-            { name: 'remoteEducationModalitiesLowerSecondaryCode', text: 'Lower Secondary' },
-            { name: 'remoteEducationModalitiesUpperSecondaryCode', text: 'Upper Secondary' },
-            { name: 'remoteEducationModalitiesHigherCode', text: 'Higher Education' },
-            { name: 'remoteEducationModalitiesVocationalCode', text: 'Technical/Vocational' }
-          ],
-          remoteEducationModalityTypes: [
-            { value: '1', title: 'Online platforms', faIcon: 'globe' },
-            { value: '2', title: 'Television', faIcon: 'tv' },
-            { value: '3', title: 'Radio', faIcon: 'broadcast-tower' },
-            { value: '4', title: 'Mobile devices', faIcon: 'mobile' },
-            { value: '5', title: 'Take-home packages', faIcon: 'paperclip' },
-            { value: '8', title: 'Tutoring', faIcon: 'chalkboard-teacher' }
-          ]
-        }
+      filter: {
+        upToRoundId: Infinity,
+        showNoResponses: false
       },
-      delimiters: ['${', '}'],  // need to use these because jekyll competes for 
-      filters: {
-        iso8601ToLocaleDateString: (value) => {
-          if (value) {
-            return (new Date(value)).toLocaleDateString(undefined, { timeZone: 'UTC' });
-          } else {
-            return null
-          }
-        },
-        friendlyDate: function (value) {
-          try {
-            date = new Date.parse(value)
-            return date
-              .setHours(0)
-              .setMinutes(0)
-              .setSeconds(0)
-              .setMilliseconds(0)
-              .toLocaleString()
-          } catch {
-            return 'unknown'
-          }
-        },
-        friendlyNumber: function (value) {
-          try {
-            return value.toLocaleString()
-          } catch (err) {
-            return 'unknown'
-          }
-        }
-      },
-      async created() {
-        // load critical data in this block; a failure will cause an error message to be diplayed
-        try {
-          const placesResponse = await fetch('/data/global-with-indicators.json')
-          if (placesResponse.ok) {
-            this.places = await placesResponse.json()
-            if (!this.place) {
-              throw new Error('Unknown place identifier.')
-            }
-          } else {
-            throw new Error(`HTTP Error ${placesResponse.status}: ${placesResponse.statusText} (${placesResponse.url.split('/').pop()})`)
-          }
-        } catch (e) {
-          console.error(e)
-          this.errorLoading = true
-          this.errorMessage = e.message
-        }
-
-        // load non-critical data in this block; a failure will be logged to the console.
-        // components which use data loaded from here shouldn't cause unhandled page crashes
-        // Covid Data
-        try {
-          const placesCovidResponse = await fetch('/data/covid_data.json')
-          if (placesCovidResponse.ok) {
-            this.placesCovid = await placesCovidResponse.json()
-          } else {
-            throw new Error(`Error loading covid-data.json: ${placesCovidResponse.status} ${placesCovidResponse.statusText}`)
-          }
-        } catch (e) {
-          console.error(e.message)
-        }
-
-        // Timeline Responses
-        try {
-          const placesTimelineResponse = await fetch('/data/global.v2.min.json')
-          if (placesTimelineResponse.ok) {
-            const data = await placesTimelineResponse.json()
-            this.placesTimeline = data.countries
-            this.responseRounds = data.responseRounds
-          } else {
-            throw new Error(`Error loading global.v2.json: ${placesTimelineResponse.status} ${placesTimelineResponse.statusText}`)
-          }
-        } catch (e) {
-          console.error(e.message)
-        }
-        // End Data Loading
-      },
-      updated() {
-        // tippy needs to initialize after DOM is rendered. Normally this would be mounted() but
-        // since data is loaded asynchronously, mounted() will be called before the data has been loaded.
-        tippy('[popover]', {
-          placement: 'top',
-          maxWidth: 350,
-          allowHTML: true,
-          onShow(instance) {
-            instance.setContent(instance.reference.attributes.popover.value);
-          }
-        }),
-
-          this.$nextTick(function () {
-            window.addEventListener('resize', this.createChart);
-            window.addEventListener('load', this.createChart);
-
-            //Init
-            this.createChart()
-
-          })
-
-        // this.createChart
-      },
-      computed: {
-        // access this computed property to render the data, it applies the rules set by this.filter
-        displayedCountries() {
-          return this.countries
-            .map((country) => {
-              country.$displayedResponse = country.$responsesReversed?.find((response) => {
-                return response.roundId <= this.filter.upToRoundId
-              })
-              return country
-            })
-            .filter((country) => {
-              return this.filter.showNoResponses ? true : country.$displayedResponse
-            })
-        },
-        mostRecentResponseDate() {
-          // flatten all the responses into an array and iterate through them to
-          // determine the most recent date for all of them
-          return this.countries
-            .flatMap(country => country.responsesPublic || [])
-            .reduce((mrrd, response) => {
-              return response.responseDate > mrrd ? response.responseDate : mrrd
-            }, '0000-00-00')
-        },
-
-        place() {
-          let placeId = this.placeId?.toUpperCase()
-          let place = this.places?.find(place => place.fields.iso3166Alpha2Code === placeId)
-          if (!place) {
-            place = this.places?.find(place => place.id === this.placeId)
-          }
-          return place
-        },
-        mostRecentRoundId () {
-          return this.placesTimeline
-            .flatMap(country => country.responsesPublic || [])
-            .reduce((mrrid, response) => {
-              return response.roundId > mrrid ? response.roundId : mrrid
-            }, 0)
-        },
-        placeTimeline() {
-          
-          let placeId = this.placeId?.toUpperCase()
-          let place = this.placesTimeline?.find(place => place.iso3166Alpha2Code === placeId)
-          if (!place) {
-            place = this.placesTimeline?.find(place => place.id === this.placeId)
-            return place
-          }
-
-          console.log(place)
-
-          // Get max round ID for this location
-
-          /* Based on most recent data for particular country:
-          let maxRound = place.responsesPublic.slice(-1)[0].roundId;
-          console.log(maxRound);
-          */
-
-          /* Based on most recent data collection round: */
-          maxRound = this.mostRecentRoundId;
-
-          let dateArr = this?.responseRounds.slice(0,maxRound)
-          let length = dateArr.length
-
-
-          let educationStatusTimeline = {
-            dates: [],
-            1: {
-              text: "None",
-              responses: [],
-              times: []
-            },
-            2: {
-              text: "Remote",
-              responses: [],
-              times: []
-            },
-            3: {
-              text: "Hybrid",
-              responses: [],
-              times: []
-            },
-            4: {
-              text: "In Person",
-              responses: [],
-              times: []
-            },
-            5: {
-              text: "Unknown",
-              responses: [],
-              times: []
-            },
-            6: {
-              text: "Extended Break",
-              responses: [],
-              times: []
-            }
-          }
-
-          
-
-          // for each public response
-          place.responsesPublic.forEach(item => {
-            educationStatusTimeline.dates.push(item.responseDate)
-            // for each code, check current response
-            for (let code = 1; code <= 5; code++) {
-              if (item.educationStatusCode?.includes(code.toString())) {
-                educationStatusTimeline[code].responses[item.roundId - 1] = true;
-                //console.log(item.roundId)
-              } else {
-                educationStatusTimeline[code].responses[item.roundId - 1] = false;
-              }
-            }
-
-            // Extended Break
-            if (item.extendedBreakCode?.includes(1)) { // Includes True
-              educationStatusTimeline[6].responses[item.roundId - 1] = true;
-              //console.log(item.roundId)
-            } else {
-              educationStatusTimeline[6].responses[item.roundId - 1] = false;
-            }
-
-            /* Color Dates Based On Data Availability */
-            dateArr[item.roundId-1].type="observed"
-
-
-          })
-
-          for (let code = 1; code <= 6; code++) { // Convert to start and end dates
-
-            for (let index = 0; index <= educationStatusTimeline[code]?.responses.length;) {
-              start = educationStatusTimeline[code]?.responses.indexOf(true, index)
-              end = educationStatusTimeline[code]?.responses.indexOf(false, start) - 1
-
-              if (start < 0) {
-                break;
-              }
-
-              if (end < 0) {
-                end = educationStatusTimeline[code]?.responses.length - 1;
-              }
-
-              let time = start + "-" + end
-
-              if (start >= 0 && start <= end) {
-                educationStatusTimeline[code]?.times.push(time)
-              }
-
-              index = end + 1
-            }
-
-          }
-
-
-
-          //console.log(place)
-          //console.log("DATA:",educationStatusTimeline)
-
-
-
-          // Get Round Periods
-
-          // function checkDate(item) {
-          //   let today = new Date().toLocaleDateString()
-          //   console.log(item.endDate, Date.parse(item.endDate))
-          //   return Date.parse(endDate) <= today;
-          // }
-
-          
-          
-          return {
-            periods: dateArr,
-            countryInfo: educationStatusTimeline
-          }
-        },
-        placeCovid() {
-          let placeId = this.placeId?.toUpperCase()
-          let placeCovid = this.placesCovid?.places?.find(placeCovid => placeCovid.iso2 === placeId)
-          if (placeCovid) {
-            placeCovid.updated = this.placesCovid?.fileDate
-          }
-          return placeCovid
-        },
-        placeId() {
-          return window.location.search.replace('?', '')
-        },
-        // computes school-age population from primary + secondary totals.
-        //  if one or both values is missing or the total is 0, return undefined
-        schoolAgePopulation() {
-          try {
-            if (this.place?.fields?.indicators) {
-              const sap = { total: 0, malePercent: 0, femalePercent: 0 }
-              let totalMale = 0; let totalFemale = 0
-              sap.total += this.place.fields.indicators.wb_SP_PRM_TOTL_IN?.value
-              sap.total += this.place.fields.indicators.wb_SP_SEC_TOTL_IN?.value
-
-              totalMale += this.place.fields.indicators.wb_SP_PRM_TOTL_MA_IN?.value
-              totalMale += this.place.fields.indicators.wb_SP_SEC_TOTL_MA_IN?.value
-
-              totalFemale += this.place.fields.indicators.wb_SP_PRM_TOTL_FE_IN?.value
-              totalFemale += this.place.fields.indicators.wb_SP_SEC_TOTL_FE_IN?.value
-
-              sap.malePercent = this.percentage(totalMale, sap.total)
-              sap.femalePercent = this.percentage(totalFemale, sap.total)
-              return sap.total === 0 ? undefined : sap
-            }
-          } catch (err) {
-            console.error('schoolAgePopulation', err)
-          }
-          return undefined
-        },
-        // Upper secondary
-        upperSecondaryMalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_IN?.value;
-        },
-        upperSecondaryFemalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_IN?.value;
-        },// Secondary
-        secondaryMalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_IN?.value;
-        },
-        secondaryFemalePer() {
-          return 100 * (1 - this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_IN?.value);
-        },// Lower Secondary
-        lowerSecondaryMalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_IN?.value;
-        },
-        lowerSecondaryFemalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_IN?.value;
-        },// Primary
-        primaryMalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_IN?.value;
-        },
-        primaryFemalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_IN?.value;
-        },// Primary Last
-        primaryLastMalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_MA?.value / this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_TO?.value;
-        },
-        primaryLastFemalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_FE?.value / this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_TO?.value;
-        },// Pre Primary
-        prePrimaryMalePer() {
-          let prePrimaryPop = this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_FE_IN?.value + this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_MA_IN?.value;
-          return 100 * this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_MA_IN?.value / prePrimaryPop;
-        },
-        prePrimaryFemalePer() {
-          let prePrimaryPop = this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_FE_IN?.value + this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_MA_IN?.value;
-          return 100 * this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_FE_IN?.value / prePrimaryPop;
-        },// Population
-        PopMalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_POP_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_POP_TOTL?.value;
-        },
-        PopFemalePer() {
-          return 100 * this?.place?.fields?.indicators?.wb_SP_POP_TOTL_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_POP_TOTL?.value;
-        },
-      },
-      methods: {
-
-        educationServices(educationStatusCodeField) {
-          educationServices = []
-          if (this.place?.fields.mostRecentExtendedBreakCode && this.plase?.fields.mostRecentExtendedBreakCode.includes('1')) {
-            educationServices.push('extendedBreak');
-          } else if (this.place?.fields[educationStatusCodeField]) {
-            if (this.place.fields[educationStatusCodeField].includes('1')) { educationServices.push('covidClosed') }
-            if (this.place.fields[educationStatusCodeField].includes('2')) { educationServices.push('remote') }
-            if (this.place.fields[educationStatusCodeField].includes('3')) { educationServices.push('hybrid') }
-            if (this.place.fields[educationStatusCodeField].includes('4')) { educationServices.push('inPerson') }
-          }
-          return educationServices
-        },
-        percentage(subTotal, total) {
-          return (100 * subTotal / total).toFixed(2)
-        },
-        createChart(e) {
-          const days = document.querySelectorAll(".chart-values li");
-          const tasks = document.querySelectorAll(".chart-bars li");
-          const daysArray = [...days];
-
-          tasks.forEach(el => {
-            const duration = el.dataset.duration.split("-");
-            // console.log(el)
-            // console.log("ELEMENT", el.dataset);
-            const startDay = duration[0];
-            const endDay = duration[1];
-            let left = 0,
-              width = 0;
-
-            if (startDay.endsWith("½")) {
-              const filteredArray = daysArray.filter(day => day.dataset.round == startDay.slice(0, -1));
-              left = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2 - 40;
-            } else {
-              const filteredArray = daysArray.filter(day => day.dataset.round == startDay);
-              left = filteredArray[0].offsetLeft - 40;
-
-            }
-
-            if (endDay.endsWith("½")) {
-              const filteredArray = daysArray.filter(day => day.dataset.round == endDay.slice(0, -1));
-              width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2 - left - 40;
-            } else {
-              const filteredArray = daysArray.filter(day => day.dataset.round == endDay);
-              width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth - left - 40;
-            }
-
-            // apply css
-            el.style.left = `${left}px`;
-            el.style.width = `${width}px`;
-
-            // if (e?.type == "load" || e?.type == "resize") {
-            // console.log("COLOR:", el.dataset.color)
-            el.style.backgroundColor = el.dataset.color;
-            el.style.opacity = 0.8;
-            // }
-          });
-        },
-
-        // pre-process the data to improve page rendering performance
-        processCountries(countries) {
-          for (const country of countries) {
-
-            // responsesPublic are sorted chronologically by default, so we set up 
-            // $responsesReversed to improve selection performance for more recent responses
-            country.$responsesReversed = country.responsesPublic?.slice().reverse()
-
-            // iterate through all the responses and synthesize some helper values for the UI:
-            country.responsesPublic?.forEach((response) => {
-
-              // $educationServices is a synthesis of two different fields
-              response.$educationServices = []
-              if (response.extendedBreakCode?.includes('1')) {
-                response.$educationServices.push('extendedBreak');
-              } else if (response.educationStatusCode) {
-                if (response.educationStatusCode.includes('1')) { response.$educationServices.push('covidClosed') }
-                if (response.educationStatusCode.includes('2')) { response.$educationServices.push('remote') }
-                if (response.educationStatusCode.includes('3')) { response.$educationServices.push('hybrid') }
-                if (response.educationStatusCode.includes('4')) { response.$educationServices.push('inPerson') }
-              }
-
-              // $hasInPersonAdditionalSupports determines if we should show the icon & its hover table if there are in-person supports
-              // codes 7 & 8 correspond to other and unknown so ignore those too
-              response.$hasInPersonAdditionalSupports = this.inPersonAdditionalSupportFields
-                .some((item) => {
-                  return response[item.name] && !response[item.name].includes('7') && !response[item.name].includes('8')
-                })
-
-              // $hasRemoteEducationModalities determines if we should show the icon & its hover table if there are remode education supports
-              // codes 6 & 7 correspond to other and unknown so ignore those too
-              response.$hasRemoteEducationModalities = this.remoteEducationModalityFields
-                .some((item) => {
-                  return response[item.name] && !response[item.name].includes('6') && !response[item.name].includes('7')
-                })
-            })
-
-          }
-          return countries
-        }
-      },
-      beforeDestroy() {
-        window.removeEventListener('resize', this.createChart);
-        window.removeEventListener('load', this.createChart);
+      inPersonAdditionalSupportFields: [
+        { name: 'inPersonAdditionalSupportPrePrimary', text: 'Pre-Primary' },
+        { name: 'inPersonAdditionalSupportPrimary', text: 'Primary' },
+        { name: 'inPersonAdditionalSupportLowerSecondary', text: 'Lower Secondary' },
+        { name: 'inPersonAdditionalSupportUpperSecondary', text: 'Upper Secondary' }
+      ],
+      inPersonAdditionalSupportTypes: [
+        { value: '1', title: 'School Day Changes', faIcon: 'calendar-day' },
+        { value: '2', title: 'School Year Changes', faIcon: 'calendar-alt' },
+        { value: '3', title: 'Teacher Tutoring', faIcon: 'school' },
+        { value: '4', title: 'Non-Teacher Tutoring', faIcon: 'home' },
+        { value: '5', title: 'Targeted Remedial Measures', faIcon: 'bullseye' },
+        { value: '6', title: 'Other', faIcon: 'question' }
+      ],
+      remoteEducationModalityFields: [
+        { name: 'remoteEducationModalitiesPrePrimaryCode', text: 'Pre-Primary' },
+        { name: 'remoteEducationModalitiesPrimaryCode', text: 'Primary' },
+        { name: 'remoteEducationModalitiesLowerSecondaryCode', text: 'Lower Secondary' },
+        { name: 'remoteEducationModalitiesUpperSecondaryCode', text: 'Upper Secondary' },
+        { name: 'remoteEducationModalitiesHigherCode', text: 'Higher Education' },
+        { name: 'remoteEducationModalitiesVocationalCode', text: 'Technical/Vocational' }
+      ],
+      remoteEducationModalityTypes: [
+        { value: '1', title: 'Online platforms', faIcon: 'globe' },
+        { value: '2', title: 'Television', faIcon: 'tv' },
+        { value: '3', title: 'Radio', faIcon: 'broadcast-tower' },
+        { value: '4', title: 'Mobile devices', faIcon: 'mobile' },
+        { value: '5', title: 'Take-home packages', faIcon: 'paperclip' },
+        { value: '8', title: 'Tutoring', faIcon: 'chalkboard-teacher' }
+      ]
+    }
+  },
+  delimiters: ['${', '}'],  // need to use these because jekyll competes for 
+  filters: {
+    iso8601ToLocaleDateString: (value) => {
+      if (value) {
+        return (new Date(value)).toLocaleDateString(undefined, { timeZone: 'UTC' });
+      } else {
+        return null
       }
-    });
-  </script>
+    },
+    friendlyDate: function (value) {
+      try {
+        date = new Date.parse(value)
+        return date
+          .setHours(0)
+          .setMinutes(0)
+          .setSeconds(0)
+          .setMilliseconds(0)
+          .toLocaleString()
+      } catch {
+        return 'unknown'
+      }
+    },
+    friendlyNumber: function (value) {
+      try {
+        return value.toLocaleString()
+      } catch (err) {
+        return 'unknown'
+      }
+    }
+  },
+  async created() {
+    // load critical data in this block; a failure will cause an error message to be diplayed
+    try {
+      const placesResponse = await fetch('/data/global-with-indicators.json')
+      if (placesResponse.ok) {
+        this.places = await placesResponse.json()
+        // if (!this.place) {
+        //   throw new Error('Unknown place identifier.')
+        // }
+      } else {
+        throw new Error(`HTTP Error ${placesResponse.status}: ${placesResponse.statusText} (${placesResponse.url.split('/').pop()})`)
+      }
+    } catch (e) {
+      console.error(e)
+      this.errorLoading = true
+      this.errorMessage = e.message
+    }
+
+    // load non-critical data in this block; a failure will be logged to the console.
+    // components which use data loaded from here shouldn't cause unhandled page crashes
+    // Covid Data
+    try {
+      const placesCovidResponse = await fetch('/data/covid_data.json')
+      if (placesCovidResponse.ok) {
+        this.placesCovid = await placesCovidResponse.json()
+      } else {
+        throw new Error(`Error loading covid-data.json: ${placesCovidResponse.status} ${placesCovidResponse.statusText}`)
+      }
+    } catch (e) {
+      console.error(e.message)
+    }
+
+    // Timeline Responses
+    try {
+      const placesTimelineResponse = await fetch('/data/global.v2.min.json')
+      if (placesTimelineResponse.ok) {
+        const data = await placesTimelineResponse.json()
+        this.placesTimeline = data.countries
+        this.responseRounds = data.responseRounds
+      } else {
+        throw new Error(`Error loading global.v2.json: ${placesTimelineResponse.status} ${placesTimelineResponse.statusText}`)
+      }
+    } catch (e) {
+      console.error(e.message)
+    }
+    // End Data Loading
+  },
+  updated() {
+    // tippy needs to initialize after DOM is rendered. Normally this would be mounted() but
+    // since data is loaded asynchronously, mounted() will be called before the data has been loaded.
+    tippy('[popover]', {
+      placement: 'top',
+      maxWidth: 350,
+      allowHTML: true,
+      onShow(instance) {
+        instance.setContent(instance.reference.attributes.popover.value);
+      }
+    }),
+
+      this.$nextTick(function () {
+        window.addEventListener('resize', this.createChart);
+        window.addEventListener('load', this.createChart);
+
+        //Init
+        this.createChart()
+
+      })
+
+    // this.createChart
+  },
+  computed: {
+    // access this computed property to render the data, it applies the rules set by this.filter
+    displayedCountries() {
+      return this.places
+    },
+    mostRecentResponseDate() {
+      // flatten all the responses into an array and iterate through them to
+      // determine the most recent date for all of them
+      return this.countries
+        .flatMap(country => country.responsesPublic || [])
+        .reduce((mrrd, response) => {
+          return response.responseDate > mrrd ? response.responseDate : mrrd
+        }, '0000-00-00')
+    },
+
+    place() {
+      let placeId = this.placeId?.toUpperCase()
+      let place = this.places?.find(place => place.fields.iso3166Alpha2Code === placeId)
+      if (!place) {
+        place = this.places?.find(place => place.id === this.placeId)
+      }
+      return place
+    },
+    mostRecentRoundId () {
+      return this.placesTimeline
+        .flatMap(country => country.responsesPublic || [])
+        .reduce((mrrid, response) => {
+          return response.roundId > mrrid ? response.roundId : mrrid
+        }, 0)
+    },
+    placeTimeline() {
+      
+      let placeId = this.placeId?.toUpperCase()
+      let place = this.placesTimeline?.find(place => place.iso3166Alpha2Code === placeId)
+      if (!place) {
+        place = this.placesTimeline?.find(place => place.id === this.placeId)
+        return place
+      }
+
+      console.log(place)
+
+      // Get max round ID for this location
+
+      /* Based on most recent data for particular country:
+      let maxRound = place.responsesPublic.slice(-1)[0].roundId;
+      console.log(maxRound);
+      */
+
+      /* Based on most recent data collection round: */
+      maxRound = this.mostRecentRoundId;
+
+      let dateArr = this?.responseRounds.slice(0,maxRound)
+      let length = dateArr.length
 
 
-</body>
+      let educationStatusTimeline = {
+        dates: [],
+        1: {
+          text: "None",
+          responses: [],
+          times: []
+        },
+        2: {
+          text: "Remote",
+          responses: [],
+          times: []
+        },
+        3: {
+          text: "Hybrid",
+          responses: [],
+          times: []
+        },
+        4: {
+          text: "In Person",
+          responses: [],
+          times: []
+        },
+        5: {
+          text: "Unknown",
+          responses: [],
+          times: []
+        },
+        6: {
+          text: "Extended Break",
+          responses: [],
+          times: []
+        }
+      }
 
+      
+
+      // for each public response
+      place.responsesPublic.forEach(item => {
+        educationStatusTimeline.dates.push(item.responseDate)
+        // for each code, check current response
+        for (let code = 1; code <= 5; code++) {
+          if (item.educationStatusCode?.includes(code.toString())) {
+            educationStatusTimeline[code].responses[item.roundId - 1] = true;
+            //console.log(item.roundId)
+          } else {
+            educationStatusTimeline[code].responses[item.roundId - 1] = false;
+          }
+        }
+
+        // Extended Break
+        if (item.extendedBreakCode?.includes(1)) { // Includes True
+          educationStatusTimeline[6].responses[item.roundId - 1] = true;
+          //console.log(item.roundId)
+        } else {
+          educationStatusTimeline[6].responses[item.roundId - 1] = false;
+        }
+
+        /* Color Dates Based On Data Availability */
+        dateArr[item.roundId-1].type="observed"
+
+
+      })
+
+      for (let code = 1; code <= 6; code++) { // Convert to start and end dates
+
+        for (let index = 0; index <= educationStatusTimeline[code]?.responses.length;) {
+          start = educationStatusTimeline[code]?.responses.indexOf(true, index)
+          end = educationStatusTimeline[code]?.responses.indexOf(false, start) - 1
+
+          if (start < 0) {
+            break;
+          }
+
+          if (end < 0) {
+            end = educationStatusTimeline[code]?.responses.length - 1;
+          }
+
+          let time = start + "-" + end
+
+          if (start >= 0 && start <= end) {
+            educationStatusTimeline[code]?.times.push(time)
+          }
+
+          index = end + 1
+        }
+
+      }
+
+
+
+      //console.log(place)
+      //console.log("DATA:",educationStatusTimeline)
+
+
+
+      // Get Round Periods
+
+      // function checkDate(item) {
+      //   let today = new Date().toLocaleDateString()
+      //   console.log(item.endDate, Date.parse(item.endDate))
+      //   return Date.parse(endDate) <= today;
+      // }
+
+      
+      
+      return {
+        periods: dateArr,
+        countryInfo: educationStatusTimeline
+      }
+    },
+    placeCovid() {
+      let placeId = this.placeId?.toUpperCase()
+      let placeCovid = this.placesCovid?.places?.find(placeCovid => placeCovid.iso2 === placeId)
+      if (placeCovid) {
+        placeCovid.updated = this.placesCovid?.fileDate
+      }
+      return placeCovid
+    },
+    placeId() {
+      return window.location.search.replace('?', '')
+    },
+    // computes school-age population from primary + secondary totals.
+    //  if one or both values is missing or the total is 0, return undefined
+    schoolAgePopulation() {
+      try {
+        if (this.place?.fields?.indicators) {
+          const sap = { total: 0, malePercent: 0, femalePercent: 0 }
+          let totalMale = 0; let totalFemale = 0
+          sap.total += this.place.fields.indicators.wb_SP_PRM_TOTL_IN?.value
+          sap.total += this.place.fields.indicators.wb_SP_SEC_TOTL_IN?.value
+
+          totalMale += this.place.fields.indicators.wb_SP_PRM_TOTL_MA_IN?.value
+          totalMale += this.place.fields.indicators.wb_SP_SEC_TOTL_MA_IN?.value
+
+          totalFemale += this.place.fields.indicators.wb_SP_PRM_TOTL_FE_IN?.value
+          totalFemale += this.place.fields.indicators.wb_SP_SEC_TOTL_FE_IN?.value
+
+          sap.malePercent = this.percentage(totalMale, sap.total)
+          sap.femalePercent = this.percentage(totalFemale, sap.total)
+          return sap.total === 0 ? undefined : sap
+        }
+      } catch (err) {
+        console.error('schoolAgePopulation', err)
+      }
+      return undefined
+    },
+    // Upper secondary
+    upperSecondaryMalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_IN?.value;
+    },
+    upperSecondaryFemalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_UTOT_IN?.value;
+    },// Secondary
+    secondaryMalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_IN?.value;
+    },
+    secondaryFemalePer() {
+      return 100 * (1 - this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_TOTL_IN?.value);
+    },// Lower Secondary
+    lowerSecondaryMalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_IN?.value;
+    },
+    lowerSecondaryFemalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_SEC_LTOT_IN?.value;
+    },// Primary
+    primaryMalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_IN?.value;
+    },
+    primaryFemalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_PRM_TOTL_IN?.value;
+    },// Primary Last
+    primaryLastMalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_MA?.value / this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_TO?.value;
+    },
+    primaryLastFemalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_FE?.value / this?.place?.fields?.indicators?.wb_SP_PRM_GRAD_TO?.value;
+    },// Pre Primary
+    prePrimaryMalePer() {
+      let prePrimaryPop = this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_FE_IN?.value + this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_MA_IN?.value;
+      return 100 * this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_MA_IN?.value / prePrimaryPop;
+    },
+    prePrimaryFemalePer() {
+      let prePrimaryPop = this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_FE_IN?.value + this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_MA_IN?.value;
+      return 100 * this?.place?.fields?.indicators?.wb_SP_PRE_TOTL_FE_IN?.value / prePrimaryPop;
+    },// Population
+    PopMalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_POP_TOTL_MA_IN?.value / this?.place?.fields?.indicators?.wb_SP_POP_TOTL?.value;
+    },
+    PopFemalePer() {
+      return 100 * this?.place?.fields?.indicators?.wb_SP_POP_TOTL_FE_IN?.value / this?.place?.fields?.indicators?.wb_SP_POP_TOTL?.value;
+    },
+  },
+  methods: {
+
+    educationServices(educationStatusCodeField) {
+      educationServices = []
+      if (this.place?.fields.mostRecentExtendedBreakCode && this.plase?.fields.mostRecentExtendedBreakCode.includes('1')) {
+        educationServices.push('extendedBreak');
+      } else if (this.place?.fields[educationStatusCodeField]) {
+        if (this.place.fields[educationStatusCodeField].includes('1')) { educationServices.push('covidClosed') }
+        if (this.place.fields[educationStatusCodeField].includes('2')) { educationServices.push('remote') }
+        if (this.place.fields[educationStatusCodeField].includes('3')) { educationServices.push('hybrid') }
+        if (this.place.fields[educationStatusCodeField].includes('4')) { educationServices.push('inPerson') }
+      }
+      return educationServices
+    },
+    percentage(subTotal, total) {
+      return (100 * subTotal / total).toFixed(2)
+    },
+    createChart(e) {
+      const days = document.querySelectorAll(".chart-values li");
+      const tasks = document.querySelectorAll(".chart-bars li");
+      const daysArray = [...days];
+
+      tasks.forEach(el => {
+        const duration = el.dataset.duration.split("-");
+        // console.log(el)
+        // console.log("ELEMENT", el.dataset);
+        const startDay = duration[0];
+        const endDay = duration[1];
+        let left = 0,
+          width = 0;
+
+        if (startDay.endsWith("½")) {
+          const filteredArray = daysArray.filter(day => day.dataset.round == startDay.slice(0, -1));
+          left = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2 - 40;
+        } else {
+          const filteredArray = daysArray.filter(day => day.dataset.round == startDay);
+          left = filteredArray[0].offsetLeft - 40;
+
+        }
+
+        if (endDay.endsWith("½")) {
+          const filteredArray = daysArray.filter(day => day.dataset.round == endDay.slice(0, -1));
+          width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth / 2 - left - 40;
+        } else {
+          const filteredArray = daysArray.filter(day => day.dataset.round == endDay);
+          width = filteredArray[0].offsetLeft + filteredArray[0].offsetWidth - left - 40;
+        }
+
+        // apply css
+        el.style.left = `${left}px`;
+        el.style.width = `${width}px`;
+
+        // if (e?.type == "load" || e?.type == "resize") {
+        // console.log("COLOR:", el.dataset.color)
+        el.style.backgroundColor = el.dataset.color;
+        el.style.opacity = 0.8;
+        // }
+      });
+    },
+
+    // pre-process the data to improve page rendering performance
+    processCountries(countries) {
+      for (const country of countries) {
+
+        // responsesPublic are sorted chronologically by default, so we set up 
+        // $responsesReversed to improve selection performance for more recent responses
+        country.$responsesReversed = country.responsesPublic?.slice().reverse()
+
+        // iterate through all the responses and synthesize some helper values for the UI:
+        country.responsesPublic?.forEach((response) => {
+
+          // $educationServices is a synthesis of two different fields
+          response.$educationServices = []
+          if (response.extendedBreakCode?.includes('1')) {
+            response.$educationServices.push('extendedBreak');
+          } else if (response.educationStatusCode) {
+            if (response.educationStatusCode.includes('1')) { response.$educationServices.push('covidClosed') }
+            if (response.educationStatusCode.includes('2')) { response.$educationServices.push('remote') }
+            if (response.educationStatusCode.includes('3')) { response.$educationServices.push('hybrid') }
+            if (response.educationStatusCode.includes('4')) { response.$educationServices.push('inPerson') }
+          }
+
+          // $hasInPersonAdditionalSupports determines if we should show the icon & its hover table if there are in-person supports
+          // codes 7 & 8 correspond to other and unknown so ignore those too
+          response.$hasInPersonAdditionalSupports = this.inPersonAdditionalSupportFields
+            .some((item) => {
+              return response[item.name] && !response[item.name].includes('7') && !response[item.name].includes('8')
+            })
+
+          // $hasRemoteEducationModalities determines if we should show the icon & its hover table if there are remode education supports
+          // codes 6 & 7 correspond to other and unknown so ignore those too
+          response.$hasRemoteEducationModalities = this.remoteEducationModalityFields
+            .some((item) => {
+              return response[item.name] && !response[item.name].includes('6') && !response[item.name].includes('7')
+            })
+        })
+
+      }
+      return countries
+    }
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.createChart);
+    window.removeEventListener('load', this.createChart);
+  }
+});
+</script>
+  </body>
 </html>
