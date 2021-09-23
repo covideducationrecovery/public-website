@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
-    <title>Remote education supports - COVID-19 Global Education Recovery Tracker</title>
-    <meta name="description" content="This graph displays remote learning modalities at the regional level and grade level offered in each country as of the last survey response.">
+    <title>Data Points - COVID-19 Global Education Recovery Tracker</title>
+    <meta name="description" content="Get the latest insights on the trends we are seeing as the global education sector responds to and recovers from COVID-19.">
 
     <meta name="twitter:card" content="summary_large_image" />
     
     
-    <meta name="twitter:title" content="Remote education supports - COVID-19 Global Education Recovery Tracker" />
-    <meta name="twitter:description" content="This graph displays remote learning modalities at the regional level and grade level offered in each country as of the last survey response." />
-    <meta name="twitter:image" content="https://www.covideducationrecovery.global//img/visualizations/remote-education-supports.jpg" />
+    <meta name="twitter:title" content="Data Points - COVID-19 Global Education Recovery Tracker" />
+    <meta name="twitter:description" content="Get the latest insights on the trends we are seeing as the global education sector responds to and recovers from COVID-19." />
+    <meta name="twitter:image" content="https://www.covideducationrecovery.global/img/og-image.png" />
 
-    <meta property="og:title" content="Remote education supports - COVID-19 Global Education Recovery Tracker">
-    <meta property="og:image" content="https://www.covideducationrecovery.global//img/visualizations/remote-education-supports.jpg">
-    <meta property="og:description" content="This graph displays remote learning modalities at the regional level and grade level offered in each country as of the last survey response.">
-    <meta property="og:url" content="https://www.covideducationrecovery.global//graphs/remote-education-supports/" />
+    <meta property="og:title" content="Data Points - COVID-19 Global Education Recovery Tracker">
+    <meta property="og:image" content="https://www.covideducationrecovery.global/img/og-image.png\">
+    <meta property="og:description" content="Get the latest insights on the trends we are seeing as the global education sector responds to and recovers from COVID-19.">
+    <meta property="og:url" content="https://www.covideducationrecovery.global//stories/2021-09-23-gert-data-points/" />
     <meta property="og:type" content="website">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -102,28 +102,6 @@
       .hidden, [v-cloak] {display: none;}
 
       
-
-      
-      svg {fill: #DDDDDD;}
-.support-targeted {fill: #1A49BF;}
-.support-tutoring-volunteer {fill: #000000;}
-.support-tutoring {fill: #26B1FF;}
-.support-school-year {fill: #FFA733;}
-.support-school-day {fill: #A7FFE6;}
-.support-other {fill: #C7A7FF;}
-.support-no-data {fill: #DDDDDD;}
-
-.modality-tutoring {fill: #1A49BF;}
-.modality-paper-packets {fill: #000000;}
-.modality-mobile {fill: #26B1FF;}
-.modality-radio {fill: #FFA733;}
-.modality-television {fill: #A7FFE6;}
-.modality-online {fill: #C7A7FF;}
-.modality-no-data {fill: #DDDDDD;}
-
-.graph-key {max-width: 600px; margin: auto; font-size: smaller;}
-/* .graph-key {display: flex; flex-flow: row nowrap; align-items: center; justify-content: center; font-size: small;} */
-.graph-key-color {height: 2rem; width: 2rem; margin: 0.2rem;}
 
       
 
@@ -289,123 +267,31 @@
 </nav>
 
     
-        <div class="spacer-5"></div>
+    <div class="spacer-5"></div>
+<article class="container">
 
-    <div id="vue-app" class="container mb-5">
-      <h1>Remote education supports</h1>
-      <div class="my-3 d-flex flex-column">
-        <span>
-          This graph displays remote learning modalities at the regional level and grade level offered in each country as of the last survey response.
-          (<a href="#notes">see notes below</a>)      
-        </span>
-      </div>
-    
-      <div class="row text-center my-3">
-
-        <div class="alert alert-success d-flex flex-column align-items-start">
-          <div id="observablehq-viewof-Data_Type-fc38e8642" style="width: 50%;" ></div>
-        </div>
-
-        <div id="observablehq-chart-fc38e8642" style="width: 100%;"></div>
-        <div class="my-3">
-          <p>For those learning remotely, how is education provided?</p>
-        </div>
-
-        <div class="graph-key w-100">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col" colspan="2">Legend</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><svg class="modality-online graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Online Platforms</strong>:	Education is provided through synchronous or asynchronous online platforms. </td>
-              </tr>
-              <tr>
-                <td><svg class="modality-television graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Television</strong>:  Education is provided by broadcasting instruction through television programs or education-designated channels. </td>
-              </tr>
-              <tr>
-                <td><svg class="modality-radio graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Radio</strong>: Education is provided by broadcasting instruction through radio.  </td>
-              </tr>
-              <tr>
-                <td><svg class="modality-mobile graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Mobile Devices</strong>: Education is provided through cellular phones and/or tablets.  </td>
-              </tr>
-              <tr>
-                <td><svg class="modality-paper-packets graph-key-color"viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Take Home Packages (paper-based)</strong>:	Education is provided by distributing take home curriculum packages to students.</td>
-              </tr>
-              <tr>
-                <td><svg class="modality-tutoring graph-key-color" viewbox="0 0 20 20"><rect x="0" y="0" width="20" height="20"></rect></svg></td>
-                <td class="text-start"><strong>Tutoring</strong>:  Tutoring offered as a support or remediation strategy. </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>  
-      </div>
-      <div class="spacer-10"></div>
-
-      <div class="row">
-        <h2 id="notes" class="text-muted">Notes about this data</h2>
-        <p>
-          For additional definitions, please see our <a href="/methodology/">Methodology</a>.
-        </p>
-      </div>
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-start align-items-center">
+        
+        <h2 class="m-0">2021 September 23</h2>
+        
   
-      <div class="spacer-5"></div>
-  
-      <div class="row">
-        <h5>Citation</h5>
-        <p>
-          Johns Hopkins University, World Bank & UNICEF (2021). COVID-19 Global Education Recovery Tracker. Last updated as of <span id="mostRecentResponseDate"></span>. Accessed on <span id="accessedOn"></span>. Baltimore, Washington DC, New York: JHU, World Bank, UNICEF. 
-        </p>
+        <a href="https://mailchi.mp/34abb127bc56/global-education-recovery-tracker" class="btn btn-primary m-1 me-auto" target="_blank"><i class="fas fa-envelope"></i> Subscribe</a>
+
+        
+        <a href="/assets/2021-09-23-infographic.png" download class="btn btn-primary m-1"><i class="fas fa-file-image"></i> Download PNG</a>
+        
+        
+        <a href="/assets/2021-09-23-infographic.pdf" download class="btn btn-primary m-1"><i class="fas fa-file-pdf"></i> Download PDF</a>
+        
+
       </div>
-    
-    <div class="spacer-10"></div>
+      
+      <img class="img-fluid" src="/assets/2021-09-23-infographic.png">
+      
+    </div>
 
-</div>
-       
-<script type="module">
-
-  import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-  import notebook from "https://api.observablehq.com/@camdens/grouped-bar-chart.js?v=3";
-  
-  // Select the element into which we’ll embed the chart.
-  const chart = document.querySelector("#observablehq-chart-fc38e8642");
-  const chart_selector = document.querySelector("#observablehq-viewof-Data_Type-fc38e8642");
-  // Instantiate a standard library that can be used by the definition of width below.
-  const library = new Library();
-  
-  // Pass the custom library to the runtime when instantiating our notebook.
-  const runtime = new Runtime(library);
-  const main = runtime.module(notebook, name => {
-    if (name === "chart") return new Inspector(chart);
-    if (name === "viewof Data_Type") return new Inspector(chart_selector);
-    return ["data","x0","test","y","yAxis","groupKey","keys","x1","xAxis"].includes(name);
-  });
-    
-  // Redefine width as a generator that yields the chart element’s clientWidth (if
-  // changed) whenever the window resize event fires. If desired, use a
-  // ResizeObserver instead; see the custom-fluid-width-and-height example.
-  main.redefine("width", library.Generators.observe(notify => {
-    let width = notify(chart.clientWidth); // initial width
-    function resized() {
-      let newWidth = chart.clientWidth;
-      if (newWidth !== width) {
-        notify(width = newWidth);
-      }
-    }
-    addEventListener("resize", resized);
-    return () => removeEventListener("resize", resized);
-  }));
-
-  document.querySelector("#mostRecentResponseDate").innerText = '2021-09-23T15:40:10-04:00'.slice(0,10)
-  document.getElementById("accessedOn").innerText = (new Date()).toISOString().slice(0,10)
-    
-</script>
+</article>
+<div class="spacer-5"></div>
   </body>
 </html>
