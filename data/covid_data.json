@@ -1,5 +1,5 @@
 {
-    "fileDate": "2021-09-26T12:46:43.446313",
+    "fileDate": "2021-09-27T01:28:28.646658",
     "places": [
         {
             "iso_code": "AFG",
@@ -22,9 +22,9 @@
             "iso_code": "DZA",
             "total_cases": 202574.0,
             "total_deaths": 5767.0,
-            "total_vaccinations": 9989662.0,
-            "people_vaccinated": 5815039.0,
-            "people_fully_vaccinated": 4174623.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "DZ"
         },
         {
@@ -1804,7 +1804,7 @@
         },
         {
             "iso_code": "USA",
-            "total_cases": 42940411.0,
+            "total_cases": 42900402.0,
             "total_deaths": 687746.0,
             "total_vaccinations": 389372689.0,
             "people_vaccinated": 213177462.0,
@@ -1878,9 +1878,9 @@
             "iso_code": "YEM",
             "total_cases": 8891.0,
             "total_deaths": 1682.0,
-            "total_vaccinations": 322934.0,
-            "people_vaccinated": 308025.0,
-            "people_fully_vaccinated": 14909.0
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null
         },
         {
             "iso_code": "ZMB",
