@@ -1009,6 +1009,68 @@
           "__id": "recuQpCQOJBYSaQyv",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "3"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "7"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "7"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "1"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "1"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "1"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "1"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "3"
+          ],
+          "educationStatusPrimaryCode": [
+            "3"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "3"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "reckSYjVMxeZ0dxEZ",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recHuaPRAoAibRVNN"
@@ -1171,7 +1233,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -1328,6 +1390,35 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recScy4MuiN0c55H7",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "5"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "5"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "5"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recL8BPe77tWtaOIr",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -2585,6 +2676,50 @@
           "__id": "recqkNVzleQbcmNoL",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recmYP9yN0P6VxbEp",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recGjyzdg0blkGUhP"
@@ -3403,6 +3538,81 @@
           "__id": "rec7Xf6zyyoJEzGAv",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "2"
+          ],
+          "inPersonPrioritizationStudentNeedCode": [
+            "9",
+            "10"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "3",
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3",
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "3",
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recUIipYuzEgSTKMf",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recYvKpOrjTWAUy7Q"
@@ -3729,7 +3939,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "4",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "3"
           ],
@@ -3795,7 +4005,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -3831,7 +4041,7 @@
         {
           "responseDate": "2021-07-27",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "2",
           "__id": "recnQtU8UDHTBKKDY",
           "roundId": 12,
           "type": "observed"
@@ -3839,7 +4049,7 @@
         {
           "responseDate": "2021-08-11",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "2",
           "__id": "rec3tdPwXI3S2J3uz",
           "roundId": 13,
           "type": "observed"
@@ -3847,7 +4057,7 @@
         {
           "responseDate": "2021-08-24",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "2",
           "__id": "rec3w5zkqIaNLU3vE",
           "roundId": 14,
           "type": "observed"
@@ -3858,6 +4068,50 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recKEo4OaBYv7U0FC",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "2",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recdSotZUlIxJUWda",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -4601,7 +4855,7 @@
             "1",
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -4645,7 +4899,7 @@
         {
           "responseDate": "2021-07-29",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "rec7jv8OclurldQQD",
           "roundId": 12,
           "type": "observed"
@@ -4726,6 +4980,68 @@
           ],
           "__id": "rec7OLWex55TOAZaa",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "3"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "6"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "6"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "6"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "6"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "3"
+          ],
+          "educationStatusPrimaryCode": [
+            "3"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "3"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recU4azbVdhAmySAx",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -6023,6 +6339,84 @@
           "__id": "recsK52VNB2r199An",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "3"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "7"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "7"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "7"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "7"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "7"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "2"
+          ],
+          "inPersonPrioritizationStudentNeedCode": [
+            "7",
+            "9",
+            "12"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4",
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "3",
+            "4",
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "3",
+            "4",
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "3",
+            "4",
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recKB14TrEpfT6HXE",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recUlBrCKspEQus0K"
@@ -6459,7 +6853,7 @@
         {
           "responseDate": "2021-07-29",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "5",
+          "vaccineAvailabilityForTeachersCode": "1",
           "__id": "recIbfmJUtdOoS9DT",
           "roundId": 12,
           "type": "observed"
@@ -6525,6 +6919,50 @@
           ],
           "__id": "recugnGh97OUhcJ3c",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recbGC54VIzRLQCLR",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -8293,7 +8731,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "7"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "3"
           ],
@@ -8393,7 +8831,7 @@
         {
           "responseDate": "2021-07-24",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recXy6oaStinxMbID",
           "roundId": 12,
           "type": "observed"
@@ -8493,6 +8931,50 @@
           "__id": "recJn1FpIiWBlIgP1",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recudQZQ6r0GcDuzV",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recckpIGkIZov4XdV"
@@ -8569,6 +9051,53 @@
           "vaccineAvailabilityForTeachersCode": "2",
           "__id": "reczHXYtrPVVooDqO",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "2"
+          ],
+          "__id": "recna3iH6yrqk8UxD",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -8701,6 +9230,79 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recLHzFmmHbZh6SPt",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-21",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "3"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "1"
+          ],
+          "inPersonPrioritizationGradeLevelCode": [
+            "1",
+            "2",
+            "20",
+            "21",
+            "22"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "3"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3"
+          ],
+          "educationStatusHigherCode": [
+            "3"
+          ],
+          "educationStatusVocationalCode": [
+            "3"
+          ],
+          "__id": "recsTmGI1iBCrdtMy",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -10272,7 +10874,7 @@
         {
           "responseDate": "2021-07-27",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recSM181xtiJXYkIq",
           "roundId": 12,
           "type": "observed"
@@ -10338,6 +10940,53 @@
           ],
           "__id": "recAwosfLCKY7w4Ap",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec3eorITPbp8bzuE",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -10443,7 +11092,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "__id": "recZYGGSBbL2XsgSP",
           "roundId": 4,
           "type": "observed"
@@ -10469,7 +11118,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "__id": "recTcnPkEQh0zCFks",
           "roundId": 5,
           "type": "observed"
@@ -10543,7 +11192,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -10587,7 +11236,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -10631,7 +11280,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -10720,6 +11369,50 @@
           ],
           "__id": "recHBAxEsgXiV7G10",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recMEB7oanL6PZdBL",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -11218,7 +11911,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "__id": "recPDu1O0alnU6y4g",
           "roundId": 2,
           "type": "observed"
@@ -11348,7 +12041,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "7"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -11434,7 +12127,7 @@
         {
           "responseDate": "2021-07-27",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "rec6OxaEeC8bOPgRh",
           "roundId": 12,
           "type": "observed"
@@ -11497,6 +12190,50 @@
           ],
           "__id": "recHtcCyhkI6a7eCh",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-21",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recgHFuQySGOfQxYD",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -14034,6 +14771,53 @@
           "__id": "recOdw2PlJAn7zoXd",
           "roundId": 16,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-15",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "2"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "2"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "2"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "2"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "2"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "2"
+          ],
+          "__id": "recPtvg8Q9zIT4hSM",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recfQfKZ6QX6LUWXN"
@@ -14222,7 +15006,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -14455,7 +15239,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "7",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -14499,7 +15283,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "7",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -14564,6 +15348,50 @@
           ],
           "__id": "recykqTTQM9v7dHfq",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recTycgZVDtBJKPm8",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -15369,6 +16197,50 @@
           "__id": "recQLebIZe9DFDo06",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "1"
+          ],
+          "educationStatusVocationalCode": [
+            "1"
+          ],
+          "__id": "rec0dalsdUMYTlqqA",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recBoeV1CVkexysya"
@@ -16118,6 +16990,50 @@
           ],
           "__id": "rec8cTHYHJd6eiwJF",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recU9V4E08y4YpZxb",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -17580,6 +18496,95 @@
           "type": "observed"
         },
         {
+          "responseDate": "2021-09-13",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "1"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "6"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1",
+            "5"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "vaccineAvailabilityForTeachersCode": "1",
+          "educationStatusPrePrimaryCode": [
+            "4",
+            "1"
+          ],
+          "educationStatusPrimaryCode": [
+            "4",
+            "1"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4",
+            "1"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4",
+            "1"
+          ],
+          "educationStatusHigherCode": [
+            "3"
+          ],
+          "educationStatusVocationalCode": [
+            "3"
+          ],
+          "__id": "recJ3LRqkYyBa6FQn",
+          "roundId": 15,
+          "type": "observed"
+        },
+        {
           "responseDate": "2021-09-14",
           "extendedBreakCode": "2",
           "educationStatusCode": [
@@ -18402,6 +19407,54 @@
           "__id": "recb4vDqcRIqSxQsq",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-21",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "5"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "1"
+          ],
+          "inPersonPrioritizationGradeLevelCode": [
+            "2"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "5"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "5"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "rec3USGuKIritDMhr",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "rec3akia6gEfGqX3L"
@@ -18893,7 +19946,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "7",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -18958,7 +20011,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "7",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -18982,6 +20035,50 @@
           ],
           "__id": "recR8cElcwExTgosP",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recqid0JJFgKWlv4n",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -19594,6 +20691,53 @@
           "__id": "recefva06kchkr2Ll",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recGAA5XLJWFc83sm",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recGgn6MmoGIXTbyM"
@@ -20183,6 +21327,78 @@
           ],
           "__id": "recZ5smpWKu4wWVmH",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "4",
+            "2"
+          ],
+          "__id": "recvZr6FCkwIbvfyJ",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -21281,7 +22497,7 @@
         {
           "responseDate": "2021-07-14",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "__id": "recrYaxmaxs6yFqxd",
           "roundId": 11,
           "type": "observed"
@@ -21359,6 +22575,53 @@
           ],
           "__id": "rechFf1NcAVcWJqAM",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recXjB216441saIdY",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -21603,6 +22866,54 @@
           ],
           "__id": "recUjavlmD0vYfZub",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "3",
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "3",
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "3",
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "3",
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec4NTxanHkfHCIwT",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -22404,6 +23715,50 @@
           "__id": "receK6n7cfsYrhUa0",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rece2jumpEoXLtiMY",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recmzoVp9OzCnPtNI"
@@ -22828,7 +24183,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -22895,7 +24250,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "3"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "educationStatusPrePrimaryCode": [
             "2",
             "3"
@@ -23057,6 +24412,50 @@
           ],
           "__id": "recmnxkHCZ8d8R3Pr",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recuO2xquahnuqfR4",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -24571,7 +25970,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "8"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "educationStatusPrePrimaryCode": [
             "3"
           ],
@@ -24649,7 +26048,7 @@
         {
           "responseDate": "2021-07-15",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "__id": "recyI17Rn1P5vEsFG",
           "roundId": 11,
           "type": "observed"
@@ -24705,6 +26104,50 @@
           ],
           "__id": "recv6tmCwrhM6gXRY",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recDwOF5HmwHEuQD3",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -25064,6 +26507,50 @@
           ],
           "__id": "recEgT9YEiVb07GGz",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec81tXIySivS3qiV",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -26192,6 +27679,105 @@
           "__id": "receDLAbaE3wMZ7CX",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1",
+            "2",
+            "3",
+            "5",
+            "8"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "8"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1",
+            "3",
+            "4",
+            "5",
+            "8"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1",
+            "3",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1",
+            "4",
+            "5"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1",
+            "4",
+            "5"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "__id": "rec0cjBOlLhG7A4UA",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "rec9uEZzzO6n2t602"
@@ -27084,7 +28670,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "5"
           ],
-          "vaccineAvailabilityForTeachersCode": "1",
+          "vaccineAvailabilityForTeachersCode": "2",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -27214,7 +28800,7 @@
         {
           "responseDate": "2021-07-29",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "6",
+          "vaccineAvailabilityForTeachersCode": "7",
           "__id": "recb1KsVIAljPhM3n",
           "roundId": 12,
           "type": "observed"
@@ -27277,6 +28863,50 @@
           ],
           "__id": "recqo7TRr6MuhnxwA",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recKluEBFNu5JWem1",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -27486,6 +29116,50 @@
           ],
           "__id": "recv9lzAzja2K9o1v",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recA39aFgtVUXcGdh",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -28007,6 +29681,50 @@
           "__id": "rece6mkj65tzr5rnI",
           "roundId": 16,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "3"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "3"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "3"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recXu5DChLaeYn62x",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recVB6uVy0iXn6IUN"
@@ -28508,6 +30226,57 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recjNfS05imPDVapv",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5",
+            "6"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recu53dPwFdEpbLsl",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -29644,6 +31413,50 @@
           "__id": "recjeZx66BlsD72cK",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recMLMMT89ui1vJtc",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "rec1dW9xiiyayi9zG"
@@ -30775,6 +32588,50 @@
           ],
           "__id": "recZpf2D3CKkdZQgF",
           "roundId": 14,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-14",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "2"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "2"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "2"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "2"
+          ],
+          "vaccineAvailabilityForTeachersCode": "1",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recl0DrZmaRjQJx2G",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -33414,6 +35271,50 @@
           "__id": "recaTcZvYUqzrrIwv",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec8EKVGe9aPBoCiR",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recqeZ6ZWUFi1ep2u"
@@ -34357,6 +36258,50 @@
           ],
           "__id": "recvJydDleeLJY0LI",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recGXOfWhvTTFISYp",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -36098,6 +38043,62 @@
           "type": "observed"
         },
         {
+          "responseDate": "2021-09-13",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "1"
+          ],
+          "inPersonPrioritizationGradeLevelCode": [
+            "1",
+            "2",
+            "19",
+            "20",
+            "3",
+            "21",
+            "4",
+            "22",
+            "5",
+            "6"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "2"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "2"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "2"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "2"
+          ],
+          "vaccineAvailabilityForTeachersCode": "1",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recyNMw9KwAU8y5L5",
+          "roundId": 15,
+          "type": "observed"
+        },
+        {
           "responseDate": "2021-09-14",
           "extendedBreakCode": "2",
           "educationStatusCode": [
@@ -37007,6 +39008,50 @@
           ],
           "__id": "recc9UicVCcoEFYyA",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec53AN6wF66o2zPj",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -39059,6 +41104,35 @@
           "__id": "recbNm9oO6azf7NmJ",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "5"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "5"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "5"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recArgVludzE9QnQb",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "rech3Osqd9Et7U5TT"
@@ -40049,6 +42123,50 @@
           "__id": "recBLVSudeWmxmiic",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recMVbS7xz634G1Mq",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recIwymZcE3nKz5RR"
@@ -40149,6 +42267,35 @@
           ],
           "__id": "recjjLGAmdK466rui",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-19",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "5"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "5"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "5"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recLmbKwS93Xc7VKF",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -40774,6 +42921,81 @@
           ],
           "__id": "recOIfNRc4A4bf4FD",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "2"
+          ],
+          "inPersonPrioritizationStudentNeedCode": [
+            "10"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "4",
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "4",
+            "2"
+          ],
+          "__id": "rec1oScKmpxzj9XBs",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -41718,6 +43940,50 @@
           ],
           "__id": "recknSkeWYqWkBm5C",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec7dUkDXG7Y4CSyS",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -42666,6 +44932,75 @@
           "__id": "recJhaIlrAghZsqxN",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "3"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "1"
+          ],
+          "inPersonPrioritizationGradeLevelCode": [
+            "1",
+            "2",
+            "19"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4",
+            "3"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "3"
+          ],
+          "educationStatusHigherCode": [
+            "3"
+          ],
+          "educationStatusVocationalCode": [
+            "3"
+          ],
+          "__id": "recNSNuZ2Q9lQzDzD",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recBHsvWLSgbhScw6"
@@ -43163,6 +45498,53 @@
           "__id": "recBSoEeBQqQqKgxY",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recMF2WKWkMfCXOGT",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recBH5Ue2vDDGTb2b"
@@ -43398,6 +45780,7 @@
           "type": "observed"
         },
         {
+          "responseDate": "2021-09-13",
           "extendedBreakCode": "2",
           "educationStatusCode": [
             "3",
@@ -43444,7 +45827,6 @@
           "educationStatusVocationalCode": [
             "5"
           ],
-          "responseDate": "2021-09-13",
           "__id": "recFm5HHKnQksAgMj",
           "roundId": 15,
           "type": "observed"
@@ -46252,7 +48634,7 @@
         {
           "responseDate": "2021-07-27",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recRiNg6QzElTXkQi",
           "roundId": 12,
           "type": "observed"
@@ -46260,7 +48642,7 @@
         {
           "responseDate": "2021-08-11",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recXoY9NmyUj8qswg",
           "roundId": 13,
           "type": "observed"
@@ -46271,6 +48653,50 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recW6JydufCsP4sRN",
           "roundId": 14,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "rechLGdA2x82AWlI3",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -46802,6 +49228,53 @@
           ],
           "__id": "recnaVBo9hPke0TRp",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec94bxPpHerwiDaE",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -48236,7 +50709,7 @@
           "inPersonAdditionalSupportPrimary": [
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -48381,6 +50854,50 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "reclE45d5Dw8rA9e5",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec4qIWCUwWQRxzs3",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -50025,7 +52542,7 @@
           "inPersonAdditionalSupportUpperSecondary": [
             "5"
           ],
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "educationStatusPrePrimaryCode": [
             "4"
           ],
@@ -50184,6 +52701,50 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recBuGYU4hPWYO9rA",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recS7LHJRGxUCJzRV",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -51281,6 +53842,51 @@
           ],
           "__id": "recrIvWirZh2eXca2",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "8"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "8"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4",
+            "5"
+          ],
+          "__id": "recw0M32U78tpNpqN",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -52605,6 +55211,60 @@
           "__id": "rec2aJ6v3vyNTksZp",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-21",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "1"
+          ],
+          "inPersonPrioritizationGradeLevelCode": [
+            "1",
+            "2",
+            "19",
+            "20",
+            "3"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "3"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "3"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "3"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "3"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rectQGqTgfL5nzity",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recUWXu4p3JWSfJxL"
@@ -53044,6 +55704,35 @@
           "vaccineAvailabilityForTeachersCode": "6",
           "__id": "recGcdQPwx2Fo3CR5",
           "roundId": 14,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "2",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "5"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "5"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "5"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "rec9RLXI54mRwWKOH",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -54220,6 +56909,50 @@
           "__id": "recFwDum708Ug8IaS",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-22",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "7"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "7"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recwOs5ZlkOp1Qo2K",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recuPoQwsVbGr2mx7"
@@ -54737,6 +57470,50 @@
           ],
           "__id": "rec6kzlJbdF5AsGhe",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rectBq4ltXQUCWe2f",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -56684,6 +59461,35 @@
           "__id": "recGxppan1OHAQDKq",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "5"
+          ],
+          "educationStatusPrimaryCode": [
+            "5"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "5"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "5"
+          ],
+          "educationStatusHigherCode": [
+            "5"
+          ],
+          "educationStatusVocationalCode": [
+            "5"
+          ],
+          "__id": "recv7hBJvLGOH8Llw",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "reca97pXECUFip1GS"
@@ -58295,6 +61101,50 @@
           "__id": "recFZ7YwPYXo3nx8z",
           "roundId": 15,
           "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "7",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "rec18BuRIs0DRuoWK",
+          "roundId": 16,
+          "type": "observed"
         }
       ],
       "__id": "recu4aV1kojzetqUE"
@@ -59055,6 +61905,100 @@
           ],
           "__id": "recL2kMCyE8J6cdDS",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-23",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "remoteEducationModalitiesPrePrimaryCode": [
+            "2",
+            "3"
+          ],
+          "remoteEducationModalitiesPrimaryCode": [
+            "1",
+            "3",
+            "4"
+          ],
+          "remoteEducationModalitiesLowerSecondaryCode": [
+            "1",
+            "3",
+            "4"
+          ],
+          "remoteEducationModalitiesUpperSecondaryCode": [
+            "1",
+            "3",
+            "4"
+          ],
+          "remoteEducationModalitiesHigherCode": [
+            "1",
+            "3",
+            "4"
+          ],
+          "remoteEducationModalitiesVocationalCode": [
+            "1",
+            "3",
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonPrioritizationGeographyCode": [
+            "15"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4",
+            "5"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4",
+            "5"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4",
+            "5"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4",
+            "5"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusPrimaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusHigherCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "educationStatusVocationalCode": [
+            "4",
+            "3",
+            "2"
+          ],
+          "__id": "recNw8eqBaCo3vOz7",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -60026,7 +62970,7 @@
           "remoteEducationModalitiesVocationalCode": [
             "6"
           ],
-          "vaccineAvailabilityForTeachersCode": "2",
+          "vaccineAvailabilityForTeachersCode": "1",
           "__id": "recG8VhbOg29UB3fp",
           "roundId": 3,
           "type": "observed"
@@ -60399,7 +63343,7 @@
         {
           "responseDate": "2021-08-24",
           "extendedBreakCode": "1",
-          "vaccineAvailabilityForTeachersCode": "7",
+          "vaccineAvailabilityForTeachersCode": "6",
           "__id": "rec7gI0l7yHmSHupa",
           "roundId": 14,
           "type": "observed"
@@ -60446,6 +63390,50 @@
           ],
           "__id": "recu6MxE7zyGCTotN",
           "roundId": 15,
+          "type": "observed"
+        },
+        {
+          "responseDate": "2021-09-20",
+          "extendedBreakCode": "2",
+          "educationStatusCode": [
+            "4"
+          ],
+          "inPersonPrioritizationCategoriesCode": [
+            "5"
+          ],
+          "inPersonAdditionalSupportPrePrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportPrimary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportLowerSecondary": [
+            "4"
+          ],
+          "inPersonAdditionalSupportUpperSecondary": [
+            "4"
+          ],
+          "vaccineAvailabilityForTeachersCode": "6",
+          "educationStatusPrePrimaryCode": [
+            "4"
+          ],
+          "educationStatusPrimaryCode": [
+            "4"
+          ],
+          "educationStatusLowerSecondaryCode": [
+            "4"
+          ],
+          "educationStatusUpperSecondaryCode": [
+            "4"
+          ],
+          "educationStatusHigherCode": [
+            "4"
+          ],
+          "educationStatusVocationalCode": [
+            "4"
+          ],
+          "__id": "recDYZL4nV0V0uDzM",
+          "roundId": 16,
           "type": "observed"
         }
       ],
@@ -61840,6 +64828,27 @@
       "roundNumber": 18,
       "startDate": "2021-10-12",
       "endDate": "2021-10-25",
+      "surveyDocuments": [
+        {
+          "id": "attDiaef5LYrEfgcg",
+          "url": "https://dl.airtable.com/.attachments/b4adf0a5f1b616e64bbb9524e6c2669b/2dc8c160/survey-2021-10-11.pdf",
+          "filename": "survey-2021-10-11.pdf",
+          "size": 151503,
+          "type": "application/pdf",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3b45187a93684fcddf3c1abecfc32667/fdfbd142",
+              "width": 28,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6517c77b6136c22b76339898a229c2ba/5d857ce4",
+              "width": 396,
+              "height": 512
+            }
+          }
+        }
+      ],
       "__id": "recloD0PkZZR6XgJf"
     },
     {
@@ -61847,6 +64856,30 @@
       "startDate": "2021-10-26",
       "endDate": "2021-11-08",
       "__id": "recw95mDFWsJnGQbT"
+    },
+    {
+      "roundNumber": 20,
+      "startDate": "2021-11-09",
+      "endDate": "2021-11-22",
+      "__id": "recO3bFzpHKqvzPi0"
+    },
+    {
+      "roundNumber": 21,
+      "startDate": "2021-11-23",
+      "endDate": "2021-12-06",
+      "__id": "recs4Mw1H311sd4rc"
+    },
+    {
+      "roundNumber": 22,
+      "startDate": "2021-12-07",
+      "endDate": "2021-12-20",
+      "__id": "rec2T7AOfMAglbeyp"
+    },
+    {
+      "roundNumber": 23,
+      "startDate": "2021-12-21",
+      "endDate": "2022-01-03",
+      "__id": "recPoTtyvmqlGSKl5"
     }
   ]
 }
