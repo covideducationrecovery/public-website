@@ -1,5 +1,5 @@
 {
-    "fileDate": "2021-12-24T12:49:51.637901",
+    "fileDate": "2021-12-25T01:31:28.079800",
     "places": [
         {
             "iso_code": "AFG",
@@ -380,9 +380,9 @@
             "iso_code": "COM",
             "total_cases": 5123.0,
             "total_deaths": 152.0,
-            "total_vaccinations": 527119.0,
-            "people_vaccinated": 282378.0,
-            "people_fully_vaccinated": 244741.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "KM"
         },
         {
@@ -477,8 +477,8 @@
         },
         {
             "iso_code": "DNK",
-            "total_cases": 640413.0,
-            "total_deaths": 3101.0,
+            "total_cases": 673807.0,
+            "total_deaths": 3173.0,
             "total_vaccinations": 11641574.0,
             "people_vaccinated": 4781149.0,
             "people_fully_vaccinated": 4533634.0,
@@ -585,8 +585,8 @@
         },
         {
             "iso_code": "OWID_EUN",
-            "total_cases": 52581671.0,
-            "total_deaths": 890445.0,
+            "total_cases": 52615065.0,
+            "total_deaths": 890517.0,
             "total_vaccinations": 724773624.0,
             "people_vaccinated": 322934936.0,
             "people_fully_vaccinated": 306876921.0
