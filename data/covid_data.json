@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-02-14T12:45:42.379632",
+    "fileDate": "2022-02-15T01:42:50.412482",
     "places": [
         {
             "iso_code": "AFG",
@@ -92,8 +92,8 @@
         },
         {
             "iso_code": "AUS",
-            "total_cases": 2920767.0,
-            "total_deaths": 4618.0,
+            "total_cases": 2914583.0,
+            "total_deaths": 4604.0,
             "total_vaccinations": 52258992.0,
             "people_vaccinated": 21906946.0,
             "people_fully_vaccinated": 20360127.0
@@ -1248,9 +1248,9 @@
             "iso_code": "NPL",
             "total_cases": 973059.0,
             "total_deaths": 11892.0,
-            "total_vaccinations": 31642503.0,
-            "people_vaccinated": 16830395.0,
-            "people_fully_vaccinated": 14407775.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NP"
         },
         {
@@ -1293,9 +1293,9 @@
             "iso_code": "NER",
             "total_cases": 8711.0,
             "total_deaths": 303.0,
-            "total_vaccinations": 1798575.0,
-            "people_vaccinated": 1442884.0,
-            "people_fully_vaccinated": 1025950.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NE"
         },
         {
@@ -1328,9 +1328,9 @@
             "iso_code": "OMN",
             "total_cases": 365700.0,
             "total_deaths": 4208.0,
-            "total_vaccinations": 6600551.0,
-            "people_vaccinated": 3181438.0,
-            "people_fully_vaccinated": 2967168.0
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null
         },
         {
             "iso_code": "PAK",
@@ -1765,7 +1765,7 @@
         },
         {
             "iso_code": "TON",
-            "total_cases": 73.0,
+            "total_cases": 141.0,
             "total_deaths": null,
             "total_vaccinations": null,
             "people_vaccinated": null,
