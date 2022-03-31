@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-03-30T12:53:38.772834",
+    "fileDate": "2022-03-31T01:59:57.972302",
     "places": [
         {
             "iso_code": "AFG",
@@ -360,7 +360,7 @@
         },
         {
             "iso_code": "CHN",
-            "total_cases": 147437.0,
+            "total_cases": 217576.0,
             "total_deaths": 4638.0,
             "total_vaccinations": 3263129000.0,
             "people_vaccinated": 1275541000.0,
@@ -585,8 +585,8 @@
         },
         {
             "iso_code": "OWID_EUN",
-            "total_cases": 125198331.0,
-            "total_deaths": 1045756.0,
+            "total_cases": 124892148.0,
+            "total_deaths": 1045397.0,
             "total_vaccinations": 858593424.0,
             "people_vaccinated": 336177763.0,
             "people_fully_vaccinated": 326672227.0
@@ -674,8 +674,8 @@
         },
         {
             "iso_code": "DEU",
-            "total_cases": 20867314.0,
-            "total_deaths": 129123.0,
+            "total_cases": 20561131.0,
+            "total_deaths": 128764.0,
             "total_vaccinations": 171940027.0,
             "people_vaccinated": 63664250.0,
             "people_fully_vaccinated": 63142649.0,
@@ -1430,6 +1430,15 @@
             "people_vaccinated": null,
             "people_fully_vaccinated": null,
             "iso2": "PT"
+        },
+        {
+            "iso_code": "PRI",
+            "total_cases": null,
+            "total_deaths": null,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
+            "iso2": "PR"
         },
         {
             "iso_code": "QAT",
