@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-04-03T12:48:16.695563",
+    "fileDate": "2022-04-04T02:10:42.909199",
     "places": [
         {
             "iso_code": "AFG",
@@ -725,6 +725,15 @@
             "people_vaccinated": 43305.0,
             "people_fully_vaccinated": 37957.0,
             "iso2": "GD"
+        },
+        {
+            "iso_code": "GUM",
+            "total_cases": null,
+            "total_deaths": null,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
+            "iso2": "GU"
         },
         {
             "iso_code": "GTM",
@@ -1879,6 +1888,15 @@
             "people_vaccinated": 255534750.0,
             "people_fully_vaccinated": 217639435.0,
             "iso2": "US"
+        },
+        {
+            "iso_code": "VIR",
+            "total_cases": null,
+            "total_deaths": null,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
+            "iso2": "VI"
         },
         {
             "iso_code": "URY",
