@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-05-06T12:58:45.642693",
+    "fileDate": "2022-05-07T02:03:44.932166",
     "places": [
         {
             "iso_code": "AFG",
@@ -192,9 +192,9 @@
             "iso_code": "BMU",
             "total_cases": 13832.0,
             "total_deaths": 131.0,
-            "total_vaccinations": 131441.0,
-            "people_vaccinated": 48424.0,
-            "people_fully_vaccinated": 47464.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "BM"
         },
         {
@@ -1864,8 +1864,8 @@
         },
         {
             "iso_code": "USA",
-            "total_cases": 81692541.0,
-            "total_deaths": 996946.0,
+            "total_cases": 81694580.0,
+            "total_deaths": 996964.0,
             "total_vaccinations": 577843905.0,
             "people_vaccinated": 257960561.0,
             "people_fully_vaccinated": 219974190.0,
