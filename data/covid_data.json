@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-05-14T13:00:02.912083",
+    "fileDate": "2022-05-15T02:26:53.308775",
     "places": [
         {
             "iso_code": "AFG",
@@ -452,9 +452,9 @@
             "iso_code": "CYP",
             "total_cases": 486086.0,
             "total_deaths": 1051.0,
-            "total_vaccinations": 1781639.0,
-            "people_vaccinated": 667058.0,
-            "people_fully_vaccinated": 644027.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "CY"
         },
         {
@@ -587,9 +587,9 @@
             "iso_code": "OWID_EUN",
             "total_cases": 140013657.0,
             "total_deaths": 1084664.0,
-            "total_vaccinations": 874678675.0,
-            "people_vaccinated": 337775481.0,
-            "people_fully_vaccinated": 329115312.0
+            "total_vaccinations": 873521784.0,
+            "people_vaccinated": 337732937.0,
+            "people_fully_vaccinated": 329037832.0
         },
         {
             "iso_code": "FRO",
@@ -1051,9 +1051,9 @@
             "iso_code": "OWID_LMC",
             "total_cases": 90726675.0,
             "total_deaths": 1309107.0,
-            "total_vaccinations": 3968244890.0,
-            "people_vaccinated": 2030052718.0,
-            "people_fully_vaccinated": 1753853198.0
+            "total_vaccinations": 3946301896.0,
+            "people_vaccinated": 2021479750.0,
+            "people_fully_vaccinated": 1740196190.0
         },
         {
             "iso_code": "LUX",
