@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-05-31T13:02:12.728558",
+    "fileDate": "2022-06-01T02:55:52.510826",
     "places": [
         {
             "iso_code": "AFG",
@@ -362,7 +362,7 @@
             "iso_code": "CHN",
             "total_cases": 1214115.0,
             "total_deaths": 5226.0,
-            "total_vaccinations": 3379075000.0,
+            "total_vaccinations": 3380191000.0,
             "people_vaccinated": 1289584000.0,
             "people_fully_vaccinated": 1255732000.0,
             "iso2": "CN"
@@ -745,15 +745,6 @@
             "iso2": "GT"
         },
         {
-            "iso_code": "GGY",
-            "total_cases": null,
-            "total_deaths": null,
-            "total_vaccinations": 155684.0,
-            "people_vaccinated": null,
-            "people_fully_vaccinated": null,
-            "iso2": "GG"
-        },
-        {
             "iso_code": "GIN",
             "total_cases": 36764.0,
             "total_deaths": 442.0,
@@ -899,9 +890,9 @@
             "iso_code": "JAM",
             "total_cases": 137076.0,
             "total_deaths": 3056.0,
-            "total_vaccinations": 1436924.0,
-            "people_vaccinated": 800269.0,
-            "people_fully_vaccinated": 697918.0,
+            "total_vaccinations": 1437876.0,
+            "people_vaccinated": 800803.0,
+            "people_fully_vaccinated": 698448.0,
             "iso2": "JM"
         },
         {
@@ -1052,7 +1043,7 @@
             "total_cases": 90828893.0,
             "total_deaths": 1309984.0,
             "total_vaccinations": 4033208380.0,
-            "people_vaccinated": 2042223874.0,
+            "people_vaccinated": 2042223784.0,
             "people_fully_vaccinated": 1780176472.0
         },
         {
@@ -1355,7 +1346,7 @@
             "total_cases": 1530387.0,
             "total_deaths": 30379.0,
             "total_vaccinations": 249173732.0,
-            "people_vaccinated": 135033321.0,
+            "people_vaccinated": 135033231.0,
             "people_fully_vaccinated": 123130892.0,
             "iso2": "PK"
         },
@@ -1821,9 +1812,9 @@
             "iso_code": "TUN",
             "total_cases": 1042362.0,
             "total_deaths": 28632.0,
-            "total_vaccinations": 13164136.0,
-            "people_vaccinated": 7226406.0,
-            "people_fully_vaccinated": 6370393.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "TN"
         },
         {
