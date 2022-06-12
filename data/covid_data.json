@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-06-11T12:50:02.913438",
+    "fileDate": "2022-06-12T02:35:06.126775",
     "places": [
         {
             "iso_code": "AFG",
@@ -854,9 +854,9 @@
             "iso_code": "IRQ",
             "total_cases": 2329525.0,
             "total_deaths": 25221.0,
-            "total_vaccinations": 18353783.0,
-            "people_vaccinated": 10674521.0,
-            "people_fully_vaccinated": 7498791.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "IQ"
         },
         {
@@ -1049,7 +1049,7 @@
         },
         {
             "iso_code": "OWID_LMC",
-            "total_cases": 90930638.0,
+            "total_cases": 90926724.0,
             "total_deaths": 1310253.0,
             "total_vaccinations": 4088980132.0,
             "people_vaccinated": 2063006575.0,
@@ -1266,9 +1266,9 @@
             "iso_code": "NLD",
             "total_cases": 8112188.0,
             "total_deaths": 22418.0,
-            "total_vaccinations": 33315120.0,
-            "people_vaccinated": 12808594.0,
-            "people_fully_vaccinated": 11983233.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NL"
         },
         {
@@ -1291,7 +1291,7 @@
         },
         {
             "iso_code": "NIC",
-            "total_cases": 18491.0,
+            "total_cases": 14577.0,
             "total_deaths": 240.0,
             "total_vaccinations": 10973441.0,
             "people_vaccinated": 5837222.0,
