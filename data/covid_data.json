@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-06-25T12:49:51.697307",
+    "fileDate": "2022-06-26T02:41:20.207287",
     "places": [
         {
             "iso_code": "AFG",
@@ -1266,9 +1266,9 @@
             "iso_code": "NLD",
             "total_cases": 8163222.0,
             "total_deaths": 22440.0,
-            "total_vaccinations": 33326378.0,
-            "people_vaccinated": 12804977.0,
-            "people_fully_vaccinated": 11980109.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NL"
         },
         {
@@ -1406,8 +1406,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 3608565.0,
-            "total_deaths": 213432.0,
+            "total_cases": 3611123.0,
+            "total_deaths": 213443.0,
             "total_vaccinations": 76738594.0,
             "people_vaccinated": 29461285.0,
             "people_fully_vaccinated": 27531117.0,
@@ -1462,9 +1462,9 @@
             "iso_code": "ROU",
             "total_cases": 2915487.0,
             "total_deaths": 65726.0,
-            "total_vaccinations": 16827486.0,
+            "total_vaccinations": null,
             "people_vaccinated": null,
-            "people_fully_vaccinated": 8114769.0,
+            "people_fully_vaccinated": null,
             "iso2": "RO"
         },
         {
