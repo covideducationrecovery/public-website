@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-06-30T13:02:56.460179",
+    "fileDate": "2022-07-01T02:55:46.093904",
     "places": [
         {
             "iso_code": "AFG",
@@ -1417,9 +1417,9 @@
             "iso_code": "PHL",
             "total_cases": 3703100.0,
             "total_deaths": 60542.0,
-            "total_vaccinations": 152865928.0,
-            "people_vaccinated": 75286371.0,
-            "people_fully_vaccinated": 70532636.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "PH"
         },
         {
@@ -1882,7 +1882,7 @@
         },
         {
             "iso_code": "USA",
-            "total_cases": 87410874.0,
+            "total_cases": 87487627.0,
             "total_deaths": 1017467.0,
             "total_vaccinations": 593739529.0,
             "people_vaccinated": 259426758.0,
