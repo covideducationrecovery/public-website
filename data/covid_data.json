@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-07-02T12:50:02.710990",
+    "fileDate": "2022-07-03T02:37:44.313420",
     "places": [
         {
             "iso_code": "AFG",
@@ -290,9 +290,9 @@
             "iso_code": "KHM",
             "total_cases": 136282.0,
             "total_deaths": 3056.0,
-            "total_vaccinations": 40711780.0,
-            "people_vaccinated": 15068135.0,
-            "people_fully_vaccinated": 14361140.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "KH"
         },
         {
@@ -725,15 +725,6 @@
             "people_vaccinated": 43772.0,
             "people_fully_vaccinated": 38565.0,
             "iso2": "GD"
-        },
-        {
-            "iso_code": "GUM",
-            "total_cases": null,
-            "total_deaths": null,
-            "total_vaccinations": null,
-            "people_vaccinated": null,
-            "people_fully_vaccinated": null,
-            "iso2": "GU"
         },
         {
             "iso_code": "GTM",
@@ -1439,15 +1430,6 @@
             "people_vaccinated": 9729123.0,
             "people_fully_vaccinated": 8884776.0,
             "iso2": "PT"
-        },
-        {
-            "iso_code": "PRI",
-            "total_cases": null,
-            "total_deaths": null,
-            "total_vaccinations": null,
-            "people_vaccinated": null,
-            "people_fully_vaccinated": null,
-            "iso2": "PR"
         },
         {
             "iso_code": "QAT",
