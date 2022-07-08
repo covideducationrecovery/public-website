@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-07-07T13:01:16.665985",
+    "fileDate": "2022-07-08T02:40:32.870570",
     "places": [
         {
             "iso_code": "AFG",
@@ -863,9 +863,9 @@
             "iso_code": "IMN",
             "total_cases": 36998.0,
             "total_deaths": 110.0,
-            "total_vaccinations": 189994.0,
-            "people_vaccinated": 69560.0,
-            "people_fully_vaccinated": 67106.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "IM"
         },
         {
@@ -1417,9 +1417,9 @@
             "iso_code": "PHL",
             "total_cases": 3711268.0,
             "total_deaths": 60622.0,
-            "total_vaccinations": 153852751.0,
-            "people_vaccinated": 75654809.0,
-            "people_fully_vaccinated": 70845546.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "PH"
         },
         {
@@ -1570,9 +1570,9 @@
             "iso_code": "SRB",
             "total_cases": 2035878.0,
             "total_deaths": 16138.0,
-            "total_vaccinations": 8534688.0,
-            "people_vaccinated": 3354075.0,
-            "people_fully_vaccinated": 3278198.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "RS"
         },
         {
@@ -1713,9 +1713,9 @@
             "iso_code": "SWE",
             "total_cases": 2519199.0,
             "total_deaths": 19124.0,
-            "total_vaccinations": 22674504.0,
-            "people_vaccinated": 7838695.0,
-            "people_fully_vaccinated": 7651988.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "SE"
         },
         {
@@ -1873,7 +1873,7 @@
         },
         {
             "iso_code": "USA",
-            "total_cases": 88263393.0,
+            "total_cases": 88262908.0,
             "total_deaths": 1019083.0,
             "total_vaccinations": 596233489.0,
             "people_vaccinated": 259957415.0,
