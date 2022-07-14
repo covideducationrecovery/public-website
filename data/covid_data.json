@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-07-13T13:01:28.795105",
+    "fileDate": "2022-07-14T02:44:03.108479",
     "places": [
         {
             "iso_code": "AFG",
@@ -524,9 +524,9 @@
             "iso_code": "EGY",
             "total_cases": 515645.0,
             "total_deaths": 24725.0,
-            "total_vaccinations": 91447330.0,
-            "people_vaccinated": 50399016.0,
-            "people_fully_vaccinated": 37289388.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "EG"
         },
         {
@@ -1040,8 +1040,8 @@
         },
         {
             "iso_code": "OWID_LMC",
-            "total_cases": 91840256.0,
-            "total_deaths": 1312820.0,
+            "total_cases": 92049757.0,
+            "total_deaths": 1315986.0,
             "total_vaccinations": 4213451451.0,
             "people_vaccinated": 2074475528.0,
             "people_fully_vaccinated": 1840894549.0
@@ -1837,8 +1837,8 @@
         },
         {
             "iso_code": "UKR",
-            "total_cases": 5079044.0,
-            "total_deaths": 113232.0,
+            "total_cases": 5288545.0,
+            "total_deaths": 116398.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
             "people_fully_vaccinated": null,
@@ -1857,9 +1857,9 @@
             "iso_code": "GBR",
             "total_cases": 22967566.0,
             "total_deaths": 180898.0,
-            "total_vaccinations": 149664930.0,
-            "people_vaccinated": 53610838.0,
-            "people_fully_vaccinated": 50181319.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "GB"
         },
         {
