@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-07-28T13:03:39.512259",
+    "fileDate": "2022-07-29T02:48:54.866208",
     "places": [
         {
             "iso_code": "AFG",
@@ -488,9 +488,9 @@
             "iso_code": "DJI",
             "total_cases": 15690.0,
             "total_deaths": 189.0,
-            "total_vaccinations": 233734.0,
-            "people_vaccinated": 213129.0,
-            "people_fully_vaccinated": 172152.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "DJ"
         },
         {
@@ -1265,7 +1265,7 @@
         {
             "iso_code": "NZL",
             "total_cases": 1570802.0,
-            "total_deaths": 1941.0,
+            "total_deaths": 1455.0,
             "total_vaccinations": 11443773.0,
             "people_vaccinated": 4294965.0,
             "people_fully_vaccinated": 4126214.0,
@@ -1388,8 +1388,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 3859279.0,
-            "total_deaths": 214112.0,
+            "total_cases": 3873702.0,
+            "total_deaths": 214120.0,
             "total_vaccinations": 80166089.0,
             "people_vaccinated": 29645865.0,
             "people_fully_vaccinated": 27848144.0,
@@ -1399,9 +1399,9 @@
             "iso_code": "PHL",
             "total_cases": 3760488.0,
             "total_deaths": 60694.0,
-            "total_vaccinations": 156547670.0,
-            "people_vaccinated": 76438466.0,
-            "people_fully_vaccinated": 71835024.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "PH"
         },
         {
@@ -1855,8 +1855,8 @@
         },
         {
             "iso_code": "USA",
-            "total_cases": 90973418.0,
-            "total_deaths": 1028819.0,
+            "total_cases": 90972856.0,
+            "total_deaths": 1028873.0,
             "total_vaccinations": 601497801.0,
             "people_vaccinated": 261204035.0,
             "people_fully_vaccinated": 222950194.0,
