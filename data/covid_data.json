@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-08-14T12:52:59.926968",
+    "fileDate": "2022-08-15T02:47:06.971832",
     "places": [
         {
             "iso_code": "AFG",
@@ -58,8 +58,8 @@
             "iso_code": "ATG",
             "total_cases": 8820.0,
             "total_deaths": 144.0,
-            "total_vaccinations": null,
-            "people_vaccinated": null,
+            "total_vaccinations": 128267.0,
+            "people_vaccinated": 64091.0,
             "people_fully_vaccinated": null,
             "iso2": "AG"
         },
@@ -201,9 +201,9 @@
             "iso_code": "BTN",
             "total_cases": 60663.0,
             "total_deaths": 21.0,
-            "total_vaccinations": 1917605.0,
-            "people_vaccinated": 694208.0,
-            "people_fully_vaccinated": 673485.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "BT"
         },
         {
@@ -380,18 +380,18 @@
             "iso_code": "COM",
             "total_cases": 8351.0,
             "total_deaths": 161.0,
-            "total_vaccinations": 804403.0,
-            "people_vaccinated": 423255.0,
-            "people_fully_vaccinated": 382032.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "KM"
         },
         {
             "iso_code": "COG",
             "total_cases": 24837.0,
             "total_deaths": 386.0,
-            "total_vaccinations": 833210.0,
-            "people_vaccinated": 695760.0,
-            "people_fully_vaccinated": 654119.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "CG"
         },
         {
@@ -578,9 +578,9 @@
             "iso_code": "ETH",
             "total_cases": 492738.0,
             "total_deaths": 7569.0,
-            "total_vaccinations": 52509414.0,
+            "total_vaccinations": null,
             "people_vaccinated": null,
-            "people_fully_vaccinated": 36707357.0,
+            "people_fully_vaccinated": null,
             "iso2": "ET"
         },
         {
@@ -686,8 +686,8 @@
             "total_cases": 168350.0,
             "total_deaths": 1458.0,
             "total_vaccinations": null,
-            "people_vaccinated": 11153112.0,
-            "people_fully_vaccinated": 8010792.0,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "GH"
         },
         {
@@ -1050,8 +1050,8 @@
             "iso_code": "MAC",
             "total_cases": 791.0,
             "total_deaths": 6.0,
-            "total_vaccinations": 1462770.0,
-            "people_vaccinated": 618943.0,
+            "total_vaccinations": 1467031.0,
+            "people_vaccinated": 619566.0,
             "people_fully_vaccinated": 589539.0,
             "iso2": "MO"
         },
@@ -1230,9 +1230,9 @@
             "iso_code": "NAM",
             "total_cases": 169253.0,
             "total_deaths": 4073.0,
-            "total_vaccinations": 903935.0,
-            "people_vaccinated": 556375.0,
-            "people_fully_vaccinated": 482539.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NA"
         },
         {
@@ -1284,9 +1284,9 @@
             "iso_code": "NER",
             "total_cases": 9132.0,
             "total_deaths": 311.0,
-            "total_vaccinations": 4532244.0,
-            "people_vaccinated": 3750520.0,
-            "people_fully_vaccinated": 2986249.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NE"
         },
         {
@@ -1388,8 +1388,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4013831.0,
-            "total_deaths": 214890.0,
+            "total_cases": 4022016.0,
+            "total_deaths": 214934.0,
             "total_vaccinations": 81260809.0,
             "people_vaccinated": 29706745.0,
             "people_fully_vaccinated": 27943524.0,
@@ -1525,9 +1525,9 @@
             "iso_code": "STP",
             "total_cases": 6120.0,
             "total_deaths": 76.0,
-            "total_vaccinations": 223558.0,
-            "people_vaccinated": 126163.0,
-            "people_fully_vaccinated": 100631.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "ST"
         },
         {
@@ -1597,9 +1597,9 @@
             "iso_code": "SVK",
             "total_cases": 2580748.0,
             "total_deaths": 20236.0,
-            "total_vaccinations": 7074803.0,
-            "people_vaccinated": 2822919.0,
-            "people_fully_vaccinated": 2763765.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "SK"
         },
         {
@@ -1749,9 +1749,9 @@
             "iso_code": "THA",
             "total_cases": 4620425.0,
             "total_deaths": 31828.0,
-            "total_vaccinations": 141353406.0,
-            "people_vaccinated": 56884070.0,
-            "people_fully_vaccinated": 53266250.0,
+            "total_vaccinations": 141402188.0,
+            "people_vaccinated": 56886629.0,
+            "people_fully_vaccinated": 53270119.0,
             "iso2": "TH"
         },
         {
@@ -1954,9 +1954,9 @@
             "iso_code": "ZWE",
             "total_cases": 256522.0,
             "total_deaths": 5587.0,
-            "total_vaccinations": 12182698.0,
-            "people_vaccinated": 6376117.0,
-            "people_fully_vaccinated": 4692440.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "ZW"
         }
     ]
