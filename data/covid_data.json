@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-08-24T12:59:35.528597",
+    "fileDate": "2022-08-25T03:00:40.251309",
     "places": [
         {
             "iso_code": "AFG",
@@ -452,9 +452,9 @@
             "iso_code": "CYP",
             "total_cases": 574124.0,
             "total_deaths": 1152.0,
-            "total_vaccinations": 1792456.0,
-            "people_vaccinated": 669258.0,
-            "people_fully_vaccinated": 645496.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "CY"
         },
         {
@@ -1388,8 +1388,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4075910.0,
-            "total_deaths": 215379.0,
+            "total_cases": 4081141.0,
+            "total_deaths": 215454.0,
             "total_vaccinations": 82366473.0,
             "people_vaccinated": 29767490.0,
             "people_fully_vaccinated": 28043800.0,
@@ -1838,10 +1838,10 @@
         {
             "iso_code": "GBR",
             "total_cases": 23460787.0,
-            "total_deaths": 187018.0,
-            "total_vaccinations": 150893884.0,
-            "people_vaccinated": 53748627.0,
-            "people_fully_vaccinated": 50600643.0,
+            "total_deaths": 205009.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "GB"
         },
         {
