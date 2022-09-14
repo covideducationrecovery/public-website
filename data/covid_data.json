@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-09-13T13:10:08.529317",
+    "fileDate": "2022-09-14T03:08:22.669269",
     "places": [
         {
             "iso_code": "AFG",
@@ -1203,7 +1203,7 @@
             "iso_code": "MAR",
             "total_cases": 1264664.0,
             "total_deaths": 16276.0,
-            "total_vaccinations": 55193366.0,
+            "total_vaccinations": null,
             "people_vaccinated": 24992376.0,
             "people_fully_vaccinated": 23485340.0,
             "iso2": "MA"
@@ -1388,8 +1388,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4126021.0,
-            "total_deaths": 216125.0,
+            "total_cases": 4126462.0,
+            "total_deaths": 216151.0,
             "total_vaccinations": 83624934.0,
             "people_vaccinated": 29841534.0,
             "people_fully_vaccinated": 28164663.0,
@@ -1738,8 +1738,8 @@
         },
         {
             "iso_code": "THA",
-            "total_cases": 4668244.0,
-            "total_deaths": 32554.0,
+            "total_cases": 4668863.0,
+            "total_deaths": 32564.0,
             "total_vaccinations": 142250376.0,
             "people_vaccinated": 56968072.0,
             "people_fully_vaccinated": 53419228.0,
@@ -1785,9 +1785,9 @@
             "iso_code": "TUN",
             "total_cases": 1144824.0,
             "total_deaths": 29238.0,
-            "total_vaccinations": 14824141.0,
-            "people_vaccinated": 8896227.0,
-            "people_fully_vaccinated": 6381735.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "TN"
         },
         {
