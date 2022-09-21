@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-09-20T13:06:59.467844",
+    "fileDate": "2022-09-21T03:19:06.809239",
     "places": [
         {
             "iso_code": "AFG",
@@ -1794,9 +1794,9 @@
             "iso_code": "TUN",
             "total_cases": 1145163.0,
             "total_deaths": 29243.0,
-            "total_vaccinations": 14827155.0,
-            "people_vaccinated": 8896848.0,
-            "people_fully_vaccinated": 6382155.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "TN"
         },
         {
@@ -1856,7 +1856,7 @@
         {
             "iso_code": "GBR",
             "total_cases": 23585304.0,
-            "total_deaths": 206150.0,
+            "total_deaths": 206465.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
             "people_fully_vaccinated": null,
