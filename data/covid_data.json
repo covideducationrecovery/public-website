@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-10-12T13:10:30.963059",
+    "fileDate": "2022-10-13T03:07:52.853873",
     "places": [
         {
             "iso_code": "AFG",
@@ -364,7 +364,7 @@
             "total_deaths": 5226.0,
             "total_vaccinations": 3437728000.0,
             "people_vaccinated": null,
-            "people_fully_vaccinated": 1271408000.0,
+            "people_fully_vaccinated": null,
             "iso2": "CN"
         },
         {
@@ -1248,9 +1248,9 @@
             "iso_code": "NPL",
             "total_cases": 999946.0,
             "total_deaths": 12018.0,
-            "total_vaccinations": 58094360.0,
-            "people_vaccinated": 27189865.0,
-            "people_fully_vaccinated": 22667676.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NP"
         },
         {
@@ -1397,8 +1397,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4148691.0,
-            "total_deaths": 216788.0,
+            "total_cases": 4149079.0,
+            "total_deaths": 216819.0,
             "total_vaccinations": 84631461.0,
             "people_vaccinated": 29902223.0,
             "people_fully_vaccinated": 28258158.0,
@@ -1937,17 +1937,17 @@
             "iso_code": "YEM",
             "total_cases": 11939.0,
             "total_deaths": 2158.0,
-            "total_vaccinations": 1065395.0,
-            "people_vaccinated": 861625.0,
-            "people_fully_vaccinated": 604202.0
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null
         },
         {
             "iso_code": "ZMB",
             "total_cases": 333624.0,
             "total_deaths": 4017.0,
-            "total_vaccinations": 9408734.0,
+            "total_vaccinations": null,
             "people_vaccinated": null,
-            "people_fully_vaccinated": 6096991.0,
+            "people_fully_vaccinated": null,
             "iso2": "ZM"
         },
         {
