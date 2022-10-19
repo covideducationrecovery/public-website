@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-10-18T13:16:31.798321",
+    "fileDate": "2022-10-19T03:11:17.377745",
     "places": [
         {
             "iso_code": "AFG",
@@ -1275,9 +1275,9 @@
             "iso_code": "NZL",
             "total_cases": 1814973.0,
             "total_deaths": 2065.0,
-            "total_vaccinations": 11780750.0,
-            "people_vaccinated": 4297761.0,
-            "people_fully_vaccinated": 4133151.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NZ"
         },
         {
@@ -1756,8 +1756,8 @@
         },
         {
             "iso_code": "THA",
-            "total_cases": 4713909.0,
-            "total_deaths": 32923.0,
+            "total_cases": 4687281.0,
+            "total_deaths": 32882.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
             "people_fully_vaccinated": null,
