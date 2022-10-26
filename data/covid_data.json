@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-10-25T13:16:42.378890",
+    "fileDate": "2022-10-26T02:41:44.986767",
     "places": [
         {
             "iso_code": "AFG",
@@ -1395,7 +1395,7 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4152499.0,
+            "total_cases": 4152580.0,
             "total_deaths": 216877.0,
             "total_vaccinations": 84930701.0,
             "people_vaccinated": 29940843.0,
@@ -1621,9 +1621,9 @@
             "iso_code": "SOM",
             "total_cases": 27225.0,
             "total_deaths": 1361.0,
-            "total_vaccinations": 7198588.0,
-            "people_vaccinated": 6203372.0,
-            "people_fully_vaccinated": 5002737.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "SO"
         },
         {
@@ -1802,7 +1802,7 @@
             "total_deaths": 29257.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
-            "people_fully_vaccinated": 6383981.0,
+            "people_fully_vaccinated": null,
             "iso2": "TN"
         },
         {
