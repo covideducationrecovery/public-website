@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-10-26T13:13:22.063701",
+    "fileDate": "2022-10-27T02:38:15.248667",
     "places": [
         {
             "iso_code": "AFG",
@@ -364,7 +364,7 @@
             "total_deaths": 5226.0,
             "total_vaccinations": 3439087000.0,
             "people_vaccinated": null,
-            "people_fully_vaccinated": 1271711000.0,
+            "people_fully_vaccinated": null,
             "iso2": "CN"
         },
         {
@@ -827,17 +827,17 @@
             "iso_code": "IRN",
             "total_cases": 7556854.0,
             "total_deaths": 144555.0,
-            "total_vaccinations": 154573470.0,
-            "people_vaccinated": 65071717.0,
-            "people_fully_vaccinated": 58464156.0
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null
         },
         {
             "iso_code": "IRQ",
             "total_cases": 2461247.0,
             "total_deaths": 25358.0,
-            "total_vaccinations": 19299829.0,
-            "people_vaccinated": 11181117.0,
-            "people_fully_vaccinated": 7866129.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "IQ"
         },
         {
@@ -1395,7 +1395,7 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4152580.0,
+            "total_cases": 4152804.0,
             "total_deaths": 216877.0,
             "total_vaccinations": 84930701.0,
             "people_vaccinated": 29940843.0,
@@ -1665,9 +1665,9 @@
             "iso_code": "LKA",
             "total_cases": 671015.0,
             "total_deaths": 16774.0,
-            "total_vaccinations": 40008219.0,
-            "people_vaccinated": 17132251.0,
-            "people_fully_vaccinated": 14693728.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "LK"
         },
         {
