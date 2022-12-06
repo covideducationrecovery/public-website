@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-12-05T12:50:04.023468",
+    "fileDate": "2022-12-06T01:54:02.277946",
     "places": [
         {
             "iso_code": "AFG",
@@ -639,9 +639,9 @@
             "iso_code": "PYF",
             "total_cases": 77137.0,
             "total_deaths": 649.0,
-            "total_vaccinations": 497169.0,
-            "people_vaccinated": 190765.0,
-            "people_fully_vaccinated": 186059.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "PF"
         },
         {
@@ -1404,8 +1404,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4291373.0,
-            "total_deaths": 217470.0,
+            "total_cases": 4300576.0,
+            "total_deaths": 217496.0,
             "total_vaccinations": 86093626.0,
             "people_vaccinated": 30125995.0,
             "people_fully_vaccinated": 28364220.0,
@@ -1753,8 +1753,8 @@
         },
         {
             "iso_code": "THA",
-            "total_cases": 4707244.0,
-            "total_deaths": 33180.0,
+            "total_cases": 4711528.0,
+            "total_deaths": 33285.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
             "people_fully_vaccinated": null,
@@ -1800,9 +1800,9 @@
             "iso_code": "TUN",
             "total_cases": 1147072.0,
             "total_deaths": 29268.0,
-            "total_vaccinations": 13189345.0,
-            "people_vaccinated": 7215570.0,
-            "people_fully_vaccinated": 6391288.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "TN"
         },
         {
@@ -1942,9 +1942,9 @@
             "iso_code": "YEM",
             "total_cases": 11945.0,
             "total_deaths": 2159.0,
-            "total_vaccinations": 1239152.0,
-            "people_vaccinated": 1003208.0,
-            "people_fully_vaccinated": 757669.0
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null
         },
         {
             "iso_code": "ZMB",
