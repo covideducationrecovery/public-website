@@ -1,13 +1,13 @@
 {
-    "fileDate": "2022-12-19T12:47:27.804196",
+    "fileDate": "2022-12-20T01:50:28.393090",
     "places": [
         {
             "iso_code": "AFG",
             "total_cases": 207037.0,
             "total_deaths": 7845.0,
-            "total_vaccinations": 12304901.0,
-            "people_vaccinated": 11320910.0,
-            "people_fully_vaccinated": 10615628.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "AF"
         },
         {
@@ -360,7 +360,7 @@
         },
         {
             "iso_code": "CHN",
-            "total_cases": 1891352.0,
+            "total_cases": 1899290.0,
             "total_deaths": 5235.0,
             "total_vaccinations": 3456803000.0,
             "people_vaccinated": 1307222000.0,
@@ -398,9 +398,9 @@
             "iso_code": "COK",
             "total_cases": 6389.0,
             "total_deaths": 1.0,
-            "total_vaccinations": 40781.0,
-            "people_vaccinated": 15084.0,
-            "people_fully_vaccinated": 14715.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "CK"
         },
         {
@@ -789,8 +789,8 @@
         },
         {
             "iso_code": "HKG",
-            "total_cases": 2323123.0,
-            "total_deaths": 11107.0,
+            "total_cases": 2338897.0,
+            "total_deaths": 11172.0,
             "total_vaccinations": 20172229.0,
             "people_vaccinated": 6905279.0,
             "people_fully_vaccinated": 6781912.0,
@@ -1056,8 +1056,8 @@
         },
         {
             "iso_code": "MAC",
-            "total_cases": 1142.0,
-            "total_deaths": 6.0,
+            "total_cases": 1408.0,
+            "total_deaths": 9.0,
             "total_vaccinations": 1683802.0,
             "people_vaccinated": 654993.0,
             "people_fully_vaccinated": 629361.0,
@@ -1397,9 +1397,9 @@
             "iso_code": "PNG",
             "total_cases": 46557.0,
             "total_deaths": 669.0,
-            "total_vaccinations": 700257.0,
-            "people_vaccinated": 364894.0,
-            "people_fully_vaccinated": 304687.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "PG"
         },
         {
@@ -1413,8 +1413,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4412141.0,
-            "total_deaths": 217855.0,
+            "total_cases": 4415971.0,
+            "total_deaths": 217894.0,
             "total_vaccinations": 86435835.0,
             "people_vaccinated": 30168536.0,
             "people_fully_vaccinated": 28393343.0,
@@ -1532,9 +1532,9 @@
             "iso_code": "WSM",
             "total_cases": 15970.0,
             "total_deaths": 29.0,
-            "total_vaccinations": 526775.0,
-            "people_vaccinated": 231546.0,
-            "people_fully_vaccinated": 215077.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "WS"
         },
         {
@@ -1735,8 +1735,8 @@
         },
         {
             "iso_code": "TWN",
-            "total_cases": 8498195.0,
-            "total_deaths": 14722.0,
+            "total_cases": 8578053.0,
+            "total_deaths": 14890.0,
             "total_vaccinations": 64214517.0,
             "people_vaccinated": 21818844.0,
             "people_fully_vaccinated": 20593759.0,
@@ -1786,15 +1786,6 @@
             "people_vaccinated": null,
             "people_fully_vaccinated": null,
             "iso2": "TG"
-        },
-        {
-            "iso_code": "TKL",
-            "total_cases": null,
-            "total_deaths": null,
-            "total_vaccinations": 5374.0,
-            "people_vaccinated": 2203.0,
-            "people_fully_vaccinated": 2203.0,
-            "iso2": "TK"
         },
         {
             "iso_code": "TON",
