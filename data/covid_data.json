@@ -1,5 +1,5 @@
 {
-    "fileDate": "2022-12-31T12:43:16.129917",
+    "fileDate": "2023-01-01T02:04:28.564495",
     "places": [
         {
             "iso_code": "AFG",
@@ -1049,8 +1049,8 @@
             "iso_code": "LUX",
             "total_cases": 311746.0,
             "total_deaths": 1178.0,
-            "total_vaccinations": 1370325.0,
-            "people_vaccinated": 481887.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
             "people_fully_vaccinated": null,
             "iso2": "LU"
         },
@@ -1413,8 +1413,8 @@
         },
         {
             "iso_code": "PER",
-            "total_cases": 4454236.0,
-            "total_deaths": 218178.0,
+            "total_cases": 4457026.0,
+            "total_deaths": 218201.0,
             "total_vaccinations": 86649690.0,
             "people_vaccinated": 30202302.0,
             "people_fully_vaccinated": 28422798.0,
