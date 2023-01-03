@@ -1,5 +1,5 @@
 {
-    "fileDate": "2023-01-02T12:48:13.844558",
+    "fileDate": "2023-01-03T01:48:28.051259",
     "places": [
         {
             "iso_code": "AFG",
@@ -165,9 +165,9 @@
             "iso_code": "BEL",
             "total_cases": 4668248.0,
             "total_deaths": 33228.0,
-            "total_vaccinations": 29569319.0,
-            "people_vaccinated": 9263644.0,
-            "people_fully_vaccinated": 9166439.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "BE"
         },
         {
@@ -612,9 +612,9 @@
             "iso_code": "FJI",
             "total_cases": 68750.0,
             "total_deaths": 881.0,
-            "total_vaccinations": 1551184.0,
-            "people_vaccinated": 711556.0,
-            "people_fully_vaccinated": 640518.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "FJ"
         },
         {
@@ -733,15 +733,6 @@
             "people_vaccinated": 8855740.0,
             "people_fully_vaccinated": 7027477.0,
             "iso2": "GT"
-        },
-        {
-            "iso_code": "GGY",
-            "total_cases": null,
-            "total_deaths": null,
-            "total_vaccinations": 178525.0,
-            "people_vaccinated": 54223.0,
-            "people_fully_vaccinated": 52710.0,
-            "iso2": "GG"
         },
         {
             "iso_code": "GIN",
@@ -1094,9 +1085,9 @@
             "iso_code": "MDV",
             "total_cases": 185678.0,
             "total_deaths": 311.0,
-            "total_vaccinations": 951419.0,
-            "people_vaccinated": 399151.0,
-            "people_fully_vaccinated": 385081.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "MV"
         },
         {
@@ -1274,9 +1265,9 @@
             "iso_code": "NCL",
             "total_cases": 79441.0,
             "total_deaths": 314.0,
-            "total_vaccinations": 469996.0,
-            "people_vaccinated": 191672.0,
-            "people_fully_vaccinated": 184123.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "NC"
         },
         {
@@ -1570,7 +1561,8 @@
             "total_deaths": 1968.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
-            "people_fully_vaccinated": null
+            "people_fully_vaccinated": null,
+            "iso2": "SN"
         },
         {
             "iso_code": "SRB",
