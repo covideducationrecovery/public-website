@@ -1,5 +1,5 @@
 {
-    "fileDate": "2023-03-03T12:48:32.782459",
+    "fileDate": "2023-03-04T01:55:45.699309",
     "places": [
         {
             "iso_code": "AFG",
@@ -290,9 +290,9 @@
             "iso_code": "KHM",
             "total_cases": 138719.0,
             "total_deaths": 3056.0,
-            "total_vaccinations": 46118633.0,
-            "people_vaccinated": 15270604.0,
-            "people_fully_vaccinated": 14638207.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "KH"
         },
         {
@@ -756,9 +756,9 @@
             "iso_code": "GUY",
             "total_cases": 73069.0,
             "total_deaths": 1298.0,
-            "total_vaccinations": 960133.0,
-            "people_vaccinated": 495285.0,
-            "people_fully_vaccinated": 381984.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "GY"
         },
         {
@@ -1852,7 +1852,7 @@
         },
         {
             "iso_code": "USA",
-            "total_cases": 103582936.0,
+            "total_cases": 103583639.0,
             "total_deaths": 1121667.0,
             "total_vaccinations": 671582379.0,
             "people_vaccinated": 269459752.0,
