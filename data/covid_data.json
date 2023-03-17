@@ -1,5 +1,5 @@
 {
-    "fileDate": "2023-03-16T12:49:30.954048",
+    "fileDate": "2023-03-17T01:48:48.035680",
     "places": [
         {
             "iso_code": "AFG",
@@ -593,8 +593,8 @@
         },
         {
             "iso_code": "OWID_EUN",
-            "total_cases": 183275885.0,
-            "total_deaths": 1218146.0,
+            "total_cases": 182739286.0,
+            "total_deaths": 1217038.0,
             "total_vaccinations": 938308394.0,
             "people_vaccinated": 338159761.0,
             "people_fully_vaccinated": 328136640.0
@@ -637,8 +637,8 @@
         },
         {
             "iso_code": "FRA",
-            "total_cases": 39122892.0,
-            "total_deaths": 162672.0,
+            "total_cases": 38586293.0,
+            "total_deaths": 161564.0,
             "total_vaccinations": 154355578.0,
             "people_vaccinated": 54662647.0,
             "people_fully_vaccinated": 53173046.0,
@@ -1402,7 +1402,8 @@
             "total_deaths": 41.0,
             "total_vaccinations": null,
             "people_vaccinated": null,
-            "people_fully_vaccinated": null
+            "people_fully_vaccinated": null,
+            "iso2": "MP"
         },
         {
             "iso_code": "NOR",
@@ -1488,9 +1489,9 @@
             "iso_code": "PHL",
             "total_cases": 4078137.0,
             "total_deaths": 66226.0,
-            "total_vaccinations": 170638379.0,
-            "people_vaccinated": 78484848.0,
-            "people_fully_vaccinated": 74044290.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "PH"
         },
         {
@@ -2059,9 +2060,9 @@
             "iso_code": "VNM",
             "total_cases": 11527054.0,
             "total_deaths": 43186.0,
-            "total_vaccinations": 266376204.0,
-            "people_vaccinated": 90485463.0,
-            "people_fully_vaccinated": 85971306.0,
+            "total_vaccinations": null,
+            "people_vaccinated": null,
+            "people_fully_vaccinated": null,
             "iso2": "VN"
         },
         {
